@@ -1,33 +1,27 @@
-name: Update Plex Playlist
+name: Plex Playlist Auto-Update
 on:
   schedule:
     - cron: '0 */6 * * *' # Every 6 hours
-  workflow_dispatch:      # Allows manual "Play" button trigger
+  workflow_dispatch:      # Allows you to click "Run" manually
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # Required to push files back to repo
+      contents: write
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-
-      - name: Install dependencies
+      - name: Install Dependencies
         run: pip install requests
-
-      - name: Run Scraper
+      - name: Run Script
         run: python plex_scraper.py
-
-      - name: Commit and Push
+      - name: Commit Changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add plex.m3u8
-          git diff-index --quiet HEAD || git commit -m "Auto-update playlist"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add plex.m3u8 plex_guide.xml
+          git commit -m "Update Plex channels and EPG" || exit 0
           git push
