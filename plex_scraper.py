@@ -2,13 +2,26 @@ import requests
 import random
 import string
 import os
+import time
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta
 
 def generate_device_id():
     return ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(24))
 
 def get_plex_token():
+    # List of various US-based IPs to rotate
+    geo_ips = [
+        '76.81.9.69',     # Los Angeles, CA
+        '67.171.185.151', # Chicago, IL
+        '76.203.9.148',    # Dallas, TX
+        '24.128.21.104',   # Boston, MA
+        '68.45.132.89',    # Philadelphia, PA
+        '98.210.101.45',   # San Francisco, CA
+        '72.14.201.12'     # Atlanta, GA
+    ]
+    spoof_ip = random.choice(geo_ips)
+    
     url = 'https://clients.plex.tv/api/v2/users/anonymous'
     headers = {
         'X-Plex-Client-Identifier': generate_device_id(),
@@ -16,25 +29,30 @@ def get_plex_token():
         'X-Plex-Version': '4.145.0',
         'X-Plex-Platform': 'Chrome',
         'X-Plex-Device': 'Linux',
-        'X-Forwarded-For': '85.254.181.50',
+        'X-Forwarded-For': spoof_ip,
         'Accept': 'application/json'
     }
     try:
+        # Added a small sleep to avoid instant-hit detection
+        time.sleep(random.uniform(1, 3))
         r = requests.post(url, headers=headers, timeout=15)
-        return r.json().get('authToken')
+        return r.json().get('authToken'), spoof_ip
     except:
-        return None
+        return None, None
 
 def generate_files():
-    token = get_plex_token()
+    token, active_ip = get_plex_token()
     if not token:
         print("Error: Could not obtain Plex Token.")
         return
     
+    print(f"Using Token: {token[:5]}... with Spoofed IP: {active_ip}")
+    
     headers = {
         'X-Plex-Token': token, 
         'Accept': 'application/json',
-        'X-Forwarded-For': '85.254.181.50'
+        'X-Forwarded-For': active_ip,
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
     
     root = ET.Element("tv")
@@ -47,72 +65,43 @@ def generate_files():
         print(f"Channel fetch error: {e}")
         return
 
-    repo_path = os.getenv('GITHUB_REPOSITORY', 'USER/plex')
-    repo_url = f"https://raw.githubusercontent.com/{repo_path}/main"
-
     print(f"Processing {len(channels)} channels...")
 
-    with open("plex.m3u8", "w") as f:
-        f.write(f'#EXTM3U x-tvg-url="{repo_url}/plex_guide.xml"\n')
-        for ch in channels:
-            if any(m.get("drm") for m in ch.get("Media", [])): continue
-            
-            ch_id = f"plex-{ch.get('id')}"
-            name = ch.get("title")
-            logo = ch.get("thumb", "")
-            
-            try:
-                key = ch["Media"][0]["Part"][0]["key"]
-                stream_url = f"https://epg.provider.plex.tv{key}?X-Plex-Token={token}"
-                f.write(f'#EXTINF:-1 tvg-id="{ch_id}" tvg-logo="{logo}" group-title="Plex Live",{name}\n{stream_url}\n')
+    # 2. Fetch the actual schedule (The Grid)
+    # We round to the nearest hour to match Plex's caching window
+    now = datetime.utcnow()
+    start_time = int(datetime(now.year, now.month, now.day, now.hour).timestamp())
+    
+    # Fetching in smaller 4-hour chunks is often more reliable than 6 or 12
+    grid_url = f"https://epg.provider.plex.tv/grid?timespan=4&language=en&start={start_time}"
+    
+    try:
+        time.sleep(random.uniform(2, 4))
+        grid_res = requests.get(grid_url, headers=headers, timeout=30)
+        grid_data = grid_res.json().get("MediaContainer", {}).get("Channel", [])
+        
+        program_count = 0
+        for g_ch in grid_data:
+            ch_id = f"plex-{g_ch.get('id')}"
+            for prog in g_ch.get("Program", []):
+                start_ts = int(prog.get("start"))
+                stop_ts = start_ts + int(prog.get("duration"))
                 
-                c_node = ET.SubElement(root, "channel", id=ch_id)
-                ET.SubElement(c_node, "display-name").text = name
-                if logo: ET.SubElement(c_node, "icon", src=logo)
-            except:
-                continue
-
-    # 2. Fetch the actual schedule (kptv-fast/Genre strategy)
-    print("Fetching guide data via Grid...")
-    try:
-        now_ts = int(datetime.now().timestamp())
-        grid_params = {
-            'timespan': '6',
-            'language': 'en',
-            'start': str(now_ts),
-            'X-Plex-Token': token
-        }
+                start_xml = datetime.utcfromtimestamp(start_ts).strftime('%Y%m%d%H%M%S +0000')
+                stop_xml = datetime.utcfromtimestamp(stop_ts).strftime('%Y%m%d%H%M%S +0000')
+                
+                p_node = ET.SubElement(root, "programme", start=start_xml, stop=stop_xml, channel=ch_id)
+                ET.SubElement(p_node, "title").text = prog.get("title")
+                if prog.get("summary"):
+                    ET.SubElement(p_node, "desc").text = prog.get("summary")
+                program_count += 1
         
-        grid_url = "https://epg.provider.plex.tv/grid"
-        grid_res = requests.get(grid_url, headers=headers, params=grid_params, timeout=30)
-        
-        if grid_res.status_code == 200:
-            grid_data = grid_res.json().get("MediaContainer", {}).get("Channel", [])
-            program_count = 0
-            for g_ch in grid_data:
-                ch_id = f"plex-{g_ch.get('id')}"
-                for prog in g_ch.get("Program", []):
-                    start_ts = int(prog.get("start"))
-                    stop_ts = start_ts + int(prog.get("duration"))
-                    
-                    start_xml = datetime.utcfromtimestamp(start_ts).strftime('%Y%m%d%H%M%S +0000')
-                    stop_xml = datetime.utcfromtimestamp(stop_ts).strftime('%Y%m%d%H%M%S +0000')
-                    
-                    p_node = ET.SubElement(root, "programme", start=start_xml, stop=stop_xml, channel=ch_id)
-                    ET.SubElement(p_node, "title").text = prog.get("title")
-                    if prog.get("summary"):
-                        ET.SubElement(p_node, "desc").text = prog.get("summary")
-                    program_count += 1
-            print(f"Successfully added {program_count} programs.")
+        print(f"Successfully added {program_count} programs.")
     except Exception as e:
-        print(f"Guide fetch error: {e}")
+        print(f"Grid error: {e}")
 
-    # 3. Save the XML
+    # Save logic...
     tree = ET.ElementTree(root)
-    try:
-        ET.indent(tree, space="  ", level=0)
-    except:
-        pass 
     tree.write("plex_guide.xml", encoding="utf-8", xml_declaration=True)
 
 if __name__ == "__main__":
