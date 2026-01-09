@@ -31,11 +31,17 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          
+          # 1. Pull latest changes while the index is still clean
+          git pull --rebase origin main
+          
+          # 2. Now stage the new plex.m3u8 and plex_guide.xml
           git add .
+          
+          # 3. Check for differences and push
           if git diff --staged --quiet; then
             echo "No changes detected in playlist or guide."
           else
-            git pull --rebase origin main
             git commit -m "Auto-update Plex playlist and EPG"
             git push
           fi
