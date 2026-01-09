@@ -1556,10 +1556,6 @@
     <display-name>PBS Travel</display-name>
     <icon src="https://provider-static.plex.tv/epg/cms/production/e6aa815f-b99d-4267-8482-7d16b83a9e78/PBS_Travel_Logo_Stacked_WhiteBlue_-_Danielle_HarrisonRDX.png" />
   </channel>
-  <channel id="plex-5e20b730f2f8d5003d739db7-65971371fca6056ca69e3e48">
-    <display-name>CBS News Chicago</display-name>
-    <icon src="https://provider-static.plex.tv/epg/cms/production/b5ebaac5-4f76-429f-b6e3-5a25c606cb63/PlutoTV_Plex_Logo_DarkBkgd_1500x1000_CBSNews_Chicago_v1_-_Katherine_ByramRDX.png" />
-  </channel>
   <channel id="plex-5e20b730f2f8d5003d739db7-62d1efa6c33948ea4ceedbcf">
     <display-name>AMC en Español</display-name>
     <icon src="https://provider-static.plex.tv/epg/cms/production/6506fc65-9955-42e9-bd64-e9432925db17/amc_yellow_logo.png" />
@@ -1615,6 +1611,10 @@
   <channel id="plex-5e20b730f2f8d5003d739db7-5fd115bab7ef8d002dcf181d">
     <display-name>24 Hour Free Movies</display-name>
     <icon src="https://provider-static.plex.tv/epg/images/ott_channels/logos/24hrfreemovies_logo_dark.png" />
+  </channel>
+  <channel id="plex-5e20b730f2f8d5003d739db7-6478acb5c83f56da796f1673">
+    <display-name>Telemundo California</display-name>
+    <icon src="https://provider-static.plex.tv/8/epg/channels/logos/gracenote/83828f837a2a8bda4bef490d96c56847.png" />
   </channel>
   <channel id="plex-5e20b730f2f8d5003d739db7-6685a97b59703916799193a5">
     <display-name>LATV</display-name>
@@ -1724,6 +1724,10 @@
     <display-name>OUTtv Proud</display-name>
     <icon src="https://provider-static.plex.tv/epg/cms/production/35196d4d-991d-4c11-bf65-590157385a30/OutTv_Color_-_Emma_Manfredirdx__1_.png" />
   </channel>
+  <channel id="plex-5e20b730f2f8d5003d739db7-6596546bfca6056ca69e3e3c">
+    <display-name>CBS News Bay Area</display-name>
+    <icon src="https://provider-static.plex.tv/epg/cms/production/dde9b0a4-4645-4ee5-a252-cecfb2e02756/PlutoTV_Plex_Logo_DarkBkgd_1500x1000_CBSNews_BayArea_v1_-_Katherine_ByramRDX.png" />
+  </channel>
   <channel id="plex-5e20b730f2f8d5003d739db7-636d46934ea1109a7d205a55">
     <display-name>Free Movies Plus</display-name>
     <icon src="https://provider-static.plex.tv/epg/cms/production/b927ddc8-1ec7-4e82-896c-77028536e891/Free_Movies_plus_1500x1000rdx.png" />
@@ -1747,6 +1751,10 @@
   <channel id="plex-5e20b730f2f8d5003d739db7-616df1be2cf008a748c8cb53">
     <display-name>SLOPES</display-name>
     <icon src="https://provider-static.plex.tv/epg/cms/production/a8716411-7f01-4f8b-bde3-e8390a6d14ce/SLOPES_logo_dark.png" />
+  </channel>
+  <channel id="plex-5e20b730f2f8d5003d739db7-64511fb89d0296ecc10e6026">
+    <display-name>NBC Bay Area News</display-name>
+    <icon src="https://provider-static.plex.tv/5/epg/channels/logos/gracenote/516903d06c28e0aa9ca017b9cd630d39.png" />
   </channel>
   <channel id="plex-5e20b730f2f8d5003d739db7-64e437ba7ef2bf9f66b42615">
     <display-name>Travel Escapes</display-name>
@@ -1775,10 +1783,6 @@
   <channel id="plex-5e20b730f2f8d5003d739db7-5f8746eabd529300418246d9">
     <display-name>GUSTOTV</display-name>
     <icon src="https://provider-static.plex.tv/d/epg/channels/logos/gracenote/dab1a7cb1336ecbd21e804d506b3ba61.png" />
-  </channel>
-  <channel id="plex-5e20b730f2f8d5003d739db7-64511fb832ef45436e7edb42">
-    <display-name>NBC 5 Chicago News</display-name>
-    <icon src="https://provider-static.plex.tv/1/epg/channels/logos/gracenote/1a1c8c305d7a24af923246770eab7da9.png" />
   </channel>
   <channel id="plex-5e20b730f2f8d5003d739db7-645a5a1e4dc67ffc42d36558">
     <display-name>LX Home Streaming</display-name>
@@ -2380,6 +2384,10 @@
     <display-name>Kidoodle TV</display-name>
     <icon src="https://provider-static.plex.tv/epg/cms/production/4097617a-f708-4414-90f1-c46c89185383/Kidoodle.TV_Channel_Logo1500x1000rdx__1_.png" />
   </channel>
+  <channel id="plex-5e20b730f2f8d5003d739db7-624401e19d5efeceb0d783ac">
+    <display-name>Very Central Coast by KSBW</display-name>
+    <icon src="https://provider-static.plex.tv/epg/cms/staging/baa3b386-3515-4a65-beb9-06b8f4ad6a9b/KSBW_central_coast_logo.png" />
+  </channel>
   <channel id="plex-5e20b730f2f8d5003d739db7-5eea605474085f0040ddc76d">
     <display-name>Glewed TV</display-name>
     <icon src="https://provider-static.plex.tv/epg/cms/production/d6025660-0b4a-4851-a805-4c61545642f9/glewed-tv.png" />
@@ -2387,6 +2395,10 @@
   <channel id="plex-5e20b730f2f8d5003d739db7-5eea605674085f0040ddc7a6">
     <display-name>Dark Matter TV</display-name>
     <icon src="https://provider-static.plex.tv/epg/cms/production/42d62b39-7f22-4113-a8c5-7445f69ca756/dark_matter_tv_logo_dark.png" />
+  </channel>
+  <channel id="plex-5e20b730f2f8d5003d739db7-6243f49902c2415bd217305e">
+    <display-name>Very Sacramento by KCRA</display-name>
+    <icon src="https://provider-static.plex.tv/epg/cms/production/85d63a36-dd68-4861-a353-854168bf4c6a/KCRA_sacramento_logo.png" />
   </channel>
   <channel id="plex-5e20b730f2f8d5003d739db7-64a04b8a261d597ce8b4c9ec">
     <display-name>DREAD TV</display-name>
@@ -2400,10 +2412,6 @@
     <display-name>123GO!</display-name>
     <icon src="https://provider-static.plex.tv/epg/cms/production/59623ed1-b641-4001-b634-b25e307c3c49/123GO_-_Jonathan_Shrank1500x1000.png" />
   </channel>
-  <channel id="plex-5e20b730f2f8d5003d739db7-6243f0a902c2415bd2173058">
-    <display-name>Very Milwaukee by WISN 12</display-name>
-    <icon src="https://provider-static.plex.tv/epg/cms/production/f63d2e9f-ebee-4b25-9e72-11e257e61011/WISN_milwaukee_logo.png" />
-  </channel>
   <channel id="plex-5e20b730f2f8d5003d739db7-6876f545e50e77c59c8940be">
     <display-name>Shaun the Sheep and Friends</display-name>
     <icon src="https://provider-static.plex.tv/epg/cms/production/b1e2118d-e2f3-4cfe-a227-2b0c7ab664e5/Shaunthesheepandfriends_a_476x476_-_cleo_Parfitt-StarRDXr.png" />
@@ -2411,6 +2419,10 @@
   <channel id="plex-5e20b730f2f8d5003d739db7-63d6f6c5a9e88ee909e7ee1f">
     <display-name>Brat TV</display-name>
     <icon src="https://provider-static.plex.tv/epg/cms/production/9d75cf3b-be95-4785-ab5a-3cfdd4994ab7/BratTV_PlexTV_Logo_DarkBG.png" />
+  </channel>
+  <channel id="plex-5e20b730f2f8d5003d739db7-62a239e8d95f6a0c0146cc7a">
+    <display-name>Local Now San Francisco</display-name>
+    <icon src="https://provider-static.plex.tv/epg/cms/production/bcf8cf1d-c3ae-484a-99c1-30fb4a8f3f7f/LN_SanFrancisco_logo_dark.png" />
   </channel>
   <channel id="plex-5e20b730f2f8d5003d739db7-67db3546d66f778a752f7eaa">
     <display-name>PeliMex</display-name>
@@ -2420,13 +2432,13 @@
     <display-name>Camp Spoopy</display-name>
     <icon src="https://provider-static.plex.tv/epg/images/ott_channels/logos/camp-spoopy-logo_dark.png" />
   </channel>
+  <channel id="plex-5e20b730f2f8d5003d739db7-62aa3cd790fbda1464540c1d">
+    <display-name>Local Now San Jose</display-name>
+    <icon src="https://provider-static.plex.tv/epg/cms/production/4b3c4888-1afb-4c8b-ac9d-b28cfecdd7ba/LN_SanJose_logo_dark.png" />
+  </channel>
   <channel id="plex-5e20b730f2f8d5003d739db7-60d4edd7b2fdec002c14112d">
     <display-name>NEW K-POP</display-name>
     <icon src="https://provider-static.plex.tv/epg/images/ott_channels/logos/newkpop_logo_dark_v2.png" />
-  </channel>
-  <channel id="plex-5e20b730f2f8d5003d739db7-629fe5b601a732f05bf65a7b">
-    <display-name>Local Now Chicago</display-name>
-    <icon src="https://provider-static.plex.tv/epg/cms/production/057c8437-e60d-42de-9c6d-f93399995d78/LN_Chicago_logo_dark.png" />
   </channel>
   <channel id="plex-5e20b730f2f8d5003d739db7-5eea605574085f0040ddc797">
     <display-name>KidsFlix</display-name>
