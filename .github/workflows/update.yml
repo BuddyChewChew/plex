@@ -32,13 +32,17 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 1. Pull latest changes while the index is still clean
+          # 1. Temporarily hide the newly generated files so the folder looks clean
+          git stash
+          
+          # 2. Pull the latest changes from GitHub to stay in sync
           git pull --rebase origin main
           
-          # 2. Now stage the new plex.m3u8 and plex_guide.xml
-          git add .
+          # 3. Bring the new files back out of the 'pocket'
+          git stash pop || echo "No changes to pop"
           
-          # 3. Check for differences and push
+          # 4. Stage and push
+          git add .
           if git diff --staged --quiet; then
             echo "No changes detected in playlist or guide."
           else
