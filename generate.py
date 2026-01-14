@@ -155,14 +155,30 @@ def generate_plex_m3u():
         count = 0
 
         for c_id, ch in data['channels'].items():
-            if region == 'all' or region in ch.get('regions', []):
-                # Common Plex HLS stream pattern with token
-                # Adjust path if needed after testing (some use /hls/.../master.m3u8)
+            ch_regions = ch.get('regions', [])
+            if region == 'all' or region in ch_regions:
+                # Determine group title = just the country name
+                if region != 'all':
+                    # Single-region file: use this file's region as group
+                    group_title = REGION_MAP.get(region.lower(), region.upper())
+                else:
+                    # All file: group by the channel's primary region (first one listed)
+                    if ch_regions:
+                        primary_region = ch_regions[0]
+                        group_title = REGION_MAP.get(primary_region.lower(), primary_region.upper())
+                    else:
+                        group_title = "Global / Other"
+
+                # Stream URL - using library/parts/... pattern
+                # If this gives 404/403, try the alternative HLS pattern below after testing
                 stream_url = f"https://epg.provider.plex.tv/library/parts/{c_id}/?X-Plex-Token={token}"
+
+                # Alternative HLS pattern (uncomment if needed):
+                # stream_url = f"https://epg.provider.plex.tv/hls/{c_id}/master.m3u8?X-Plex-Token={token}"
 
                 extinf = format_extinf(
                     c_id, c_id, ch.get('chno'), ch['name'], ch.get('logo', ''),
-                    "Plex Free", ch['name']
+                    group_title, ch['name']
                 )
                 output_lines.extend([extinf, stream_url + "\n"])
                 count += 1
