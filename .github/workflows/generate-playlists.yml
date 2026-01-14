@@ -1,9 +1,9 @@
-name: Generate Plex Playlists Daily
+name: Generate Plex Playlists
 
 on:
   schedule:
-    - cron: '0 4 * * *'          # Every day at 04:00 UTC
-  workflow_dispatch:             # Manual trigger button in GitHub UI
+    - cron: '0 */8 * * *'          # Every 8 hours: 00:00, 08:00, 16:00 UTC
+  workflow_dispatch:               # Manual trigger button in GitHub UI
 
 jobs:
   generate-and-commit:
@@ -34,6 +34,10 @@ jobs:
           git config --global user.email "actions@github.com"
           
           git add playlists/*.m3u || true
-          git diff --staged --quiet || git commit -m "Daily Plex playlist update $(date +'%Y-%m-%d')"
           
-          git push origin HEAD:${{ github.ref_name }}
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Plex playlist update $(date +'%Y-%m-%d %H:%M UTC')"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
