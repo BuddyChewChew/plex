@@ -11,7 +11,7 @@ Daily auto-updated M3U playlists for **free, ad-supported Plex Live TV channels*
 - Streams may 403/expire — this is Plex limiting anonymous/shared use.
 
 **Playlist Generator Status**  
-[![Generate Plex Playlists](https://github.com/BuddyChewChew/plex/actions/workflows/generate-playlists.yml/badge.svg)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/actions/workflows/generate-playlists.yml)  
+[![Generate Plex Playlists](https://github.com/BuddyChewChew/plex/actions/workflows/generate-playlists.yml/badge.svg)](https://github.com/BuddyChewChew/plex/actions/workflows/generate-playlists.yml)  
 ![Last Update](https://img.shields.io/github/last-commit/BuddyChewChew/plex?label=Last%20Playlist%20Update&color=brightgreen)
 
 Playlists regenerate **every 8 hours** with fresh anonymous tokens for better uptime.
@@ -21,15 +21,15 @@ These are the main regions with dedicated channel lists and EPG from the source 
 
 | Country/Region       | Group Title in Player | Approx. Channels | Raw M3U URL (copy-paste into player) |
 |----------------------|-----------------------|------------------|--------------------------------------|
-| All Regions          | Mixed by country     | 300+            | https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/playlists/plex_all.m3u |
-| United States (us)   | United States        | 200+            | https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/playlists/plex_us.m3u |
-| United Kingdom (gb)  | United Kingdom       | 100+            | https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/playlists/plex_gb.m3u |
-| Canada (ca)          | Canada               | 100+            | https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/playlists/plex_ca.m3u |
-| Australia (au)       | Australia            | 50–150          | https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/playlists/plex_au.m3u |
-| New Zealand (nz)     | New Zealand          | 50–100          | https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/playlists/plex_nz.m3u |
-| Spain (es)           | Spain                | 50+             | https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/playlists/plex_es.m3u |
-| France (fr)          | France               | 50+             | https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/playlists/plex_fr.m3u |
-| Mexico (mx)          | Mexico               | 50+             | https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/playlists/plex_mx.m3u |
+| All Regions          | Mixed by country     | 300+            | https://raw.githubusercontent.com/BuddyChewChew/plex/main/playlists/plex_all.m3u |
+| United States (us)   | United States        | 200+            | https://raw.githubusercontent.com/BuddyChewChew/plex/main/playlists/plex_us.m3u |
+| United Kingdom (gb)  | United Kingdom       | 100+            | https://raw.githubusercontent.com/BuddyChewChew/plex/main/playlists/plex_gb.m3u |
+| Canada (ca)          | Canada               | 100+            | https://raw.githubusercontent.com/BuddyChewChew/plex/main/playlists/plex_ca.m3u |
+| Australia (au)       | Australia            | 50–150          | https://raw.githubusercontent.com/BuddyChewChew/plex/main/playlists/plex_au.m3u |
+| New Zealand (nz)     | New Zealand          | 50–100          | https://raw.githubusercontent.com/BuddyChewChew/plex/main/playlists/plex_nz.m3u |
+| Spain (es)           | Spain                | 50+             | https://raw.githubusercontent.com/BuddyChewChew/plex/main/playlists/plex_es.m3u |
+| France (fr)          | France               | 50+             | https://raw.githubusercontent.com/BuddyChewChew/plex/main/playlists/plex_fr.m3u |
+| Mexico (mx)          | Mexico               | 50+             | https://raw.githubusercontent.com/BuddyChewChew/plex/main/playlists/plex_mx.m3u |
 
 **Notes on regions**:
 - Channels in each file are grouped by country name (e.g., all in `plex_us.m3u` appear under "United States" in your player).
