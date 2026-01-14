@@ -1,0 +1,39 @@
+name: Generate Plex Playlists Daily
+
+on:
+  schedule:
+    - cron: '0 4 * * *'          # Every day at 04:00 UTC
+  workflow_dispatch:             # Manual trigger button in GitHub UI
+
+jobs:
+  generate-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run generator script
+        run: python generate.py
+
+      - name: Commit and push updated playlists
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          git add playlists/*.m3u || true
+          git diff --staged --quiet || git commit -m "Daily Plex playlist update $(date +'%Y-%m-%d')"
+          
+          git push origin HEAD:${{ github.ref_name }}
