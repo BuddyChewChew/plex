@@ -1,51 +1,27 @@
-name: Plex Playlist Auto-Update
+name: Generate Playlists
+
 on:
   schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
+    - cron: '0 3 * * *'  # Daily at 3 AM UTC
+  workflow_dispatch:     # Allow manual trigger
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-
-      - name: Install Dependencies
+          python-version: '3.12'
+      - name: Install dependencies
         run: pip install requests
-
-      - name: Run Script
-        env:
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python plex_scraper.py
-
-      - name: Commit and Push Changes
+      - name: Run generator
+        run: python generate.py   # your script name
+      - name: Commit changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
-          # 1. Temporarily hide the newly generated files so the folder looks clean
-          git stash
-          
-          # 2. Pull the latest changes from GitHub to stay in sync
-          git pull --rebase origin main
-          
-          # 3. Bring the new files back out of the 'pocket'
-          git stash pop || echo "No changes to pop"
-          
-          # 4. Stage and push
-          git add .
-          if git diff --staged --quiet; then
-            echo "No changes detected in playlist or guide."
-          else
-            git commit -m "Auto-update Plex playlist and EPG"
-            git push
-          fi
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add playlists/*.m3u
+          git commit -m "Update playlists $(date +'%Y-%m-%d')" || echo "No changes"
+          git push
