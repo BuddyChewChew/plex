@@ -1,6 +1,7 @@
 # Plex Free Channels M3U
 
-Daily generated M3U playlists for free Plex Live TV channels using anonymous access.
+Playlists regenerate **every 8 hours** with fresh anonymous Plex tokens (to maximize stream uptime).  
+If channels stop working after ~12–24 hours, reload/refresh the playlist in your IPTV player.
 
 **Important:**
 - Free ad-supported channels only (~50–150 working, mostly global + US-heavy)
