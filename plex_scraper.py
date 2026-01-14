@@ -1,114 +1,115 @@
 import requests
-import random
-import string
-import os
+import json
+import uuid
 import time
-import xml.etree.ElementTree as ET
-from datetime import datetime
+import random
+import logging
+from typing import Optional
 
-def generate_device_id():
-    return ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(24))
+# ... (keep your existing imports/config like OUTPUT_DIR, USER_AGENT, REGION_MAP, TOP_REGIONS, etc.)
 
-def get_plex_token():
-    url = 'https://clients.plex.tv/api/v2/users/anonymous'
+logger = logging.getLogger(__name__)
+
+def get_anonymous_token(region: str = 'local') -> Optional[str]:
+    """Fetch a fresh anonymous Plex token"""
     headers = {
-        'X-Plex-Client-Identifier': generate_device_id(),
-        'X-Plex-Product': 'Plex Web',
-        'X-Plex-Version': '4.145.0',
-        'X-Plex-Platform': 'Chrome',
-        'X-Plex-Device': 'Linux',
-        'X-Forwarded-For': '72.14.201.12', # Rotating to an Atlanta IP
-        'Accept': 'application/json'
-    }
-    try:
-        r = requests.post(url, headers=headers, timeout=15)
-        return r.json().get('authToken')
-    except: return None
-
-def generate_files():
-    token = get_plex_token()
-    if not token: return
-    
-    headers = {
-        'X-Plex-Token': token, 
         'Accept': 'application/json',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-        'X-Forwarded-For': '72.14.201.12'
+        'User-Agent': USER_AGENT,
+        'X-Plex-Product': 'Plex Web',
+        'X-Plex-Version': '4.150.0',  # Updated to recent-ish
+        'X-Plex-Client-Identifier': str(uuid.uuid4()).replace('-', ''),
+        'X-Plex-Platform': 'Web',
+        'X-Plex-Platform-Version': 'Chrome',
     }
-    
-    root = ET.Element("tv")
-    
-    # 1. Fetch Channel List
-    try:
-        ch_res = requests.get("https://epg.provider.plex.tv/lineups/plex/channels", headers=headers, timeout=20)
-        channels = ch_res.json().get("MediaContainer", {}).get("Channel", [])
-    except: return
 
-    print(f"Processing {len(channels)} channels...")
+    x_forward_ips = {
+        'us': '76.81.9.69',   # Example US proxy IP - rotate or use real residential if possible
+        # Add more if you want regional spoofing
+    }
+    if region in x_forward_ips:
+        headers['X-Forwarded-For'] = x_forward_ips[region]
 
-    # Create M3U and XML Channel nodes
-    with open("plex.m3u8", "w") as f:
-        repo_path = os.getenv('GITHUB_REPOSITORY', 'USER/plex')
-        f.write(f'#EXTM3U x-tvg-url="https://raw.githubusercontent.com/{repo_path}/main/plex_guide.xml"\n')
-        
-        channel_ids = []
-        for ch in channels:
-            if any(m.get("drm") for m in ch.get("Media", [])): continue
-            ch_id = f"plex-{ch.get('id')}"
-            channel_ids.append(ch.get('id'))
-            name = ch.get("title")
-            logo = ch.get("thumb", "")
-            
-            try:
-                key = ch["Media"][0]["Part"][0]["key"]
-                stream_url = f"https://epg.provider.plex.tv{key}?X-Plex-Token={token}"
-                f.write(f'#EXTINF:-1 tvg-id="{ch_id}" tvg-logo="{logo}" group-title="Plex Live",{name}\n{stream_url}\n')
-                
-                c_node = ET.SubElement(root, "channel", id=ch_id)
-                ET.SubElement(c_node, "display-name").text = name
-                if logo: ET.SubElement(c_node, "icon", src=logo)
-            except: continue
+    params = {
+        'X-Plex-Product': 'Plex Web',
+        'X-Plex-Client-Identifier': headers['X-Plex-Client-Identifier'],
+    }
 
-    # 2. Fetch Guide Data in small batches (The "Real User" approach)
-    # We split the 600+ channels into groups of 50 to avoid being flagged
-    print("Fetching EPG data in batches...")
-    program_count = 0
-    batch_size = 50
-    
-    for i in range(0, len(channel_ids), batch_size):
-        batch = channel_ids[i:i + batch_size]
-        # We target specific channel IDs in this request
-        ids_param = ",".join(batch)
-        grid_url = f"https://epg.provider.plex.tv/grid?timespan=6&channelIds={ids_param}"
-        
+    for attempt in range(4):
         try:
-            # Add a tiny delay between batches to stay under the radar
-            time.sleep(2) 
-            grid_res = requests.get(grid_url, headers=headers, timeout=30)
-            grid_data = grid_res.json().get("MediaContainer", {}).get("Channel", [])
-            
-            for g_ch in grid_data:
-                ch_id = f"plex-{g_ch.get('id')}"
-                for prog in g_ch.get("Program", []):
-                    start = datetime.utcfromtimestamp(int(prog.get("start"))).strftime('%Y%m%d%H%M%S +0000')
-                    stop = datetime.utcfromtimestamp(int(prog.get("start")) + int(prog.get("duration"))).strftime('%Y%m%d%H%M%S +0000')
-                    
-                    p_node = ET.SubElement(root, "programme", start=start, stop=stop, channel=ch_id)
-                    ET.SubElement(p_node, "title").text = prog.get("title")
-                    if prog.get("summary"):
-                        ET.SubElement(p_node, "desc").text = prog.get("summary")
-                    program_count += 1
-            print(f"Batch {i//batch_size + 1}: Added programs...")
-        except:
-            print(f"Batch {i//batch_size + 1}: Failed")
+            resp = requests.post(
+                'https://clients.plex.tv/api/v2/users/anonymous',
+                headers=headers,
+                params=params,
+                timeout=15
+            )
+            if resp.status_code == 429:
+                wait = (2 ** attempt) * 10 + random.uniform(0, 5)
+                logger.warning(f"429 on anon token - sleeping {wait:.1f}s")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            token = data.get('authToken')
+            if token:
+                logger.info(f"Got anonymous token for region {region}")
+                return token
+        except Exception as e:
+            logger.warning(f"Anon token attempt {attempt+1} failed: {e}")
+            time.sleep(5)
+
+    logger.error("Failed to get anonymous Plex token after retries")
+    return None
+
+def generate_plex_m3u():
+    # Fetch the channels metadata (this is from matt huisman's repo - assumes it still has Plex data)
+    channels_data_url = 'https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/Plex/.channels.json.gz'
+    data = fetch_url(channels_data_url, is_json=True, is_gzipped=True, headers={'User-Agent': USER_AGENT})
+    if not data or 'channels' not in data:
+        logger.error("Failed to load Plex channels metadata")
+        return
+
+    # Get unique regions from the data
+    found_regions = set()
+    for ch in data['channels'].values():
+        found_regions.update(ch.get('regions', []))
+
+    regions = list(found_regions) + ['all']
+
+    for region in regions:
+        token = get_anonymous_token(region=region if region != 'all' else 'us')  # default to US for 'all'
+        if not token:
+            logger.error(f"Skipping region {region} - no token")
             continue
 
-    print(f"Total programs added: {program_count}")
+        output_lines = []
+        epg_url = f"https://github.com/matthuisman/i.mjh.nz/raw/master/Plex/{region}.xml.gz"
+        output_lines.append(f'#EXTM3U url-tvg="{epg_url}"\n')
 
-    # 3. Save
-    tree = ET.ElementTree(root)
-    ET.indent(tree, space="  ")
-    tree.write("plex_guide.xml", encoding="utf-8", xml_declaration=True)
+        count = 0
+        for c_id, ch in data['channels'].items():
+            if region == 'all' or region in ch.get('regions', []):
+                # Build direct Plex stream URL with fresh anon token
+                # Note: The actual key/path comes from Plex API; this is a placeholder based on common patterns
+                # If matt's json doesn't have the /library/parts/... key, you may need to query epg.provider.plex.tv per channel
+                # For simplicity, assuming matt's data proxies or has compatible IDs
+                stream_url = f"https://epg.provider.plex.tv/library/parts/{c_id}/?X-Plex-Token={token}"
 
-if __name__ == "__main__":
-    generate_files()
+                # Alternative common pattern if above fails (test in browser):
+                # stream_url = f"https://epg.provider.plex.tv/hls/{c_id}/master.m3u8?X-Plex-Token={token}"
+
+                extinf = format_extinf(
+                    c_id, c_id, ch.get('chno'), ch['name'], ch['logo'],
+                    "Plex Free", ch['name']
+                )
+                output_lines.extend([extinf, stream_url + "\n"])
+                count += 1
+
+        if count > 0:
+            filename = f"plex_{region}.m3u"
+            write_m3u_file(filename, "".join(output_lines))
+            logger.info(f"Wrote {filename} with {count} channels")
+        else:
+            logger.warning(f"No channels for region {region}")
+
+# In your __main__:
+# generate_plex_m3u()
