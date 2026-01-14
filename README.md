@@ -1,3 +1,6 @@
+**Playlist Generator Status**  
+[![Generate Plex Playlists](https://github.com/BuddyChewChew/plex/actions/workflows/generate-playlists.yml/badge.svg)](https://github.com/BuddyChewChew/plex/actions/workflows/generate-playlists.yml)  ![Last Update](https://img.shields.io/github/last-commit/BuddyChewChew/plex?label=Last%20Playlist%20Update&color=brightgreen)
+
 # Plex Free Channels M3U Playlists
 
 Daily auto-updated M3U playlists for **free, ad-supported Plex Live TV channels** using anonymous access (no Plex account needed).
@@ -10,8 +13,6 @@ Daily auto-updated M3U playlists for **free, ad-supported Plex Live TV channels*
 - EPG (guide data) is pulled from Matt Huisman's repo (thanks!): `url-tvg="https://github.com/matthuisman/i.mjh.nz/raw/master/Plex/{region}.xml.gz"`.
 - Streams may 403/expire — this is Plex limiting anonymous/shared use.
 
-**Playlist Generator Status**  
-[![Generate Plex Playlists](https://github.com/BuddyChewChew/plex/actions/workflows/generate-playlists.yml/badge.svg)](https://github.com/BuddyChewChew/plex/actions/workflows/generate-playlists.yml)  ![Last Update](https://img.shields.io/github/last-commit/BuddyChewChew/plex?label=Last%20Playlist%20Update&color=brightgreen)
 
 Playlists regenerate **every 8 hours** with fresh anonymous tokens for better uptime.
 
