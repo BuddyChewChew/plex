@@ -3,14 +3,7 @@ import sys
 import os
 import json
 import traceback
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
-
-# --- CONFIGURATION ---
-GITHUB_USER = "BuddyChewChew"
-REPO_NAME = "plex"
-BRANCH = "main"
-EPG_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{REPO_NAME}/{BRANCH}/plex_tool/plex_guide.xml"
+from datetime import datetime
 
 def install_dependencies():
     try:
@@ -23,83 +16,73 @@ def install_dependencies():
 def run_sync():
     requests = install_dependencies()
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    if not os.path.exists(current_dir):
-        os.makedirs(current_dir)
+    if not os.path.exists(current_dir): os.makedirs(current_dir)
     os.chdir(current_dir)
 
     api_url = "https://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Referer": "https://www.plex.tv/live-tv-channels/",
-        "Accept": "application/json"
-    }
+    
+    # We simulate different regions to force the API to give us everything
+    regions_to_pull = [
+        {"Accept-Language": "en-US,en;q=0.9", "X-Region": "US"},
+        {"Accept-Language": "en-GB,en;q=0.9", "X-Region": "UK"},
+        {"Accept-Language": "es-MX,es;q=0.9", "X-Region": "MX"},
+        {"Accept-Language": "de-DE,de;q=0.9", "X-Region": "DE"},
+        {"Accept-Language": "fr-FR,fr;q=0.9", "X-Region": "FR"}
+    ]
 
-    try:
-        print(f"Connecting to Plex API...")
-        response = requests.get(api_url, headers=headers, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-        raw_channels = data.get("data", {}).get("list", [])
-        if not raw_channels:
-            print("No channels found.")
-            return
+    all_channels = {} # Use a dict to prevent duplicates across regions
 
-        clean_data = []
-        for item in raw_channels:
-            cats = item.get("media_categories", [])
-            genre_str = ", ".join(cats) if isinstance(cats, list) and cats else "General"
-            logo_url = item.get("media_image", "")
-            language = item.get("media_lang", "EN")
-            m_id = item.get("media_id") or item.get("media_title", "unknown").replace(" ", "")
+    for region in regions_to_pull:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Referer": "https://www.plex.tv/live-tv-channels/",
+            "Accept": "application/json",
+            **region
+        }
 
-            clean_data.append({
-                "Title": item.get("media_title", "Unknown Channel"),
-                "Genre": genre_str,
-                "Language": language,
-                "Summary": item.get("media_summary", "No description available."),
-                "Link": item.get("media_link"),
-                "Logo": logo_url,
-                "ID": m_id
-            })
-        
-        with open("plex_channels.json", "w", encoding="utf-8") as f:
-            json.dump(clean_data, f, indent=4, ensure_ascii=False)
+        try:
+            print(f"Pulling data for region: {region.get('X-Region')}...")
+            response = requests.get(api_url, headers=headers, timeout=20)
+            data = response.json().get("data", {}).get("list", [])
 
-        now_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        m3u_lines = [
-            f'#EXTM3U x-tvg-url="{EPG_URL}" url-tvg="{EPG_URL}"',
-            f'# UPDATED: {now_ts}'
-        ]
-        
-        root = ET.Element("tv", {"generator-info-name": "PlexScraper"})
-        for ch in clean_data:
-            safe_id = f"plex.{ch['ID']}"
-            m3u_lines.append(f'#EXTINF:-1 tvg-id="{safe_id}" tvg-logo="{ch["Logo"]}" group-title="{ch["Genre"]}",{ch["Title"]}')
-            m3u_lines.append(ch["Link"])
+            for item in data:
+                m_id = item.get("media_id") or item.get("media_link", "").split("/")[-1]
+                if not m_id: continue
 
-            chan_xml = ET.SubElement(root, "channel", id=safe_id)
-            ET.SubElement(chan_xml, "display-name").text = ch["Title"]
-            if ch["Logo"]:
-                ET.SubElement(chan_xml, "icon", src=ch["Logo"])
+                # AGGRESSIVE GENRE EXTRACTION
+                genres = item.get("media_categories", []) or item.get("media_genre", [])
+                genre_str = ", ".join(genres) if isinstance(genres, list) and genres else "General"
+                
+                # REGION/LANGUAGE DETECTION
+                lang = item.get("media_lang") or item.get("language") or "EN"
+                
+                # MAP THE CHANNEL TO THE DICTIONARY
+                all_channels[m_id] = {
+                    "Title": item.get("media_title", "Unknown"),
+                    "Genre": genre_str,
+                    "Language": lang.upper(),
+                    "Summary": item.get("media_summary", ""),
+                    "Link": item.get("media_link", "")
+                }
+        except Exception as e:
+            print(f"Error pulling region {region.get('X-Region')}: {e}")
 
-            now = datetime.now()
-            start = now.strftime("%Y%m%d%H%M%S +0000")
-            stop = (now + timedelta(hours=24)).strftime("%Y%m%d%H%M%S +0000")
-            prog_xml = ET.SubElement(root, "programme", start=start, stop=stop, channel=safe_id)
-            ET.SubElement(prog_xml, "title").text = f"Live: {ch['Title']}"
-            ET.SubElement(prog_xml, "desc").text = ch["Summary"]
+    final_list = list(all_channels.values())
 
-        with open("plex_master.m3u8", "w", encoding="utf-8") as f:
-            f.write("\n".join(m3u_lines))
+    # Save to JSON - matching your exact structure
+    with open("plex_channels.json", "w", encoding="utf-8") as f:
+        json.dump(final_list, f, indent=2, ensure_ascii=False)
 
-        tree = ET.ElementTree(root)
-        ET.indent(tree, space="  ", level=0)
-        tree.write("plex_guide.xml", encoding="utf-8", xml_declaration=True)
-        print(f"Success! Processed {len(clean_data)} channels.")
+    # Generate M3U8 with dynamic timestamps for GitHub tracking
+    now_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    m3u_content = f"#EXTM3U\n# LAST_GLOBAL_SYNC: {now_ts}\n"
+    for ch in final_list:
+        m3u_content += f'#EXTINF:-1 group-title="{ch["Genre"]}",{ch["Title"]}\n{ch["Link"]}\n'
 
-    except Exception:
-        traceback.print_exc()
-        sys.exit(1)
+    with open("plex_master.m3u8", "w", encoding="utf-8") as f:
+        f.write(m3u_content)
+    
+    print(f"Global sync complete. Found {len(final_list)} unique channels.")
 
 if __name__ == "__main__":
     run_sync()
