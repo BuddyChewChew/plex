@@ -15,34 +15,41 @@ $workerUrl     = base64_decode($encodedWorker);
 $plexApi   = "http://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list";
 $referer   = "https://www.plex.tv/live-tv-channels/";
 
-// 2. HELPER: GET ANONYMOUS PLEX TOKEN (Fixed for GitHub Actions)
+// 2. HELPER: GET ANONYMOUS PLEX TOKEN (Fixed Proxy Logic)
 function get_plex_token($workerUrl) {
     $uuid = bin2hex(random_bytes(16));
     $tokenApi = "https://clients.plex.tv/api/v2/users/anonymous?X-Plex-Product=Plex%20Web&X-Plex-Client-Identifier=$uuid";
     
-    // We route the token request THROUGH the worker to avoid GitHub IP blocks
-    $proxyUrl = $workerUrl . "?url=" . urlencode($tokenApi);
+    // We append the URL as a query parameter
+    $proxyUrl = rtrim($workerUrl, '/') . "/?url=" . urlencode($tokenApi);
     
     $ch = curl_init($proxyUrl);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)');
+    
     $response = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
     
+    if ($httpCode !== 200 || !$response) {
+        return null;
+    }
+
     $data = json_decode($response, true);
     return $data['authToken'] ?? null;
 }
 
 // 3. START FETCHING
-echo "BuddyChewChew Plex Tool: Requesting Token via Proxy...\n";
+echo "BuddyChewChew Plex Tool: Requesting Token via Worker...\n";
 $token = get_plex_token($workerUrl);
 
 if (!$token) {
-    die("Error: Worker could not fetch Plex Token. Ensure your Worker is running.\n");
+    die("CRITICAL ERROR: Worker returned an error or is missing the 'url' logic. Task aborted.\n");
 }
 
-$requestUrl = $workerUrl . "?url=" . urlencode($plexApi) . "&referer=" . urlencode($referer);
-echo "Token Acquired. Connecting to Plex API...\n";
+$requestUrl = rtrim($workerUrl, '/') . "/?url=" . urlencode($plexApi) . "&referer=" . urlencode($referer);
+echo "Token Acquired. Fetching Channel List...\n";
 
 $response = file_get_contents($requestUrl);
 $data = json_decode($response, true);
@@ -78,7 +85,7 @@ if (isset($data['data']['list']) && is_array($data['data']['list'])) {
     echo "Success: Created TiviMate playlist for BuddyChewChew's project.\n";
     echo "Join us on Discord: https://discord.gg/fnsWGDy2mm\n";
 } else {
-    echo "Error: Failed to fetch channel data from Plex.\n";
+    echo "Error: Failed to parse channel data from Worker response.\n";
     exit(1);
 }
 ?>
