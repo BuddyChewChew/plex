@@ -1,16 +1,14 @@
 name: Run Plex Tool
 on:
   schedule:
-    - cron: '0 0 * * *' # Every night at midnight
-  workflow_dispatch: # Allows you to push the "Run" button manually
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   plex-job:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
-    # This ensures GitHub "enters" the folder before starting
     defaults:
       run:
         working-directory: ./plex_tool
@@ -23,6 +21,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
+          extensions: curl # Required for the token fetcher
 
       - name: Run Scraper
         run: php update.php
@@ -33,5 +32,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
           git add plex_tool/channels.json plex_tool/plex_channels.m3u
-          git commit -m "Auto-update plex_tool" || exit 0
+          git commit -m "Fixed TiviMate formatting" || exit 0
           git push
