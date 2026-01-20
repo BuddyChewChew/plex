@@ -1,6 +1,7 @@
 <?php
 /**
  * PLEX INDEPENDENT SCRAPER - TIVIMATE COMPATIBLE
+ *
  * Created by: BuddyChewChew
  * Discord: https://discord.gg/fnsWGDy2mm
  * Description: Generates stream links with a dynamic Plex Token
@@ -14,16 +15,17 @@ $workerUrl     = base64_decode($encodedWorker);
 $plexApi   = "http://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list";
 $referer   = "https://www.plex.tv/live-tv-channels/";
 
-// 2. HELPER: GET ANONYMOUS PLEX TOKEN
-function get_plex_token() {
+// 2. HELPER: GET ANONYMOUS PLEX TOKEN (Fixed for GitHub Actions)
+function get_plex_token($workerUrl) {
     $uuid = bin2hex(random_bytes(16));
-    $url = "https://clients.plex.tv/api/v2/users/anonymous?X-Plex-Product=Plex%20Web&X-Plex-Client-Identifier=$uuid";
+    $tokenApi = "https://clients.plex.tv/api/v2/users/anonymous?X-Plex-Product=Plex%20Web&X-Plex-Client-Identifier=$uuid";
     
-    $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_POST, 1);
+    // We route the token request THROUGH the worker to avoid GitHub IP blocks
+    $proxyUrl = $workerUrl . "?url=" . urlencode($tokenApi);
+    
+    $ch = curl_init($proxyUrl);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Accept: application/json']);
-    
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
     $response = curl_exec($ch);
     curl_close($ch);
     
@@ -32,13 +34,15 @@ function get_plex_token() {
 }
 
 // 3. START FETCHING
-$token = get_plex_token();
+echo "BuddyChewChew Plex Tool: Requesting Token via Proxy...\n";
+$token = get_plex_token($workerUrl);
+
 if (!$token) {
-    die("Error: Could not generate Plex Token. Task aborted.\n");
+    die("Error: Worker could not fetch Plex Token. Ensure your Worker is running.\n");
 }
 
 $requestUrl = $workerUrl . "?url=" . urlencode($plexApi) . "&referer=" . urlencode($referer);
-echo "BuddyChewChew Plex Tool: Connecting to Worker...\n";
+echo "Token Acquired. Connecting to Plex API...\n";
 
 $response = file_get_contents($requestUrl);
 $data = json_decode($response, true);
@@ -52,9 +56,7 @@ if (isset($data['data']['list']) && is_array($data['data']['list'])) {
         $title = $ch['media_title'] ?? 'Unknown';
         $genre = !empty($ch['media_categories']) ? array_values($ch['media_categories'])[0] : 'Plex';
         $logo  = $ch['media_thumb'] ?? '';
-        
-        // Extract the ID from the media_link to create the provider URL
-        $slug = basename($ch['media_link']); 
+        $slug  = basename($ch['media_link']); 
 
         // TIVIMATE STREAM FORMAT
         $streamUrl = "https://epg.provider.plex.tv/library/parts/{$slug}/?X-Plex-Token={$token}";
@@ -70,14 +72,13 @@ if (isset($data['data']['list']) && is_array($data['data']['list'])) {
         $m3uContent .= "{$streamUrl}\n";
     }
 
-    // Save outputs to plex_tool folder
     file_put_contents(__DIR__ . '/channels.json', json_encode($cleanList, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
     file_put_contents(__DIR__ . '/plex_channels.m3u', $m3uContent);
     
     echo "Success: Created TiviMate playlist for BuddyChewChew's project.\n";
     echo "Join us on Discord: https://discord.gg/fnsWGDy2mm\n";
 } else {
-    echo "Error: Failed to fetch channel data.\n";
+    echo "Error: Failed to fetch channel data from Plex.\n";
     exit(1);
 }
 ?>
