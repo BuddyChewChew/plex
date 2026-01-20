@@ -21,7 +21,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-          extensions: curl # Required for the token fetcher
+          extensions: curl
 
       - name: Run Scraper
         run: php update.php
@@ -30,7 +30,7 @@ jobs:
         run: |
           cd ..
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action Bot"
+          git config --local user.name "BuddyChewChew-Bot"
           git add plex_tool/channels.json plex_tool/plex_channels.m3u
-          git commit -m "Fixed TiviMate formatting" || exit 0
+          git commit -m "BuddyChewChew-Bot: Auto-update channels" || exit 0
           git push
