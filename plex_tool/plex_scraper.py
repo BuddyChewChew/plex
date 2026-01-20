@@ -3,7 +3,6 @@ import sys
 import os
 import json
 import traceback
-import re
 from datetime import datetime
 
 def install_dependencies():
@@ -20,57 +19,59 @@ def run_sync():
     if not os.path.exists(current_dir): os.makedirs(current_dir)
     os.chdir(current_dir)
 
-    # Use the Direct XML/JSON directory for full metadata (Logos/Genres)
-    api_url = "https://cache.v.plex.tv/api/v2/channels?includePremium=1&X-Plex-Token="
+    # Reliable public endpoint for full metadata
+    api_url = "https://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list"
     
-    # Simulating different languages to force regional metadata
-    locales = ["en", "es", "de", "fr"]
+    # Common regions to aggregate
+    regions = [
+        {"lang": "en", "country": "US"},
+        {"lang": "es", "country": "MX"},
+        {"lang": "de", "country": "DE"},
+        {"lang": "fr", "country": "FR"}
+    ]
+
     all_channels = {}
 
-    for lang_code in locales:
+    for reg in regions:
         headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "Accept": "application/json",
-            "User-Agent": "Plex/1.0",
-            "Accept-Language": lang_code
+            "Accept-Language": f"{reg['lang']}-{reg['country']},{reg['lang']};q=0.9",
+            "Referer": "https://www.plex.tv/live-tv-channels/"
         }
 
         try:
-            print(f"Syncing region: {lang_code.upper()}...")
+            print(f"Fetching {reg['country']} channels...")
             response = requests.get(api_url, headers=headers, timeout=20)
-            data = response.json()
+            data = response.json().get("data", {}).get("list", [])
 
             for item in data:
-                # Plex internal unique identifier
-                m_id = item.get("identifier") or item.get("uuid")
-                if not m_id: continue
+                # Use media_id or title as a unique key
+                m_id = item.get("media_id") or item.get("media_title", "unk").replace(" ", "")
+                if m_id in all_channels: continue
 
-                # GENRE: Pulling from the detailed category list
-                cats = item.get("categories", [])
-                genre_str = ", ".join(cats) if cats else "General"
+                # Deep Genre Search
+                genres = item.get("media_categories", []) or item.get("media_genre", [])
+                genre_str = ", ".join(genres) if isinstance(genres, list) and genres else "General"
                 
-                # LOGO: Pulling high-res images
-                logo = item.get("logo") or ""
+                # High quality logo
+                logo = item.get("media_image") or ""
                 
-                # TITLE & LINK
-                title = item.get("title", "Unknown")
-                slug = item.get("slug")
-                link = f"https://watch.plex.tv/live-tv/channel/{slug}" if slug else ""
-
                 all_channels[m_id] = {
-                    "Title": title,
+                    "Title": item.get("media_title", "Unknown"),
                     "Genre": genre_str,
-                    "Language": lang_code.upper(),
-                    "Summary": item.get("description", ""),
-                    "Link": link,
+                    "Language": reg['country'],
+                    "Summary": item.get("media_summary", ""),
+                    "Link": item.get("media_link", ""),
                     "Logo": logo,
                     "ID": m_id
                 }
         except Exception as e:
-            print(f"Failed {lang_code}: {e}")
+            print(f"Region {reg['country']} failed: {e}")
 
     final_list = list(all_channels.values())
 
-    # Save JSON matching your preferred style
+    # Save JSON matching your desired structure
     with open("plex_channels.json", "w", encoding="utf-8") as f:
         json.dump(final_list, f, indent=2, ensure_ascii=False)
 
@@ -85,7 +86,7 @@ def run_sync():
     with open("plex_master.m3u8", "w", encoding="utf-8") as f:
         f.write("\n".join(m3u_lines))
     
-    print(f"Success! Found {len(final_list)} unique channels with logos.")
+    print(f"Success! Found {len(final_list)} unique channels.")
 
 if __name__ == "__main__":
     run_sync()
