@@ -29,12 +29,11 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Only add files if they actually exist
           if [ -f "plex_tool/plex_channels.json" ]; then
             git add plex_tool/plex_channels.json plex_tool/plex_master.m3u8 plex_tool/plex_guide.xml
-            git commit -m "Plex Sync: Update playlists and EPG" || echo "No changes to commit"
+            git commit -m "Plex Sync: Update playlists with Logos and Language" || echo "No changes to commit"
             git push
           else
-            echo "Files were not generated. Check script logs above."
+            echo "Files were not generated."
             exit 1
           fi
