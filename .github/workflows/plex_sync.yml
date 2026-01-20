@@ -1,30 +1,31 @@
-name: Plex Independent Sync
+name: Plex Subfolder Sync
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Midnight daily
-  workflow_dispatch: # Manual run button
+    - cron: '0 0 * * *' # Every day at midnight
+  workflow_dispatch: # Manual button
 
 jobs:
-  run-sync:
+  plex-sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python_version: '3.9'
+          python_version: '3.10'
 
-      - name: Run Script in Subfolder
+      - name: Run Scraper
+        # No need to install requirements here, the script handles it
         run: python plex_tool/plex_scraper.py
 
-      - name: Commit Updated Data
+      - name: Commit Updated Files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          # Only add files from the specific folder
-          git add plex_tool/*.json plex_tool/*.m3u plex_tool/*.xml
-          git commit -m "Auto-update Plex folder data" || exit 0
+          # Only add files within the plex_tool directory
+          git add plex_tool/plex_channels.json plex_tool/plex_master.m3u8 plex_tool/plex_guide.xml
+          git commit -m "Plex Sync: Categorized M3U8 and EPG update" || exit 0
           git push
