@@ -4,55 +4,58 @@
  *
  * Created by: BuddyChewChew
  * Discord: https://discord.gg/fnsWGDy2mm
+ * Description: Hybrid fetcher to bypass Worker Method restrictions.
  */
 
 // 1. OBFUSCATED WORKER URL
 $encodedWorker = "aHR0cHM6Ly9wbGV4LmJ1ZGR5Y2hld2NoZXcud29ya2Vycy5kZXYv";
 $workerUrl     = base64_decode($encodedWorker);
 
-$plexApi   = "http://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list";
+$plexApi = "http://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list";
 
 /**
- * HELPER: FETCH DATA
- * Uses POST for the token and GET for the list.
+ * HELPER: GET PLEX TOKEN
+ * Fetches directly from GitHub to ensure POST method is preserved.
  */
-function fetch_plex_data($workerUrl, $targetUrl, $isPost = false) {
-    $proxyUrl = rtrim($workerUrl, '/') . "/?url=" . urlencode($targetUrl);
+function get_token_direct() {
+    $uuid = bin2hex(random_bytes(16));
+    $url = "https://clients.plex.tv/api/v2/users/anonymous?X-Plex-Product=Plex%20Web&X-Plex-Client-Identifier=$uuid";
     
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Accept: application/json']);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) BuddyChewChew/1.1');
+    
+    $response = curl_exec($ch);
+    $data = json_decode($response, true);
+    return $data['authToken'] ?? null;
+}
+
+/**
+ * HELPER: FETCH CHANNEL LIST
+ * Uses your Worker which we know works for GET requests.
+ */
+function fetch_list_via_worker($workerUrl, $targetUrl) {
+    $proxyUrl = rtrim($workerUrl, '/') . "/?url=" . urlencode($targetUrl);
     $ch = curl_init($proxyUrl);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)');
-    
-    if ($isPost) {
-        // Plex token API requires a POST request
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-        curl_setopt($ch, CURLOPT_POSTFIELDS, ""); 
-    }
-
     $response = curl_exec($ch);
     curl_close($ch);
     return $response;
 }
 
-// 2. START FETCHING TOKEN
-echo "BuddyChewChew Plex Tool: Requesting Token (via POST)...\n";
-$uuid = bin2hex(random_bytes(16));
-$tokenApi = "https://clients.plex.tv/api/v2/users/anonymous?X-Plex-Product=Plex%20Web&X-Plex-Client-Identifier=$uuid";
-
-$tokenResponse = fetch_plex_data($workerUrl, $tokenApi, true);
-$tokenData = json_decode($tokenResponse, true);
-$token = $tokenData['authToken'] ?? null;
+// 2. START PROCESS
+echo "BuddyChewChew Plex Tool: Fetching Token...\n";
+$token = get_token_direct();
 
 if (!$token) {
-    echo "Worker Error Log: " . htmlspecialchars(substr($tokenResponse, 0, 150)) . "\n";
-    die("CRITICAL ERROR: Token API rejected the request. Check if Worker allows POST methods.\n");
+    die("CRITICAL ERROR: Plex rejected direct Token request from GitHub. We may need to update your Cloudflare Worker JS code.\n");
 }
 
-echo "Token Acquired. Fetching Channel List...\n";
-
-// 3. FETCH CHANNEL LIST
-$listResponse = fetch_plex_data($workerUrl, $plexApi, false);
+echo "Token Acquired. Fetching Channel List via Worker...\n";
+$listResponse = fetch_list_via_worker($workerUrl, $plexApi);
 $data = json_decode($listResponse, true);
 $cleanList = [];
 
@@ -67,7 +70,7 @@ if (isset($data['data']['list']) && is_array($data['data']['list'])) {
         $streamUrl = "https://epg.provider.plex.tv/library/parts/{$slug}/?X-Plex-Token={$token}";
 
         $cleanList[] = [
-            'Title' => $title, 'Genre' => $genre, 'Logo'  => $logo, 'Link'  => $streamUrl
+            'Title' => $title, 'Genre' => $genre, 'Logo' => $logo, 'Link' => $streamUrl
         ];
 
         $m3uContent .= "#EXTINF:-1 channel-id=\"{$slug}\" tvg-id=\"{$slug}\" tvg-logo=\"{$logo}\" group-title=\"{$genre}\",{$title}\n";
@@ -78,6 +81,7 @@ if (isset($data['data']['list']) && is_array($data['data']['list'])) {
     file_put_contents(__DIR__ . '/plex_channels.m3u', $m3uContent);
     echo "Success: Created playlist. Discord: https://discord.gg/fnsWGDy2mm\n";
 } else {
-    die("Error: Failed to parse channel list.\n");
+    echo "Worker Response: " . substr($listResponse, 0, 100) . "\n";
+    die("Error: Failed to parse channel list from Worker.\n");
 }
 ?>
