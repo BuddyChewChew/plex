@@ -32,5 +32,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "BuddyChewChew-Bot"
           git add plex_tool/channels.json plex_tool/plex_channels.m3u
-          git commit -m "BuddyChewChew-Bot: Auto-update channels" || exit 0
+          git commit -m "BuddyChewChew-Bot: Auto-update anonymous channels" || exit 0
           git push
