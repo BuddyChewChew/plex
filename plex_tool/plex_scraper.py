@@ -2,7 +2,6 @@ import subprocess
 import sys
 import os
 import json
-import traceback
 from datetime import datetime
 
 def install_dependencies():
@@ -19,74 +18,73 @@ def run_sync():
     if not os.path.exists(current_dir): os.makedirs(current_dir)
     os.chdir(current_dir)
 
-    # Reliable public endpoint for full metadata
-    api_url = "https://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list"
+    # High-quality API used by official clients
+    api_url = "https://cache.v.plex.tv/api/v2/channels"
     
-    # Common regions to aggregate
-    regions = [
-        {"lang": "en", "country": "US"},
-        {"lang": "es", "country": "MX"},
-        {"lang": "de", "country": "DE"},
-        {"lang": "fr", "country": "FR"}
-    ]
-
     all_channels = {}
+    # Locales to pull: US, Mexico, Germany, France, etc.
+    locales = ["en", "es", "de", "fr", "it"]
 
-    for reg in regions:
+    for locale in locales:
+        params = {
+            "includePremium": "1",
+            "X-Plex-Language": locale
+        }
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "Accept": "application/json",
-            "Accept-Language": f"{reg['lang']}-{reg['country']},{reg['lang']};q=0.9",
-            "Referer": "https://www.plex.tv/live-tv-channels/"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) PlexWeb/4.110.1"
         }
 
         try:
-            print(f"Fetching {reg['country']} channels...")
-            response = requests.get(api_url, headers=headers, timeout=20)
-            data = response.json().get("data", {}).get("list", [])
+            print(f"Scraping Plex Guide for region: {locale.upper()}...")
+            response = requests.get(api_url, headers=headers, params=params, timeout=15)
+            data = response.json()
 
             for item in data:
-                # Use media_id or title as a unique key
-                m_id = item.get("media_id") or item.get("media_title", "unk").replace(" ", "")
-                if m_id in all_channels: continue
+                # Use identifier to prevent duplicates across different regional pulls
+                uid = item.get("identifier") or item.get("uuid")
+                if not uid: continue
 
-                # Deep Genre Search
-                genres = item.get("media_categories", []) or item.get("media_genre", [])
-                genre_str = ", ".join(genres) if isinstance(genres, list) and genres else "General"
+                # Deep Genre Extraction
+                cats = item.get("categories", [])
+                genre_str = ", ".join(cats) if cats else "General"
                 
-                # High quality logo
-                logo = item.get("media_image") or ""
+                # High-Res Logos
+                logo = item.get("logo") or ""
                 
-                all_channels[m_id] = {
-                    "Title": item.get("media_title", "Unknown"),
+                # Build specific Watch Link
+                slug = item.get("slug")
+                link = f"https://watch.plex.tv/live-tv/channel/{slug}" if slug else ""
+
+                all_channels[uid] = {
+                    "Title": item.get("title", "Unknown"),
                     "Genre": genre_str,
-                    "Language": reg['country'],
-                    "Summary": item.get("media_summary", ""),
-                    "Link": item.get("media_link", ""),
+                    "Language": locale.upper(),
+                    "Summary": item.get("description", ""),
+                    "Link": link,
                     "Logo": logo,
-                    "ID": m_id
+                    "ID": uid
                 }
-        except Exception as e:
-            print(f"Region {reg['country']} failed: {e}")
+        except:
+            continue
 
     final_list = list(all_channels.values())
 
-    # Save JSON matching your desired structure
+    # Write the Final JSON (Matches your saved requirement)
     with open("plex_channels.json", "w", encoding="utf-8") as f:
         json.dump(final_list, f, indent=2, ensure_ascii=False)
 
-    # Save M3U8 with Logos and Genres
+    # Write the M3U8 for your IPTV players
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    m3u_lines = [f"#EXTM3U\n# TOTAL_CHANNELS: {len(final_list)}\n# LAST_SYNC: {ts}"]
-    
+    m3u = [f"#EXTM3U\n# SOURCE: Official Plex Cache\n# UPDATED: {ts}"]
     for ch in final_list:
-        m3u_lines.append(f'#EXTINF:-1 tvg-id="{ch["ID"]}" tvg-logo="{ch["Logo"]}" group-title="{ch["Genre"]}",{ch["Title"]}')
-        m3u_lines.append(ch["Link"])
+        m3u.append(f'#EXTINF:-1 tvg-id="{ch["ID"]}" tvg-logo="{ch["Logo"]}" group-title="{ch["Genre"]}",{ch["Title"]}')
+        m3u.append(ch["Link"])
 
     with open("plex_master.m3u8", "w", encoding="utf-8") as f:
-        f.write("\n".join(m3u_lines))
+        f.write("\n".join(m3u))
     
-    print(f"Success! Found {len(final_list)} unique channels.")
+    print(f"Complete! Found {len(final_list)} unique channels with full metadata.")
 
 if __name__ == "__main__":
     run_sync()
