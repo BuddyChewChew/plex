@@ -1,0 +1,38 @@
+name: Update Plex Tool
+on:
+  schedule:
+    - cron: '0 0 * * *' # Daily at midnight
+  workflow_dispatch: # Manual run button
+
+jobs:
+  run-plex-tool:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    # This tells GitHub to run all commands inside the plex_tool folder
+    defaults:
+      run:
+        working-directory: ./plex_tool
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Run Scraper Script
+        run: php update.php
+
+      - name: Commit and Push Changes
+        # We move back to the root (..) just to run the git commands for the whole repo
+        run: |
+          cd ..
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add plex_tool/channels.json plex_tool/plex_channels.m3u
+          git commit -m "Auto-update plex_tool files" || exit 0
+          git push
