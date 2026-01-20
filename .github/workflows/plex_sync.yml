@@ -2,12 +2,14 @@ name: Plex Independent Sync
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight
-  workflow_dispatch: # Allows manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  run-plex-sync:
+  run-sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -27,12 +29,12 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Check if files exist before trying to add them
-          if [ -d "plex_tool" ]; then
-            git add plex_tool/*.json plex_tool/*.m3u8 plex_tool/*.xml
-            git commit -m "Plex Sync: Auto-update categorized M3U8 and EPG" || echo "No changes to commit"
+          # Only add files if they actually exist
+          if [ -f "plex_tool/plex_channels.json" ]; then
+            git add plex_tool/plex_channels.json plex_tool/plex_master.m3u8 plex_tool/plex_guide.xml
+            git commit -m "Plex Sync: Update playlists and EPG" || echo "No changes to commit"
             git push
           else
-            echo "Error: plex_tool directory was not found after script execution."
+            echo "Files were not generated. Check script logs above."
             exit 1
           fi
