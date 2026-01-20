@@ -1,7 +1,10 @@
 <?php
 /**
- * PLEX INDEPENDENT SCRAPER - SUBDIRECTORY VERSION
- * Location: plex_tool/update.php
+ * PLEX INDEPENDENT SCRAPER - TIVIMATE COMPATIBLE
+ * Created by: BuddyChewChew
+ * Discord: https://discord.gg/fnsWGDy2mm
+ * Description: Generates stream links with a dynamic Plex Token
+ * for use in IPTV players like TiviMate.
  */
 
 // 1. OBFUSCATED WORKER URL
@@ -11,49 +14,70 @@ $workerUrl     = base64_decode($encodedWorker);
 $plexApi   = "http://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list";
 $referer   = "https://www.plex.tv/live-tv-channels/";
 
-// 2. FETCH DATA
-$requestUrl = $workerUrl . "?url=" . urlencode($plexApi) . "&referer=" . urlencode($referer);
-echo "Connecting to Worker...\n";
-
-$response = file_get_contents($requestUrl);
-
-if (!$response) {
-    echo "Error: Worker unreachable.\n";
-    exit(1);
+// 2. HELPER: GET ANONYMOUS PLEX TOKEN
+function get_plex_token() {
+    $uuid = bin2hex(random_bytes(16));
+    $url = "https://clients.plex.tv/api/v2/users/anonymous?X-Plex-Product=Plex%20Web&X-Plex-Client-Identifier=$uuid";
+    
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Accept: application/json']);
+    
+    $response = curl_exec($ch);
+    curl_close($ch);
+    
+    $data = json_decode($response, true);
+    return $data['authToken'] ?? null;
 }
 
+// 3. START FETCHING
+$token = get_plex_token();
+if (!$token) {
+    die("Error: Could not generate Plex Token. Task aborted.\n");
+}
+
+$requestUrl = $workerUrl . "?url=" . urlencode($plexApi) . "&referer=" . urlencode($referer);
+echo "BuddyChewChew Plex Tool: Connecting to Worker...\n";
+
+$response = file_get_contents($requestUrl);
 $data = json_decode($response, true);
 $cleanList = [];
 
-// 3. GENERATE OUTPUTS
 if (isset($data['data']['list']) && is_array($data['data']['list'])) {
     
     $m3uContent = "#EXTM3U\n";
     
-    foreach ($data['data']['list'] as $index => $ch) {
+    foreach ($data['data']['list'] as $ch) {
         $title = $ch['media_title'] ?? 'Unknown';
-        $genre = !empty($ch['media_categories']) ? array_values($ch['media_categories'])[0] : 'General';
-        $link  = $ch['media_link'] ?? '';
+        $genre = !empty($ch['media_categories']) ? array_values($ch['media_categories'])[0] : 'Plex';
+        $logo  = $ch['media_thumb'] ?? '';
         
+        // Extract the ID from the media_link to create the provider URL
+        $slug = basename($ch['media_link']); 
+
+        // TIVIMATE STREAM FORMAT
+        $streamUrl = "https://epg.provider.plex.tv/library/parts/{$slug}/?X-Plex-Token={$token}";
+
         $cleanList[] = [
-            'Title'    => $title,
-            'Genre'    => $genre,
-            'Language' => $ch['media_lang'] ?? 'EN',
-            'Summary'  => $ch['media_summary'] ?? '',
-            'Link'     => $link
+            'Title' => $title,
+            'Genre' => $genre,
+            'Logo'  => $logo,
+            'Link'  => $streamUrl
         ];
 
-        $m3uContent .= "#EXTINF:-1 tvg-id=\"plex.{$index}\" tvg-name=\"{$title}\" group-title=\"{$genre}\", {$title}\n";
-        $m3uContent .= "{$link}\n";
+        $m3uContent .= "#EXTINF:-1 channel-id=\"{$slug}\" tvg-id=\"{$slug}\" tvg-chno=\"\" tvg-name=\"{$title}\" tvg-logo=\"{$logo}\" group-title=\"{$genre}\",{$title}\n";
+        $m3uContent .= "{$streamUrl}\n";
     }
 
-    // Save to the current directory (plex_tool/)
+    // Save outputs to plex_tool folder
     file_put_contents(__DIR__ . '/channels.json', json_encode($cleanList, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
     file_put_contents(__DIR__ . '/plex_channels.m3u', $m3uContent);
     
-    echo "Success: Created files in plex_tool/\n";
+    echo "Success: Created TiviMate playlist for BuddyChewChew's project.\n";
+    echo "Join us on Discord: https://discord.gg/fnsWGDy2mm\n";
 } else {
-    echo "Error: Unexpected data format.\n";
+    echo "Error: Failed to fetch channel data.\n";
     exit(1);
 }
 ?>
