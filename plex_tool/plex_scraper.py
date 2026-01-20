@@ -13,7 +13,6 @@ BRANCH = "main"
 EPG_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{REPO_NAME}/{BRANCH}/plex_tool/plex_guide.xml"
 
 def install_dependencies():
-    """Self-installs 'requests' if missing."""
     try:
         import requests
     except ImportError:
@@ -25,7 +24,6 @@ def install_dependencies():
 def run_sync():
     requests = install_dependencies()
     
-    # Force the script to use its own directory
     current_dir = os.path.dirname(os.path.abspath(__file__))
     if not os.path.exists(current_dir):
         os.makedirs(current_dir)
@@ -44,35 +42,37 @@ def run_sync():
         response.raise_for_status()
         data = response.json()
         
-        # Access the list safely
         raw_channels = data.get("data", {}).get("list", [])
         if not raw_channels:
-            print("No channels found in the API response.")
+            print("No channels found.")
             return
 
         clean_data = []
         for item in raw_channels:
-            # Safely extract category (Fixes the 'Error: 0' issue)
+            # Format Genre: Convert list ["Genre1", "Genre2"] to "Genre1, Genre2"
             cats = item.get("media_categories", [])
-            genre = cats[0] if (cats and isinstance(cats, list)) else "General"
+            genre_str = ", ".join(cats) if isinstance(cats, list) and cats else "General"
             
-            # Use title as a fallback ID if media_id is missing
+            # Extract Logo and Language
+            logo_url = item.get("media_image", "")
+            language = item.get("media_lang", "EN")
             m_id = item.get("media_id") or item.get("media_title", "unknown").replace(" ", "")
 
             clean_data.append({
                 "Title": item.get("media_title", "Unknown Channel"),
-                "Category": genre,
+                "Genre": genre_str,
+                "Language": language,
                 "Summary": item.get("media_summary", "No description available."),
                 "Link": item.get("media_link"),
-                "Logo": item.get("media_image", ""),
+                "Logo": logo_url,
                 "ID": m_id
             })
         
-        # 1. Save JSON
+        # 1. Save JSON (Matches your requested format)
         with open("plex_channels.json", "w", encoding="utf-8") as f:
             json.dump(clean_data, f, indent=4, ensure_ascii=False)
 
-        # 2. Generate M3U8
+        # 2. Generate M3U8 (Using Genre for group-title)
         m3u_lines = [f'#EXTM3U x-tvg-url="{EPG_URL}" url-tvg="{EPG_URL}"']
         
         # 3. Generate XMLTV
@@ -81,8 +81,8 @@ def run_sync():
         for ch in clean_data:
             safe_id = f"plex.{ch['ID']}"
             
-            # Add to M3U8
-            m3u_lines.append(f'#EXTINF:-1 tvg-id="{safe_id}" tvg-logo="{ch["Logo"]}" group-title="{ch["Category"]}",{ch["Title"]}')
+            # Add to M3U8 (group-title handles the categories)
+            m3u_lines.append(f'#EXTINF:-1 tvg-id="{safe_id}" tvg-logo="{ch["Logo"]}" group-title="{ch["Genre"]}",{ch["Title"]}')
             m3u_lines.append(ch["Link"])
 
             # Add Channel to XML
@@ -99,7 +99,7 @@ def run_sync():
             ET.SubElement(prog_xml, "title").text = f"Live: {ch['Title']}"
             ET.SubElement(prog_xml, "desc").text = ch["Summary"]
 
-        # Final File Writes
+        # Save the final files
         with open("plex_master.m3u8", "w", encoding="utf-8") as f:
             f.write("\n".join(m3u_lines))
 
@@ -107,11 +107,11 @@ def run_sync():
         ET.indent(tree, space="  ", level=0)
         tree.write("plex_guide.xml", encoding="utf-8", xml_declaration=True)
 
-        print(f"Success! Generated files for {len(clean_data)} channels.")
+        print(f"Success! Processed {len(clean_data)} channels with Genres and Logos.")
 
     except Exception as e:
         print("--- CRITICAL ERROR ---")
-        traceback.print_exc() # This will show the exact line that failed
+        traceback.print_exc()
         sys.exit(1)
 
 if __name__ == "__main__":
