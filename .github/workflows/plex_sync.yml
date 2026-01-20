@@ -26,6 +26,11 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Clean and Pull
+        run: |
+          git reset --hard HEAD
+          git pull origin main --rebase
+
       - name: Run Scraper
         run: |
           mkdir -p plex_tool
@@ -33,17 +38,6 @@ jobs:
 
       - name: Commit and Push
         run: |
-          # Hide the new files temporarily
-          git add plex_tool/
-          git stash
-          
-          # Pull the latest code from GitHub
-          git pull origin main --rebase
-          
-          # Bring the new files back
-          git stash pop || echo "Nothing to pop"
-          
-          # Commit and Push
-          git add plex_tool/
-          git commit -m "Global Sync: $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
+          git add plex_tool/plex_channels.json plex_tool/plex_master.m3u8
+          git commit -m "Global Plex Sync: $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push origin main
