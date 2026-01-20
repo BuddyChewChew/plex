@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configure Git
         run: |
@@ -24,14 +26,24 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Run Global Scraper
+      - name: Run Scraper
         run: |
           mkdir -p plex_tool
           python plex_tool/plex_scraper.py
 
-      - name: Force Push Updates
+      - name: Commit and Push
         run: |
+          # Hide the new files temporarily
+          git add plex_tool/
+          git stash
+          
+          # Pull the latest code from GitHub
           git pull origin main --rebase
-          git add -A plex_tool/
-          git commit -m "Global Plex Sync: $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
+          
+          # Bring the new files back
+          git stash pop || echo "Nothing to pop"
+          
+          # Commit and Push
+          git add plex_tool/
+          git commit -m "Global Sync: $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push origin main
