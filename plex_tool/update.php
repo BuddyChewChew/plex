@@ -13,54 +13,40 @@ $encodedWorker = "aHR0cHM6Ly9wbGV4LmJ1ZGR5Y2hld2NoZXcud29ya2Vycy5kZXYv";
 $workerUrl     = base64_decode($encodedWorker);
 
 $plexApi   = "http://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list";
-$referer   = "https://www.plex.tv/live-tv-channels/";
 
-/**
- * HELPER: PROXY REQUEST
- * Routes requests through the Cloudflare Worker using custom headers.
- */
-function worker_proxy($workerUrl, $targetUrl, $method = 'GET') {
-    $ch = curl_init($workerUrl);
+// 2. HELPER: FETCH THROUGH WORKER
+function fetch_via_worker($workerUrl, $targetUrl) {
+    // Construct the URL exactly like the one you tested in the browser
+    $proxyUrl = rtrim($workerUrl, '/') . "/?url=" . urlencode($targetUrl);
     
-    $headers = [
-        "X-Target-Url: $targetUrl",
-        "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) BuddyChewChew/1.0"
+    $options = [
+        "http" => [
+            "method" => "GET",
+            "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n"
+        ]
     ];
-
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-    curl_setopt($ch, CURLOPT_TIMEOUT, 15);
-
-    if ($method === 'POST') {
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, ""); // Plex token API likes an empty POST
-    }
-
-    $response = curl_exec($ch);
-    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
-
-    return ($httpCode === 200) ? $response : null;
+    $context = stream_context_create($options);
+    return @file_get_contents($proxyUrl, false, $context);
 }
 
-// 2. START FETCHING TOKEN
-echo "BuddyChewChew Plex Tool: Requesting Token via Proxy...\n";
+// 3. START FETCHING TOKEN
+echo "BuddyChewChew Plex Tool: Requesting Token via Worker...\n";
 $uuid = bin2hex(random_bytes(16));
 $tokenApi = "https://clients.plex.tv/api/v2/users/anonymous?X-Plex-Product=Plex%20Web&X-Plex-Client-Identifier=$uuid";
 
-$tokenResponse = worker_proxy($workerUrl, $tokenApi, 'POST');
+$tokenResponse = fetch_via_worker($workerUrl, $tokenApi);
 $tokenData = json_decode($tokenResponse, true);
 $token = $tokenData['authToken'] ?? null;
 
 if (!$token) {
-    die("CRITICAL ERROR: Failed to acquire Plex Token through Worker. Ensure Worker handles X-Target-Url header.\n");
+    echo "Worker Response: " . substr($tokenResponse, 0, 100) . "...\n";
+    die("CRITICAL ERROR: Could not get Token. Your Worker might not support fetching this API.\n");
 }
 
 echo "Token Acquired. Fetching Channel List...\n";
 
-// 3. FETCH CHANNEL LIST
-$listResponse = worker_proxy($workerUrl, $plexApi);
+// 4. FETCH CHANNEL LIST
+$listResponse = fetch_via_worker($workerUrl, $plexApi);
 $data = json_decode($listResponse, true);
 $cleanList = [];
 
@@ -94,7 +80,7 @@ if (isset($data['data']['list']) && is_array($data['data']['list'])) {
     echo "Success: Created TiviMate playlist for BuddyChewChew's project.\n";
     echo "Discord: https://discord.gg/fnsWGDy2mm\n";
 } else {
-    echo "Error: Worker could not retrieve or parse the Plex channel list.\n";
+    echo "Error: Worker could not parse the Plex channel list.\n";
     exit(1);
 }
 ?>
