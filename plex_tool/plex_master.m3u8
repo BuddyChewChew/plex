@@ -1,4 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/BuddyChewChew/plex/main/plex_tool/plex_guide.xml" url-tvg="https://raw.githubusercontent.com/BuddyChewChew/plex/main/plex_tool/plex_guide.xml"
+# UPDATED: 2026-01-20 03:15:58
 #EXTINF:-1 tvg-id="plex.NFLChannel" tvg-logo="" group-title="General",NFL Channel
 https://watch.plex.tv/live-tv/channel/nfl-channel
 #EXTINF:-1 tvg-id="plex.FIFA+" tvg-logo="" group-title="General",FIFA+
