@@ -13,11 +13,13 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python_version: '3.10'
+          python-version: '3.10' # Fixed naming
 
       - name: Run Scraper
         run: |
@@ -29,11 +31,14 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
+          git pull origin main --rebase
+          
           if [ -f "plex_tool/plex_channels.json" ]; then
             git add plex_tool/plex_channels.json plex_tool/plex_master.m3u8 plex_tool/plex_guide.xml
-            git commit -m "Plex Sync: Update playlists with Logos and Language" || echo "No changes to commit"
-            git push
+            # Forced timestamp in M3U8 ensures there's always a change to commit
+            git commit -m "Plex Sync: Auto-update [$(date)]" || echo "No changes to commit"
+            git push origin main
           else
-            echo "Files were not generated."
+            echo "Error: Files were not found."
             exit 1
           fi
