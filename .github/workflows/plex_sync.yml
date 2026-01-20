@@ -1,0 +1,30 @@
+name: Plex Independent Sync
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Midnight daily
+  workflow_dispatch: # Manual run button
+
+jobs:
+  run-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python_version: '3.9'
+
+      - name: Run Script in Subfolder
+        run: python plex_tool/plex_scraper.py
+
+      - name: Commit Updated Data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          # Only add files from the specific folder
+          git add plex_tool/*.json plex_tool/*.m3u plex_tool/*.xml
+          git commit -m "Auto-update Plex folder data" || exit 0
+          git push
