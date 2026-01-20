@@ -21,68 +21,68 @@ def run_sync():
 
     api_url = "https://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list"
     
-    # We simulate different regions to force the API to give us everything
-    regions_to_pull = [
+    # Simulating different regions to get global data
+    regions = [
         {"Accept-Language": "en-US,en;q=0.9", "X-Region": "US"},
-        {"Accept-Language": "en-GB,en;q=0.9", "X-Region": "UK"},
         {"Accept-Language": "es-MX,es;q=0.9", "X-Region": "MX"},
-        {"Accept-Language": "de-DE,de;q=0.9", "X-Region": "DE"},
-        {"Accept-Language": "fr-FR,fr;q=0.9", "X-Region": "FR"}
+        {"Accept-Language": "de-DE,de;q=0.9", "X-Region": "DE"}
     ]
 
-    all_channels = {} # Use a dict to prevent duplicates across regions
+    all_channels = {}
 
-    for region in regions_to_pull:
+    for reg in regions:
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             "Referer": "https://www.plex.tv/live-tv-channels/",
             "Accept": "application/json",
-            **region
+            **reg
         }
 
         try:
-            print(f"Pulling data for region: {region.get('X-Region')}...")
+            print(f"Pulling {reg['X-Region']}...")
             response = requests.get(api_url, headers=headers, timeout=20)
             data = response.json().get("data", {}).get("list", [])
 
             for item in data:
-                m_id = item.get("media_id") or item.get("media_link", "").split("/")[-1]
+                m_id = item.get("media_id") or item.get("media_title", "").replace(" ", "")
                 if not m_id: continue
 
-                # AGGRESSIVE GENRE EXTRACTION
-                genres = item.get("media_categories", []) or item.get("media_genre", [])
-                genre_str = ", ".join(genres) if isinstance(genres, list) and genres else "General"
+                # Genre Extraction
+                cats = item.get("media_categories", []) or item.get("media_genre", [])
+                genre_str = ", ".join(cats) if isinstance(cats, list) and cats else "General"
                 
-                # REGION/LANGUAGE DETECTION
+                # Language
                 lang = item.get("media_lang") or item.get("language") or "EN"
-                
-                # MAP THE CHANNEL TO THE DICTIONARY
+
                 all_channels[m_id] = {
                     "Title": item.get("media_title", "Unknown"),
                     "Genre": genre_str,
                     "Language": lang.upper(),
                     "Summary": item.get("media_summary", ""),
-                    "Link": item.get("media_link", "")
+                    "Link": item.get("media_link", ""),
+                    "Logo": item.get("media_image", ""),
+                    "ID": m_id
                 }
-        except Exception as e:
-            print(f"Error pulling region {region.get('X-Region')}: {e}")
+        except:
+            continue
 
     final_list = list(all_channels.values())
 
-    # Save to JSON - matching your exact structure
+    # Save JSON
     with open("plex_channels.json", "w", encoding="utf-8") as f:
         json.dump(final_list, f, indent=2, ensure_ascii=False)
 
-    # Generate M3U8 with dynamic timestamps for GitHub tracking
-    now_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    m3u_content = f"#EXTM3U\n# LAST_GLOBAL_SYNC: {now_ts}\n"
+    # Save M3U8 with timestamp to force update
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    m3u_lines = [f"#EXTM3U\n# LAST_SYNC: {ts}"]
     for ch in final_list:
-        m3u_content += f'#EXTINF:-1 group-title="{ch["Genre"]}",{ch["Title"]}\n{ch["Link"]}\n'
+        m3u_lines.append(f'#EXTINF:-1 tvg-id="{ch["ID"]}" tvg-logo="{ch["Logo"]}" group-title="{ch["Genre"]}",{ch["Title"]}')
+        m3u_lines.append(ch["Link"])
 
     with open("plex_master.m3u8", "w", encoding="utf-8") as f:
-        f.write(m3u_content)
+        f.write("\n".join(m3u_lines))
     
-    print(f"Global sync complete. Found {len(final_list)} unique channels.")
+    print(f"Done. Found {len(final_list)} unique channels.")
 
 if __name__ == "__main__":
     run_sync()
