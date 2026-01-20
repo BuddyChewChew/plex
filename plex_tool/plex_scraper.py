@@ -6,14 +6,14 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
 # --- CONFIGURATION ---
-# Change these if you rename your repo or branch
 GITHUB_USER = "BuddyChewChew"
 REPO_NAME = "plex"
 BRANCH = "main"
+# The URL where the XML will be accessible once pushed to GitHub
 EPG_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{REPO_NAME}/{BRANCH}/plex_tool/plex_guide.xml"
 
 def install_dependencies():
-    """Self-installs 'requests' if not present."""
+    """Checks and installs 'requests' library if missing."""
     try:
         import requests
     except ImportError:
@@ -22,31 +22,39 @@ def install_dependencies():
         import requests
     return requests
 
-# Ensure the script works relative to its own folder
-base_dir = os.path.dirname(os.path.abspath(__file__))
-os.chdir(base_dir)
-
 def run_sync():
     requests = install_dependencies()
-    api_url = "https://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list"
     
+    # 1. SETUP DIRECTORY
+    # Find the directory where THIS script is located
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Ensure we are saving into the 'plex_tool' folder specifically
+    if not os.path.exists(current_dir):
+        os.makedirs(current_dir)
+    
+    os.chdir(current_dir)
+    print(f"Working directory set to: {current_dir}")
+
+    # 2. FETCH DATA
+    api_url = "https://www.plex.tv/wp-json/plex/v1/mediaverse/livetv/channels/list"
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Referer": "https://www.plex.tv/live-tv-channels/"
     }
 
     try:
-        print(f"Connecting to Plex API...")
+        print("Connecting to Plex API...")
         response = requests.get(api_url, headers=headers, timeout=20)
         response.raise_for_status()
         data = response.json()
         
         raw_channels = data.get("data", {}).get("list", [])
         if not raw_channels:
-            print("No channels found.")
+            print("No channels found. Script stopping.")
             return
 
-        # 1. PROCESS DATA & CREATE JSON
+        # 3. PROCESS DATA
         clean_data = []
         for item in raw_channels:
             clean_data.append({
@@ -58,24 +66,22 @@ def run_sync():
                 "ID": item.get("media_id")
             })
         
+        # Save JSON
         with open("plex_channels.json", "w", encoding="utf-8") as f:
             json.dump(clean_data, f, indent=4, ensure_ascii=False)
 
-        # 2. GENERATE MASTER M3U8 (With Categories and EPG Header)
-        # We include both x-tvg-url and url-tvg for maximum player compatibility
+        # 4. GENERATE M3U8 & XMLTV
         m3u_lines = [f'#EXTM3U x-tvg-url="{EPG_URL}" url-tvg="{EPG_URL}"']
-        
-        # 3. GENERATE XMLTV EPG
         root = ET.Element("tv")
         
         for ch in clean_data:
             safe_id = f"plex.{ch['ID']}"
             
-            # M3U8 Line with group-title for categorization
+            # M3U Entry
             m3u_lines.append(f'#EXTINF:-1 tvg-id="{safe_id}" tvg-logo="{ch["Logo"]}" group-title="{ch["Category"]}",{ch["Title"]}')
             m3u_lines.append(ch["Link"])
 
-            # XMLTV Channel
+            # XML Channel Entry
             chan_xml = ET.SubElement(root, "channel", id=safe_id)
             ET.SubElement(chan_xml, "display-name").text = ch["Title"]
             if ch["Logo"]:
@@ -86,10 +92,10 @@ def run_sync():
             start = now.strftime("%Y%m%d%H%M%S +0000")
             stop = (now + timedelta(hours=24)).strftime("%Y%m%d%H%M%S +0000")
             prog_xml = ET.SubElement(root, "programme", start=start, stop=stop, channel=safe_id)
-            ET.SubElement(prog_xml, "title").text = f"Live: {ch['Title']}"
+            ET.SubElement(prog_xml, "title").text = f"Live Content: {ch['Title']}"
             ET.SubElement(prog_xml, "desc").text = ch["Summary"]
 
-        # Write files
+        # Write Files
         with open("plex_master.m3u8", "w", encoding="utf-8") as f:
             f.write("\n".join(m3u_lines))
 
@@ -97,10 +103,10 @@ def run_sync():
         ET.indent(tree, space="  ", level=0)
         tree.write("plex_guide.xml", encoding="utf-8", xml_declaration=True)
 
-        print(f"Update Successful. Generated files in /plex_tool/")
+        print(f"Update Successful. 3 files generated in {current_dir}")
 
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"Critical Error: {e}")
 
 if __name__ == "__main__":
     run_sync()
