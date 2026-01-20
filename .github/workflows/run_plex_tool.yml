@@ -1,17 +1,18 @@
 name: Run Plex Tool
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Runs nightly at midnight
+  workflow_dispatch: # Allows manual triggers
 
 jobs:
   plex-job:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    
     defaults:
       run:
-        working-directory: ./plex_tool
+        working-directory: ./plex_tool # Ensures GitHub operates in the correct folder
 
     steps:
       - name: Checkout Repo
@@ -21,7 +22,6 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-          extensions: curl, json
 
       - name: Run Scraper
         run: php update.php
@@ -31,6 +31,6 @@ jobs:
           cd ..
           git config --local user.email "action@github.com"
           git config --local user.name "BuddyChewChew-Bot"
-          git add plex_tool/channels.json plex_tool/plex_channels.m3u
-          git commit -m "BuddyChewChew-Bot: Auto-update anonymous channels" || exit 0
+          git add plex_tool/channels.json
+          git commit -m "BuddyChewChew-Bot: Auto-update channels.json" || exit 0
           git push
