@@ -840,13 +840,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/pbs-science"
     },
     {
-        "Title": "Lionsgate Holiday Collection",
-        "Genre": "Movies",
-        "Language": "EN",
-        "Summary": "Your home for festive favorites\u2014contemporary Christmas movies, family classics, and seasonal stories full of holiday spirit.",
-        "Link": "https://watch.plex.tv/live-tv/channel/lionsgate-holiday-collection"
-    },
-    {
         "Title": "FIFA+",
         "Genre": "Sports",
         "Language": "FR",
@@ -1552,6 +1545,13 @@
         "Language": "FR",
         "Summary": "Cha\u00eene pour les fans de telenovelas avec de grandes histoires d'amour et de chagrin d'amour. Chaque jour, un nouvel \u00e9pisode.",
         "Link": "https://watch.plex.tv/live-tv/channel/frequence-novelas"
+    },
+    {
+        "Title": "Soap",
+        "Genre": "Drama TV",
+        "Language": "FR",
+        "Summary": "Soap, la premi\u00e8re cha\u00eene enti\u00e8rement d\u00e9di\u00e9e aux meilleures s\u00e9ries turques ! Passion, intrigue, amour et histoires captivantes dans chaque \u00e9pisode \u00e0 ne pas manquer.",
+        "Link": "https://watch.plex.tv/live-tv/channel/soap"
     },
     {
         "Title": "Enqu\u00eates de Choc",
@@ -2842,13 +2842,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/gfn-soccer-tv"
     },
     {
-        "Title": "World Billiards TV",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "CAROM Billiards with the value of professionalism, will become higher in quality and step closer to the fans over the world.",
-        "Link": "https://watch.plex.tv/live-tv/channel/world-billiards-tv"
-    },
-    {
         "Title": "Made It Myself TV",
         "Genre": "Food & Home",
         "Language": "EN",
@@ -2889,13 +2882,6 @@
         "Language": "EN",
         "Summary": "Join the Baywatch lifeguards on their thrilling adventures filled with beautiful beaches and those iconic red swimsuits.",
         "Link": "https://watch.plex.tv/live-tv/channel/baywatch"
-    },
-    {
-        "Title": "Motorvision TV",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Luxury limousines, SUVs and vintage cars: MOTORVISION TV presents the gripping world of auto mobility.",
-        "Link": "https://watch.plex.tv/live-tv/channel/motorvision-tv"
     },
     {
         "Title": "Strongman Champions",
@@ -3031,11 +3017,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-binge-watch-2"
     },
     {
-        "Title": "Hard Knocks",
+        "Title": "GLORY Kickboxing",
         "Genre": "Sports",
         "Language": "EN",
-        "Summary": "Hard Knocks is your go-to destination for MMA and Fighter action!",
-        "Link": "https://watch.plex.tv/live-tv/channel/hard-knocks"
+        "Summary": "GLORY Kickboxing is non-stop explosive action from start to finish. The fights are all stand-up, all-striking, all the time.",
+        "Link": "https://watch.plex.tv/live-tv/channel/glory-kickboxing"
     },
     {
         "Title": "Robot Wars by Mech+",
@@ -3388,13 +3374,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/fanduel-tv-extra-2"
     },
     {
-        "Title": "Motorsport.tv",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Motorsport.tv is your ultimate destination for live racing, documentaries, historical archives and more.",
-        "Link": "https://watch.plex.tv/live-tv/channel/motorsport-tv"
-    },
-    {
         "Title": "DP World Tour",
         "Genre": "Sports",
         "Language": "EN",
@@ -3472,11 +3451,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/lone-star"
     },
     {
-        "Title": "GLORY Kickboxing",
+        "Title": "Hard Knocks",
         "Genre": "Sports",
         "Language": "EN",
-        "Summary": "GLORY Kickboxing is non-stop explosive action from start to finish. The fights are all stand-up, all-striking, all the time.",
-        "Link": "https://watch.plex.tv/live-tv/channel/glory-kickboxing"
+        "Summary": "Hard Knocks is your go-to destination for MMA and Fighter action!",
+        "Link": "https://watch.plex.tv/live-tv/channel/hard-knocks"
     },
     {
         "Title": "PFL MMA",
@@ -3834,6 +3813,20 @@
         "Language": "EN",
         "Summary": "Victory+ delivers free sports streaming made by fans, for fans \u2014 live games and team-focused sports entertainment.",
         "Link": "https://watch.plex.tv/live-tv/channel/victory-2"
+    },
+    {
+        "Title": "Motorvision TV",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Luxury limousines, SUVs and vintage cars: MOTORVISION TV presents the gripping world of auto mobility.",
+        "Link": "https://watch.plex.tv/live-tv/channel/motorvision-tv"
+    },
+    {
+        "Title": "World Billiards TV",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "CAROM Billiards with the value of professionalism, will become higher in quality and step closer to the fans over the world.",
+        "Link": "https://watch.plex.tv/live-tv/channel/world-billiards-tv"
     },
     {
         "Title": "FIFA+",
@@ -5418,11 +5411,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-outpost-2"
     },
     {
-        "Title": "The Great Christmas Light Fight on Places & Spaces",
+        "Title": "Places & Spaces",
         "Genre": "Food & Home",
         "Language": "EN",
-        "Summary": "Families decorate their homes for Christmas, to win cash prizes and the \"Light Fight\" championship!",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-great-christmas-light-fight-on-places-and-spaces"
+        "Summary": "There\u2019s no place like home. We\u2019re the heart of home.",
+        "Link": "https://watch.plex.tv/live-tv/channel/places-and-spaces"
     },
     {
         "Title": "Telemundo al Dia",
@@ -6027,11 +6020,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/knxv"
     },
     {
-        "Title": "GREAT! Christmas",
+        "Title": "Great! Mystery",
         "Genre": "Movies",
         "Language": "EN",
-        "Summary": "The ho-ho-home of feel - good \u00a0movies, guaranteed to wrap you up in Christmas cheer.",
-        "Link": "https://watch.plex.tv/live-tv/channel/great-christmas"
+        "Summary": "GREAT! mystery\u2026the home of the \u2018Who Done It?\u2019",
+        "Link": "https://watch.plex.tv/live-tv/channel/great-mystery"
     },
     {
         "Title": "Novelisima",
@@ -6895,6 +6888,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/oro-tv"
     },
     {
+        "Title": "FreeTV Cl\u00e1sico",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "Pel\u00edculas protagonizadas por estrellas legendarias como Mar\u00eda F\u00e9lix, Pedro Infante, Fernando Soler y Pedro Armend\u00e1riz.",
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-clasico-3"
+    },
+    {
         "Title": "Lucha Plus",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -7665,11 +7665,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/jade-fever-2"
     },
     {
-        "Title": "Icon Film Channel Christmas",
+        "Title": "Icon Film Channel Classics",
         "Genre": "Movies",
         "Language": "EN",
-        "Summary": "Relive beloved classics or discover your next favourite film on the Icon Film Channel. With hundreds of titles to choose from, there is something for everyone: award-winning drama, unbelievable epics, hilarious comedy, and much more.",
-        "Link": "https://watch.plex.tv/live-tv/channel/icon-film-channel-christmas"
+        "Summary": "Dive into blockbuster hits, cult classics, award-winning cinema, and so much more, only on Icon Film Channel Classics!",
+        "Link": "https://watch.plex.tv/live-tv/channel/icon-film-channel-classics"
     },
     {
         "Title": "ONE Championship TV",
@@ -9513,6 +9513,34 @@
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-savannah"
     },
     {
+        "Title": "MOVIESPHERE",
+        "Genre": "Movies",
+        "Language": "ES",
+        "Summary": "Pel\u00edculas y programas de televisi\u00f3n gratis, 24/7",
+        "Link": "https://watch.plex.tv/live-tv/channel/moviesphere-9"
+    },
+    {
+        "Title": "MOVIESPHERE",
+        "Genre": "Movies",
+        "Language": "FR",
+        "Summary": "Films et s\u00e9ries t\u00e9l\u00e9vis\u00e9es gratuits, 24h/24 et 7j/7",
+        "Link": "https://watch.plex.tv/live-tv/channel/moviesphere-8"
+    },
+    {
+        "Title": "IL Sole 24 Ore TV",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Il Sole 24 Ore TV: news e approfondimenti su politica, economia, societ\u00e0 e innovazione con analisi e aggiornamenti.",
+        "Link": "https://watch.plex.tv/live-tv/channel/il-sole-24-ore-tv"
+    },
+    {
+        "Title": "Beauty Channel",
+        "Genre": "Lifestyle",
+        "Language": "IT",
+        "Summary": "La destinazione per chi cerca bellezza e benessere a 360\u00b0. Racconti coinvolgenti, professionisti d\u2019eccellenza e storie di trasformazione tra docureality, serie tv e interviste. Un mix unico di approfondimento, emozione e intrattenimento.",
+        "Link": "https://watch.plex.tv/live-tv/channel/beauty-channel"
+    },
+    {
         "Title": "Medical Detectives",
         "Genre": "True Crime",
         "Language": "EN",
@@ -10486,11 +10514,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/xite-lekker-hollands"
     },
     {
-        "Title": "XITE Kerst",
+        "Title": "XITE Ultimate Throwback",
         "Genre": "Music",
         "Language": "EN",
-        "Summary": "Maak je klaar voor de mooiste tijd van het jaar en vier de feestdagen op XITE met de grootste kersthits en klassiekers.",
-        "Link": "https://watch.plex.tv/live-tv/channel/xite-kerst"
+        "Summary": "Waan jezelf als een ware tijdreiziger met deze mix van de grootste klassiekers aller tijden.",
+        "Link": "https://watch.plex.tv/live-tv/channel/xite-ultimate-throwback"
     },
     {
         "Title": "XITE 80s Flashback",
