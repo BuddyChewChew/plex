@@ -745,7 +745,7 @@
         "Title": "Real Housewives Vault",
         "Genre": "Hit TV",
         "Language": "EN",
-        "Summary": "Revisit the Real Housewives that launched the iconic franchise, showcasing the glitz, glamour and drama of the reality show's wealthy female stars.",
+        "Summary": "Revisit the Real Housewives that launched the iconic franchise, showcasing the glitz, glamour and drama of the reality show's stars.",
         "Link": "https://watch.plex.tv/live-tv/channel/real-housewives-vault"
     },
     {
@@ -1293,13 +1293,6 @@
         "Language": "EN",
         "Summary": "Christmas Plus: Your ultimate destination for all the holiday hits!",
         "Link": "https://watch.plex.tv/live-tv/channel/christmas-plus"
-    },
-    {
-        "Title": "It's A Wonderful Life TV",
-        "Genre": "Movies",
-        "Language": "EN",
-        "Summary": "Your favorite holiday classic on repeat.",
-        "Link": "https://watch.plex.tv/live-tv/channel/its-a-wonderful-life-tv"
     },
     {
         "Title": "Echos du Monde",
@@ -9534,6 +9527,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/il-sole-24-ore-tv"
     },
     {
+        "Title": "Bronco",
+        "Genre": "Classic TV",
+        "Language": "DE",
+        "Summary": "Bronco ist ein Western-Filmkanal mit gro\u00dfer Reichweite: Klassiker und Kultfilme mit Stars wie John Wayne und Kirk Douglas.",
+        "Link": "https://watch.plex.tv/live-tv/channel/bronco"
+    },
+    {
         "Title": "Beauty Channel",
         "Genre": "Lifestyle",
         "Language": "IT",
@@ -10218,6 +10218,13 @@
         "Language": "FR",
         "Summary": "Com\u00e9dies classiques dignes d\u2019\u00eatre cit\u00e9es avec des sc\u00e8nes iconiques et des personnages incarnant la culture pop sur des d\u00e9cennies ; parfait pour rire \u00e0 toute heure du jour ou de la nuit.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-hits-comedie"
+    },
+    {
+        "Title": "Nature Time",
+        "Genre": "Nature & Travel",
+        "Language": "PT",
+        "Summary": "\u00c9 hora de se aproximar da natureza. Amado por pessoas de todas as idades, o NatureTime \u00e9 um canal de streaming gratuito que apresenta hist\u00f3rias fascinantes sobre a vida selvagem e a natureza de todo o mundo.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nature-time-10"
     },
     {
         "Title": "Sony One | Hits Action",
