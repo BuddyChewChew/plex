@@ -2583,6 +2583,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/in-the-heat-of-the-night-by-mgm"
     },
     {
+        "Title": "GET",
+        "Genre": "Classic TV",
+        "Language": "EN",
+        "Summary": "GET is simply Great Entertainment Television.",
+        "Link": "https://watch.plex.tv/live-tv/channel/get"
+    },
+    {
         "Title": "FilmRise Sci-Fi",
         "Genre": "Hit TV",
         "Language": "IT",
@@ -2728,13 +2735,6 @@
         "Language": "EN",
         "Summary": "All day long, watch popular internet stars Preston and Brianna Arsement and their friends complete crazy challenges, pull off shocking pranks and play video games.",
         "Link": "https://watch.plex.tv/live-tv/channel/preston-and-brianna"
-    },
-    {
-        "Title": "Property & Reno",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Property & Reno is your one-stop shop for dream home inspiration, expert advice, and incredible reveals.",
-        "Link": "https://watch.plex.tv/live-tv/channel/property-and-reno"
     },
     {
         "Title": "The World Poker Tour",
@@ -4221,34 +4221,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-36"
     },
     {
-        "Title": "FreeTV Estelar",
-        "Genre": "Drama TV",
-        "Language": "ES",
-        "Summary": "FreeTV Estelar es tu destino \u00fanico para pel\u00edculas y series de crimen, drama, fantas\u00eda, acci\u00f3n y romance.",
-        "Link": "https://watch.plex.tv/live-tv/channel/freetv-estelar-3"
-    },
-    {
-        "Title": "Cine Friki",
-        "Genre": "Sci-Fi & Action",
-        "Language": "ES",
-        "Summary": "Lo mejor del cine de acci\u00f3n y ciencia ficci\u00f3n: cat\u00e1strofes, criaturas y combates.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cine-friki"
-    },
-    {
-        "Title": "Beyblade",
-        "Genre": "Kids & Family",
-        "Language": "FR",
-        "Summary": "Lecture en cours : Beyblade Metal Saga. Suivez les aventures de Gingka et de ses camarades Bladers alors qu'ils sauvent le monde des malfaiteurs avec l'aide de leurs puissants Beys.",
-        "Link": "https://watch.plex.tv/live-tv/channel/beyblade-2"
-    },
-    {
-        "Title": "Z Nation",
-        "Genre": "Hit TV",
-        "Language": "ES",
-        "Summary": "En el seno de un devastador apocalipsis zombi, un equipo de h\u00e9roes cotidianos debe transportar al \u00fanico superviviente del virus por todo el pa\u00eds hasta alcanzar el \u00faltimo laboratorio viral en activo.",
-        "Link": "https://watch.plex.tv/live-tv/channel/z-nation-5"
-    },
-    {
         "Title": "The Rifleman",
         "Genre": "Classic TV",
         "Language": "EN",
@@ -4261,13 +4233,6 @@
         "Language": "EN",
         "Summary": "This is the home of Inter. Enter our black and blue world, anytime you want.",
         "Link": "https://watch.plex.tv/live-tv/channel/inter-24-7"
-    },
-    {
-        "Title": "Yu-Gi-Oh!",
-        "Genre": "Animeand",
-        "Language": "DE",
-        "Summary": "Yu-Gi-Oh! Der einem der gr\u00f6\u00dften Anime-Franchises aller Zeiten gewidmete Sender.",
-        "Link": "https://watch.plex.tv/live-tv/channel/yu-gi-oh-4"
     },
     {
         "Title": "beIN SPORTS XTRA",
@@ -4340,13 +4305,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/golfpass"
     },
     {
-        "Title": "Todo Pasi\u00f3n",
-        "Genre": "Drama TV",
-        "Language": "ES",
-        "Summary": "Dedicada a la ficci\u00f3n y las series dirigidas a mujeres.",
-        "Link": "https://watch.plex.tv/live-tv/channel/todo-pasion"
-    },
-    {
         "Title": "FIFA+",
         "Genre": "Sports",
         "Language": "ES",
@@ -4410,25 +4368,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/mgg-fast"
     },
     {
-        "Title": "Runtime Series",
-        "Genre": "Hit TV",
-        "Language": "ES",
-        "Summary": "Series consagradas de aqu\u00ed y \u00e9xitos internacionales.",
-        "Link": "https://watch.plex.tv/live-tv/channel/runtime-series"
-    },
-    {
         "Title": "Wedotv Amor Piel Salvaje",
         "Genre": "Drama TV",
         "Language": "ES",
         "Summary": "wedotv Amor \u2013 Piel Salvaje es un canal dedicado exclusivamente a la apasionante y apasionante telenovela \"Piel Salvaje\".",
         "Link": "https://watch.plex.tv/live-tv/channel/wedotv-amor-piel-salvaje-3"
-    },
-    {
-        "Title": "Runtime Crimen",
-        "Genre": "Movies",
-        "Language": "ES",
-        "Summary": "Entra en la escena del crimen y resuelve las historias m\u00e1s enigm\u00e1ticas.",
-        "Link": "https://watch.plex.tv/live-tv/channel/runtime-crimen"
     },
     {
         "Title": "Revry",
@@ -4590,6 +4534,13 @@
         "Language": "EN",
         "Summary": "Set in the glamorous world of the Los Angeles fashion scene, this soap opera focuses on the wealthy and powerful Forrester family.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-bold-and-the-beautiful"
+    },
+    {
+        "Title": "All My Children",
+        "Genre": "Daytime TV",
+        "Language": "EN",
+        "Summary": "All My Children, the classic soap opera featuring Susan Lucci, Kelly Ripa, and Mark Consuelos.",
+        "Link": "https://watch.plex.tv/live-tv/channel/all-my-children"
     },
     {
         "Title": "LOL! Network",
@@ -4879,11 +4830,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-12"
     },
     {
-        "Title": "Cine Clasico",
+        "Title": "FreeTV Cl\u00e1sico",
         "Genre": "Movies",
         "Language": "ES",
         "Summary": "Presenta pel\u00edculas premiadas e ic\u00f3nicos de la Edad de Oro del Cine, completamente restauradas a su gloria original.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cine-clasico"
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-clasico-4"
     },
     {
         "Title": "FreeTV Estelar",
@@ -5080,6 +5031,13 @@
         "Language": "EN",
         "Summary": "ACL Cornhole TV is the ultimate destination for fans of Cornhole.",
         "Link": "https://watch.plex.tv/live-tv/channel/acl-cornhole-tv-2"
+    },
+    {
+        "Title": "Bowling TV",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Bowling TV is your destination for live tournaments, thrilling match play, classic showdowns, and nonstop bowling excitement.",
+        "Link": "https://watch.plex.tv/live-tv/channel/bowling-tv"
     },
     {
         "Title": "Perform by Lifetime",
@@ -5719,11 +5677,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/aventura"
     },
     {
-        "Title": "OUTtv Proud",
+        "Title": "OUTFLIX MOVIES",
         "Genre": "Lifestyle",
         "Language": "EN",
-        "Summary": "The world\u2019s very first LGBTQ+ network, \u201cOUTtv\u201d brings a new adventure in Queer TV, \u201cOUTtv Proud\u201d.",
-        "Link": "https://watch.plex.tv/live-tv/channel/outtv-proud"
+        "Summary": "OUTflix Movies features broad, high quality movies for anyone who loves queer culture. We\u2019re a gathering place for a community of open-minded fans of unapologetically loud, fun, and fantastical stories.",
+        "Link": "https://watch.plex.tv/live-tv/channel/outflix-movies"
     },
     {
         "Title": "CBS News Bay Area",
@@ -6081,13 +6039,6 @@
         "Language": "EN",
         "Summary": "NEW KFOOD is the first all-digital K-Food & Eating entertainment channel. From in-studio cooking series featuring creative and elegant recipes to witty and feel-good variety shows, NEW KFOOD delivers an unrivaled blend of engaging food entertainment programming 24/7.",
         "Link": "https://watch.plex.tv/live-tv/channel/new-kfood"
-    },
-    {
-        "Title": "Freebie TV",
-        "Genre": "Classic TV",
-        "Language": "EN",
-        "Summary": "Freebie TV is the world\u2019s favorite go to channel for movies and television shows.",
-        "Link": "https://watch.plex.tv/live-tv/channel/freebie-tv"
     },
     {
         "Title": "The Grio",
@@ -6538,6 +6489,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-peliculas-gratis"
     },
     {
+        "Title": "Western Bound Espa\u00f1ol",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "Western Bound Espa\u00f1ol es el destino ideal para ver series, pel\u00edculas y especiales originales de estilo Oeste Americano.",
+        "Link": "https://watch.plex.tv/live-tv/channel/western-bound-espanol-2"
+    },
+    {
         "Title": "KJRH",
         "Genre": "News",
         "Language": "EN",
@@ -6963,6 +6921,13 @@
         "Language": "EN",
         "Summary": "Mattel Jr. is your child\u2019s ticket to the charming and fun worlds of Thomas & Friends, Kipper, Pingu and more beloved characters!",
         "Link": "https://watch.plex.tv/live-tv/channel/mattel-jr"
+    },
+    {
+        "Title": "Historias de Coraz\u00f3n",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "EN",
+        "Summary": "Bienvenidos a Historias de Coraz\u00f3n: series y pel\u00edculas de amor y relaciones, desde romances dulces hasta dramas intensos.",
+        "Link": "https://watch.plex.tv/live-tv/channel/historias-de-corazon-2"
     },
     {
         "Title": "Barbie and Friends by Mattel",
@@ -7967,7 +7932,7 @@
     },
     {
         "Title": "FreeTV Sure\u00f1o",
-        "Genre": "En Espa\u00f1ol",
+        "Genre": "Movies",
         "Language": "ES",
         "Summary": "FreeTV Sure\u00f1o te invita a un emocionante viaje por el coraz\u00f3n del cine mexicano con historias de acci\u00f3n, thrillers y rancheras.",
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-sureno"
@@ -9429,6 +9394,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-albany"
     },
     {
+        "Title": "FreeTV Sure\u00f1o",
+        "Genre": "Movies",
+        "Language": "ES",
+        "Summary": "FreeTV Sure\u00f1o te invita a un emocionante viaje por el coraz\u00f3n del cine mexicano con historias de acci\u00f3n, thrillers y rancheras.",
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-sureno-2"
+    },
+    {
         "Title": "Mayday: Catastrophe A\u00e9rienne",
         "Genre": "Reality",
         "Language": "FR",
@@ -10192,6 +10164,62 @@
         "Link": "https://watch.plex.tv/live-tv/channel/blacklist"
     },
     {
+        "Title": "FreeTV Estelar",
+        "Genre": "Drama TV",
+        "Language": "ES",
+        "Summary": "FreeTV Estelar es tu destino \u00fanico para pel\u00edculas y series de crimen, drama, fantas\u00eda, acci\u00f3n y romance.",
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-estelar-3"
+    },
+    {
+        "Title": "Cine Friki",
+        "Genre": "Sci-Fi & Action",
+        "Language": "ES",
+        "Summary": "Lo mejor del cine de acci\u00f3n y ciencia ficci\u00f3n: cat\u00e1strofes, criaturas y combates.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cine-friki"
+    },
+    {
+        "Title": "Beyblade",
+        "Genre": "Kids & Family",
+        "Language": "FR",
+        "Summary": "Lecture en cours : Beyblade Metal Saga. Suivez les aventures de Gingka et de ses camarades Bladers alors qu'ils sauvent le monde des malfaiteurs avec l'aide de leurs puissants Beys.",
+        "Link": "https://watch.plex.tv/live-tv/channel/beyblade-2"
+    },
+    {
+        "Title": "Z Nation",
+        "Genre": "Hit TV",
+        "Language": "ES",
+        "Summary": "En el seno de un devastador apocalipsis zombi, un equipo de h\u00e9roes cotidianos debe transportar al \u00fanico superviviente del virus por todo el pa\u00eds hasta alcanzar el \u00faltimo laboratorio viral en activo.",
+        "Link": "https://watch.plex.tv/live-tv/channel/z-nation-5"
+    },
+    {
+        "Title": "Yu-Gi-Oh!",
+        "Genre": "Animeand",
+        "Language": "DE",
+        "Summary": "Yu-Gi-Oh! Der einem der gr\u00f6\u00dften Anime-Franchises aller Zeiten gewidmete Sender.",
+        "Link": "https://watch.plex.tv/live-tv/channel/yu-gi-oh-4"
+    },
+    {
+        "Title": "Todo Pasi\u00f3n",
+        "Genre": "Drama TV",
+        "Language": "ES",
+        "Summary": "Dedicada a la ficci\u00f3n y las series dirigidas a mujeres.",
+        "Link": "https://watch.plex.tv/live-tv/channel/todo-pasion"
+    },
+    {
+        "Title": "Runtime Series",
+        "Genre": "Hit TV",
+        "Language": "ES",
+        "Summary": "Series consagradas de aqu\u00ed y \u00e9xitos internacionales.",
+        "Link": "https://watch.plex.tv/live-tv/channel/runtime-series"
+    },
+    {
+        "Title": "Runtime Crimen",
+        "Genre": "Movies",
+        "Language": "ES",
+        "Summary": "Entra en la escena del crimen y resuelve las historias m\u00e1s enigm\u00e1ticas.",
+        "Link": "https://watch.plex.tv/live-tv/channel/runtime-crimen"
+    },
+    {
         "Title": "Sony One | S\u00e9ries Thriller",
         "Genre": "Drama TV",
         "Language": "FR",
@@ -10225,6 +10253,13 @@
         "Language": "PT",
         "Summary": "\u00c9 hora de se aproximar da natureza. Amado por pessoas de todas as idades, o NatureTime \u00e9 um canal de streaming gratuito que apresenta hist\u00f3rias fascinantes sobre a vida selvagem e a natureza de todo o mundo.",
         "Link": "https://watch.plex.tv/live-tv/channel/nature-time-10"
+    },
+    {
+        "Title": "Nature Time",
+        "Genre": "Nature & Travel",
+        "Language": "ES",
+        "Summary": "Es hora de conectar con la naturaleza. NatureTime, un canal de streaming gratuito que encanta a personas de todas las edades, ofrece fascinantes documentales sobre la vida salvaje y la naturaleza de todo el mundo.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nature-time-9"
     },
     {
         "Title": "Sony One | Hits Action",
@@ -10822,6 +10857,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/grandi-film"
     },
     {
+        "Title": "FreeTV Saber M\u00e1s",
+        "Genre": "History & Science",
+        "Language": "ES",
+        "Summary": "Una impresionante selecci\u00f3n de documentales y contenido educativo de Am\u00e9rica Latina y el mundo, todos en espa\u00f1ol.",
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-saber-mas-2"
+    },
+    {
         "Title": "Andromeda",
         "Genre": "Sci-Fi & Action",
         "Language": "DE",
@@ -10983,6 +11025,20 @@
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-live"
     },
     {
+        "Title": "FreeTV Live",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "Desde acci\u00f3n y romances conmovedores hasta ficci\u00f3n y thrillers que te har\u00e1n morder las u\u00f1as, FreeTV Live lo tiene todo.",
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-live-2"
+    },
+    {
+        "Title": "FreeTV Banda",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "FreeTV Banda celebra la cultura mexicana con los videos de las estrellas m\u00e1s populares de la m\u00fasica regional mexicana.",
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-banda-2"
+    },
+    {
         "Title": "Pop Adult",
         "Genre": "Music",
         "Language": "EN",
@@ -11054,7 +11110,7 @@
     },
     {
         "Title": "FreeTV Banda",
-        "Genre": "En Espa\u00f1ol",
+        "Genre": "Music",
         "Language": "ES",
         "Summary": "FreeTV Banda celebra la cultura mexicana con los videos de las estrellas m\u00e1s populares de la m\u00fasica regional mexicana.",
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-banda"
@@ -11271,7 +11327,7 @@
     },
     {
         "Title": "FreeTV Hits",
-        "Genre": "Music",
+        "Genre": "En Espa\u00f1ol",
         "Language": "ES",
         "Summary": "FreeTV Hits presenta los \u00e9xitos m\u00e1s recientes y populares de estrellas m\u00e1s grandes de la m\u00fasica latina.",
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-hits"
