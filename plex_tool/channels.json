@@ -623,13 +623,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/bloomberg-tv"
     },
     {
-        "Title": "Property Brothers Channel",
-        "Genre": "Hit TV",
-        "Language": "EN",
-        "Summary": "Join Drew and Jonathan Scott as they help families find, buy, and transform fixer-uppers into ultimate dream homes.",
-        "Link": "https://watch.plex.tv/live-tv/channel/property-brothers-channel"
-    },
-    {
         "Title": "Murdoch Mysteries",
         "Genre": "Drama TV",
         "Language": "EN",
@@ -747,6 +740,13 @@
         "Language": "EN",
         "Summary": "Revisit the Real Housewives that launched the iconic franchise, showcasing the glitz, glamour and drama of the reality show's stars.",
         "Link": "https://watch.plex.tv/live-tv/channel/real-housewives-vault"
+    },
+    {
+        "Title": "Property Brothers Channel",
+        "Genre": "Hit TV",
+        "Language": "EN",
+        "Summary": "Join Drew and Jonathan Scott as they help families find, buy, and transform fixer-uppers into ultimate dream homes.",
+        "Link": "https://watch.plex.tv/live-tv/channel/property-brothers-channel"
     },
     {
         "Title": "The Graham Norton Show",
@@ -1771,11 +1771,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cinelife"
     },
     {
-        "Title": "Lifetime Movies Love & Drama",
+        "Title": "Lifetime Movies Black Stories",
         "Genre": "Movies",
         "Language": "EN",
-        "Summary": "Welcome to your ultimate escape for juicy movies that stir up all the feels, Lifetime Movies Love & Drama.",
-        "Link": "https://watch.plex.tv/live-tv/channel/lifetime-movies-love-and-drama"
+        "Summary": "Stories that elevate Black voices through passion, power, and perseverance.",
+        "Link": "https://watch.plex.tv/live-tv/channel/lifetime-movies-black-stories"
     },
     {
         "Title": "All Reality We TV",
@@ -2359,11 +2359,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/storie-criminali"
     },
     {
-        "Title": "Bud Spencer",
+        "Title": "Tot\u00f2 & Co",
         "Genre": "Comedy",
         "Language": "IT",
-        "Summary": "Un\u2019imperdibile serie poliziesca con il mitico Bud Spencer nei panni di Jack Costello, detective privato soprannominato Extralarge, alle prese con casi da risolvere a Miami. Al suo fianco il fido Jean Philippe Dumas e il tenente Sam Bosley.",
-        "Link": "https://watch.plex.tv/live-tv/channel/bud-spencer"
+        "Summary": "CG CINE MANIA presenta Tot\u00f2 & Co, la rassegna di film dedicata al principe della risata Tot\u00f2 e agli interpreti che, con talento e ironia, hanno reso grande la commedia italiana.",
+        "Link": "https://watch.plex.tv/live-tv/channel/toto-and-co"
     },
     {
         "Title": "CHILI Velvet",
@@ -4405,7 +4405,7 @@
     {
         "Title": "FreeTV Acci\u00f3n",
         "Genre": "Sci-Fi & Action",
-        "Language": "ES",
+        "Language": "EN",
         "Summary": "Ad\u00e9ntrate en un mundo de emociones vibrantes con FreeTV Acci\u00f3n. Tu destino para pel\u00edculas y series llenas de acci\u00f3n y crimen.",
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-accion-2"
     },
@@ -4833,7 +4833,7 @@
         "Title": "FreeTV Cl\u00e1sico",
         "Genre": "Movies",
         "Language": "ES",
-        "Summary": "Presenta pel\u00edculas premiadas e ic\u00f3nicos de la Edad de Oro del Cine, completamente restauradas a su gloria original.",
+        "Summary": "Pel\u00edculas protagonizadas por estrellas legendarias como Mar\u00eda F\u00e9lix, Pedro Infante, Fernando Soler y Pedro Armend\u00e1riz.",
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-clasico-4"
     },
     {
@@ -4942,11 +4942,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/love-crime-and-history"
     },
     {
-        "Title": "Surf Now TV",
+        "Title": "Surfer TV",
         "Genre": "Sports",
         "Language": "EN",
-        "Summary": "Surf Now TV features the best adrenaline-filled surf films and series available with the biggest names in surfing.",
-        "Link": "https://watch.plex.tv/live-tv/channel/surf-now-tv"
+        "Summary": "Surfer TV features the best adrenaline-filled surf films and series available with the biggest names in surfing.",
+        "Link": "https://watch.plex.tv/live-tv/channel/surfer-tv"
     },
     {
         "Title": "Runtime Comedia",
@@ -7469,11 +7469,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/scream-factory-tv"
     },
     {
-        "Title": "Lift Ticket",
+        "Title": "Powder TV",
         "Genre": "Sports",
         "Language": "EN",
         "Summary": "Immerse yourself in breathtaking cinematography of snow-capped mountains and jaw-dropping runs, a truly cinematic snow sports experience.",
-        "Link": "https://watch.plex.tv/live-tv/channel/lift-ticket"
+        "Link": "https://watch.plex.tv/live-tv/channel/powder-tv"
     },
     {
         "Title": "Les d\u00e9batteurs Noovo",
@@ -7896,6 +7896,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-accion"
     },
     {
+        "Title": "FreeTV Horror",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "EN",
+        "Summary": "Prep\u00e1rate para un escalofriante viaje y satisface tu apetito por el horror, los thrillers y el suspenso con FreeTV Horror.",
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-horror-2"
+    },
+    {
         "Title": "MyTime Movie Network",
         "Genre": "Movies",
         "Language": "ES",
@@ -8016,7 +8023,7 @@
     },
     {
         "Title": "FreeTV Horror",
-        "Genre": "En Espa\u00f1ol",
+        "Genre": "Movies",
         "Language": "ES",
         "Summary": "Prep\u00e1rate para un escalofriante viaje y satisface tu apetito por el horror, los thrillers y el suspenso con FreeTV Horror.",
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-horror"
@@ -8377,13 +8384,6 @@
         "Language": "EN",
         "Summary": "Local Now Portland",
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-portland"
-    },
-    {
-        "Title": "Shaun the Sheep and Friends",
-        "Genre": "Kids & Family",
-        "Language": "EN",
-        "Summary": "Welcome to Shaun the Sheep & Friends! A family TV channel from award-winning studio, Aardman.",
-        "Link": "https://watch.plex.tv/live-tv/channel/shaun-the-sheep-and-friends"
     },
     {
         "Title": "Brat TV",
@@ -9394,11 +9394,25 @@
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-albany"
     },
     {
+        "Title": "FreeTV Banda",
+        "Genre": "Music",
+        "Language": "ES",
+        "Summary": "FreeTV Banda celebra la cultura mexicana con los videos de las estrellas m\u00e1s populares de la m\u00fasica regional mexicana.",
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-banda-3"
+    },
+    {
         "Title": "FreeTV Sure\u00f1o",
         "Genre": "Movies",
         "Language": "ES",
         "Summary": "FreeTV Sure\u00f1o te invita a un emocionante viaje por el coraz\u00f3n del cine mexicano con historias de acci\u00f3n, thrillers y rancheras.",
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-sureno-2"
+    },
+    {
+        "Title": "FreeTV Cl\u00e1sico",
+        "Genre": "Movies",
+        "Language": "ES",
+        "Summary": "Pel\u00edculas protagonizadas por estrellas legendarias como Mar\u00eda F\u00e9lix, Pedro Infante, Fernando Soler y Pedro Armend\u00e1riz.",
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-clasico"
     },
     {
         "Title": "Mayday: Catastrophe A\u00e9rienne",
@@ -10094,6 +10108,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-exitos"
     },
     {
+        "Title": "Western Bound",
+        "Genre": "Drama TV",
+        "Language": "PT",
+        "Summary": "Western Bound Portugu\u00eas \u00e9 o destino definitivo para s\u00e9ries, filmes e especiais originais de faroeste.",
+        "Link": "https://watch.plex.tv/live-tv/channel/western-bound-3"
+    },
+    {
         "Title": "Sony One | Series Comedia",
         "Genre": "Comedy",
         "Language": "ES",
@@ -10204,6 +10225,13 @@
         "Language": "ES",
         "Summary": "Dedicada a la ficci\u00f3n y las series dirigidas a mujeres.",
         "Link": "https://watch.plex.tv/live-tv/channel/todo-pasion"
+    },
+    {
+        "Title": "FreeTV Hits",
+        "Genre": "Music",
+        "Language": "ES",
+        "Summary": "FreeTV Hits presenta los \u00e9xitos m\u00e1s recientes y populares de estrellas m\u00e1s grandes de la m\u00fasica latina.",
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-hits-3"
     },
     {
         "Title": "Runtime Series",
@@ -10381,11 +10409,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/automoto"
     },
     {
-        "Title": "Cine Natale",
+        "Title": "Cine Amore",
         "Genre": "Movies",
         "Language": "IT",
-        "Summary": "Un\u2019indimenticabile programmazione che celebra l\u2019atmosfera pi\u00f9 amata dell\u2019anno: commedie romantiche, film per tutta la famiglia, per vivere la magia delle feste e le emozioni dell\u2019amore in ogni stagione.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cine-natale"
+        "Summary": "Il canale dedicato alle storie d\u2019amore: film divertenti ed emozionanti, tra incontri imprevisti, passioni travolgenti e finali da sogno.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cine-amore"
     },
     {
         "Title": "Dragons\u2019 Den",
