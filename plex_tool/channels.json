@@ -267,7 +267,7 @@
     },
     {
         "Title": "Sony One | FAVES",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Ajattomia klassikoita ja suosikkisarjoja kaikenik\u00e4isille jotka her\u00e4tt\u00e4v\u00e4t nostalgiaa.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-faves-5"
@@ -582,7 +582,7 @@
     },
     {
         "Title": "Sony One | Favorieten",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Tijdloze klassiekers en favorieten van fans die nostalgische gevoelens opwekken bij alle genera es.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-favorieten"
@@ -638,7 +638,7 @@
     },
     {
         "Title": "Sony One | FAVES",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Tidl\u00f8se klassikere og fanfavoritter som vekker nostalgi p\u00e5 tvers av generasjoner.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-faves-2"
@@ -715,7 +715,7 @@
     },
     {
         "Title": "Sony One | FAVES",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Tidl\u00f6sa klassiker och fanfavoriter som v\u00e4cker nostalgi bland flera genera oner.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-faves-3"
@@ -855,7 +855,7 @@
     },
     {
         "Title": "Sony One | FAVES",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Tidl\u00f8se klassikere og fanfavoritter, der v\u00e6kker nostalgi p\u00e5 tv\u00e6rs af generationer.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-faves-4"
@@ -1191,7 +1191,7 @@
     },
     {
         "Title": "FilmRise Free Series",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "NL",
         "Summary": "Bekijk je geliefde series in al je favoriete genres: het misdaaddrama HUNTER uit de jaren \u201980, de familiefavoriet HIGHWAY TO HEAVEN, hit-sketchkomedie ABOVE AVERAGE PRESENTS en veel meer.",
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-free-series-2"
@@ -1244,13 +1244,6 @@
         "Language": "EN",
         "Summary": "Laugh along to fan-favorite Canadian sketch comedy series THE KIDS IN THE HALL. This troupe of actors incorporates bizarre, unique and insane twists to their recorded-live skits.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-kids-in-the-hall"
-    },
-    {
-        "Title": "Funny Or Die, Inc.",
-        "Genre": "Comedy",
-        "Language": "EN",
-        "Summary": "We love to make you laugh.",
-        "Link": "https://watch.plex.tv/live-tv/channel/funny-or-die-inc"
     },
     {
         "Title": "Ancient Aliens",
@@ -1653,7 +1646,7 @@
     },
     {
         "Title": "Alberto Sordi & Co",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "IT",
         "Summary": "Alberto Sordi, volto e anima del cinema italiano, guida un viaggio tra ironia e risate irresistibili insieme ad altre icone del suo tempo come Manfredi, Tognazzi e Mastroianni.",
         "Link": "https://watch.plex.tv/live-tv/channel/alberto-sordi-and-co"
@@ -1709,7 +1702,7 @@
     },
     {
         "Title": "CineWestern",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "IT",
         "Summary": "Avventure, cavalcate e duelli in atmosfere uniche. Un genere intramontabile, capace di far sognare intere generazioni. Vivi la magia del grande cinema western.",
         "Link": "https://watch.plex.tv/live-tv/channel/cinewestern"
@@ -1842,7 +1835,7 @@
     },
     {
         "Title": "Grjngo - Films de Western",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "FR",
         "Summary": "Grjngo est l'une des plus grandes cha\u00eenes de films et s\u00e9ries westerns. Une vaste s\u00e9lection de films exclusivement couleur en HD!",
         "Link": "https://watch.plex.tv/live-tv/channel/grjngo-films-de-western"
@@ -1925,6 +1918,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/modern-marvels-by-history"
     },
     {
+        "Title": "soap",
+        "Genre": "Drama TV",
+        "Language": "EN",
+        "Summary": "Top Turkish dramas and passion, 24/7",
+        "Link": "https://watch.plex.tv/live-tv/channel/soap-2"
+    },
+    {
         "Title": "Creator Television",
         "Genre": "Comedy",
         "Language": "EN",
@@ -1933,7 +1933,7 @@
     },
     {
         "Title": "Cin\u00e9 Western",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "FR",
         "Summary": "La chaine des grands succ\u00e8s du Western\u00a0: spaghettis, classiques US, des in\u00e9dits et des versions coloris\u00e9es.",
         "Link": "https://watch.plex.tv/live-tv/channel/cine-western"
@@ -2577,14 +2577,14 @@
     },
     {
         "Title": "In The Heat Of The Night by MGM",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Based on the classic: A Black detective and white sheriff square off and team up in a town torn by crime and prejudice.",
         "Link": "https://watch.plex.tv/live-tv/channel/in-the-heat-of-the-night-by-mgm"
     },
     {
         "Title": "GET",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "GET is simply Great Entertainment Television.",
         "Link": "https://watch.plex.tv/live-tv/channel/get"
@@ -2633,7 +2633,7 @@
     },
     {
         "Title": "Dog the Bounty Hunter",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "The world\u2019s most famous bounty hunter, Duane \u201cDog\u201d Chapman tracks down fugitives along with his fearless family-based posse.",
         "Link": "https://watch.plex.tv/live-tv/channel/dog-the-bounty-hunter"
@@ -2679,6 +2679,13 @@
         "Language": "EN",
         "Summary": "Martha Stewart, Emmy Award-winning TV host and America\u2019s most trusted lifestyle expert, brings you The Martha Stewart Channel.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-martha-stewart-channel"
+    },
+    {
+        "Title": "Inside Outside",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Inside-outside cooking shows bridge indoor and outdoor culinary techniques.",
+        "Link": "https://watch.plex.tv/live-tv/channel/inside-outside-3"
     },
     {
         "Title": "Gata Salvaje",
@@ -2759,7 +2766,7 @@
     },
     {
         "Title": "Grjngo - Filmes De Faroeste",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "PT",
         "Summary": "Grjngo \u00e9 um dos maiores canais de filmes e s\u00e9ries de faroeste. Uma enorme sele\u00e7\u00e3o de filmes exclusivamente coloridos em HD!",
         "Link": "https://watch.plex.tv/live-tv/channel/grjngo-filmes-de-faroeste"
@@ -2871,7 +2878,7 @@
     },
     {
         "Title": "Baywatch",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Join the Baywatch lifeguards on their thrilling adventures filled with beautiful beaches and those iconic red swimsuits.",
         "Link": "https://watch.plex.tv/live-tv/channel/baywatch"
@@ -2906,7 +2913,7 @@
     },
     {
         "Title": "Hunter",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Enjoy '80s classic cop show Hunter whenever you want. Renegade LA cop Rick Hunter takes justice into his own hands with his stunning and rebellious partner Sgt. Dee Dee McCall.",
         "Link": "https://watch.plex.tv/live-tv/channel/hunter-2"
@@ -2969,7 +2976,7 @@
     },
     {
         "Title": "Highway to Heaven",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Binge the classic '80s family drama anytime. An angel is sent to Earth and teams up with an ex-cop to help people in need. Starring Michael Landon and Victor French.",
         "Link": "https://watch.plex.tv/live-tv/channel/highway-to-heaven-2"
@@ -3004,7 +3011,7 @@
     },
     {
         "Title": "FilmRise Binge Watch",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "DE",
         "Summary": "Auf diesem Kanal sehen Sie jederzeit Marathon-Serien von erfolgreichen Dramen wie die Mystery-Anthologie-Serie X-FACTOR, das Piratendrama CROSSBONES, das amerikanische Fantasy-Drama BEING HUMAN (US), das Coming-of-Age-Drama SENSITIVE SKIN sowie weitere Serien, die bald erscheinen.",
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-binge-watch-2"
@@ -3039,7 +3046,7 @@
     },
     {
         "Title": "21 Jump Street",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "To combat a rise in school crimes, LAPD sends four young-looking officers to high school to pose as students. Starring Johnny Depp, Holly Robinson, Peter DeLuise and Dustin Nguyen.",
         "Link": "https://watch.plex.tv/live-tv/channel/21-jump-street-2"
@@ -3095,7 +3102,7 @@
     },
     {
         "Title": "Grit Xtra",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Grit Xtra showcases classic all-American storytelling with your favorite bold, brave, and legendary Western heroes.",
         "Link": "https://watch.plex.tv/live-tv/channel/grit-xtra"
@@ -3305,7 +3312,7 @@
     },
     {
         "Title": "The Sherlock Holmes Channel",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Solve befuddling mysteries with the world's greatest detective on this channel full of tales adapted from the iconic works of Arthur Conan Doyle's Sherlock Holmes.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-sherlock-holmes-channel"
@@ -3424,7 +3431,7 @@
     },
     {
         "Title": "The Addams Family",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "The family that is creepy, kooky, mysterious, spooky and all together ooky.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-addams-family"
@@ -3438,7 +3445,7 @@
     },
     {
         "Title": "Lone Star",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "The Lone Star Channel\u2019s films are restored in HD, offering the best singing cowboys, six-gun shooters, and everything in-between.",
         "Link": "https://watch.plex.tv/live-tv/channel/lone-star"
@@ -3480,14 +3487,14 @@
     },
     {
         "Title": "Dick Van Dyke",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "One of television's most celebrated shows, \"The Dick Van Dyke Show\" follows the misadventures of comedy writer Rob Petrie. Starring the legendary Dick Van Dyke and Emmy Award winner Mary Tyler Moore.",
         "Link": "https://watch.plex.tv/live-tv/channel/dick-van-dyke"
     },
     {
         "Title": "Pam Grier's Soul Flix",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Pam Grier\u2019s Soul Flix is an adrenaline-fueled journey through the era of black empowerment.",
         "Link": "https://watch.plex.tv/live-tv/channel/pam-griers-soul-flix"
@@ -3592,7 +3599,7 @@
     },
     {
         "Title": "Grjngo - Western Movies",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Grjngo is the world's largest streaming source for western movies. Available in HD!",
         "Link": "https://watch.plex.tv/live-tv/channel/grjngo-western-movies"
@@ -3641,7 +3648,7 @@
     },
     {
         "Title": "Cheaters",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Get obsessed with classic reality series Cheaters 24/7. People who think their significant other is cheating on them hire a hidden camera crew to investigate their suspicions.",
         "Link": "https://watch.plex.tv/live-tv/channel/cheaters"
@@ -3697,7 +3704,7 @@
     },
     {
         "Title": "The Carol Burnett Show",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Binge episodes from all 11 seasons of the 25-time Emmy\u00ae Award-winning series!",
         "Link": "https://watch.plex.tv/live-tv/channel/the-carol-burnett-show"
@@ -3879,7 +3886,7 @@
     },
     {
         "Title": "Johnny Carson TV",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "The undisputed King Of Late Night television is now streaming for the first time ever on Johnny Carson TV.",
         "Link": "https://watch.plex.tv/live-tv/channel/johnny-carson-tv"
@@ -3893,7 +3900,7 @@
     },
     {
         "Title": "Non-Stop '90s",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Shout! TV presents Non-Stop \u201890s, a 24/7 FAST channel packed with fly TV shows and movies from history\u2019s freshest decade!",
         "Link": "https://watch.plex.tv/live-tv/channel/non-stop-90s"
@@ -3921,7 +3928,7 @@
     },
     {
         "Title": "Crime Beat TV",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Your premier destination for detective drama and intense action streaming 24/7.",
         "Link": "https://watch.plex.tv/live-tv/channel/crime-beat-tv"
@@ -3942,14 +3949,14 @@
     },
     {
         "Title": "Green Acres",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Farm life sounded simple, until Oliver and Lisa moved to Hooterville. It\u2019s all chickens, charm, and constant calamity.",
         "Link": "https://watch.plex.tv/live-tv/channel/green-acres"
     },
     {
         "Title": "Bonanza-Billies TV",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Bonanza-Billies TV: Tune in for timeless adventures and laughs with The Beverly Hillbillies, Bonanza, and more beloved classics!",
         "Link": "https://watch.plex.tv/live-tv/channel/bonanza-billies-tv"
@@ -3998,14 +4005,14 @@
     },
     {
         "Title": "80's Sitcom Flashback",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "80's Sitcom Flashback serves up hilarious nostalgia with John Ritter in Three's Company \u2013 spinoffs The Ropers and Three's a Crowd - Ted Knight in Too Close for Comfort - and Don Adams Check It Out.",
         "Link": "https://watch.plex.tv/live-tv/channel/80s-sitcom-flashback"
     },
     {
         "Title": "Pink Panther",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Classic cartoons with Pink Panther, The Inspector & friends. You'll be tickled pink!",
         "Link": "https://watch.plex.tv/live-tv/channel/pink-panther"
@@ -4089,7 +4096,7 @@
     },
     {
         "Title": "FilmRise Classic TV",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Catch six decades of primetime TV hits like DEATH VALLEY DAYS all day long.",
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-classic-tv-2"
@@ -4110,7 +4117,7 @@
     },
     {
         "Title": "McLeods Daughters",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "When Jack McLeod passes away, his two daughters inherit Drovers Run, a vast cattle ranch in the Australian outback.",
         "Link": "https://watch.plex.tv/live-tv/channel/mcleods-daughters"
@@ -4124,14 +4131,14 @@
     },
     {
         "Title": "ALF",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "The Tanner Family discover an alien has crashed into their garage. He's furry, he's funny, he's hungry (for cats)... He's ALF!",
         "Link": "https://watch.plex.tv/live-tv/channel/alf"
     },
     {
         "Title": "Hasbro Legends",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Welcome to Hasbro Legends \u2014 the ultimate house of heroes, epic adventures, and unforgettable worlds!",
         "Link": "https://watch.plex.tv/live-tv/channel/hasbro-legends"
@@ -4152,7 +4159,7 @@
     },
     {
         "Title": "Wild West TV",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Your passage to the heroic, tragic, and romantic adventures against America's western landscape, presented by Shout! TV.",
         "Link": "https://watch.plex.tv/live-tv/channel/wild-west-tv"
@@ -4222,7 +4229,7 @@
     },
     {
         "Title": "The Rifleman",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "In one of TV's first series featuring a single father, veteran and rancher Lucas McCain wields his trusty rifle to enforce the laws of the Wild West. Starring the late Chuck Connors and Johnny Crawford.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-rifleman"
@@ -4390,7 +4397,7 @@
     },
     {
         "Title": "Death Valley Days",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Enjoy a remastered version of one of the longest-running Western series. Death Valley Days recounts true Wild West stories presented by Clint Eastwood, Ronald Reagan and other stars.",
         "Link": "https://watch.plex.tv/live-tv/channel/death-valley-days"
@@ -4495,7 +4502,7 @@
     },
     {
         "Title": "Shout! TV",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "A premiere digital entertainment destination that brings timeless and contemporary cult favorites to pop culture fans.",
         "Link": "https://watch.plex.tv/live-tv/channel/shout-tv"
@@ -4662,6 +4669,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/speedvision"
     },
     {
+        "Title": "Powernation",
+        "Genre": "Lifestyle",
+        "Language": "EN",
+        "Summary": "PowerNation TV is America's most watched automotive how-to programming. It is the most credible, highest-rated, longest-running tech content on television.",
+        "Link": "https://watch.plex.tv/live-tv/channel/powernation"
+    },
+    {
         "Title": "Judge Nosey",
         "Genre": "Daytime TV",
         "Language": "EN",
@@ -4670,7 +4684,7 @@
     },
     {
         "Title": "The Ed Sullivan Show",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "For 23 years, Americans spent Sunday nights with Ed Sullivan. Now you can flashback to the best acts from the really big show.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-ed-sullivan-show"
@@ -4900,13 +4914,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/runtime-clasicos"
     },
     {
-        "Title": "Desi Play TV",
-        "Genre": "International",
-        "Language": "EN",
-        "Summary": "Hindi entertainment channel with award-winning best shows from COLORS TV including drama, food, mythology, comedy and, lifestyle.",
-        "Link": "https://watch.plex.tv/live-tv/channel/desi-play-tv"
-    },
-    {
         "Title": "The Weather Network",
         "Genre": "News",
         "Language": "EN",
@@ -4929,7 +4936,7 @@
     },
     {
         "Title": "FilmRise Western",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Saddle up and head West to watch acclaimed series like THE RIFLEMAN and BONANZA plus iconic features starring Tony Todd, Guy Pearce and the late Christopher Reeve.",
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-western"
@@ -4971,7 +4978,7 @@
     },
     {
         "Title": "Wanted: Dead or Alive",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "A Civil War veteran with a sawed-off rifle as a holstered weapon makes a living as a bounty hunter in the Wild West of the 1870s.",
         "Link": "https://watch.plex.tv/live-tv/channel/wanted-dead-or-alive"
@@ -5048,7 +5055,7 @@
     },
     {
         "Title": "Outlaw",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Welcome to OUTLAW, your destination for the greatest westerns. Watch classic and contemporary iconic tales of the Old West.",
         "Link": "https://watch.plex.tv/live-tv/channel/outlaw"
@@ -5566,7 +5573,7 @@
     },
     {
         "Title": "Curro Jimenez",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "ES",
         "Summary": "Cabalga junto al bandolero Curro Jim\u00e9nez en sus m\u00faltiples andanzas.",
         "Link": "https://watch.plex.tv/live-tv/channel/curro-jimenez"
@@ -6602,7 +6609,7 @@
     },
     {
         "Title": "Cine Western",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "ES",
         "Summary": "\u00danete a los Vaqueros, Indios y Sheriffs en nuestro canal para vivir los mejores \u00e9xitos del Spaghetti Western, cl\u00e1sicos estadounidenses e incluso versiones colorizadas. \u00a1Descubre la \u00e9pica del viejo oeste con nosotros!",
         "Link": "https://watch.plex.tv/live-tv/channel/cine-western-2"
@@ -6742,7 +6749,7 @@
     },
     {
         "Title": "Three's Company",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Come and knock on our door! Catch Jack, Chrissy, and Janet 24/7.",
         "Link": "https://watch.plex.tv/live-tv/channel/threes-company"
@@ -6756,7 +6763,7 @@
     },
     {
         "Title": "That Girl",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "An aspiring actress moves to New York City to try and make it big, having to take offbeat \"temp\" jobs to support herself in between auditions. Starring Marlo Thomas and Ted Bessell.",
         "Link": "https://watch.plex.tv/live-tv/channel/that-girl"
@@ -7113,7 +7120,7 @@
     },
     {
         "Title": "FilmRise Canadien",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "FR",
         "Summary": "Une fr\u00e9n\u00e9sie ininterrompue de s\u00e9ries classiques comme HIGHWAY TO HEAVEN, TOTALLY FRANK et BLACK BOOKS, le tout en fran\u00e7ais.",
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-canadien"
@@ -7267,7 +7274,7 @@
     },
     {
         "Title": "FilmRise Classic TV",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Catch six decades of primetime TV hits like THE BEVERLY HILLBILLIES, BONANZA, HIGHWAY TO HEAVEN and DRAGNET all day long.",
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-classic-tv"
@@ -7330,7 +7337,7 @@
     },
     {
         "Title": "FilmRise Western",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Saddle up and head West to watch acclaimed series like THE RIFLEMAN and BONANZA plus iconic features starring Tony Todd, Guy Pearce and the late Christopher Reeve.",
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-western-2"
@@ -9394,6 +9401,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-albany"
     },
     {
+        "Title": "Historias de Coraz\u00f3n",
+        "Genre": "Movies",
+        "Language": "EN",
+        "Summary": "Bienvenidos a Historias de Coraz\u00f3n: series y pel\u00edculas de amor y relaciones, desde romances dulces hasta dramas intensos.",
+        "Link": "https://watch.plex.tv/live-tv/channel/historias-de-corazon"
+    },
+    {
         "Title": "FreeTV Banda",
         "Genre": "Music",
         "Language": "ES",
@@ -9413,6 +9427,13 @@
         "Language": "ES",
         "Summary": "Pel\u00edculas protagonizadas por estrellas legendarias como Mar\u00eda F\u00e9lix, Pedro Infante, Fernando Soler y Pedro Armend\u00e1riz.",
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-clasico"
+    },
+    {
+        "Title": "Western Bound Espa\u00f1ol",
+        "Genre": "Drama TV",
+        "Language": "ES",
+        "Summary": "Western Bound Espa\u00f1ol es el destino ideal para ver series, pel\u00edculas y especiales originales de estilo Oeste Americano.",
+        "Link": "https://watch.plex.tv/live-tv/channel/western-bound-espanol"
     },
     {
         "Title": "Mayday: Catastrophe A\u00e9rienne",
@@ -9514,7 +9535,7 @@
     },
     {
         "Title": "Bronco",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "DE",
         "Summary": "Bronco ist ein Western-Filmkanal mit gro\u00dfer Reichweite: Klassiker und Kultfilme mit Stars wie John Wayne und Kirk Douglas.",
         "Link": "https://watch.plex.tv/live-tv/channel/bronco"
@@ -10102,7 +10123,7 @@
     },
     {
         "Title": "Sony One | \u00c9xitos",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "ES",
         "Summary": "Cl\u00e1sicos intemporales y favoritos de los fans que evocan la nostalgia de varias generaciones.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-exitos"
@@ -10144,7 +10165,7 @@
     },
     {
         "Title": "Sony One | Popolari",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "IT",
         "Summary": "Classici senza tempo adora dal pubblico, che evocano nostalgia in tu e le generazioni.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-popolari"
@@ -10172,7 +10193,7 @@
     },
     {
         "Title": "Vita da Strega",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "IT",
         "Summary": "Un comune mortale, sua moglie, che una strega, e altri membri della loro eccentrica famiglia regalano risate a non finire in una delle sitcom pi\u00f9 amate al mondo.",
         "Link": "https://watch.plex.tv/live-tv/channel/vita-da-strega"
@@ -10256,7 +10277,7 @@
     },
     {
         "Title": "Sony One | Favoris",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "FR",
         "Summary": "Classiques intemporels et films favoris des fans \u00e9voquant avec nostalgie l\u2019histoire du cin\u00e9ma au cours des g\u00e9n\u00e9ra ons.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-favoris"
@@ -10305,7 +10326,7 @@
     },
     {
         "Title": "Sony One | Best Of",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "DE",
         "Summary": "Zeitlose Klassiker und Fan-Favoriten, die generations\u00fcbergreifend f\u00fcr Nostalgie sorgen.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-best-of-2"
@@ -10347,7 +10368,7 @@
     },
     {
         "Title": "Sony One | Best Of",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "DE",
         "Summary": "Zeitlose Klassiker und Fan-Favoriten, die generations\u00fcbergreifend f\u00fcr Nostalgie sorgen.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-best-of"
@@ -10389,7 +10410,7 @@
     },
     {
         "Title": "Sony One | FAVES",
-        "Genre": "Classic TV",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Timeless classics and fan-favorites that evoke nostalgia across generations.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-faves"
@@ -10703,11 +10724,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/movie-music-by-stingray"
     },
     {
-        "Title": "Greatest Holiday Hits",
+        "Title": "Stingray Greatest Hits",
         "Genre": "Music",
         "Language": "EN",
-        "Summary": "Hype up your holidays and brighten your spirit with the season\u2019s most beloved classics and crowd-pleasing hits.",
-        "Link": "https://watch.plex.tv/live-tv/channel/greatest-holiday-hits"
+        "Summary": "Enjoy this collection of the greatest chart-toppers from the \u201850s to today. These songs have left their mark on history.",
+        "Link": "https://watch.plex.tv/live-tv/channel/stingray-greatest-hits"
     },
     {
         "Title": "Qello Concerts",
@@ -10920,11 +10941,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/hip-hop-randb"
     },
     {
-        "Title": "Hot Country Christmas",
+        "Title": "Stingray Hot Country",
         "Genre": "Music",
         "Language": "EN",
-        "Summary": "Country music stars offer up holiday songs you\u2019ll love, with a mix of old and new for the perfect yuletide vibe.",
-        "Link": "https://watch.plex.tv/live-tv/channel/hot-country-christmas"
+        "Summary": "Today's country music is on fire, and it keeps getting hotter. This mix rounds up brand new hits and favorites from the past decade.",
+        "Link": "https://watch.plex.tv/live-tv/channel/stingray-hot-country"
     },
     {
         "Title": "XITE Hits",
@@ -11116,11 +11137,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/ice-pilots-nwt-en-espanol"
     },
     {
-        "Title": "Soul Storm Christmas",
+        "Title": "Stingray Soul Storm",
         "Genre": "Music",
         "Language": "EN",
-        "Summary": "Set the tone for some smooth holiday vibes, where R&B artists add a soulful twist to the season\u2019s soundtrack.",
-        "Link": "https://watch.plex.tv/live-tv/channel/soul-storm-christmas"
+        "Summary": "Get lost in the mellow and sensual rhythms of contemporary soul and R&B. This mix brings together songs by legends and new stars.",
+        "Link": "https://watch.plex.tv/live-tv/channel/stingray-soul-storm"
     },
     {
         "Title": "XITE Christian Hits",
@@ -11366,13 +11387,6 @@
         "Language": "EN",
         "Summary": "TRACE Brazuca is the #1 Music channel dedicated to the best urban music videos and content from Brazil.",
         "Link": "https://watch.plex.tv/live-tv/channel/trace-brazuca"
-    },
-    {
-        "Title": "party tyme karaoke",
-        "Genre": "Music",
-        "Language": "ES",
-        "Summary": "Sing the hottest hits!",
-        "Link": "https://watch.plex.tv/live-tv/channel/party-tyme-karaoke"
     },
     {
         "Title": "Curiosity Now",
