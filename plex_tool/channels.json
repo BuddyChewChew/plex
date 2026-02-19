@@ -532,13 +532,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/undercover-boss"
     },
     {
-        "Title": "Four in a Bed",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "B&B owners throw open their doors and take turns to stay with each other, as they compete to be crowned best hosts.",
-        "Link": "https://watch.plex.tv/live-tv/channel/four-in-a-bed"
-    },
-    {
         "Title": "Project Runway",
         "Genre": "Hit TV",
         "Language": "EN",
@@ -1792,6 +1785,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/untold-stories-of-the-er"
     },
     {
+        "Title": "Four in a Bed",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "B&B owners throw open their doors and take turns to stay with each other, as they compete to be crowned best hosts.",
+        "Link": "https://watch.plex.tv/live-tv/channel/four-in-a-bed"
+    },
+    {
         "Title": "Z Nation",
         "Genre": "Hit TV",
         "Language": "ES",
@@ -2576,18 +2576,18 @@
         "Link": "https://watch.plex.tv/live-tv/channel/andromeda"
     },
     {
-        "Title": "In The Heat Of The Night by MGM",
-        "Genre": "Classics",
-        "Language": "EN",
-        "Summary": "Based on the classic: A Black detective and white sheriff square off and team up in a town torn by crime and prejudice.",
-        "Link": "https://watch.plex.tv/live-tv/channel/in-the-heat-of-the-night-by-mgm"
-    },
-    {
         "Title": "GET",
         "Genre": "Classics",
         "Language": "EN",
         "Summary": "GET is simply Great Entertainment Television.",
         "Link": "https://watch.plex.tv/live-tv/channel/get"
+    },
+    {
+        "Title": "In The Heat Of The Night by MGM",
+        "Genre": "Classics",
+        "Language": "EN",
+        "Summary": "Based on the classic: A Black detective and white sheriff square off and team up in a town torn by crime and prejudice.",
+        "Link": "https://watch.plex.tv/live-tv/channel/in-the-heat-of-the-night-by-mgm"
     },
     {
         "Title": "FilmRise Sci-Fi",
@@ -2609,6 +2609,34 @@
         "Language": "EN",
         "Summary": "Where home-owning dreams come true with the best of real estate and interior design.",
         "Link": "https://watch.plex.tv/live-tv/channel/welcome-home"
+    },
+    {
+        "Title": "Nature Time",
+        "Genre": "Nature & Travel",
+        "Language": "NL",
+        "Summary": "Het is tijd om dichter bij de natuur te komen. NatureTime is een gratis streamingkanaal met boeiende verhalen over dieren en natuur van over de hele wereld, geschikt voor iedereen, van alle leeftijden en met elk niveau.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nature-time-5"
+    },
+    {
+        "Title": "Adventure Earth",
+        "Genre": "Nature & Travel",
+        "Language": "EN",
+        "Summary": "Dedicated to wildlife, nature and the unique beauty of our planet.",
+        "Link": "https://watch.plex.tv/live-tv/channel/adventure-earth-5"
+    },
+    {
+        "Title": "Fifth Gear (UK)",
+        "Genre": "Lifestyle",
+        "Language": "EN",
+        "Summary": "Fifth Gear is the car show for true motor enthusiasts \u2013 putting the cars, and their performance, front and centre of the show.",
+        "Link": "https://watch.plex.tv/live-tv/channel/fifth-gear-uk"
+    },
+    {
+        "Title": "wedo movies",
+        "Genre": "Movies",
+        "Language": "NL",
+        "Summary": "Wij houden van films. Alle films. Vooral van gratis films.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wedo-movies-5"
     },
     {
         "Title": "Homeful",
@@ -4415,13 +4443,6 @@
         "Language": "EN",
         "Summary": "Ad\u00e9ntrate en un mundo de emociones vibrantes con FreeTV Acci\u00f3n. Tu destino para pel\u00edculas y series llenas de acci\u00f3n y crimen.",
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-accion-2"
-    },
-    {
-        "Title": "Fifth Gear (UK)",
-        "Genre": "Lifestyle",
-        "Language": "EN",
-        "Summary": "Fifth Gear is the car show for true motor enthusiasts \u2013 putting the cars, and their performance, front and centre of the show.",
-        "Link": "https://watch.plex.tv/live-tv/channel/fifth-gear-uk"
     },
     {
         "Title": "Runtime Familia",
@@ -6559,13 +6580,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/runtime-4"
     },
     {
-        "Title": "Adventure Earth",
-        "Genre": "Nature & Travel",
-        "Language": "EN",
-        "Summary": "Dedicated to wildlife, nature and the unique beauty of our planet.",
-        "Link": "https://watch.plex.tv/live-tv/channel/adventure-earth-5"
-    },
-    {
         "Title": "Historia Y Vida",
         "Genre": "History & Science",
         "Language": "ES",
@@ -8612,13 +8626,6 @@
     {
         "Title": "Nature Time",
         "Genre": "Nature & Travel",
-        "Language": "NL",
-        "Summary": "Het is tijd om dichter bij de natuur te komen. NatureTime is een gratis streamingkanaal met boeiende verhalen over dieren en natuur van over de hele wereld, geschikt voor iedereen, van alle leeftijden en met elk niveau.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nature-time-5"
-    },
-    {
-        "Title": "Nature Time",
-        "Genre": "Nature & Travel",
         "Language": "IS",
         "Summary": "\u00dea\u00f0 er kominn t\u00edmi til a\u00f0 komast n\u00e6r n\u00e1tt\u00farunni. Nj\u00f3ta allir, \u00e1 \u00f6llum aldri og kunn\u00e1ttustigum, NatureTime er \u00f3keypis streymisr\u00e1s sem inniheldur gr\u00edpandi s\u00f6gur um d\u00fdral\u00edf og n\u00e1tt\u00faru alls sta\u00f0ar a\u00f0 \u00far heiminum.",
         "Link": "https://watch.plex.tv/live-tv/channel/nature-time-4"
@@ -9529,7 +9536,7 @@
     {
         "Title": "IL Sole 24 Ore TV",
         "Genre": "News",
-        "Language": "EN",
+        "Language": "IT",
         "Summary": "Il Sole 24 Ore TV: news e approfondimenti su politica, economia, societ\u00e0 e innovazione con analisi e aggiornamenti.",
         "Link": "https://watch.plex.tv/live-tv/channel/il-sole-24-ore-tv"
     },
@@ -11464,13 +11471,6 @@
         "Language": "ES",
         "Summary": "El universo musical de Video Rola, sus grandes exponentes y contenido exclusivo lo tenemos reunido para ti en VR+. 24 horas con los videos m\u00e1s destacados de los g\u00e9neros musicales m\u00e1s populares en espa\u00f1ol. VR+ es m\u00e1s M\u00daSICA PARA TUS OJOS.",
         "Link": "https://watch.plex.tv/live-tv/channel/vr"
-    },
-    {
-        "Title": "wedo movies",
-        "Genre": "Movies",
-        "Language": "NL",
-        "Summary": "Wij houden van films. Alle films. Vooral van gratis films.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wedo-movies-5"
     },
     {
         "Title": "Antiques Road Trip",
