@@ -2702,11 +2702,25 @@
         "Link": "https://watch.plex.tv/live-tv/channel/tastemade-5"
     },
     {
+        "Title": "The Great British Competition Channel",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Watch some of TV's best loved competition programmes that have captivated audiences the world over.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-great-british-competition-channel"
+    },
+    {
         "Title": "The Martha Stewart Channel",
         "Genre": "Food & Home",
         "Language": "EN",
         "Summary": "Martha Stewart, Emmy Award-winning TV host and America\u2019s most trusted lifestyle expert, brings you The Martha Stewart Channel.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-martha-stewart-channel"
+    },
+    {
+        "Title": "Tiny House Nation",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "A showcase of small abodes across America and the inventive folks who live in the dinky dwellings.",
+        "Link": "https://watch.plex.tv/live-tv/channel/tiny-house-nation"
     },
     {
         "Title": "Inside Outside",
@@ -2742,13 +2756,6 @@
         "Language": "EN",
         "Summary": "Deep in the woods, these loggers are risking it all! 24/7 non-stop episodes of the hard-hitting series.",
         "Link": "https://watch.plex.tv/live-tv/channel/ax-men"
-    },
-    {
-        "Title": "5-Minute Crafts",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "5-Minute Crafts is the most-watched DIY digital brand in the world, known for its positive, entertaining, and quirky DIY crafts.",
-        "Link": "https://watch.plex.tv/live-tv/channel/5-minute-crafts"
     },
     {
         "Title": "Love & Marriage",
@@ -2842,13 +2849,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/sparkle-movies-light-and-love"
     },
     {
-        "Title": "CraftsyTV",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "CraftsyTV is your always-on portal for tapping into your talents by learning new skills and enhancing those you have.",
-        "Link": "https://watch.plex.tv/live-tv/channel/craftsytv"
-    },
-    {
         "Title": "Super Channel Hearties",
         "Genre": "Hit TV",
         "Language": "EN",
@@ -2868,13 +2868,6 @@
         "Language": "EN",
         "Summary": "GFN Soccer brings you all the latest football news, opinions, and analysis from the world\u2019s biggest clubs and competitions.",
         "Link": "https://watch.plex.tv/live-tv/channel/gfn-soccer-tv"
-    },
-    {
-        "Title": "Made It Myself TV",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "A free, lifestyle channel celebrating DIY, crafting, sewing, knitting, crochet, jewelry-making, woodworking, and MORE. Explore fresh craft-making perspectives, learn new skills, or just relax and enjoy.",
-        "Link": "https://watch.plex.tv/live-tv/channel/made-it-myself-tv"
     },
     {
         "Title": "Documentary+",
@@ -2947,6 +2940,111 @@
         "Link": "https://watch.plex.tv/live-tv/channel/hunter-2"
     },
     {
+        "Title": "CraftsyTV",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "CraftsyTV is your always-on portal for tapping into your talents by learning new skills and enhancing those you have.",
+        "Link": "https://watch.plex.tv/live-tv/channel/craftsytv"
+    },
+    {
+        "Title": "Made It Myself TV",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "A free, lifestyle channel celebrating DIY, crafting, sewing, knitting, crochet, jewelry-making, woodworking, and MORE. Explore fresh craft-making perspectives, learn new skills, or just relax and enjoy.",
+        "Link": "https://watch.plex.tv/live-tv/channel/made-it-myself-tv"
+    },
+    {
+        "Title": "5-Minute Crafts",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "5-Minute Crafts is the most-watched DIY digital brand in the world, known for its positive, entertaining, and quirky DIY crafts.",
+        "Link": "https://watch.plex.tv/live-tv/channel/5-minute-crafts"
+    },
+    {
+        "Title": "Places & Spaces",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "There\u2019s no place like home. We\u2019re the heart of home.",
+        "Link": "https://watch.plex.tv/live-tv/channel/places-and-spaces"
+    },
+    {
+        "Title": "Fork & Flight",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Fork & Flight takes you on a journey across food, beverage, and culture with big personalities as they travel the world.",
+        "Link": "https://watch.plex.tv/live-tv/channel/fork-and-flight"
+    },
+    {
+        "Title": "The Jamie Oliver Channel",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Get inspired all month long with Jamie's time-saving recipes!",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-jamie-oliver-channel"
+    },
+    {
+        "Title": "Come Dine With Me",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Five total strangers take turns hosting the perfect dinner party for their fellow contestants, each hoping to win a cash prize and be crowned the ultimate dinner host.",
+        "Link": "https://watch.plex.tv/live-tv/channel/come-dine-with-me"
+    },
+    {
+        "Title": "BBC Food",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Step into the kitchen with some of the finest chefs in the British Isles where something wonderful is always cooking.",
+        "Link": "https://watch.plex.tv/live-tv/channel/bbc-food"
+    },
+    {
+        "Title": "Home.Made.Nation",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "The hub of all things DIY, home improvement, decor and food, from household tips and projects you can try yourself to the stories and experiences of experts, inspiration truly has a home in HOME.MADE.NATION.",
+        "Link": "https://watch.plex.tv/live-tv/channel/home-made-nation"
+    },
+    {
+        "Title": "Iron Chef",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Watch every secret ingredient showdown from the original Iron Chef. IRON CHEF blends the excitement of 1-on-1 sports with the heat of cooking competitions. Ready? Allez cuisine!",
+        "Link": "https://watch.plex.tv/live-tv/channel/iron-chef-2"
+    },
+    {
+        "Title": "BBC Home & Garden",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Take a trip across the pond with the one channel bringing you the best in British home remodeling and garden renovation.",
+        "Link": "https://watch.plex.tv/live-tv/channel/bbc-home-and-garden"
+    },
+    {
+        "Title": "PBS Food",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "PBS Food invites you into the kitchen with some of the world\u2019s best chefs.",
+        "Link": "https://watch.plex.tv/live-tv/channel/pbs-food"
+    },
+    {
+        "Title": "The Design Network",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "The fastest growing TV network all about HOME. TDN TV gives a fresh perspective on the fashion and function of home: interior landscape and design, organization, entertaining, and living a better life at home.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-design-network"
+    },
+    {
+        "Title": "Tastemade",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Some of the most unifying and special moments of our life center around a meal, the place where people come together.",
+        "Link": "https://watch.plex.tv/live-tv/channel/tastemade"
+    },
+    {
+        "Title": "Great British Menu",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Cookery competition.  Top chefs from across the UK put their hearts on a plate and showcase their amazing talent.",
+        "Link": "https://watch.plex.tv/live-tv/channel/great-british-menu"
+    },
+    {
         "Title": "No Reservations",
         "Genre": "Nature & Travel",
         "Language": "EN",
@@ -2994,13 +3092,6 @@
         "Language": "FR",
         "Summary": "Le meilleur de l'information francophone au Canada.",
         "Link": "https://watch.plex.tv/live-tv/channel/radio-canada-info"
-    },
-    {
-        "Title": "BBC Food",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Step into the kitchen with some of the finest chefs in the British Isles where something wonderful is always cooking.",
-        "Link": "https://watch.plex.tv/live-tv/channel/bbc-food"
     },
     {
         "Title": "Highway to Heaven",
@@ -3120,13 +3211,6 @@
         "Language": "EN",
         "Summary": "Denne kanalen er dedikert til eventyrene til historieprofessor og eventyrer Sydney Fox n\u00e5r hun leter etter gamle gjenstander rundt om i verden.",
         "Link": "https://watch.plex.tv/live-tv/channel/relic-hunter-2"
-    },
-    {
-        "Title": "BBC Home & Garden",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Take a trip across the pond with the one channel bringing you the best in British home remodeling and garden renovation.",
-        "Link": "https://watch.plex.tv/live-tv/channel/bbc-home-and-garden"
     },
     {
         "Title": "Grit Xtra",
@@ -3659,13 +3743,6 @@
         "Language": "EN",
         "Summary": "Football entertainment for fans including documentaries, original series and historic full match replays and highlights.",
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-16"
-    },
-    {
-        "Title": "The Design Network",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "The fastest growing TV network all about HOME. TDN TV gives a fresh perspective on the fashion and function of home: interior landscape and design, organization, entertaining, and living a better life at home.",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-design-network"
     },
     {
         "Title": "Los asesinatos de Midsomer",
@@ -4613,13 +4690,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/hot-ones-2"
     },
     {
-        "Title": "Iron Chef",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Watch every secret ingredient showdown from the original Iron Chef. IRON CHEF blends the excitement of 1-on-1 sports with the heat of cooking competitions. Ready? Allez cuisine!",
-        "Link": "https://watch.plex.tv/live-tv/channel/iron-chef-2"
-    },
-    {
         "Title": "FIFA+",
         "Genre": "Sports",
         "Language": "EN",
@@ -5222,13 +5292,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/zona-investigacion-2"
     },
     {
-        "Title": "Tiny House Nation",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "A showcase of small abodes across America and the inventive folks who live in the dinky dwellings.",
-        "Link": "https://watch.plex.tv/live-tv/channel/tiny-house-nation"
-    },
-    {
         "Title": "FailArmy",
         "Genre": "Comedy",
         "Language": "EN",
@@ -5306,13 +5369,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/amc-en-espanol"
     },
     {
-        "Title": "Fork & Flight",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Fork & Flight takes you on a journey across food, beverage, and culture with big personalities as they travel the world.",
-        "Link": "https://watch.plex.tv/live-tv/channel/fork-and-flight"
-    },
-    {
         "Title": "Wu Tang Collection",
         "Genre": "Sci-Fi & Action",
         "Language": "EN",
@@ -5348,13 +5404,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-sacramento"
     },
     {
-        "Title": "PBS Food",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "PBS Food invites you into the kitchen with some of the world\u2019s best chefs.",
-        "Link": "https://watch.plex.tv/live-tv/channel/pbs-food"
-    },
-    {
         "Title": "RCN M\u00e1s",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -5388,13 +5437,6 @@
         "Language": "EN",
         "Summary": "Follow lone Blackbloods survivor Talon as she journeys to the lawless fortress known as THE OUTPOST to seek revenge, gaining supernatural powers and defending the world along the way.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-outpost-2"
-    },
-    {
-        "Title": "Places & Spaces",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "There\u2019s no place like home. We\u2019re the heart of home.",
-        "Link": "https://watch.plex.tv/live-tv/channel/places-and-spaces"
     },
     {
         "Title": "Telemundo al Dia",
@@ -5523,20 +5565,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/estrella-news"
     },
     {
-        "Title": "The Jamie Oliver Channel",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Get inspired all month long with Jamie's time-saving recipes!",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-jamie-oliver-channel"
-    },
-    {
-        "Title": "Come Dine With Me",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Five total strangers take turns hosting the perfect dinner party for their fellow contestants, each hoping to win a cash prize and be crowned the ultimate dinner host.",
-        "Link": "https://watch.plex.tv/live-tv/channel/come-dine-with-me"
-    },
-    {
         "Title": "BACKSTAGE",
         "Genre": "Lifestyle",
         "Language": "EN",
@@ -5598,13 +5626,6 @@
         "Language": "ES",
         "Summary": "Cabalga junto al bandolero Curro Jim\u00e9nez en sus m\u00faltiples andanzas.",
         "Link": "https://watch.plex.tv/live-tv/channel/curro-jimenez"
-    },
-    {
-        "Title": "Tastemade",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Some of the most unifying and special moments of our life center around a meal, the place where people come together.",
-        "Link": "https://watch.plex.tv/live-tv/channel/tastemade"
     },
     {
         "Title": "Canela.TV Pasi\u00f3n Latina",
@@ -5689,13 +5710,6 @@
         "Language": "EN",
         "Summary": "CBS News New York is hyper local news streaming 24/7... for free!",
         "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-new-york"
-    },
-    {
-        "Title": "Great British Menu",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Cookery competition.  Top chefs from across the UK put their hearts on a plate and showcase their amazing talent.",
-        "Link": "https://watch.plex.tv/live-tv/channel/great-british-menu"
     },
     {
         "Title": "Aventura",
@@ -5878,13 +5892,6 @@
         "Language": "EN",
         "Summary": "The latest local news, breaking updates, live events & weather in Connecticut.",
         "Link": "https://watch.plex.tv/live-tv/channel/nbc-connecticut-news"
-    },
-    {
-        "Title": "Home.Made.Nation",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "The hub of all things DIY, home improvement, decor and food, from household tips and projects you can try yourself to the stories and experiences of experts, inspiration truly has a home in HOME.MADE.NATION.",
-        "Link": "https://watch.plex.tv/live-tv/channel/home-made-nation"
     },
     {
         "Title": "Anger Management en espa\u00f1ol",
@@ -7495,13 +7502,6 @@
         "Language": "EN",
         "Summary": "Immerse yourself in breathtaking cinematography of snow-capped mountains and jaw-dropping runs, a truly cinematic snow sports experience.",
         "Link": "https://watch.plex.tv/live-tv/channel/powder-tv"
-    },
-    {
-        "Title": "Les d\u00e9batteurs Noovo",
-        "Genre": "Reality",
-        "Language": "FR",
-        "Summary": "Les d\u00e9batteurs Noovo : Michel Bherer et ses d\u00e9batteurs chevronn\u00e9s proposent des \u00e9changes cors\u00e9s sur les sujets d\u2019actualit\u00e9s.",
-        "Link": "https://watch.plex.tv/live-tv/channel/les-debatteurs-noovo"
     },
     {
         "Title": "Curiosity Now",
@@ -10206,6 +10206,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/vita-da-strega"
     },
     {
+        "Title": "Noovo Crime",
+        "Genre": "True Crime",
+        "Language": "FR",
+        "Summary": "Noovo crime est une cha\u00eene captivante consacr\u00e9e au monde du true crime, des enqu\u00eates et des myst\u00e8res non r\u00e9solus.",
+        "Link": "https://watch.plex.tv/live-tv/channel/noovo-crime"
+    },
+    {
         "Title": "Blacklist",
         "Genre": "Hit TV",
         "Language": "FR",
@@ -10676,7 +10683,7 @@
     },
     {
         "Title": "Saborear TV",
-        "Genre": "Food & Home",
+        "Genre": "En Espa\u00f1ol",
         "Language": "ES",
         "Summary": "Saborear TV is an exploration of the exciting food and lifestyle of Mexico. Recipes, food tours and lots of fun!",
         "Link": "https://watch.plex.tv/live-tv/channel/saborear-tv"
