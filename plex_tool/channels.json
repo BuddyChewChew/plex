@@ -1,10 +1,10 @@
 [
     {
-        "Title": "NFL Channel",
-        "Genre": "Sports",
+        "Title": "CW Forever",
+        "Genre": "Hit TV",
         "Language": "EN",
-        "Summary": "NFL Channel for all your football highlights.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nfl-channel"
+        "Summary": "CW Forever - Dive in and enjoy the timeless Drama, Reality and Movies from then and now.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cw-forever"
     },
     {
         "Title": "FIFA+",
@@ -245,11 +245,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/profiling-paris"
     },
     {
-        "Title": "CW Forever",
-        "Genre": "Hit TV",
+        "Title": "NFL Channel",
+        "Genre": "Sports",
         "Language": "EN",
-        "Summary": "CW Forever - Dive in and enjoy the timeless Drama, Reality and Movies from then and now.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cw-forever"
+        "Summary": "NFL Channel for all your football highlights.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nfl-channel"
     },
     {
         "Title": "Ion Mystery",
@@ -1027,6 +1027,13 @@
         "Language": "EN",
         "Summary": "Western Bound is the ultimate destination for modern and classic Western series, movies and specials.",
         "Link": "https://watch.plex.tv/live-tv/channel/western-bound"
+    },
+    {
+        "Title": "Circle Country",
+        "Genre": "Drama TV",
+        "Language": "EN",
+        "Summary": "Circle Country is dedicated to country music and lifestyle by putting fans inside the circle of everything country.",
+        "Link": "https://watch.plex.tv/live-tv/channel/circle-country"
     },
     {
         "Title": "CTV Movies",
@@ -3444,6 +3451,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/mytime-movie-network"
     },
     {
+        "Title": "Breaking Sports News",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "The biggest sports stories from the past 24 hours. From the latest NBA and NFL results, to Formula 1 and the Premier League. Keep it locked in on LeadStory Sports News.",
+        "Link": "https://watch.plex.tv/live-tv/channel/breaking-sports-news"
+    },
+    {
         "Title": "So... Real",
         "Genre": "Reality",
         "Language": "EN",
@@ -3680,13 +3694,6 @@
         "Language": "EN",
         "Summary": "The leading source of global news and information, providing breaking news and top stories from around the world.",
         "Link": "https://watch.plex.tv/live-tv/channel/nbc-news-now"
-    },
-    {
-        "Title": "Zee BollyWorld",
-        "Genre": "International",
-        "Language": "EN",
-        "Summary": "Zee BollyWorld is a FAST Bollywood channel celebrating the 'Evergreen Age' of Hindi Cinema with curated cinematic treasures.",
-        "Link": "https://watch.plex.tv/live-tv/channel/zee-bollyworld"
     },
     {
         "Title": "Discovery Turbo TV",
@@ -5586,13 +5593,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-minnesota"
     },
     {
-        "Title": "Popstar! TV",
-        "Genre": "Lifestyle",
-        "Language": "EN",
-        "Summary": "Popstar! TV is streaming today's celebrity news and entertainment with the latest in female dramas, comedies, movies, and hot gossip!",
-        "Link": "https://watch.plex.tv/live-tv/channel/popstar-tv"
-    },
-    {
         "Title": "CBS News Miami",
         "Genre": "News",
         "Language": "EN",
@@ -7047,13 +7047,6 @@
         "Language": "EN",
         "Summary": "Awesome family-friendly channel for all ages featuring action parodies, amazing adventures and lessons to master your skills!",
         "Link": "https://watch.plex.tv/live-tv/channel/ninja-kidz-tv"
-    },
-    {
-        "Title": "CUT",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "Real people. Bold moments. Bringing the world together, one awkward moment at a time on CUT!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cut"
     },
     {
         "Title": "WTXL",
@@ -10010,13 +10003,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/rookie-blue"
     },
     {
-        "Title": "Timber Kings",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "Timber Kings follows the highly driven craftsmen at Pioneer Log Homes that creates stunning log palaces for the rich and famous.",
-        "Link": "https://watch.plex.tv/live-tv/channel/timber-kings"
-    },
-    {
         "Title": "Local Now Springfield",
         "Genre": "News",
         "Language": "EN",
@@ -10127,6 +10113,13 @@
         "Language": "ES",
         "Summary": "Una experiencia llena de acci\u00f3n y emoci\u00f3n que mantendr\u00e1 al p\u00fablico en vilo, con especial atenci\u00f3n a procedimientos criminales y aventuras emocionantes.",
         "Link": "https://watch.plex.tv/live-tv/channel/sony-one-or-series-thriller-2"
+    },
+    {
+        "Title": "Homeful",
+        "Genre": "Food & Home",
+        "Language": "ES",
+        "Summary": "Homeful es un canal de transmisi\u00f3n gratuito con los mejores programas de bienes ra\u00edces, renovaci\u00f3n y dise\u00f1o, con todos tus profesionales favoritos.",
+        "Link": "https://watch.plex.tv/live-tv/channel/homeful-5"
     },
     {
         "Title": "Sony One | \u00c9xitos",
