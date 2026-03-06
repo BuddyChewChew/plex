@@ -875,6 +875,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/life-down-under"
     },
     {
+        "Title": "Drive TV",
+        "Genre": "Lifestyle",
+        "Language": "FR",
+        "Summary": "Drive TV - La Chaine auto",
+        "Link": "https://watch.plex.tv/live-tv/channel/drive-tv"
+    },
+    {
         "Title": "Arthur",
         "Genre": "Kids & Family",
         "Language": "EN",
@@ -1734,6 +1741,13 @@
         "Language": "FR",
         "Summary": "Sur Allocin\u00e9, r\u00e9f\u00e9rence sur le cin\u00e9ma et les s\u00e9ries, retrouvez tous les programmes cultes et l'actu cin\u00e9/s\u00e9rie.",
         "Link": "https://watch.plex.tv/live-tv/channel/allocine"
+    },
+    {
+        "Title": "Doc Story",
+        "Genre": "History & Science",
+        "Language": "FR",
+        "Summary": "Doc Story - Le Meilleur Du Documentaire",
+        "Link": "https://watch.plex.tv/live-tv/channel/doc-story"
     },
     {
         "Title": "True History",
@@ -3596,6 +3610,13 @@
         "Language": "EN",
         "Summary": "Stadium features exclusive live games and events, extensive highlights, classic games, original programming, and daily live studio programming.",
         "Link": "https://watch.plex.tv/live-tv/channel/stadium"
+    },
+    {
+        "Title": "A&E Live PD Greatest Shifts",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Highlighted moments from \"Live PD\"",
+        "Link": "https://watch.plex.tv/live-tv/channel/aande-live-pd-greatest-shifts"
     },
     {
         "Title": "Live PD Presents",
@@ -7077,13 +7098,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/wtmj"
     },
     {
-        "Title": "WFTX",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch FOX 4 News WFTX on your schedule. The latest news in Fort Myers, Florida - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wftx"
-    },
-    {
         "Title": "PLL Network",
         "Genre": "Sports",
         "Language": "EN",
@@ -10017,6 +10031,48 @@
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-tyler"
     },
     {
+        "Title": "CBC News Ottawa",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News Ottawa delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-ottawa"
+    },
+    {
+        "Title": "CBC News Calgary",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News Calgary delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-calgary"
+    },
+    {
+        "Title": "CBC News BC",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News BC delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-bc"
+    },
+    {
+        "Title": "CBC News Toronto",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News Toronto delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-toronto"
+    },
+    {
+        "Title": "Hell's Kitchen",
+        "Genre": "Hit TV",
+        "Language": "IT",
+        "Summary": "Il campo di addestramento culinario di Gordon Ramsay torna a Los Angeles, dove il terrificante chef di fama mondiale fa a pezzi un gruppo di aspiranti cuochi Cordon Bleu e aspiranti ristoratori per scoprire chi merita il primo premio del proprio ristorante.",
+        "Link": "https://watch.plex.tv/live-tv/channel/hells-kitchen-3"
+    },
+    {
+        "Title": "Crime up Close",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Captivating true crime, prison and policing documentaries from ITV Studios. Get an up close look at some of the world\u2019s most infamous serial killers, unsolved cases and high security prisons.",
+        "Link": "https://watch.plex.tv/live-tv/channel/crime-up-close"
+    },
+    {
         "Title": "Local Now Evansville",
         "Genre": "News",
         "Language": "EN",
@@ -11030,13 +11086,6 @@
         "Language": "EN",
         "Summary": "Settle in for pure relaxation with easy-listening hits by chart-topping artists you love.",
         "Link": "https://watch.plex.tv/live-tv/channel/easy-listening"
-    },
-    {
-        "Title": "AXS TV Now",
-        "Genre": "Music",
-        "Language": "EN",
-        "Summary": "AXS TV NOW is an \u201calways on\u201d entertainment, music and lifestyle network tailor-made for entertainment junkies.",
-        "Link": "https://watch.plex.tv/live-tv/channel/axs-tv-now"
     },
     {
         "Title": "Revry Latinx",
