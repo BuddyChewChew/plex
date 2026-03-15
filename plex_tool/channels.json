@@ -322,6 +322,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/river-monsters-2"
     },
     {
+        "Title": "CNN Headlines International",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "A 24-hour international channel featuring short-form news and current affairs tailored for global audiences.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cnn-headlines-international-2"
+    },
+    {
         "Title": "Mythbusters",
         "Genre": "Hit TV",
         "Language": "EN",
@@ -1764,6 +1771,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/horror-club"
     },
     {
+        "Title": "Bondi Rescue",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Bondi Beach lifeguards face new challenges and make daring rescues patrolling Australia's most famous beach.",
+        "Link": "https://watch.plex.tv/live-tv/channel/bondi-rescue"
+    },
+    {
         "Title": "Million Dollar Listing Vault",
         "Genre": "Reality",
         "Language": "EN",
@@ -3157,13 +3171,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-binge-watch-2"
     },
     {
-        "Title": "GLORY Kickboxing",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "GLORY Kickboxing is non-stop explosive action from start to finish. The fights are all stand-up, all-striking, all the time.",
-        "Link": "https://watch.plex.tv/live-tv/channel/glory-kickboxing"
-    },
-    {
         "Title": "Robot Wars by Mech+",
         "Genre": "History & Science",
         "Language": "EN",
@@ -3204,6 +3211,13 @@
         "Language": "EN",
         "Summary": "Den h\u00e4r kanalen handlar om historieprofessorn och \u00e4ventyraren Sydney Fox som letar efter antika artefakter runt om i v\u00e4rlden.",
         "Link": "https://watch.plex.tv/live-tv/channel/relic-hunter-5"
+    },
+    {
+        "Title": "GLORY Kickboxing",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "GLORY Kickboxing is non-stop explosive action from start to finish. The fights are all stand-up, all-striking, all the time.",
+        "Link": "https://watch.plex.tv/live-tv/channel/glory-kickboxing"
     },
     {
         "Title": "Monster Jam",
@@ -3295,13 +3309,6 @@
         "Language": "EN",
         "Summary": "Bassmaster is the voice of bass fishing, delivering nonstop LIVE action, tips, and trends to millions of fans and members.",
         "Link": "https://watch.plex.tv/live-tv/channel/bassmaster"
-    },
-    {
-        "Title": "NHRA TV",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Witness American Drag Racing as the NHRA brings you exclusive 24/7 content of the fastest most explosive motorsporton earth.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nhra-tv"
     },
     {
         "Title": "PickleballTV",
@@ -3479,6 +3486,20 @@
         "Link": "https://watch.plex.tv/live-tv/channel/so-real"
     },
     {
+        "Title": "MotoGP Channel",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Grid to glory, racing at its best all on the MotoGP Channel, watch races from 22 iconic circuits and discover Moto2 & Moto3 stars.",
+        "Link": "https://watch.plex.tv/live-tv/channel/motogp-channel"
+    },
+    {
+        "Title": "NHRA TV",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Witness American Drag Racing as the NHRA brings you exclusive 24/7 content of the fastest most explosive motorsporton earth.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nhra-tv"
+    },
+    {
         "Title": "Sports Illustrated TV",
         "Genre": "Sports",
         "Language": "EN",
@@ -3491,13 +3512,6 @@
         "Language": "KO",
         "Summary": "NEW K.MOVIES is your home for all-time Korean box-office hits and premium, iconic, genre-defying Korean films of the last decade.",
         "Link": "https://watch.plex.tv/live-tv/channel/new-k-movies"
-    },
-    {
-        "Title": "World's Wildest Police Videos",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "From car chases and captures to robberies and riots, watch the most outrageous police videos on this 24/7 channel of World's Wildest Police Videos hosted by retired Sheriff John Bunnell.",
-        "Link": "https://watch.plex.tv/live-tv/channel/worlds-wildest-police-videos"
     },
     {
         "Title": "MHz Now",
@@ -3596,13 +3610,6 @@
         "Language": "EN",
         "Summary": "Hard Knocks is your go-to destination for MMA and Fighter action!",
         "Link": "https://watch.plex.tv/live-tv/channel/hard-knocks"
-    },
-    {
-        "Title": "PFL MMA",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Catch up on the greatest fights, highlights, and commentary from the PFL, MMA's league.",
-        "Link": "https://watch.plex.tv/live-tv/channel/pfl-mma"
     },
     {
         "Title": "Stadium",
@@ -3722,6 +3729,13 @@
         "Language": "EN",
         "Summary": "Discovery Turbo TV is the ultimate destination for car enthusiasts, thrill-seekers, and anyone who lives life in the fast lane.",
         "Link": "https://watch.plex.tv/live-tv/channel/discovery-turbo-tv"
+    },
+    {
+        "Title": "Triton Poker",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Dive into the world of high-stakes poker with Triton Poker, your window into the most prestigious poker series.",
+        "Link": "https://watch.plex.tv/live-tv/channel/triton-poker"
     },
     {
         "Title": "Wired2Fish",
@@ -3948,13 +3962,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/victory-2"
     },
     {
-        "Title": "Motorvision TV",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Luxury limousines, SUVs and vintage cars: MOTORVISION TV presents the gripping world of auto mobility.",
-        "Link": "https://watch.plex.tv/live-tv/channel/motorvision-tv"
-    },
-    {
         "Title": "World Billiards TV",
         "Genre": "Sports",
         "Language": "EN",
@@ -4163,6 +4170,34 @@
         "Language": "DE",
         "Summary": "Fussballunterhaltung f\u00fcr Fans, inkl. Dokumentationen, Originals-Serien sowie Wiederholungen und Highlights legend\u00e4rer Spiele.",
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-41"
+    },
+    {
+        "Title": "ONE Championship TV",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Experience all the action from the world\u2019s largest martial arts organization on ONE Championship TV.",
+        "Link": "https://watch.plex.tv/live-tv/channel/one-championship-tv"
+    },
+    {
+        "Title": "PFL MMA",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Catch up on the greatest fights, highlights, and commentary from the PFL, MMA's league.",
+        "Link": "https://watch.plex.tv/live-tv/channel/pfl-mma"
+    },
+    {
+        "Title": "RACER Select",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "RACER Select is your free destination for motorsports, gearheads, collectors, iconic racing stories, and adrenaline-fueled action.",
+        "Link": "https://watch.plex.tv/live-tv/channel/racer-select"
+    },
+    {
+        "Title": "Motorvision TV",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Luxury limousines, SUVs and vintage cars: MOTORVISION TV presents the gripping world of auto mobility.",
+        "Link": "https://watch.plex.tv/live-tv/channel/motorvision-tv"
     },
     {
         "Title": "Racing America",
@@ -5775,13 +5810,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/free-movies-plus"
     },
     {
-        "Title": "MotoGP Channel",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Grid to glory, racing at its best all on the MotoGP Channel, watch races from 22 iconic circuits and discover Moto2 & Moto3 stars.",
-        "Link": "https://watch.plex.tv/live-tv/channel/motogp-channel"
-    },
-    {
         "Title": "CBS News Detroit",
         "Genre": "News",
         "Language": "EN",
@@ -6354,6 +6382,13 @@
         "Language": "ES",
         "Summary": "Disfruta de tus series y pel\u00edculas favoritas 24/7!",
         "Link": "https://watch.plex.tv/live-tv/channel/electricnow-en-espanol"
+    },
+    {
+        "Title": "Delito",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "KIVI DELITO ofrece una serie continua de cr\u00edmenes reales, thrillers y dramas policiales: historias apasionantes sobre la justicia y el lado m\u00e1s oscuro de la naturaleza humana.",
+        "Link": "https://watch.plex.tv/live-tv/channel/delito"
     },
     {
         "Title": "GoUSA TV",
@@ -7658,13 +7693,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/icon-film-channel-classics"
     },
     {
-        "Title": "ONE Championship TV",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Experience all the action from the world\u2019s largest martial arts organization on ONE Championship TV.",
-        "Link": "https://watch.plex.tv/live-tv/channel/one-championship-tv"
-    },
-    {
         "Title": "Mysteria",
         "Genre": "True Crime",
         "Language": "EN",
@@ -7677,13 +7705,6 @@
         "Language": "ES",
         "Summary": "wedotv Amor \u2013 Piel Salvaje is a channel dedicated exclusively to the passionate and gripping telenovela \"Piel Salvaje\".",
         "Link": "https://watch.plex.tv/live-tv/channel/wedotv-amor-piel-salvaje"
-    },
-    {
-        "Title": "Triton Poker",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Dive into the world of high-stakes poker with Triton Poker, your window into the most prestigious poker series.",
-        "Link": "https://watch.plex.tv/live-tv/channel/triton-poker"
     },
     {
         "Title": "GREAT! romance",
@@ -7712,13 +7733,6 @@
         "Language": "EN",
         "Summary": "The series relives landmark criminal cases where new and innovative investigative techniques changed the course of the inquiries.",
         "Link": "https://watch.plex.tv/live-tv/channel/evidence-of-evil"
-    },
-    {
-        "Title": "RACER Select",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "RACER Select is your free destination for motorsports, gearheads, collectors, iconic racing stories, and adrenaline-fueled action.",
-        "Link": "https://watch.plex.tv/live-tv/channel/racer-select"
     },
     {
         "Title": "Euronews",
@@ -9821,6 +9835,27 @@
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-milwaukee"
     },
     {
+        "Title": "The Graham Norton Show",
+        "Genre": "Hit TV",
+        "Language": "EN",
+        "Summary": "Der allseits beliebte Talkshow-Moderator Graham Norton l\u00e4dt die gr\u00f6\u00dften Stars der Welt auf sein Sofa ein, um ihre Geschichten zu erz\u00e4hlen und jede Menge Spa\u00df zu haben.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-graham-norton-show-2"
+    },
+    {
+        "Title": "Born To Kill?",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Is it nature or nurture that creates a serial killer? Born To Kill? takes an in-depth look at some of the most notorious murderers from around the world. Streaming for a limited time only.",
+        "Link": "https://watch.plex.tv/live-tv/channel/born-to-kill"
+    },
+    {
+        "Title": "Cr\u00edmenes Reales",
+        "Genre": "True Crime",
+        "Language": "ES",
+        "Summary": "Cr\u00edmenes Reales - el canal que es 100% cr\u00edmenes reales.",
+        "Link": "https://watch.plex.tv/live-tv/channel/crimenes-reales"
+    },
+    {
         "Title": "Inside Outside",
         "Genre": "Food & Home",
         "Language": "EN",
@@ -10071,6 +10106,20 @@
         "Language": "EN",
         "Summary": "Captivating true crime, prison and policing documentaries from ITV Studios. Get an up close look at some of the world\u2019s most infamous serial killers, unsolved cases and high security prisons.",
         "Link": "https://watch.plex.tv/live-tv/channel/crime-up-close"
+    },
+    {
+        "Title": "British Screen Classics",
+        "Genre": "Movies",
+        "Language": "EN",
+        "Summary": "Bringing you the very best of British cinema. Showing a range of genres across comedy, horror, war, drama, adventure and romance, you\u2019ll find the films you love all in one place.",
+        "Link": "https://watch.plex.tv/live-tv/channel/british-screen-classics"
+    },
+    {
+        "Title": "Schitts Creek",
+        "Genre": "Hit TV",
+        "Language": "EN",
+        "Summary": "Watch all seasons of the hit CBC comedy starring Eugene Levy, Catherine O\u2019Hara, Dan Levy and Annie Murphy.",
+        "Link": "https://watch.plex.tv/live-tv/channel/schitts-creek"
     },
     {
         "Title": "Local Now Evansville",
