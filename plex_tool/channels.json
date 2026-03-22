@@ -567,6 +567,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-31"
     },
     {
+        "Title": "Top Sci-Fi",
+        "Genre": "Hit TV",
+        "Language": "FR",
+        "Summary": "Top Sci-Fi - La Chaine 100% Science-Fiction & Fantastique",
+        "Link": "https://watch.plex.tv/live-tv/channel/top-sci-fi"
+    },
+    {
         "Title": "Z Nation",
         "Genre": "Sci-Fi & Action",
         "Language": "EN",
@@ -1974,13 +1981,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cine-western"
     },
     {
-        "Title": "Le Figaro Live",
-        "Genre": "Daytime TV",
-        "Language": "FR",
-        "Summary": "La cha\u00eene d'actualit\u00e9 politique, \u00e9conomique, internationale et culturelle.",
-        "Link": "https://watch.plex.tv/live-tv/channel/le-figaro-live"
-    },
-    {
         "Title": "Bloomberg TV",
         "Genre": "News",
         "Language": "EN",
@@ -2350,6 +2350,13 @@
         "Language": "EN",
         "Summary": "Victory+ delivers free sports streaming made by fans, for fans \u2014 live games and team-focused sports entertainment.",
         "Link": "https://watch.plex.tv/live-tv/channel/victory"
+    },
+    {
+        "Title": "SLVR Sports and Entertainment (SLVR)",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "SLVR is a sports, entertainment, and lifestyle channel with live events and other programming from across the globe.",
+        "Link": "https://watch.plex.tv/live-tv/channel/slvr-sports-and-entertainment-slvr"
     },
     {
         "Title": "The Jim Rome Show",
@@ -3612,6 +3619,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/hard-knocks"
     },
     {
+        "Title": "SFT Combat",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "24/7 MMA action featuring live fights, top Brazilian fighters, highlights, interviews, and original combat sports programming.",
+        "Link": "https://watch.plex.tv/live-tv/channel/sft-combat"
+    },
+    {
         "Title": "Stadium",
         "Genre": "Sports",
         "Language": "EN",
@@ -4522,11 +4536,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/spiegel-tv-konflikte-2"
     },
     {
-        "Title": "Cowboy Channel",
+        "Title": "Cowboy+ Sports",
         "Genre": "Sports",
         "Language": "EN",
         "Summary": "Live coverage & exclusives from the biggest names & events in Western sports. It's the Wild West like you've never seen it before.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cowboy-channel"
+        "Link": "https://watch.plex.tv/live-tv/channel/cowboy-sports"
     },
     {
         "Title": "FIFA+",
@@ -4891,6 +4905,13 @@
         "Language": "EN",
         "Summary": "It\u2019s time to Duel! Watch all of your favorite Yu-Gi-Oh! series on the Yu-Gi-Oh! Channel.",
         "Link": "https://watch.plex.tv/live-tv/channel/yu-gi-oh-6"
+    },
+    {
+        "Title": "Beyblade",
+        "Genre": "Animeand",
+        "Language": "EN",
+        "Summary": "Follow the adventures of Gingka and his fellow Bladers as they save the world from evil-doers with help from their powerful Beys.",
+        "Link": "https://watch.plex.tv/live-tv/channel/beyblade-4"
     },
     {
         "Title": "Anime 24/7",
@@ -6069,7 +6090,7 @@
         "Link": "https://watch.plex.tv/live-tv/channel/novelisima"
     },
     {
-        "Title": "365BLK",
+        "Title": "365BLK [FAST]",
         "Genre": "Daytime TV",
         "Language": "EN",
         "Summary": "365BLK is an all-new alternative for African American audiences featuring the very best in Black entertainment.",
@@ -6277,13 +6298,6 @@
         "Language": "EN",
         "Summary": "True Crime Now features more than 1,000 true crime series and documentary films, with new content joining the channel each week.",
         "Link": "https://watch.plex.tv/live-tv/channel/true-crime-now"
-    },
-    {
-        "Title": "9 Story Presents: Garfield and Friends",
-        "Genre": "Kids & Family",
-        "Language": "EN",
-        "Summary": "9 Story - the official home to Garfield and Friends with lots of cartoon characters to play, laugh and go on adventures!",
-        "Link": "https://watch.plex.tv/live-tv/channel/9-story-presents-garfield-and-friends"
     },
     {
         "Title": "PBS Retro",
@@ -7061,13 +7075,6 @@
         "Language": "ES",
         "Summary": "Para los amantes del cine de Hollywood, prep\u00e1rate para disfrutar de los mayores \u00e9xitos de taquilla.",
         "Link": "https://watch.plex.tv/live-tv/channel/canela-tv-hollywood-y-mas"
-    },
-    {
-        "Title": "Barney and Friends",
-        "Genre": "Kids & Family",
-        "Language": "EN",
-        "Summary": "Barney, America's favorite purple dinosaur, and his young friends share adventures featuring songs, dances and games that make learning fun.",
-        "Link": "https://watch.plex.tv/live-tv/channel/barney-and-friends"
     },
     {
         "Title": "KMGH",
@@ -10087,6 +10094,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-bc"
     },
     {
+        "Title": "CBC News Quebec",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News Quebec delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-quebec"
+    },
+    {
         "Title": "CBC News Toronto",
         "Genre": "News",
         "Language": "EN",
@@ -10113,6 +10127,13 @@
         "Language": "EN",
         "Summary": "Bringing you the very best of British cinema. Showing a range of genres across comedy, horror, war, drama, adventure and romance, you\u2019ll find the films you love all in one place.",
         "Link": "https://watch.plex.tv/live-tv/channel/british-screen-classics"
+    },
+    {
+        "Title": "Nature Moments",
+        "Genre": "Nature & Travel",
+        "Language": "EN",
+        "Summary": "Nature Moments\u00bb de Love Nature invita a los espectadores a un viaje visual para relajarse, calmarse, energizarse y contemplar escenas serenas de todo el mundo, todo ello desde la comodidad de sus salas de estar.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nature-moments"
     },
     {
         "Title": "Schitts Creek",
