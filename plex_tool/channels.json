@@ -427,13 +427,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/acorn-tv-mysteries-2"
     },
     {
-        "Title": "UFC",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "24/7 UFC action. Celebrate the greatest fights, best athletes, and biggest moments from the world's premier MMA organization.",
-        "Link": "https://watch.plex.tv/live-tv/channel/ufc-2"
-    },
-    {
         "Title": "Beyond the Gates",
         "Genre": "Hit TV",
         "Language": "EN",
@@ -819,13 +812,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/adventure-earth-11"
     },
     {
-        "Title": "A Haunting",
-        "Genre": "History & Science",
-        "Language": "EN",
-        "Summary": "Through mesmerizing first-person accounts and dramatic recreations, A Haunting delves into the true and horrific events that plague innocent people when spirits-determined to have a final say-invade their lives to inflict unimaginable horrors.",
-        "Link": "https://watch.plex.tv/live-tv/channel/a-haunting"
-    },
-    {
         "Title": "Lifetime Movie Favorites",
         "Genre": "Movies",
         "Language": "EN",
@@ -859,6 +845,13 @@
         "Language": "EN",
         "Summary": "America's Funniest Home Videos - Watch Classic episodes of America's Funniest Home Videos now streaming free 24/7 for the first time ever!",
         "Link": "https://watch.plex.tv/live-tv/channel/americas-funniest-home-videos"
+    },
+    {
+        "Title": "Penn & Teller: Fool Us",
+        "Genre": "Comedy",
+        "Language": "EN",
+        "Summary": "Aspiring magicians perform their best tricks to try and fool the world-famous team of Penn & Teller.",
+        "Link": "https://watch.plex.tv/live-tv/channel/penn-and-teller-fool-us"
     },
     {
         "Title": "Sony One | FAVES",
@@ -1708,6 +1701,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-osbournes"
     },
     {
+        "Title": "World of Love Island",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Vibrant singletons spend their summer in a luxury villa looking for love - where every text, challenge, and recoupling could change everything\u2026",
+        "Link": "https://watch.plex.tv/live-tv/channel/world-of-love-island"
+    },
+    {
         "Title": "UnXplained Zone",
         "Genre": "History & Science",
         "Language": "EN",
@@ -1748,13 +1748,6 @@
         "Language": "IT",
         "Summary": "Il canale delle migliori telenovelas h24",
         "Link": "https://watch.plex.tv/live-tv/channel/soap-latino"
-    },
-    {
-        "Title": "Allocin\u00e9",
-        "Genre": "Daytime TV",
-        "Language": "FR",
-        "Summary": "Sur Allocin\u00e9, r\u00e9f\u00e9rence sur le cin\u00e9ma et les s\u00e9ries, retrouvez tous les programmes cultes et l'actu cin\u00e9/s\u00e9rie.",
-        "Link": "https://watch.plex.tv/live-tv/channel/allocine"
     },
     {
         "Title": "Doc Story",
@@ -2198,13 +2191,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/ufc"
     },
     {
-        "Title": "Hantise",
-        "Genre": "True Crime",
-        "Language": "FR",
-        "Summary": "\u00c0 travers des r\u00e9cits captivants en premi\u00e8re personne et des reconstitutions dramatiques, explore les \u00e9v\u00e9nements r\u00e9els et horrifiques qui tourmentent des personnes innocentes lorsque des esprits, d\u00e9termin\u00e9s \u00e0 avoir le dernier mot, envahissent leur vie pour infliger des horreurs inimaginables.",
-        "Link": "https://watch.plex.tv/live-tv/channel/hantise"
-    },
-    {
         "Title": "Cindie TV",
         "Genre": "Movies",
         "Language": "PT",
@@ -2259,6 +2245,13 @@
         "Language": "EN",
         "Summary": "You'll never miss a sports story if you leave this channel on. CBS Sports HQ is live 24/7.",
         "Link": "https://watch.plex.tv/live-tv/channel/cbs-sports-hq-2"
+    },
+    {
+        "Title": "CW Presents WWE NXT",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "The Future of wrestling is here! Watch all your favorite WWE NXT superstars 24/7.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cw-presents-wwe-nxt"
     },
     {
         "Title": "DAZN Ringside",
@@ -2338,6 +2331,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-4"
     },
     {
+        "Title": "Scripps Sports Network",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Scripps Sports Network is your home for live games and the stories behind them.",
+        "Link": "https://watch.plex.tv/live-tv/channel/scripps-sports-network"
+    },
+    {
         "Title": "Victory+",
         "Genre": "Sports",
         "Language": "EN",
@@ -2352,11 +2352,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/victory"
     },
     {
-        "Title": "SLVR Sports and Entertainment (SLVR)",
+        "Title": "SLVR Sports and Entertainment (SLVR SOCAL)",
         "Genre": "Sports",
         "Language": "EN",
         "Summary": "SLVR is a sports, entertainment, and lifestyle channel with live events and other programming from across the globe.",
-        "Link": "https://watch.plex.tv/live-tv/channel/slvr-sports-and-entertainment-slvr"
+        "Link": "https://watch.plex.tv/live-tv/channel/slvr-sports-and-entertainment-slvr-socal"
     },
     {
         "Title": "The Jim Rome Show",
@@ -2497,13 +2497,6 @@
         "Language": "FR",
         "Summary": "A wide range of French-language films, from romantic comedies to thrillers.",
         "Link": "https://watch.plex.tv/live-tv/channel/noovo-cinema"
-    },
-    {
-        "Title": "Epicurieux",
-        "Genre": "Lifestyle",
-        "Language": "FR",
-        "Summary": "Epicurieux, la cha\u00eene du savoir et de la d\u00e9couverte pour apprendre en s'amusant avec Jamy Gourmaud.",
-        "Link": "https://watch.plex.tv/live-tv/channel/epicurieux"
     },
     {
         "Title": "This Old House",
@@ -2728,13 +2721,6 @@
         "Language": "EN",
         "Summary": "Five total strangers take turns hosting the perfect dinner party for their fellow contestants, each hoping to win a cash prize and be crowned the ultimate dinner host.",
         "Link": "https://watch.plex.tv/live-tv/channel/come-dine-with-me-2"
-    },
-    {
-        "Title": "Assombra\u00e7\u00f5es",
-        "Genre": "History & Science",
-        "Language": "PT",
-        "Summary": "Por meio de relatos fascinantes em primeira pessoa e recria\u00e7\u00f5es dram\u00e1ticas, mergulha nos eventos reais e horr\u00edveis que atormentam pessoas inocentes, quando esp\u00edritos determinados a ter a \u00faltima palavra invadem suas vidas para infligir horrores inimagin\u00e1veis.",
-        "Link": "https://watch.plex.tv/live-tv/channel/assombracoes"
     },
     {
         "Title": "Tastemade",
@@ -3934,13 +3920,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/bbc-news-north-america"
     },
     {
-        "Title": "KSL TV 5 News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "KSL TV Channel 5: The best source for Utah news, investigative reports, weather forecasts, sports, & community events.",
-        "Link": "https://watch.plex.tv/live-tv/channel/ksl-tv-5-news"
-    },
-    {
         "Title": "FilmRise Series Gratis",
         "Genre": "Drama TV",
         "Language": "ES",
@@ -3974,6 +3953,13 @@
         "Language": "EN",
         "Summary": "Victory+ delivers free sports streaming made by fans, for fans \u2014 live games and team-focused sports entertainment.",
         "Link": "https://watch.plex.tv/live-tv/channel/victory-2"
+    },
+    {
+        "Title": "SLVR Sports and Entertainment (SLVR)",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "SLVR is a sports, entertainment, and lifestyle channel with live events and other programming from across the globe.",
+        "Link": "https://watch.plex.tv/live-tv/channel/slvr-sports-and-entertainment-slvr"
     },
     {
         "Title": "World Billiards TV",
@@ -4221,25 +4207,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/racing-america"
     },
     {
-        "Title": "Box Office Action",
-        "Genre": "Movies",
-        "Language": "FR",
-        "Summary": "Explosive action, epic battles, and Hollywood hits\u2014Box Office Action brings you the best of blockbuster thrills and high-octane cinema!",
-        "Link": "https://watch.plex.tv/live-tv/channel/box-office-action"
-    },
-    {
         "Title": "FIFA+",
         "Genre": "Sports",
         "Language": "DE",
         "Summary": "Fussballunterhaltung f\u00fcr Fans, inkl. Dokumentationen, Originals-Serien sowie Wiederholungen und Highlights legend\u00e4rer Spiele.",
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-38"
-    },
-    {
-        "Title": "Box Office Drama",
-        "Genre": "Movies",
-        "Language": "FR",
-        "Summary": "Box Office Drama: Your ultimate destination for hit films.",
-        "Link": "https://watch.plex.tv/live-tv/channel/box-office-drama"
     },
     {
         "Title": "Runtime Acci\u00f3n",
@@ -4466,13 +4438,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-bob-ross-channel"
     },
     {
-        "Title": "Box Office Teens",
-        "Genre": "Movies",
-        "Language": "FR",
-        "Summary": "Box Office Teens: Streaming the hottest teen flicks, high school drama, and coming-of-age classics 24/7.",
-        "Link": "https://watch.plex.tv/live-tv/channel/box-office-teens"
-    },
-    {
         "Title": "FIFA+",
         "Genre": "Sports",
         "Language": "ES",
@@ -4548,13 +4513,6 @@
         "Language": "ES",
         "Summary": "Los amantes del f\u00fatbol podr\u00e1n disfrutar de documentales, series originales, repeticiones y res\u00famenes de partidos hist\u00f3ricos.",
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-27"
-    },
-    {
-        "Title": "MGG Fast",
-        "Genre": "Animeand",
-        "Language": "FR",
-        "Summary": "MGG FAST: la chaine d\u00e9di\u00e9e \u00e0 l'esport!",
-        "Link": "https://watch.plex.tv/live-tv/channel/mgg-fast"
     },
     {
         "Title": "Wedotv Amor Piel Salvaje",
@@ -4716,6 +4674,13 @@
         "Language": "EN",
         "Summary": "Set in the glamorous world of the Los Angeles fashion scene, this soap opera focuses on the wealthy and powerful Forrester family.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-bold-and-the-beautiful"
+    },
+    {
+        "Title": "Legacy",
+        "Genre": "Daytime TV",
+        "Language": "EN",
+        "Summary": "In the high-speed world of investment billionaires, the powerful Price family lives in wealth, rivalry, and danger.",
+        "Link": "https://watch.plex.tv/live-tv/channel/legacy"
     },
     {
         "Title": "All My Children",
@@ -5138,13 +5103,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/runtime-comedia-3"
     },
     {
-        "Title": "The Ellen Channel",
-        "Genre": "Daytime TV",
-        "Language": "EN",
-        "Summary": "Catch all the laughs, heartwarming moments, and unforgettable celebrity interviews on the Ellen Channel. Non-stop entertainment with Ellen DeGeneres and her amazing guests.",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-ellen-channel"
-    },
-    {
         "Title": "Actualidad 360",
         "Genre": "News",
         "Language": "ES",
@@ -5164,13 +5122,6 @@
         "Language": "EN",
         "Summary": "Gary Cooper, Frank Sinatra, Bette Davis, and more! Classic Movies and TV Series from the 1920\u2019s to Contemporary Classics.",
         "Link": "https://watch.plex.tv/live-tv/channel/samuel-goldwyn-classics"
-    },
-    {
-        "Title": "Historias de Ultratumba",
-        "Genre": "True Crime",
-        "Language": "ES",
-        "Summary": "A trav\u00e9s de fascinantes relatos en primera persona y recreaciones dram\u00e1ticas, A Haunting profundiza en los verdaderos y horribles eventos que atormentan a personas inocentes cuando los esp\u00edritus, decididos a tener la \u00faltima palabra, invaden sus vidas para infligir horrores inimaginables.",
-        "Link": "https://watch.plex.tv/live-tv/channel/historias-de-ultratumba"
     },
     {
         "Title": "Aliwko",
@@ -5248,6 +5199,13 @@
         "Language": "IT",
         "Summary": "Urania News, la prima TV italiana dedicata a istituzioni e imprese, con storie di successo e contenuti di approfondimento.",
         "Link": "https://watch.plex.tv/live-tv/channel/urania-news"
+    },
+    {
+        "Title": "KSL TV 5 News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "KSL TV Channel 5: The best source for Utah news, investigative reports, weather forecasts, sports, & community events.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ksl-tv-5-news"
     },
     {
         "Title": "Azteca Internacional",
@@ -5360,13 +5318,6 @@
         "Language": "IT",
         "Summary": "Il canale del golf amatoriale italiano: tornei, highlights, interviste e storie dai campi pi\u00f9 prestigiosi.",
         "Link": "https://watch.plex.tv/live-tv/channel/golf-television"
-    },
-    {
-        "Title": "TuDiscovery",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "El mejor contenido producido en Estados Unidos y Am\u00e9rica Latina, con talentos hispanos e historias que cautivar\u00e1n al p\u00fablico.",
-        "Link": "https://watch.plex.tv/live-tv/channel/tudiscovery"
     },
     {
         "Title": "Zona Investigaci\u00f3n",
@@ -5586,13 +5537,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-sci-fi"
     },
     {
-        "Title": "CN\u00d1 XPRESS",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "CN\u00d1 Xpress ofrece las \u00faltimas noticias en espa\u00f1ol, incluyendo deportes, entretenimiento y negocios, con reportajes originales, res\u00famenes de noticias y entrevistas con personajes destacados de Estados Unidos, Am\u00e9rica Latina y el mundo.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cnn-xpress"
-    },
-    {
         "Title": "Real Wild",
         "Genre": "Nature & Travel",
         "Language": "EN",
@@ -5619,20 +5563,6 @@
         "Language": "EN",
         "Summary": "JOURNY is the only channel at the intersection of travel, art, and culture! Watch curated content focused on immersive experiences and unique storytelling.",
         "Link": "https://watch.plex.tv/live-tv/channel/journy"
-    },
-    {
-        "Title": "Vidas Extremas",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Conoce a las personalidades m\u00e1s ic\u00f3nicas de Discovery y sum\u00e9rgete en sus extraordinarios mundos.",
-        "Link": "https://watch.plex.tv/live-tv/channel/vidas-extremas"
-    },
-    {
-        "Title": "Construcciones Asombrosas",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Estructuras sorprendentes en escenarios extraordinarios. La audiencia no podr\u00e1 creer que se puedan construir propiedades as\u00ed en lugares tan especiales.",
-        "Link": "https://watch.plex.tv/live-tv/channel/construcciones-asombrosas"
     },
     {
         "Title": "CBS News Pittsburgh",
@@ -5754,13 +5684,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-action-2"
     },
     {
-        "Title": "Popcorn TV",
-        "Genre": "Reality",
-        "Language": "FR",
-        "Summary": "Sur Popcorn TV, retrouvez le divertissement culte Popcorn pr\u00e9sent\u00e9 par Domingo et son \u00e9quipe de chroniqueurs.",
-        "Link": "https://watch.plex.tv/live-tv/channel/popcorn-tv"
-    },
-    {
         "Title": "\u00c7a c\u2019est dr\u00f4le",
         "Genre": "Comedy",
         "Language": "FR",
@@ -5775,25 +5698,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/confess-by-nosey"
     },
     {
-        "Title": "Expedientes Sobrenaturales",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "\u00bfRealidad o ficci\u00f3n? T\u00fa decides. Vive momentos de suspenso, intriga y miedo, mientras exploras el mundo de lo desconocido.",
-        "Link": "https://watch.plex.tv/live-tv/channel/expedientes-sobrenaturales"
-    },
-    {
         "Title": "CBS News New York",
         "Genre": "News",
         "Language": "EN",
         "Summary": "CBS News New York is hyper local news streaming 24/7... for free!",
         "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-new-york"
-    },
-    {
-        "Title": "Aventura",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Sigue las vidas de aquellos que se han atrevido a desafiar sus zonas de confort. Desde m\u00e9dicos que viven y trabajan fuera del sistema y gente que pone a prueba sus l\u00edmites para sobrevivir en la naturaleza, hasta expertos dedicados a desvelar los misterios de mundos desconocidos.",
-        "Link": "https://watch.plex.tv/live-tv/channel/aventura"
     },
     {
         "Title": "OUTFLIX MOVIES",
@@ -7007,13 +6916,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/wgba"
     },
     {
-        "Title": "Bodas +",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Un espacio para celebrar la vida con historias aut\u00e9nticas y reales. Prep\u00e1rate para un viaje lleno de emociones.",
-        "Link": "https://watch.plex.tv/live-tv/channel/bodas"
-    },
-    {
         "Title": "Mattel Jr.",
         "Genre": "Kids & Family",
         "Language": "EN",
@@ -7089,13 +6991,6 @@
         "Language": "EN",
         "Summary": "Watch KRTV News Great Falls on your schedule. The latest news in Great Falls, Montana - weather, traffic and sports available 24/7 on our official channel.",
         "Link": "https://watch.plex.tv/live-tv/channel/krtv"
-    },
-    {
-        "Title": "Crimen",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Historias reales de cr\u00edmenes envueltos en misterio y llenos de suspenso que te dejar\u00e1n pegado a la pantalla para descubrir al culpable y el destino de las v\u00edctimas \u2014a\u00fan desde la tumba.",
-        "Link": "https://watch.plex.tv/live-tv/channel/crimen"
     },
     {
         "Title": "WXMI",
@@ -7334,13 +7229,6 @@
         "Language": "EN",
         "Summary": "With KIRO 7 News, you can stay informed on breaking and developing news across Seattle, and all of Western Washington.",
         "Link": "https://watch.plex.tv/live-tv/channel/kiro-7-seattle"
-    },
-    {
-        "Title": "Xataka",
-        "Genre": "History & Science",
-        "Language": "ES",
-        "Summary": "Xataka, apasionados de la tecnolog\u00eda. Un canal con comparativas, an\u00e1lisis y toda la actualidad.",
-        "Link": "https://watch.plex.tv/live-tv/channel/xataka"
     },
     {
         "Title": "FilmRise Classic TV",
@@ -9849,6 +9737,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-graham-norton-show-2"
     },
     {
+        "Title": "Un Village Francais",
+        "Genre": "Drama TV",
+        "Language": "FR",
+        "Summary": "La s\u00e9rie historique Un Village Fran\u00e7ais suit le quotidien de gens ordinaires mis \u00e0 l'\u00e9preuve par la guerre dans leur ville natale. \u00ab Vivre, c'est choisir \u00bb est la devise de la s\u00e9rie, qui met en sc\u00e8ne des personnages confront\u00e9s aux dilemmes quotidiens de la collaboration, de la r\u00e9sistance et de la survie.",
+        "Link": "https://watch.plex.tv/live-tv/channel/un-village-francais"
+    },
+    {
         "Title": "Born To Kill?",
         "Genre": "True Crime",
         "Language": "EN",
@@ -9896,6 +9791,20 @@
         "Language": "EN",
         "Summary": "Local Now Lafayette",
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-lafayette"
+    },
+    {
+        "Title": "Hell's Kitchen",
+        "Genre": "Hit TV",
+        "Language": "DE",
+        "Summary": "Gordon Ramsays kulinarisches Bootcamp kehrt nach Los Angeles zur\u00fcck: Der furchteinfl\u00f6\u00dfende, weltber\u00fchmte Chefkoch nimmt eine Gruppe von angehenden Cordon-Bleu-K\u00f6chen und aufstrebenden Gastronomen gnadenlos in die Mangel, um herauszufinden, wer den Hauptpreis \u2013 ein eigenes Restaurant \u2013 verdient.",
+        "Link": "https://watch.plex.tv/live-tv/channel/hells-kitchen-4"
+    },
+    {
+        "Title": "Eurovision Sport",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Gymnastics, Athletics, Aquatics, Biathlon and more - Eurovision Sport brings world-class Olympic sports right to your living room.",
+        "Link": "https://watch.plex.tv/live-tv/channel/eurovision-sport"
     },
     {
         "Title": "Local Now Gainesville",
