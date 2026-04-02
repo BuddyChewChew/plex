@@ -1722,11 +1722,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/portlandia"
     },
     {
-        "Title": "CineWestern",
+        "Title": "Cine Peplum",
         "Genre": "Classics",
         "Language": "IT",
-        "Summary": "Avventure, cavalcate e duelli in atmosfere uniche. Un genere intramontabile, capace di far sognare intere generazioni. Vivi la magia del grande cinema western.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cinewestern"
+        "Summary": "Battaglie epiche, miti immortali e imperi maestosi. Tra arene e gladiatori, potenti Dei e grandi protagonisti biblici, rivivi lo splendore del passato. Cine Peplum: il tempio del cinema d\u2019avventura e degli eroi leggendari.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cine-peplum"
     },
     {
         "Title": "Say Yes to the Dress",
@@ -2467,7 +2467,7 @@
         "Title": "Bizzarro Movies",
         "Genre": "Chills & Thrills",
         "Language": "IT",
-        "Summary": "Ad Halloween, l'incubo si risveglia! Zombi, vampiri, lupi mannari, bambole assassine e creature mostruose prendono vita nelle notti pi\u00f9 oscure\u2026 Non potrai pi\u00f9 dormire!",
+        "Summary": "Terremoti, vulcani, maremoti, invasioni e guerre: la Terra non \u00e8 mai stata cos\u00ec in pericolo! Attraversando cicloni, ere glaciali e un\u2019umanit\u00e0 alla deriva, arrivando al centro del disastro. L\u2019Apocalisse non \u00e8 mai stata cos\u00ec assurda!",
         "Link": "https://watch.plex.tv/live-tv/channel/bizzarro-movies"
     },
     {
@@ -4693,7 +4693,7 @@
         "Title": "LOL! Network",
         "Genre": "Comedy",
         "Language": "EN",
-        "Summary": "LOL! Network delivers a bold, curated collection of the funniest and freshest voices in comedy.",
+        "Summary": "Kevin Hart\u2019s all-star comedy team tackles celebrity, culture & modern life.",
         "Link": "https://watch.plex.tv/live-tv/channel/lol-network-2"
     },
     {
@@ -5199,13 +5199,6 @@
         "Language": "IT",
         "Summary": "Urania News, la prima TV italiana dedicata a istituzioni e imprese, con storie di successo e contenuti di approfondimento.",
         "Link": "https://watch.plex.tv/live-tv/channel/urania-news"
-    },
-    {
-        "Title": "KSL TV 5 News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "KSL TV Channel 5: The best source for Utah news, investigative reports, weather forecasts, sports, & community events.",
-        "Link": "https://watch.plex.tv/live-tv/channel/ksl-tv-5-news"
     },
     {
         "Title": "Azteca Internacional",
