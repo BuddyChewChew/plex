@@ -2254,6 +2254,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cw-presents-wwe-nxt"
     },
     {
+        "Title": "NFL Draft Vault",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "The NFL Draft Vault features iconic draft moments, full drafts, rookie highlights, and prospects\u2019 paths to the NFL.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nfl-draft-vault"
+    },
+    {
         "Title": "DAZN Ringside",
         "Genre": "Sports",
         "Language": "EN",
@@ -5572,11 +5579,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/estrella-news"
     },
     {
-        "Title": "BACKSTAGE",
+        "Title": "Complex TV",
         "Genre": "Lifestyle",
         "Language": "EN",
-        "Summary": "Superstars & emerging talent light up this collection of music bios, performances, reality shows, docs & films.",
-        "Link": "https://watch.plex.tv/live-tv/channel/backstage"
+        "Summary": "The unique crossroads of streetwear, hip hop, art, and culture.",
+        "Link": "https://watch.plex.tv/live-tv/channel/complex-tv"
     },
     {
         "Title": "Motorvision Classic",
