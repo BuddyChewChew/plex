@@ -2667,13 +2667,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/adventure-earth-5"
     },
     {
-        "Title": "Fifth Gear (UK)",
-        "Genre": "Lifestyle",
-        "Language": "EN",
-        "Summary": "Fifth Gear is the car show for true motor enthusiasts \u2013 putting the cars, and their performance, front and centre of the show.",
-        "Link": "https://watch.plex.tv/live-tv/channel/fifth-gear-uk"
-    },
-    {
         "Title": "wedo movies",
         "Genre": "Movies",
         "Language": "NL",
@@ -3493,6 +3486,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/motogp-channel"
     },
     {
+        "Title": "Speed Sport 1",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "SPEED SPORT 1 is the great American Motorsports Network - featuring live racing action 24/7.",
+        "Link": "https://watch.plex.tv/live-tv/channel/speed-sport-1"
+    },
+    {
         "Title": "NHRA TV",
         "Genre": "Sports",
         "Language": "EN",
@@ -3710,6 +3710,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/wildearth"
     },
     {
+        "Title": "PBS Antiques Roadshow",
+        "Genre": "Lifestyle",
+        "Language": "EN",
+        "Summary": "Heirlooms and flea market finds 24/7 with ANTIQUES ROADSHOW episodes from the vault!",
+        "Link": "https://watch.plex.tv/live-tv/channel/pbs-antiques-roadshow"
+    },
+    {
         "Title": "How To",
         "Genre": "Lifestyle",
         "Language": "EN",
@@ -3750,13 +3757,6 @@
         "Language": "EN",
         "Summary": "Your best source for fishing tips, fishing news, fishing lure reviews, fishing videos for bass, crappie, bluegill, walleye and more.",
         "Link": "https://watch.plex.tv/live-tv/channel/wired2fish"
-    },
-    {
-        "Title": "PBS Antiques Roadshow",
-        "Genre": "Lifestyle",
-        "Language": "EN",
-        "Summary": "Heirlooms and flea market finds 24/7 with ANTIQUES ROADSHOW episodes from the vault!",
-        "Link": "https://watch.plex.tv/live-tv/channel/pbs-antiques-roadshow"
     },
     {
         "Title": "Grjngo - Western Movies",
@@ -4177,6 +4177,13 @@
         "Language": "DE",
         "Summary": "Fussballunterhaltung f\u00fcr Fans, inkl. Dokumentationen, Originals-Serien sowie Wiederholungen und Highlights legend\u00e4rer Spiele.",
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-41"
+    },
+    {
+        "Title": "Fifth Gear (UK)",
+        "Genre": "Lifestyle",
+        "Language": "EN",
+        "Summary": "Fifth Gear is the car show for true motor enthusiasts \u2013 putting the cars, and their performance, front and centre of the show.",
+        "Link": "https://watch.plex.tv/live-tv/channel/fifth-gear-uk"
     },
     {
         "Title": "ONE Championship TV",
@@ -5206,6 +5213,13 @@
         "Language": "IT",
         "Summary": "Urania News, la prima TV italiana dedicata a istituzioni e imprese, con storie di successo e contenuti di approfondimento.",
         "Link": "https://watch.plex.tv/live-tv/channel/urania-news"
+    },
+    {
+        "Title": "KSL TV 5 News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "KSL TV Channel 5: The best source for Utah news, investigative reports, weather forecasts, sports, & community events.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ksl-tv-5-news"
     },
     {
         "Title": "Azteca Internacional",
@@ -6291,6 +6305,13 @@
         "Language": "ES",
         "Summary": "Novelas de Siempre: Pasi\u00f3n, traici\u00f3n y emoci\u00f3n\u2026tus historias favoritas, siempre vivas.",
         "Link": "https://watch.plex.tv/live-tv/channel/novelas-de-siempre"
+    },
+    {
+        "Title": "Caracol Mix",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "Caracol Mix, the first FAST channel from Caracol Television, delivers Colombia\u2019s most acclaimed productions to Hispanic viewers across the world.",
+        "Link": "https://watch.plex.tv/live-tv/channel/caracol-mix"
     },
     {
         "Title": "Canela.TV Narco-Drama",
@@ -7845,6 +7866,13 @@
         "Language": "ES",
         "Summary": "MyTime es un canal digital gratuito, con contenido enfocado en celebrar y entretener a la mujer.",
         "Link": "https://watch.plex.tv/live-tv/channel/mytime-movie-network-4"
+    },
+    {
+        "Title": "AddictaTV",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "Historias latinas que cobran vida. Cine y series nacidos del coraz\u00f3n, celebrando la pasi\u00f3n, cultura y alma de Latinoam\u00e9rica.",
+        "Link": "https://watch.plex.tv/live-tv/channel/addictatv"
     },
     {
         "Title": "Homeful",
@@ -9805,6 +9833,13 @@
         "Language": "EN",
         "Summary": "Gymnastics, Athletics, Aquatics, Biathlon and more - Eurovision Sport brings world-class Olympic sports right to your living room.",
         "Link": "https://watch.plex.tv/live-tv/channel/eurovision-sport"
+    },
+    {
+        "Title": "Inuyasha",
+        "Genre": "Animeand",
+        "Language": "IT",
+        "Summary": "Guarda Kagome cadere nel pozzo del santuario di famiglia e venire trasportata nell'epoca Sengoku per incontrare Inuyasha!",
+        "Link": "https://watch.plex.tv/live-tv/channel/inuyasha"
     },
     {
         "Title": "Local Now Gainesville",
