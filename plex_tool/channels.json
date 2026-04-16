@@ -2716,6 +2716,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/operation-repo"
     },
     {
+        "Title": "Wasabi",
+        "Genre": "Animeand",
+        "Language": "FR",
+        "Summary": "Wasabi- la chaine anime",
+        "Link": "https://watch.plex.tv/live-tv/channel/wasabi"
+    },
+    {
         "Title": "Come Dine With Me",
         "Genre": "Food & Home",
         "Language": "EN",
@@ -9784,6 +9791,20 @@
         "Language": "ES",
         "Summary": "Cr\u00edmenes Reales - el canal que es 100% cr\u00edmenes reales.",
         "Link": "https://watch.plex.tv/live-tv/channel/crimenes-reales"
+    },
+    {
+        "Title": "Masha y el Oso",
+        "Genre": "Kids & Family",
+        "Language": "ES",
+        "Summary": "Masha y el Oso es una serie de animaci\u00f3n que narra las aventuras de una ni\u00f1a, Masha, y su amigo, el Oso.",
+        "Link": "https://watch.plex.tv/live-tv/channel/masha-y-el-oso"
+    },
+    {
+        "Title": "Taste",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Fiery cooking competitions, foodie travel adventures and classic recipes to recreate at home. Food shows have never been fresher.",
+        "Link": "https://watch.plex.tv/live-tv/channel/taste"
     },
     {
         "Title": "Inside Outside",
