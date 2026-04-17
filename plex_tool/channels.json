@@ -448,6 +448,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/anger-management"
     },
     {
+        "Title": "Modern Marvels",
+        "Genre": "History & Science",
+        "Language": "EN",
+        "Summary": "Celebrate ingenuity and imagination in the world around us. 24/7 episodes of Modern Marvels, television's most innovative series.",
+        "Link": "https://watch.plex.tv/live-tv/channel/modern-marvels-2"
+    },
+    {
         "Title": "Ghost Hunters Channel",
         "Genre": "History & Science",
         "Language": "EN",
@@ -770,6 +777,20 @@
         "Link": "https://watch.plex.tv/live-tv/channel/moviesphere"
     },
     {
+        "Title": "Intervention",
+        "Genre": "Drama TV",
+        "Language": "EN",
+        "Summary": "Addicts face a crucial decision.",
+        "Link": "https://watch.plex.tv/live-tv/channel/intervention-2"
+    },
+    {
+        "Title": "Live PD Presents",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Ride-along with real police.",
+        "Link": "https://watch.plex.tv/live-tv/channel/live-pd-presents-3"
+    },
+    {
         "Title": "Real Crime",
         "Genre": "True Crime",
         "Language": "EN",
@@ -782,6 +803,13 @@
         "Language": "EN",
         "Summary": "EbonyTV by Lionsgate, authentic Black stories told through award-winning films, comedy, and groundbreaking series.",
         "Link": "https://watch.plex.tv/live-tv/channel/ebony-tv-by-lionsgate"
+    },
+    {
+        "Title": "Crime 360",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Crime 360\u2122, your true crime destination, covering crime all the time.",
+        "Link": "https://watch.plex.tv/live-tv/channel/crime-360-2"
     },
     {
         "Title": "True Crime Now",
@@ -903,11 +931,32 @@
         "Link": "https://watch.plex.tv/live-tv/channel/magellantv-wildest"
     },
     {
+        "Title": "Evolution Earth",
+        "Genre": "Nature & Travel",
+        "Language": "EN",
+        "Summary": "From the earth to the stars and the edge of the unknown, explore the mystery, majesty, and power of the world we live in & beyond.",
+        "Link": "https://watch.plex.tv/live-tv/channel/evolution-earth-2"
+    },
+    {
         "Title": "FilmRise Sci-Fi",
         "Genre": "Sci-Fi & Action",
         "Language": "NO",
         "Summary": "Udforsk andre verdener med serier som ANDROMEDA og MUTANT X.",
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-sci-fi-6"
+    },
+    {
+        "Title": "Evolution Earth",
+        "Genre": "Nature & Travel",
+        "Language": "EN",
+        "Summary": "From the earth to the stars and the edge of the unknown, explore the mystery, majesty, and power of the world we live in & beyond.",
+        "Link": "https://watch.plex.tv/live-tv/channel/evolution-earth-4"
+    },
+    {
+        "Title": "Evolution Earth",
+        "Genre": "Nature & Travel",
+        "Language": "EN",
+        "Summary": "From the earth to the stars and the edge of the unknown, explore the mystery, majesty, and power of the world we live in & beyond.",
+        "Link": "https://watch.plex.tv/live-tv/channel/evolution-earth-3"
     },
     {
         "Title": "FilmRise Sci-Fi",
@@ -1104,6 +1153,13 @@
         "Language": "EN",
         "Summary": "A&E Crime 360, your true crime destination covering all sides of crime with a slate of award-winning true crime and investigation series, specials, documentaries and original short-form content; True Crime, all the time.",
         "Link": "https://watch.plex.tv/live-tv/channel/aande-crime-360"
+    },
+    {
+        "Title": "Intervention",
+        "Genre": "Drama TV",
+        "Language": "EN",
+        "Summary": "Addicts face a crucial decision.",
+        "Link": "https://watch.plex.tv/live-tv/channel/intervention-4"
     },
     {
         "Title": "FilmRise Serien",
@@ -1771,6 +1827,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/horror-club"
     },
     {
+        "Title": "Ghost",
+        "Genre": "History & Science",
+        "Language": "EN",
+        "Summary": "Ordinary people and celebrities reveal their frightening personal experiences of ghosts and haunted houses.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ghost"
+    },
+    {
         "Title": "Bondi Rescue",
         "Genre": "Reality",
         "Language": "EN",
@@ -1827,11 +1890,39 @@
         "Link": "https://watch.plex.tv/live-tv/channel/four-in-a-bed"
     },
     {
+        "Title": "On Patrol: Live",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Real crime, real officers, real moments. On Patrol: Live episodes streaming around the clock.",
+        "Link": "https://watch.plex.tv/live-tv/channel/on-patrol-live"
+    },
+    {
+        "Title": "Dance Moms",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "High-stakes drama in competitive dance.",
+        "Link": "https://watch.plex.tv/live-tv/channel/dance-moms-3"
+    },
+    {
+        "Title": "Dog The Bounty Hunter",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Follow \u201cDog\u201d and his crew as they track down fugitives who\u2019ve jumped bail.",
+        "Link": "https://watch.plex.tv/live-tv/channel/dog-the-bounty-hunter-5"
+    },
+    {
         "Title": "Z Nation",
         "Genre": "Hit TV",
         "Language": "ES",
         "Summary": "En medio de un apocalipsis zombi, un equipo de h\u00e9roes cotidianos debe transportar al \u00fanico superviviente conocido del virus por todo el pa\u00eds hasta el \u00faltimo laboratorio viral en funcionamiento.",
         "Link": "https://watch.plex.tv/live-tv/channel/z-nation-6"
+    },
+    {
+        "Title": "Duck Dynasty",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Meet the close-knit family behind a successful sporting empire.",
+        "Link": "https://watch.plex.tv/live-tv/channel/duck-dynasty-4"
     },
     {
         "Title": "BBC Comedy",
@@ -1909,6 +2000,20 @@
         "Language": "EN",
         "Summary": "Don\u2019t Tell The Bride is the home of weddings with a twist. With the groom solely deciding every aspect of the big day.",
         "Link": "https://watch.plex.tv/live-tv/channel/dont-tell-the-bride"
+    },
+    {
+        "Title": "Dance Moms",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "High-stakes drama in competitive dance.",
+        "Link": "https://watch.plex.tv/live-tv/channel/dance-moms-2"
+    },
+    {
+        "Title": "Celeb Reality",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Showing your favourite celebrities in a real and intimate light.",
+        "Link": "https://watch.plex.tv/live-tv/channel/celeb-reality"
     },
     {
         "Title": "Highway Thru Hell",
@@ -2443,11 +2548,25 @@
         "Link": "https://watch.plex.tv/live-tv/channel/bizarre-foods-with-andrew-zimmern"
     },
     {
+        "Title": "Dog The Bounty Hunter",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Follow \u201cDog\u201d and his crew as they track down fugitives who\u2019ve jumped bail.",
+        "Link": "https://watch.plex.tv/live-tv/channel/dog-the-bounty-hunter-4"
+    },
+    {
         "Title": "Runtime Crime",
         "Genre": "Movies",
         "Language": "PT",
         "Summary": "Hist\u00f3rias policiais e investiga\u00e7\u00f5es cheias de mist\u00e9rio e intriga.",
         "Link": "https://watch.plex.tv/live-tv/channel/runtime-crime"
+    },
+    {
+        "Title": "Duck Dynasty",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Meet the close-knit family behind a successful sporting empire.",
+        "Link": "https://watch.plex.tv/live-tv/channel/duck-dynasty"
     },
     {
         "Title": "FilmRise Binge Watch",
@@ -2709,6 +2828,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/million-dollar-dream-home"
     },
     {
+        "Title": "Little Women: LA",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "With big personalities and even bigger dreams, these extraordinary women tackle life's challenges head-on.",
+        "Link": "https://watch.plex.tv/live-tv/channel/little-women-la-2"
+    },
+    {
         "Title": "Operation Repo",
         "Genre": "Reality",
         "Language": "EN",
@@ -2723,11 +2849,25 @@
         "Link": "https://watch.plex.tv/live-tv/channel/wasabi"
     },
     {
+        "Title": "Ax Men",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Deep in the woods, these loggers are risking it all! 24/7 non-stop episodes of the hard-hitting series.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ax-men-2"
+    },
+    {
         "Title": "Come Dine With Me",
         "Genre": "Food & Home",
         "Language": "EN",
         "Summary": "Five total strangers take turns hosting the perfect dinner party for their fellow contestants, each hoping to win a cash prize and be crowned the ultimate dinner host.",
         "Link": "https://watch.plex.tv/live-tv/channel/come-dine-with-me-2"
+    },
+    {
+        "Title": "Ice Road Truckers",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Danger on the ice\u2026 a job few would dare!",
+        "Link": "https://watch.plex.tv/live-tv/channel/ice-road-truckers-2"
     },
     {
         "Title": "Tastemade",
@@ -2889,6 +3029,13 @@
         "Language": "EN",
         "Summary": "Feel good entertainment celebrating love, romance, family ties and communities. Safe and family friendly, suitable for all ages.",
         "Link": "https://watch.plex.tv/live-tv/channel/super-channel-hearties"
+    },
+    {
+        "Title": "Wrestling Legends TV",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Go beyond the ring 24/7.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wrestling-legends-tv-3"
     },
     {
         "Title": "Cricket Gold",
@@ -3563,11 +3710,39 @@
         "Link": "https://watch.plex.tv/live-tv/channel/murdoch-mysteries"
     },
     {
+        "Title": "Dog The Bounty Hunter",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Follow \u201cDog\u201d and his crew as they track down fugitives who\u2019ve jumped bail.",
+        "Link": "https://watch.plex.tv/live-tv/channel/dog-the-bounty-hunter-6"
+    },
+    {
         "Title": "Mayday: Air Disaster",
         "Genre": "Reality",
         "Language": "EN",
         "Summary": "Mayday reveals gripping real-life air disasters and how experts uncover the truth to make air travel safer for all.",
         "Link": "https://watch.plex.tv/live-tv/channel/mayday-air-disaster"
+    },
+    {
+        "Title": "Duck Dynasty",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Meet the close-knit family behind a successful sporting empire.",
+        "Link": "https://watch.plex.tv/live-tv/channel/duck-dynasty-3"
+    },
+    {
+        "Title": "Little Women: LA",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "With big personalities and even bigger dreams, these extraordinary women tackle life's challenges head-on.",
+        "Link": "https://watch.plex.tv/live-tv/channel/little-women-la-3"
+    },
+    {
+        "Title": "I Survived\u2026",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Gripping stories of survival.",
+        "Link": "https://watch.plex.tv/live-tv/channel/i-survived"
     },
     {
         "Title": "Todo Novelas",
@@ -9742,6 +9917,132 @@
         "Language": "EN",
         "Summary": "Local Now Greensboro",
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-greensboro"
+    },
+    {
+        "Title": "Ax Men Die Holzfaller",
+        "Genre": "Reality",
+        "Language": "DE",
+        "Summary": "Tief in den W\u00e4ldern setzen die Ax Men alles aufs Spiel! Rund um die Uhr spannende Episoden der packenden Serie.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ax-men-die-holzfaller-2"
+    },
+    {
+        "Title": "Lifetime Movies",
+        "Genre": "Movies",
+        "Language": "EN",
+        "Summary": "Lifetime movies all day, from psychological thrillers to seductive love stories.",
+        "Link": "https://watch.plex.tv/live-tv/channel/lifetime-movies-2"
+    },
+    {
+        "Title": "Crime 360",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Crime 360\u2122, your true crime destination, covering crime all the time.",
+        "Link": "https://watch.plex.tv/live-tv/channel/crime-360"
+    },
+    {
+        "Title": "Deal Zone",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Go big or go home. Follow the hunt for the best deals around, with unforgettable pawns, antiques, auctions, and road trips.",
+        "Link": "https://watch.plex.tv/live-tv/channel/deal-zone"
+    },
+    {
+        "Title": "Hoarders",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Focused on hoarding at its most extreme, this channel offers hope & provides resources for anyone in similar situations.",
+        "Link": "https://watch.plex.tv/live-tv/channel/hoarders"
+    },
+    {
+        "Title": "The First 48",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "24/7 episodes of the groundbreaking series.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-first-48"
+    },
+    {
+        "Title": "UnXplained Zone",
+        "Genre": "History & Science",
+        "Language": "EN",
+        "Summary": "Join top investigators as they seek to uncover the truth behind some of the world\u2019s greatest mysteries and cover-ups.",
+        "Link": "https://watch.plex.tv/live-tv/channel/unxplained-zone-2"
+    },
+    {
+        "Title": "Xtreme Outdoor",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "This is your base camp for thrilling outdoor experiences.",
+        "Link": "https://watch.plex.tv/live-tv/channel/xtreme-outdoor"
+    },
+    {
+        "Title": "Little Women: LA",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "With big personalities and even bigger dreams, these extraordinary women tackle life's challenges head-on.",
+        "Link": "https://watch.plex.tv/live-tv/channel/little-women-la-4"
+    },
+    {
+        "Title": "Live PD Presents",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Ride-along with real police.",
+        "Link": "https://watch.plex.tv/live-tv/channel/live-pd-presents-4"
+    },
+    {
+        "Title": "Evolution Earth",
+        "Genre": "History & Science",
+        "Language": "EN",
+        "Summary": "From the earth to the stars and the edge of the unknown, explore the mystery, majesty, and power of the world we live in & beyond.",
+        "Link": "https://watch.plex.tv/live-tv/channel/evolution-earth-5"
+    },
+    {
+        "Title": "Intervention",
+        "Genre": "Drama TV",
+        "Language": "EN",
+        "Summary": "Addicts face a crucial decision.",
+        "Link": "https://watch.plex.tv/live-tv/channel/intervention-3"
+    },
+    {
+        "Title": "Dog The Bounty Hunter",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Follow \u201cDog\u201d and his crew as they track down fugitives who\u2019ve jumped bail.",
+        "Link": "https://watch.plex.tv/live-tv/channel/dog-the-bounty-hunter-3"
+    },
+    {
+        "Title": "Swamp People - \u00dcberleben im Sumpf",
+        "Genre": "Reality",
+        "Language": "DE",
+        "Summary": "In Louisianas S\u00fcmpfen k\u00e4mpfen J\u00e4ger gegen Alligatoren \u2013 eine riskante, adrenalingeladene Reise in die Wildnis.",
+        "Link": "https://watch.plex.tv/live-tv/channel/swamp-people-uberleben-im-sumpf-2"
+    },
+    {
+        "Title": "Chaos on Cam",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Drop into real-life chaos, 24/7.",
+        "Link": "https://watch.plex.tv/live-tv/channel/chaos-on-cam-2"
+    },
+    {
+        "Title": "Tiny House Nation",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "A showcase of small abodes across America and the inventive folks who live in the dinky dwellings.",
+        "Link": "https://watch.plex.tv/live-tv/channel/tiny-house-nation-3"
+    },
+    {
+        "Title": "Flipping Nation",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "All your favorite A&E house-flipping shows.",
+        "Link": "https://watch.plex.tv/live-tv/channel/flipping-nation-2"
+    },
+    {
+        "Title": "Duck Dynasty",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Meet the close-knit family behind a successful sporting empire.",
+        "Link": "https://watch.plex.tv/live-tv/channel/duck-dynasty-5"
     },
     {
         "Title": "Local Now Pittsburgh",
