@@ -784,6 +784,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/intervention-2"
     },
     {
+        "Title": "Crime 360",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Crime 360\u2122, your true crime destination, covering crime all the time.",
+        "Link": "https://watch.plex.tv/live-tv/channel/crime-360-2"
+    },
+    {
         "Title": "Live PD Presents",
         "Genre": "True Crime",
         "Language": "EN",
@@ -803,13 +810,6 @@
         "Language": "EN",
         "Summary": "EbonyTV by Lionsgate, authentic Black stories told through award-winning films, comedy, and groundbreaking series.",
         "Link": "https://watch.plex.tv/live-tv/channel/ebony-tv-by-lionsgate"
-    },
-    {
-        "Title": "Crime 360",
-        "Genre": "True Crime",
-        "Language": "EN",
-        "Summary": "Crime 360\u2122, your true crime destination, covering crime all the time.",
-        "Link": "https://watch.plex.tv/live-tv/channel/crime-360-2"
     },
     {
         "Title": "True Crime Now",
@@ -1890,11 +1890,53 @@
         "Link": "https://watch.plex.tv/live-tv/channel/four-in-a-bed"
     },
     {
+        "Title": "Dog The Bounty Hunter",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Follow \u201cDog\u201d and his crew as they track down fugitives who\u2019ve jumped bail.",
+        "Link": "https://watch.plex.tv/live-tv/channel/dog-the-bounty-hunter-6"
+    },
+    {
+        "Title": "Celeb Reality",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Showing your favourite celebrities in a real and intimate light.",
+        "Link": "https://watch.plex.tv/live-tv/channel/celeb-reality"
+    },
+    {
+        "Title": "Mayday: Air Disaster",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Mayday reveals gripping real-life air disasters and how experts uncover the truth to make air travel safer for all.",
+        "Link": "https://watch.plex.tv/live-tv/channel/mayday-air-disaster"
+    },
+    {
+        "Title": "Duck Dynasty",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Meet the close-knit family behind a successful sporting empire.",
+        "Link": "https://watch.plex.tv/live-tv/channel/duck-dynasty-3"
+    },
+    {
+        "Title": "Ice Road Truckers",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Danger on the ice\u2026 a job few would dare!",
+        "Link": "https://watch.plex.tv/live-tv/channel/ice-road-truckers-2"
+    },
+    {
         "Title": "On Patrol: Live",
         "Genre": "Reality",
         "Language": "EN",
         "Summary": "Real crime, real officers, real moments. On Patrol: Live episodes streaming around the clock.",
         "Link": "https://watch.plex.tv/live-tv/channel/on-patrol-live"
+    },
+    {
+        "Title": "I Survived\u2026",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Gripping stories of survival.",
+        "Link": "https://watch.plex.tv/live-tv/channel/i-survived"
     },
     {
         "Title": "Dance Moms",
@@ -1916,6 +1958,13 @@
         "Language": "ES",
         "Summary": "En medio de un apocalipsis zombi, un equipo de h\u00e9roes cotidianos debe transportar al \u00fanico superviviente conocido del virus por todo el pa\u00eds hasta el \u00faltimo laboratorio viral en funcionamiento.",
         "Link": "https://watch.plex.tv/live-tv/channel/z-nation-6"
+    },
+    {
+        "Title": "Ax Men",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Deep in the woods, these loggers are risking it all! 24/7 non-stop episodes of the hard-hitting series.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ax-men-2"
     },
     {
         "Title": "Duck Dynasty",
@@ -2002,6 +2051,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/dont-tell-the-bride"
     },
     {
+        "Title": "Jade Fever",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Med efterfr\u00e5gan p\u00e5 jade som skjuter i h\u00f6jden i Kina, st\u00e5r Claudia och Robin Bunce inf\u00f6r en galen sommar.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jade-fever-4"
+    },
+    {
         "Title": "Dance Moms",
         "Genre": "Reality",
         "Language": "EN",
@@ -2009,11 +2065,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/dance-moms-2"
     },
     {
-        "Title": "Celeb Reality",
+        "Title": "Little Women: LA",
         "Genre": "Reality",
         "Language": "EN",
-        "Summary": "Showing your favourite celebrities in a real and intimate light.",
-        "Link": "https://watch.plex.tv/live-tv/channel/celeb-reality"
+        "Summary": "With big personalities and even bigger dreams, these extraordinary women tackle life's challenges head-on.",
+        "Link": "https://watch.plex.tv/live-tv/channel/little-women-la-3"
     },
     {
         "Title": "Highway Thru Hell",
@@ -2849,25 +2905,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/wasabi"
     },
     {
-        "Title": "Ax Men",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "Deep in the woods, these loggers are risking it all! 24/7 non-stop episodes of the hard-hitting series.",
-        "Link": "https://watch.plex.tv/live-tv/channel/ax-men-2"
-    },
-    {
         "Title": "Come Dine With Me",
         "Genre": "Food & Home",
         "Language": "EN",
         "Summary": "Five total strangers take turns hosting the perfect dinner party for their fellow contestants, each hoping to win a cash prize and be crowned the ultimate dinner host.",
         "Link": "https://watch.plex.tv/live-tv/channel/come-dine-with-me-2"
-    },
-    {
-        "Title": "Ice Road Truckers",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "Danger on the ice\u2026 a job few would dare!",
-        "Link": "https://watch.plex.tv/live-tv/channel/ice-road-truckers-2"
     },
     {
         "Title": "Tastemade",
@@ -3045,11 +3087,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cricket-gold"
     },
     {
-        "Title": "GFN Soccer TV",
+        "Title": "GFN Football TV",
         "Genre": "Sports",
         "Language": "EN",
-        "Summary": "GFN Soccer brings you all the latest football news, opinions, and analysis from the world\u2019s biggest clubs and competitions.",
-        "Link": "https://watch.plex.tv/live-tv/channel/gfn-soccer-tv"
+        "Summary": "GFN Football TV brings you all the latest football news, opinions, and analysis from the world\u2019s biggest clubs and competitions.",
+        "Link": "https://watch.plex.tv/live-tv/channel/gfn-football-tv"
     },
     {
         "Title": "Documentary+",
@@ -3708,41 +3750,6 @@
         "Language": "EN",
         "Summary": "In the 1890s, William Murdoch uses radical forensic techniques for the time, including fingerprinting and trace evidence, to solve some of the city's most gruesome murders.",
         "Link": "https://watch.plex.tv/live-tv/channel/murdoch-mysteries"
-    },
-    {
-        "Title": "Dog The Bounty Hunter",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "Follow \u201cDog\u201d and his crew as they track down fugitives who\u2019ve jumped bail.",
-        "Link": "https://watch.plex.tv/live-tv/channel/dog-the-bounty-hunter-6"
-    },
-    {
-        "Title": "Mayday: Air Disaster",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "Mayday reveals gripping real-life air disasters and how experts uncover the truth to make air travel safer for all.",
-        "Link": "https://watch.plex.tv/live-tv/channel/mayday-air-disaster"
-    },
-    {
-        "Title": "Duck Dynasty",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "Meet the close-knit family behind a successful sporting empire.",
-        "Link": "https://watch.plex.tv/live-tv/channel/duck-dynasty-3"
-    },
-    {
-        "Title": "Little Women: LA",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "With big personalities and even bigger dreams, these extraordinary women tackle life's challenges head-on.",
-        "Link": "https://watch.plex.tv/live-tv/channel/little-women-la-3"
-    },
-    {
-        "Title": "I Survived\u2026",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "Gripping stories of survival.",
-        "Link": "https://watch.plex.tv/live-tv/channel/i-survived"
     },
     {
         "Title": "Todo Novelas",
@@ -5831,11 +5838,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/curro-jimenez"
     },
     {
-        "Title": "Canela.TV Pasi\u00f3n Latina",
+        "Title": "Canela.TV Novelas y Dramas",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
         "Summary": "Prep\u00e1rate para vivir cada momento intensamente, donde el drama nunca termina y la emoci\u00f3n est\u00e1 garantizada.",
-        "Link": "https://watch.plex.tv/live-tv/channel/canela-tv-pasion-latina"
+        "Link": "https://watch.plex.tv/live-tv/channel/canela-tv-novelas-y-dramas"
     },
     {
         "Title": "4UV",
@@ -7747,13 +7754,6 @@
         "Language": "EN",
         "Summary": "Join homeowners as they transform their lifestyles to swap urban hot spots for the tranquility of countryside living.",
         "Link": "https://watch.plex.tv/live-tv/channel/escape-to-the-country"
-    },
-    {
-        "Title": "Jade Fever",
-        "Genre": "Reality",
-        "Language": "EN",
-        "Summary": "Med efterfr\u00e5gan p\u00e5 jade som skjuter i h\u00f6jden i Kina, st\u00e5r Claudia och Robin Bunce inf\u00f6r en galen sommar.",
-        "Link": "https://watch.plex.tv/live-tv/channel/jade-fever-4"
     },
     {
         "Title": "Jade Fever",
