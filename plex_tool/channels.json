@@ -455,6 +455,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/modern-marvels-2"
     },
     {
+        "Title": "Modern Marvels by History",
+        "Genre": "History & Science",
+        "Language": "EN",
+        "Summary": "Celebrate ingenuity and imagination in the world around us. 24/7 episodes of Modern Marvels, television's most innovative series.",
+        "Link": "https://watch.plex.tv/live-tv/channel/modern-marvels-by-history"
+    },
+    {
         "Title": "Ghost Hunters Channel",
         "Genre": "History & Science",
         "Language": "EN",
@@ -488,6 +495,13 @@
         "Language": "EN",
         "Summary": "Mythbusters Jamie and Adam apply cutting-edge science to legends and myths to prove what is real & what is truly an urban legend.",
         "Link": "https://watch.plex.tv/live-tv/channel/mythbusters"
+    },
+    {
+        "Title": "The Repair Shop",
+        "Genre": "History & Science",
+        "Language": "EN",
+        "Summary": "Nestled deep in the British countryside lies a workshop where broken, battered and beloved artifacts and antiques are brought back to life.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-repair-shop"
     },
     {
         "Title": "The First 48 by A&E",
@@ -602,6 +616,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/are-we-there-yet"
     },
     {
+        "Title": "Nikita",
+        "Genre": "Drama TV",
+        "Language": "EN",
+        "Summary": "Step into the world of Nikita as she navigates life as a secret government assassin, as seen in the original 1990s classic and the 2010s reboot.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nikita"
+    },
+    {
         "Title": "Nash Bridges",
         "Genre": "Drama TV",
         "Language": "EN",
@@ -663,6 +684,13 @@
         "Language": "EN",
         "Summary": "Go beyond the headlines to explore and experience the news with our journalists in Canada and the world.",
         "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-explore"
+    },
+    {
+        "Title": "Generation Drama",
+        "Genre": "Drama TV",
+        "Language": "EN",
+        "Summary": "Love, heartbreak, scandal \u2013 and endless entertainment. Find your next TV obsession with these binge-worthy scripted series.",
+        "Link": "https://watch.plex.tv/live-tv/channel/generation-drama"
     },
     {
         "Title": "Nip/Tuck",
@@ -1491,6 +1519,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/oxygen-true-crime-archives"
     },
     {
+        "Title": "Living With Evil",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Watch the exposure of the dark side of human nature, where seemingly ordinary lives hide chilling secrets. Hear true stories of betrayal, obsession, and murder\u2014proving that evil can live closer than you think.",
+        "Link": "https://watch.plex.tv/live-tv/channel/living-with-evil"
+    },
+    {
         "Title": "Love Pets",
         "Genre": "Nature & Travel",
         "Language": "EN",
@@ -1694,6 +1729,20 @@
         "Link": "https://watch.plex.tv/live-tv/channel/stingray-naturescape-2"
     },
     {
+        "Title": "Ghosts Are Real",
+        "Genre": "History & Science",
+        "Language": "EN",
+        "Summary": "Real-life stories of ghosts, goblins and other out-of-this-world entities.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ghosts-are-real"
+    },
+    {
+        "Title": "Space & Beyond",
+        "Genre": "History & Science",
+        "Language": "EN",
+        "Summary": "Go on an epic journey through the cosmos and the mysteries of our planet. Explore the wonders of space, strange phenomena, and the cutting-edge science behind our ever-expanding understanding of the universe. Discover the extraordinary\u2014right here on Earth and far beyond.",
+        "Link": "https://watch.plex.tv/live-tv/channel/space-and-beyond"
+    },
+    {
         "Title": "Curiosity NOW",
         "Genre": "History & Science",
         "Language": "EN",
@@ -1755,6 +1804,13 @@
         "Language": "EN",
         "Summary": "Time-warp to 2002 and follow the domestic life of Ozzy, Sharon, their children Jack and Kelly, and the dogs.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-osbournes"
+    },
+    {
+        "Title": "Bachelor Nation",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "This cult-favorite romance reality franchise follows eligible singles as they explore multiple relationships at once in the hopes of finding love.",
+        "Link": "https://watch.plex.tv/live-tv/channel/bachelor-nation"
     },
     {
         "Title": "World of Love Island",
@@ -1846,6 +1902,13 @@
         "Language": "EN",
         "Summary": "Dig Deep into the many seasons of Million Dollar Listing, from LA to NY, SF to Miami! Bravo's MDL vault offers the best of real estate, with all the deals and drama.",
         "Link": "https://watch.plex.tv/live-tv/channel/million-dollar-listing-vault"
+    },
+    {
+        "Title": "Survive or Die",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Plunge into the world\u2019s most extreme environments, where danger is real and only the toughest make it out. Experience the grit, skill, and sheer willpower it takes to endure the planet\u2019s harshest conditions. When survival is the only option, every decision counts.",
+        "Link": "https://watch.plex.tv/live-tv/channel/survive-or-die"
     },
     {
         "Title": "CineLife",
@@ -1988,6 +2051,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/unidentified"
     },
     {
+        "Title": "Entertains",
+        "Genre": "Comedy",
+        "Language": "EN",
+        "Summary": "Featuring some of Australia\u2019s finest content, Entertains delivers endless hours of comedy and drama to excite the whole family.",
+        "Link": "https://watch.plex.tv/live-tv/channel/entertains"
+    },
+    {
         "Title": "FilmRise Free Movies",
         "Genre": "Movies",
         "Language": "EN",
@@ -2037,11 +2107,25 @@
         "Link": "https://watch.plex.tv/live-tv/channel/popular-science"
     },
     {
+        "Title": "Factual",
+        "Genre": "History & Science",
+        "Language": "EN",
+        "Summary": "Countless hours of mind-blowing knowledge and natural history.",
+        "Link": "https://watch.plex.tv/live-tv/channel/factual"
+    },
+    {
         "Title": "Spark TV Light & Love",
         "Genre": "Movies",
         "Language": "EN",
         "Summary": "Light & Love features romantic and family friendly movies and series that will uplift, inspire and warm the heart.",
         "Link": "https://watch.plex.tv/live-tv/channel/spark-tv-light-and-love"
+    },
+    {
+        "Title": "Medical Incredible",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Experience the most astonishing, unusual, and unforgettable medical mysteries and transformations. Dive into real-life cases that defy the odds and highlight the resilience of the human body\u2014and the experts who help heal or transform it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/medical-incredible"
     },
     {
         "Title": "Don't Tell The Bride",
@@ -2093,6 +2177,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/xtreme-outdoor-by-history"
     },
     {
+        "Title": "Monsters are Real",
+        "Genre": "History & Science",
+        "Language": "EN",
+        "Summary": "Dive into the chilling world of creatures that haunt our darkest fears. Featuring true stories of terrifying encounters and the brave souls who track these beasts, this channel explores legends, eyewitness accounts, and real-life hunts for the unknown. These monsters aren\u2019t just myths or legend... they\u2019re real.",
+        "Link": "https://watch.plex.tv/live-tv/channel/monsters-are-real"
+    },
+    {
         "Title": "Beyond Paranormal",
         "Genre": "History & Science",
         "Language": "EN",
@@ -2105,13 +2196,6 @@
         "Language": "EN",
         "Summary": "Experience thrilling gold rushes, high seas drama, masterful log home builds, plus much more. Every show is an adventure.",
         "Link": "https://watch.plex.tv/live-tv/channel/extreme-jobs"
-    },
-    {
-        "Title": "Modern Marvels by History",
-        "Genre": "History & Science",
-        "Language": "EN",
-        "Summary": "Celebrate ingenuity and imagination in the world around us. 24/7 episodes of Modern Marvels, television's most innovative series.",
-        "Link": "https://watch.plex.tv/live-tv/channel/modern-marvels-by-history"
     },
     {
         "Title": "soap",
@@ -2317,6 +2401,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cinevault-classics-2"
     },
     {
+        "Title": "Classic Cinema",
+        "Genre": "Movies",
+        "Language": "EN",
+        "Summary": "Experience the silver screen at home with a collection of acclaimed films from the Golden Age of Hollywood and beyond.",
+        "Link": "https://watch.plex.tv/live-tv/channel/classic-cinema"
+    },
+    {
         "Title": "myspass Comedy & Shows",
         "Genre": "Comedy",
         "Language": "DE",
@@ -2366,13 +2457,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/tribeca-channel"
     },
     {
-        "Title": "Ghosts Are Real",
-        "Genre": "History & Science",
-        "Language": "EN",
-        "Summary": "Real-life stories of ghosts, goblins and other out-of-this-world entities.",
-        "Link": "https://watch.plex.tv/live-tv/channel/ghosts-are-real"
-    },
-    {
         "Title": "CHILI Grandi Nomi",
         "Genre": "Drama TV",
         "Language": "IT",
@@ -2392,13 +2476,6 @@
         "Language": "DE",
         "Summary": "Bei \"Deutsche Filme\" finden Sie Spielfilme und Dokumentation von lustig bis ernst und von romantisch bis spannend. Geschichten und Gesichter aus dem Leben - direkt in Ihr Heimkino!",
         "Link": "https://watch.plex.tv/live-tv/channel/deutsche-filme"
-    },
-    {
-        "Title": "TV5MONDE Chefs",
-        "Genre": "Food & Home",
-        "Language": "FR",
-        "Summary": "TV5MONDE Chefs takes you on a culinary journey with globally\u00a0acclaimed chefs.",
-        "Link": "https://watch.plex.tv/live-tv/channel/tv5monde-chefs"
     },
     {
         "Title": "CBS Sports HQ",
@@ -2427,6 +2504,13 @@
         "Language": "EN",
         "Summary": "DAZN Ringside is the ultimate FAST channel for fight fans, from knockout punches to behind-the-scenes coverage.",
         "Link": "https://watch.plex.tv/live-tv/channel/dazn-ringside"
+    },
+    {
+        "Title": "HBO Boxing",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Witness historic rivalries and epic showdowns in this incredible selection of legendary HBO Boxing matchups.",
+        "Link": "https://watch.plex.tv/live-tv/channel/hbo-boxing"
     },
     {
         "Title": "NBC Sports NOW",
@@ -2919,6 +3003,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/tastemade-5"
     },
     {
+        "Title": "TV5MONDE Chefs",
+        "Genre": "Food & Home",
+        "Language": "FR",
+        "Summary": "TV5MONDE Chefs takes you on a culinary journey with globally\u00a0acclaimed chefs.",
+        "Link": "https://watch.plex.tv/live-tv/channel/tv5monde-chefs"
+    },
+    {
         "Title": "The Great British Competition Channel",
         "Genre": "Food & Home",
         "Language": "EN",
@@ -2940,11 +3031,25 @@
         "Link": "https://watch.plex.tv/live-tv/channel/tiny-house-nation"
     },
     {
+        "Title": "Chef vs Chef",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Turn up the heat as America\u2019s most daring chefs face off in a series of high-stakes culinary showdowns.",
+        "Link": "https://watch.plex.tv/live-tv/channel/chef-vs-chef"
+    },
+    {
         "Title": "Inside Outside",
         "Genre": "Food & Home",
         "Language": "EN",
         "Summary": "Inside-outside cooking shows bridge indoor and outdoor culinary techniques.",
         "Link": "https://watch.plex.tv/live-tv/channel/inside-outside-3"
+    },
+    {
+        "Title": "Chip & Jo: Feels Like Home",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Join Chip & Jo for home makeovers, tasty bites, and lifestyle tips you\u2019ll love. Find your next comfort watch here.",
+        "Link": "https://watch.plex.tv/live-tv/channel/chip-and-jo-feels-like-home"
     },
     {
         "Title": "Gata Salvaje",
@@ -3036,13 +3141,6 @@
         "Language": "EN",
         "Summary": "Tennis Channel 2 includes matches from the men\u2019s and women\u2019s pro tennis tours \u2013 the ATP and WTA.",
         "Link": "https://watch.plex.tv/live-tv/channel/tennis-channel-2"
-    },
-    {
-        "Title": "PokerGO",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "PokerGO is the world's largest poker content company. Exclusive content includes the World Series of Poker and High Stakes Poker.",
-        "Link": "https://watch.plex.tv/live-tv/channel/pokergo"
     },
     {
         "Title": "Poker Night TV",
@@ -3199,6 +3297,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/fork-and-flight"
     },
     {
+        "Title": "Home Cooking",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Beloved culinary stars share their top kitchen tips and tricks \u2013 and the secret ingredient for a great meal.",
+        "Link": "https://watch.plex.tv/live-tv/channel/home-cooking"
+    },
+    {
         "Title": "The Jamie Oliver Channel",
         "Genre": "Food & Home",
         "Language": "EN",
@@ -3239,6 +3344,13 @@
         "Language": "EN",
         "Summary": "Take a trip across the pond with the one channel bringing you the best in British home remodeling and garden renovation.",
         "Link": "https://watch.plex.tv/live-tv/channel/bbc-home-and-garden"
+    },
+    {
+        "Title": "Everyday",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Catering to the genre of entertainment loyally loved by audiences all around the world with content for all ages to escape into.",
+        "Link": "https://watch.plex.tv/live-tv/channel/everyday"
     },
     {
         "Title": "PBS Food",
@@ -4296,6 +4408,13 @@
         "Language": "EN",
         "Summary": "Bonanza-Billies TV: Tune in for timeless adventures and laughs with The Beverly Hillbillies, Bonanza, and more beloved classics!",
         "Link": "https://watch.plex.tv/live-tv/channel/bonanza-billies-tv"
+    },
+    {
+        "Title": "The FBI",
+        "Genre": "Classics",
+        "Language": "EN",
+        "Summary": "In the complex world of crime, only one agency possesses the skills, knowledge and specially trained agents to tackle the toughest cases \u2013 The FBI.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-fbi"
     },
     {
         "Title": "Yahoo Finance",
@@ -5402,13 +5521,6 @@
         "Language": "IT",
         "Summary": "Urania News, la prima TV italiana dedicata a istituzioni e imprese, con storie di successo e contenuti di approfondimento.",
         "Link": "https://watch.plex.tv/live-tv/channel/urania-news"
-    },
-    {
-        "Title": "KSL TV 5 News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "KSL TV Channel 5: The best source for Utah news, investigative reports, weather forecasts, sports, & community events.",
-        "Link": "https://watch.plex.tv/live-tv/channel/ksl-tv-5-news"
     },
     {
         "Title": "Azteca Internacional",
@@ -7759,6 +7871,13 @@
         "Title": "Jade Fever",
         "Genre": "Reality",
         "Language": "EN",
+        "Summary": "Kun jaden kysynt\u00e4 kasvaa r\u00e4j\u00e4hdysm\u00e4isesti Kiinassa, Claudia ja Robin Bunce ovat edess\u00e4 hullun kes\u00e4n.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jade-fever-5"
+    },
+    {
+        "Title": "Jade Fever",
+        "Genre": "Reality",
+        "Language": "EN",
         "Summary": "Med ettersp\u00f8rselen etter jade som skyter i v\u00e6ret i Kina, st\u00e5r Claudia og Robin Bunce foran en gal sommer.",
         "Link": "https://watch.plex.tv/live-tv/channel/jade-fever-3"
     },
@@ -8071,6 +8190,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/kidz-bop-tv"
     },
     {
+        "Title": "Masha and the Bear",
+        "Genre": "Kids & Family",
+        "Language": "EN",
+        "Summary": "Masha and the Bear animated series, produced by Animaccord, with kindness and comedy in its heart, follows the adventures of a mischievous little girl Masha and her caring friend, The Bear.",
+        "Link": "https://watch.plex.tv/live-tv/channel/masha-and-the-bear"
+    },
+    {
         "Title": "Emoci\u00f3n Atres",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -8237,6 +8363,13 @@
         "Language": "EN",
         "Summary": "Very Cincinnati. Your top source for local news from WLWT, originals, and more.",
         "Link": "https://watch.plex.tv/live-tv/channel/very-cincinnati-by-wlwt"
+    },
+    {
+        "Title": "Kids",
+        "Genre": "Kids & Family",
+        "Language": "EN",
+        "Summary": "Perfect for preschool audiences offering a great mix of fun and education for all little\nexplorers!",
+        "Link": "https://watch.plex.tv/live-tv/channel/kids"
     },
     {
         "Title": "Kidoodle TV",
@@ -8426,6 +8559,13 @@
         "Language": "EN",
         "Summary": "Local Now Jacksonville",
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-jacksonville"
+    },
+    {
+        "Title": "KSL TV 5 News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "KSL TV Channel 5: The best source for Utah news, investigative reports, weather forecasts, sports, & community events.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ksl-tv-5-news"
     },
     {
         "Title": "Local Now KC",
@@ -10155,6 +10295,13 @@
         "Language": "EN",
         "Summary": "Gymnastics, Athletics, Aquatics, Biathlon and more - Eurovision Sport brings world-class Olympic sports right to your living room.",
         "Link": "https://watch.plex.tv/live-tv/channel/eurovision-sport"
+    },
+    {
+        "Title": "Caracol Mix",
+        "Genre": "Drama TV",
+        "Language": "ES",
+        "Summary": "Caracol Mix, el primer canal FAST de Caracol Televisi\u00f3n, lleva las producciones m\u00e1s aclamadas de Colombia a los espectadores hispanos de todo el mundo.",
+        "Link": "https://watch.plex.tv/live-tv/channel/caracol-mix-2"
     },
     {
         "Title": "Inuyasha",
