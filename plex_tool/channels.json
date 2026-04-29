@@ -904,7 +904,7 @@
     },
     {
         "Title": "Penn & Teller: Fool Us",
-        "Genre": "Comedy",
+        "Genre": "Game Shows",
         "Language": "EN",
         "Summary": "Aspiring magicians perform their best tricks to try and fool the world-famous team of Penn & Teller.",
         "Link": "https://watch.plex.tv/live-tv/channel/penn-and-teller-fool-us"
@@ -2492,13 +2492,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cw-presents-wwe-nxt"
     },
     {
-        "Title": "NFL Draft Vault",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "The NFL Draft Vault features iconic draft moments, full drafts, rookie highlights, and prospects\u2019 paths to the NFL.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nfl-draft-vault"
-    },
-    {
         "Title": "DAZN Ringside",
         "Genre": "Sports",
         "Language": "EN",
@@ -2639,11 +2632,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/kims-convenience"
     },
     {
-        "Title": "Gardening with Monty Don",
+        "Title": "Garden with Monty Don",
         "Genre": "Food & Home",
         "Language": "EN",
-        "Summary": "From tips and tricks to inspirational locations, Gardening with Monty Don is the home of the UK's most beloved gardening star.",
-        "Link": "https://watch.plex.tv/live-tv/channel/gardening-with-monty-don"
+        "Summary": "Step into beautiful gardens and breathtaking outdoor spaces filled with colorful blooms and inspiring transformations.",
+        "Link": "https://watch.plex.tv/live-tv/channel/garden-with-monty-don"
     },
     {
         "Title": "Storie Criminali",
@@ -4074,13 +4067,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/movieitaly-channel"
     },
     {
-        "Title": "P\u00e1nico TV Espa\u00f1ol",
-        "Genre": "Chills & Thrills",
-        "Language": "ES",
-        "Summary": "EL MIEDO LLEGA A CASA: Panic TV selecciona contenido de m\u00faltiples g\u00e9neros de entretenimiento para ofrecer una experiencia de visualizaci\u00f3n fluida y basada en el miedo.",
-        "Link": "https://watch.plex.tv/live-tv/channel/panico-tv-espanol"
-    },
-    {
         "Title": "Mr. Bean Live Action",
         "Genre": "Comedy",
         "Language": "EN",
@@ -5374,13 +5360,6 @@
         "Language": "ES",
         "Summary": "Un espacio \u00fanico para los amantes del cine.",
         "Link": "https://watch.plex.tv/live-tv/channel/runtime-clasicos"
-    },
-    {
-        "Title": "The Weather Network",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The Weather Network Channel is your source for weather news coverage and forecasts, as well as Canadian original programming",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-weather-network"
     },
     {
         "Title": "FIFA+",
