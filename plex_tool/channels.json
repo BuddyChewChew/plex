@@ -1484,6 +1484,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/jail"
     },
     {
+        "Title": "60 Days In Jail",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Exposing jail from the inside.",
+        "Link": "https://watch.plex.tv/live-tv/channel/60-days-in-jail"
+    },
+    {
         "Title": "FIFA+",
         "Genre": "Sports",
         "Language": "EN",
@@ -3003,11 +3010,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/tv5monde-chefs"
     },
     {
-        "Title": "The Great British Competition Channel",
+        "Title": "The Great British Baking Channel",
         "Genre": "Food & Home",
         "Language": "EN",
-        "Summary": "Watch some of TV's best loved competition programmes that have captivated audiences the world over.",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-great-british-competition-channel"
+        "Summary": "The Great British Baking Channel offers some of the most beloved baking and competition shows that have captivated audiences in the US and UK.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-great-british-baking-channel"
     },
     {
         "Title": "The Martha Stewart Channel",
@@ -3281,13 +3288,6 @@
         "Language": "EN",
         "Summary": "There\u2019s no place like home. We\u2019re the heart of home.",
         "Link": "https://watch.plex.tv/live-tv/channel/places-and-spaces"
-    },
-    {
-        "Title": "Fork & Flight",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Fork & Flight takes you on a journey across food, beverage, and culture with big personalities as they travel the world.",
-        "Link": "https://watch.plex.tv/live-tv/channel/fork-and-flight"
     },
     {
         "Title": "Home Cooking",
@@ -3953,13 +3953,6 @@
         "Language": "EN",
         "Summary": "Pam Grier\u2019s Soul Flix is an adrenaline-fueled journey through the era of black empowerment.",
         "Link": "https://watch.plex.tv/live-tv/channel/pam-griers-soul-flix"
-    },
-    {
-        "Title": "Investigation",
-        "Genre": "True Crime",
-        "Language": "EN",
-        "Summary": "Unlock the door to crime and mystery with a behind-the-scenes look at some of the most notorious crimes and shocking investigations.",
-        "Link": "https://watch.plex.tv/live-tv/channel/investigation"
     },
     {
         "Title": "FilmRise Mysteries",
@@ -9654,7 +9647,7 @@
     },
     {
         "Title": "Historias de Coraz\u00f3n",
-        "Genre": "Movies",
+        "Genre": "Drama TV",
         "Language": "EN",
         "Summary": "Bienvenidos a Historias de Coraz\u00f3n: series y pel\u00edculas de amor y relaciones, desde romances dulces hasta dramas intensos.",
         "Link": "https://watch.plex.tv/live-tv/channel/historias-de-corazon"
@@ -10276,6 +10269,34 @@
         "Link": "https://watch.plex.tv/live-tv/channel/eurovision-sport"
     },
     {
+        "Title": "CBC News Saskatchewan",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News Saskatchewan delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-saskatchewan"
+    },
+    {
+        "Title": "CBC News PEI",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News PEI delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-pei"
+    },
+    {
+        "Title": "CBC News Manitoba",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News Manitoba delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-manitoba"
+    },
+    {
+        "Title": "Wrestling Legends TV",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Go beyond the ring 24/7.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wrestling-legends-tv"
+    },
+    {
         "Title": "Caracol Mix",
         "Genre": "Drama TV",
         "Language": "ES",
@@ -10283,11 +10304,53 @@
         "Link": "https://watch.plex.tv/live-tv/channel/caracol-mix-2"
     },
     {
+        "Title": "CBC News New Brunswick",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News New Brunswick delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-new-brunswick"
+    },
+    {
         "Title": "Inuyasha",
         "Genre": "Animeand",
         "Language": "IT",
         "Summary": "Guarda Kagome cadere nel pozzo del santuario di famiglia e venire trasportata nell'epoca Sengoku per incontrare Inuyasha!",
         "Link": "https://watch.plex.tv/live-tv/channel/inuyasha"
+    },
+    {
+        "Title": "CBC News Nova Scotia",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News Nova Scotia delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-nova-scotia"
+    },
+    {
+        "Title": "CBC News Windsor",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News Windsor delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-windsor"
+    },
+    {
+        "Title": "CBC News Edmonton",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News Edmonton delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-edmonton"
+    },
+    {
+        "Title": "CBC News NL",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News NL delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-nl"
+    },
+    {
+        "Title": "CBC News North",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBC News North delivers news you need when you need it.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbc-news-north"
     },
     {
         "Title": "Local Now Gainesville",
