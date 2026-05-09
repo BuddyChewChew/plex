@@ -53,13 +53,6 @@
         "Genre": "Sports",
         "Language": "EN",
         "Summary": "Football entertainment for fans including documentaries, original series and historic full match replays and highlights.",
-        "Link": "https://watch.plex.tv/live-tv/channel/fifa-18"
-    },
-    {
-        "Title": "FIFA+",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Football entertainment for fans including documentaries, original series and historic full match replays and highlights.",
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-6"
     },
     {
@@ -96,13 +89,6 @@
         "Language": "EN",
         "Summary": "En av de mest framg\u00e5ngsrika bri ska realityprogrammen i v\u00e4rlden. Aspirerande entrepren\u00f6rer marknadsf\u00f6r sina aff\u00e4rsid\u00e9er ll mul miljon\u00e4rsinvesterare i hopp om a f\u00e5 investeringspengar.",
         "Link": "https://watch.plex.tv/live-tv/channel/dragons-den-3"
-    },
-    {
-        "Title": "FIFA+",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Football entertainment for fans including documentaries, original series and historic full match replays and highlights.",
-        "Link": "https://watch.plex.tv/live-tv/channel/fifa-14"
     },
     {
         "Title": "Sony One | Comedy Hits",
@@ -173,6 +159,13 @@
         "Language": "EN",
         "Summary": "Watch Breaking Bad, The Walking Dead, Turn, Halt and Catch Fire, Rectify, and Making of the Mob, plus movies and scripted originals.",
         "Link": "https://watch.plex.tv/live-tv/channel/stories-by-amc-2"
+    },
+    {
+        "Title": "FIFA+",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Football entertainment for fans including documentaries, original series and historic full match replays and highlights.",
+        "Link": "https://watch.plex.tv/live-tv/channel/fifa-18"
     },
     {
         "Title": "Stories by AMC",
@@ -453,6 +446,13 @@
         "Language": "EN",
         "Summary": "Celebrate ingenuity and imagination in the world around us. 24/7 episodes of Modern Marvels, television's most innovative series.",
         "Link": "https://watch.plex.tv/live-tv/channel/modern-marvels-2"
+    },
+    {
+        "Title": "FIFA+",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Football entertainment for fans including documentaries, original series and historic full match replays and highlights.",
+        "Link": "https://watch.plex.tv/live-tv/channel/fifa-14"
     },
     {
         "Title": "Modern Marvels by History",
@@ -791,6 +791,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-graham-norton-show"
     },
     {
+        "Title": "NFL Channel",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "NFL Channel for all your football highlights.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nfl-channel-3"
+    },
+    {
         "Title": "Western Bound",
         "Genre": "Drama TV",
         "Language": "EN",
@@ -901,13 +908,6 @@
         "Language": "EN",
         "Summary": "America's Funniest Home Videos - Watch Classic episodes of America's Funniest Home Videos now streaming free 24/7 for the first time ever!",
         "Link": "https://watch.plex.tv/live-tv/channel/americas-funniest-home-videos"
-    },
-    {
-        "Title": "Penn & Teller: Fool Us",
-        "Genre": "Game Shows",
-        "Language": "EN",
-        "Summary": "Aspiring magicians perform their best tricks to try and fool the world-famous team of Penn & Teller.",
-        "Link": "https://watch.plex.tv/live-tv/channel/penn-and-teller-fool-us"
     },
     {
         "Title": "Sony One | FAVES",
@@ -2107,6 +2107,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/spark-tv"
     },
     {
+        "Title": "The Prof G Channel",
+        "Genre": "History & Science",
+        "Language": "EN",
+        "Summary": "Sharp takes on business, tech, and politics with Scott Galloway\u2014insightful analysis, bold opinions, and real-world advice.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-prof-g-channel"
+    },
+    {
         "Title": "Popular Science",
         "Genre": "History & Science",
         "Language": "EN",
@@ -2320,7 +2327,7 @@
         "Title": "CTV Laughs",
         "Genre": "Comedy",
         "Language": "EN",
-        "Summary": "Laugh out loud with this collection of funny, featuring side-splitting sitcoms, roast battles and stand-up.",
+        "Summary": "Laugh out loud with this collection of funny, featuring roast battles, funny animals, Canada's Worst Driver, and Cash Cab.",
         "Link": "https://watch.plex.tv/live-tv/channel/ctv-laughs"
     },
     {
@@ -3659,6 +3666,13 @@
         "Language": "EN",
         "Summary": "Three teams of two battle it out using their grocery shopping skills and knowledge of merchandise to win cash prizes.",
         "Link": "https://watch.plex.tv/live-tv/channel/supermarket-sweep"
+    },
+    {
+        "Title": "Penn & Teller: Fool Us",
+        "Genre": "Game Shows",
+        "Language": "EN",
+        "Summary": "Aspiring magicians perform their best tricks to try and fool the world-famous team of Penn & Teller.",
+        "Link": "https://watch.plex.tv/live-tv/channel/penn-and-teller-fool-us"
     },
     {
         "Title": "BUZZR",
@@ -5484,7 +5498,7 @@
         "Title": "CTV Gets Real",
         "Genre": "Reality",
         "Language": "EN",
-        "Summary": "Get your game on! Enjoy riveting reality TV with episodes from The Challenge, The Traitors New Zealand, Battle of the Generations, and more.",
+        "Summary": "Get your game on! Enjoy riveting reality TV with episodes from Fear Factor USA, The Amazing Race Canada, The Traitors New Zealand & Australia, Battle of the Generations, and more.",
         "Link": "https://watch.plex.tv/live-tv/channel/ctv-gets-real"
     },
     {
@@ -6867,13 +6881,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/historia-y-vida"
     },
     {
-        "Title": "FreeTV Drama",
-        "Genre": "Drama TV",
-        "Language": "ES",
-        "Summary": "Sum\u00e9rgete en el mundo del entretenimiento con FreeTV Drama. Tu destino \u00fanico para historias de amor, crimen y romance.",
-        "Link": "https://watch.plex.tv/live-tv/channel/freetv-drama-2"
-    },
-    {
         "Title": "Runtime Romance",
         "Genre": "Movies",
         "Language": "ES",
@@ -7500,7 +7507,7 @@
         "Title": "CTV @Home",
         "Genre": "Food & Home",
         "Language": "EN",
-        "Summary": "A variety of CTV\u2019s best lifestyle programming that spans from feel-good to feed-good! Enjoy classic episodes of The Marilyn Denis Show, Mary\u2019s Kitchen Crush, Country House Hunters Canada, and more.",
+        "Summary": "A variety of CTV\u2019s best lifestyle programming that spans from feel-good to feed-good! Watch MasterChef UK, MasterChef Australia, Watts on the Grill, new episodes of The Good Stuff with Mary Berg, and more.",
         "Link": "https://watch.plex.tv/live-tv/channel/ctv-home"
     },
     {
@@ -8103,7 +8110,7 @@
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
         "Summary": "Sum\u00e9rgete en el mundo del entretenimiento con FreeTV Drama. Tu destino \u00fanico para historias de amor, crimen y romance.",
-        "Link": "https://watch.plex.tv/live-tv/channel/freetv-drama"
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-drama-2"
     },
     {
         "Title": "FreeTV Estelar",
@@ -8184,7 +8191,7 @@
     },
     {
         "Title": "FreeTV Sure\u00f1o",
-        "Genre": "Movies",
+        "Genre": "En Espa\u00f1ol",
         "Language": "ES",
         "Summary": "FreeTV Sure\u00f1o te invita a un emocionante viaje por el coraz\u00f3n del cine mexicano con historias de acci\u00f3n, thrillers y rancheras.",
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-sureno"
@@ -10416,13 +10423,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/fabella"
     },
     {
-        "Title": "Heimatkino",
-        "Genre": "Movies",
-        "Language": "DE",
-        "Summary": "Heimatkino zeigt schrille Kom\u00f6dien, packende Thriller & gro\u00dfe Dramen \u2013 alles made in Germany.",
-        "Link": "https://watch.plex.tv/live-tv/channel/heimatkino"
-    },
-    {
         "Title": "Moviedome",
         "Genre": "Movies",
         "Language": "DE",
@@ -10442,13 +10442,6 @@
         "Language": "DE",
         "Summary": "Moviedome Family bringt Animationsfilme, Familienklassiker & herzerw\u00e4rmende Geschichten \u2013 Filmspa\u00df f\u00fcr Gro\u00df & Klein.",
         "Link": "https://watch.plex.tv/live-tv/channel/moviedome-family"
-    },
-    {
-        "Title": "Utopja",
-        "Genre": "Sci-Fi & Action",
-        "Language": "DE",
-        "Summary": "Willkommen bei Utopja \u2013 erlebe epische Sci-Fi-Abenteuer, d\u00fcstere Zukunftsvisionen & unheimliche Kreaturen in spannenden Filmen.",
-        "Link": "https://watch.plex.tv/live-tv/channel/utopja"
     },
     {
         "Title": "FarmlandTV",
@@ -10792,13 +10785,6 @@
         "Language": "FR",
         "Summary": "Cha\u00eene d\u00e9di\u00e9e aux s\u00e9ries de films policiers \u00e0 suspense pour suivre l\u2019histoire d\u2019un fugi f recherch\u00e9 par la police travaillant avec un profileur novice du FBI pour arr\u00eater des criminels et des terroristes.",
         "Link": "https://watch.plex.tv/live-tv/channel/blacklist"
-    },
-    {
-        "Title": "FreeTV Estelar",
-        "Genre": "Drama TV",
-        "Language": "ES",
-        "Summary": "FreeTV Estelar es tu destino \u00fanico para pel\u00edculas y series de crimen, drama, fantas\u00eda, acci\u00f3n y romance.",
-        "Link": "https://watch.plex.tv/live-tv/channel/freetv-estelar-3"
     },
     {
         "Title": "Cine Friki",
@@ -11361,13 +11347,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/stingray-naturescape-3"
     },
     {
-        "Title": "FreeTV Saber M\u00e1s",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Una impresionante selecci\u00f3n de documentales y contenido educativo de Am\u00e9rica Latina y el mundo, todos en espa\u00f1ol.",
-        "Link": "https://watch.plex.tv/live-tv/channel/freetv-saber-mas"
-    },
-    {
         "Title": "FreeTV Familia",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -11492,13 +11471,6 @@
         "Language": "IT",
         "Summary": "I film pi\u00f9 amati, star iconiche e registi acclamati: un canale interamente dedicato alla magia del grande cinema per vivere emozioni senza tempo.",
         "Link": "https://watch.plex.tv/live-tv/channel/grandi-film"
-    },
-    {
-        "Title": "FreeTV Saber M\u00e1s",
-        "Genre": "History & Science",
-        "Language": "ES",
-        "Summary": "Una impresionante selecci\u00f3n de documentales y contenido educativo de Am\u00e9rica Latina y el mundo, todos en espa\u00f1ol.",
-        "Link": "https://watch.plex.tv/live-tv/channel/freetv-saber-mas-2"
     },
     {
         "Title": "Andromeda",
