@@ -511,6 +511,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-first-48-by-aande"
     },
     {
+        "Title": "KXXV",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch 25 News KXXV on your schedule. The latest news in Waco and Bryan, Texas - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/kxxv"
+    },
+    {
         "Title": "The World Poker Tour",
         "Genre": "Sports",
         "Language": "EN",
@@ -4032,13 +4039,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/mytime-movie-network-2"
     },
     {
-        "Title": "NBC News NOW",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The leading source of global news and information, providing breaking news and top stories from around the world.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-news-now"
-    },
-    {
         "Title": "Discovery Turbo TV",
         "Genre": "Lifestyle",
         "Language": "EN",
@@ -4172,6 +4172,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/motorvision-tv-2"
     },
     {
+        "Title": "NBC News NOW",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The leading source of global news and information, providing breaking news and top stories from around the world.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-news-now"
+    },
+    {
         "Title": "CBS News",
         "Genre": "News",
         "Language": "EN",
@@ -4184,6 +4191,20 @@
         "Language": "EN",
         "Summary": "Watch a non-stop stream of breaking news, live events and stories from the USA. Limited commentary. No opinion. Experience LiveNOW from FOX.",
         "Link": "https://watch.plex.tv/live-tv/channel/livenow-from-fox"
+    },
+    {
+        "Title": "CNN Headlines",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cnn-headlines"
+    },
+    {
+        "Title": "BBC News (North America)",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Breaking news and all the latest stories from the BBC\u2019s international news channel, live from London, Washington DC and Singapore.",
+        "Link": "https://watch.plex.tv/live-tv/channel/bbc-news-north-america"
     },
     {
         "Title": "CBS News United Kingdom",
@@ -4205,20 +4226,6 @@
         "Language": "EN",
         "Summary": "Shemaroo Bollywood is a South Asian movie channel featuring the best of Classic, Contemporary and new Bollywood movies.",
         "Link": "https://watch.plex.tv/live-tv/channel/shemaroo-bollywood"
-    },
-    {
-        "Title": "CNN Headlines",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cnn-headlines"
-    },
-    {
-        "Title": "BBC News (North America)",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Breaking news and all the latest stories from the BBC\u2019s international news channel, live from London, Washington DC and Singapore.",
-        "Link": "https://watch.plex.tv/live-tv/channel/bbc-news-north-america"
     },
     {
         "Title": "FilmRise Series Gratis",
@@ -4333,25 +4340,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/johnny-carson-tv"
     },
     {
-        "Title": "The Reuters 60",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "No matter where the story is, Reuters is there. Everything you need to know from around the world in 60 minutes with Reuters News.",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-reuters-60"
-    },
-    {
         "Title": "Non-Stop '90s",
         "Genre": "Classics",
         "Language": "EN",
         "Summary": "Shout! TV presents Non-Stop \u201890s, a 24/7 FAST channel packed with fly TV shows and movies from history\u2019s freshest decade!",
         "Link": "https://watch.plex.tv/live-tv/channel/non-stop-90s"
-    },
-    {
-        "Title": "Newsmax2",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Newsmax2 is a leading news network with reporting from DC and New York focusing on politics, health, money, and documentaries.",
-        "Link": "https://watch.plex.tv/live-tv/channel/newsmax2"
     },
     {
         "Title": "The Hotel Inspector",
@@ -4410,13 +4403,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-fbi"
     },
     {
-        "Title": "Yahoo Finance",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Yahoo Finance is the world\u2019s #1 finance destination, empowering investors with news, information, and tools to make financial decisions with confidence.",
-        "Link": "https://watch.plex.tv/live-tv/channel/yahoo-finance"
-    },
-    {
         "Title": "Laff More",
         "Genre": "Comedy",
         "Language": "EN",
@@ -4429,13 +4415,6 @@
         "Language": "EN",
         "Summary": "Outside is the ultimate channel for adventure sports and outdoor lifestyle enthusiasts with original content and captivating storylines from the outdoors told through sport, travel, fitness, food, and more.",
         "Link": "https://watch.plex.tv/live-tv/channel/outside"
-    },
-    {
-        "Title": "USA TODAY",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "From the nation\u2019s news to heartwarming moments, sports, and pop culture, stay connected to the world around you with USA TODAY.",
-        "Link": "https://watch.plex.tv/live-tv/channel/usa-today-news"
     },
     {
         "Title": "PBS Genealogy",
@@ -5656,25 +5635,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/bbc-travel"
     },
     {
-        "Title": "CBS News Los Angeles",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "CBS News Los Angeles is hyper local news streaming 24/7... for free!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-los-angeles"
-    },
-    {
         "Title": "PBS Travel",
         "Genre": "Nature & Travel",
         "Language": "EN",
         "Summary": "Discover the world with PBS Travel!",
         "Link": "https://watch.plex.tv/live-tv/channel/pbs-travel"
-    },
-    {
-        "Title": "CBS News Chicago",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "CBS News Chicago is hyper local news streaming 24/7... for free!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-chicago"
     },
     {
         "Title": "Crimen Y Historia",
@@ -5689,13 +5654,6 @@
         "Language": "DE",
         "Summary": "Faszinierende Sportwagen, zukunftsweisende Mobilit\u00e4tskonzepte, Oldtimer, Offroad-Spa\u00df & vieles mehr.",
         "Link": "https://watch.plex.tv/live-tv/channel/motorvision"
-    },
-    {
-        "Title": "CBS News Texas",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "CBS News Texas is hyper local news streaming 24/7... for free!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-texas"
     },
     {
         "Title": "AMC en Espa\u00f1ol",
@@ -5731,13 +5689,6 @@
         "Language": "EN",
         "Summary": "Cesar\u2019s Pack Leader TV: a 24/7 FAST channel with Cesar Millan\u2019s iconic dog training shows on rehab, transformation & leadership.",
         "Link": "https://watch.plex.tv/live-tv/channel/cesars-pack-leader-tv"
-    },
-    {
-        "Title": "CBS News Sacramento",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "CBS News Sacramento is hyper local news streaming 24/7... for free!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-sacramento"
     },
     {
         "Title": "RCN M\u00e1s",
@@ -5845,13 +5796,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/real-wild"
     },
     {
-        "Title": "CBS News Philadelphia",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "CBS News Philadelphia is hyper local news streaming 24/7... for free!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-philadelphia"
-    },
-    {
         "Title": "Let's Make a Deal",
         "Genre": "Game Shows",
         "Language": "EN",
@@ -5864,13 +5808,6 @@
         "Language": "EN",
         "Summary": "JOURNY is the only channel at the intersection of travel, art, and culture! Watch curated content focused on immersive experiences and unique storytelling.",
         "Link": "https://watch.plex.tv/live-tv/channel/journy"
-    },
-    {
-        "Title": "CBS News Pittsburgh",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "CBS News Pittsburgh is hyper local news streaming 24/7... for free!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-pittsburgh"
     },
     {
         "Title": "Estrella News",
@@ -5892,20 +5829,6 @@
         "Language": "DE",
         "Summary": "Rarit\u00e4ten, Oldtimer und faszinierende Youngtimer und die Geschichte hinter den Erfolgsmodellen.",
         "Link": "https://watch.plex.tv/live-tv/channel/motorvision-classic"
-    },
-    {
-        "Title": "CBS News Minnesota",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "CBS News Minnesota is hyper local news streaming 24/7... for free!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-minnesota"
-    },
-    {
-        "Title": "CBS News Miami",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "CBS News Miami is hyper local news streaming 24/7... for free!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-miami"
     },
     {
         "Title": "Canela.TV Cl\u00e1sicos",
@@ -5957,13 +5880,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-asylum"
     },
     {
-        "Title": "CBS News Baltimore",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "CBS News Baltimore is hyper local news streaming 24/7...for free!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-baltimore-2"
-    },
-    {
         "Title": "Runtime Comedia",
         "Genre": "Comedy",
         "Language": "ES",
@@ -5999,18 +5915,81 @@
         "Link": "https://watch.plex.tv/live-tv/channel/confess-by-nosey"
     },
     {
-        "Title": "CBS News New York",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "CBS News New York is hyper local news streaming 24/7... for free!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-new-york"
-    },
-    {
         "Title": "OUTFLIX MOVIES",
         "Genre": "Lifestyle",
         "Language": "EN",
         "Summary": "OUTflix Movies features broad, high quality movies for anyone who loves queer culture. We\u2019re a gathering place for a community of open-minded fans of unapologetically loud, fun, and fantastical stories.",
         "Link": "https://watch.plex.tv/live-tv/channel/outflix-movies"
+    },
+    {
+        "Title": "CBS News Los Angeles",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBS News Los Angeles is hyper local news streaming 24/7... for free!",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-los-angeles"
+    },
+    {
+        "Title": "CBS News Texas",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBS News Texas is hyper local news streaming 24/7... for free!",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-texas"
+    },
+    {
+        "Title": "CBS News Sacramento",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBS News Sacramento is hyper local news streaming 24/7... for free!",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-sacramento"
+    },
+    {
+        "Title": "CBS News Chicago",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBS News Chicago is hyper local news streaming 24/7... for free!",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-chicago"
+    },
+    {
+        "Title": "CBS News Philadelphia",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBS News Philadelphia is hyper local news streaming 24/7... for free!",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-philadelphia"
+    },
+    {
+        "Title": "CBS News Pittsburgh",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBS News Pittsburgh is hyper local news streaming 24/7... for free!",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-pittsburgh"
+    },
+    {
+        "Title": "CBS News Minnesota",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBS News Minnesota is hyper local news streaming 24/7... for free!",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-minnesota"
+    },
+    {
+        "Title": "CBS News Miami",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBS News Miami is hyper local news streaming 24/7... for free!",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-miami"
+    },
+    {
+        "Title": "CBS News Baltimore",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBS News Baltimore is hyper local news streaming 24/7...for free!",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-baltimore-2"
+    },
+    {
+        "Title": "CBS News New York",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "CBS News New York is hyper local news streaming 24/7... for free!",
+        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-new-york"
     },
     {
         "Title": "CBS News Bay Area",
@@ -6034,13 +6013,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-colorado-2"
     },
     {
-        "Title": "Free Movies Plus",
-        "Genre": "Movies",
-        "Language": "EN",
-        "Summary": "The biggest blockbuster hits streaming 24/7! Catch your favorite movies and actors all in one place on Free Movies Plus!",
-        "Link": "https://watch.plex.tv/live-tv/channel/free-movies-plus"
-    },
-    {
         "Title": "CBS News Detroit",
         "Genre": "News",
         "Language": "EN",
@@ -6053,6 +6025,90 @@
         "Language": "EN",
         "Summary": "CBS News Baltimore is hyper local news streaming 24/7...for free!",
         "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-baltimore"
+    },
+    {
+        "Title": "NBC 10 Boston News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The latest local news, breaking updates, live events & weather in the Boston area.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-10-boston-news"
+    },
+    {
+        "Title": "NBC 7 San Diego News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The latest local news, breaking updates, live events & weather in the San Diego area.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-7-san-diego-news"
+    },
+    {
+        "Title": "NBC Bay Area News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The latest local news, breaking updates, live events & weather in the Bay Area.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-bay-area-news"
+    },
+    {
+        "Title": "NBC 4 Los Angeles News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The latest local news, breaking updates, live events & weather in the LA area.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-4-los-angeles-news"
+    },
+    {
+        "Title": "NBC 5 Dallas Fort Worth News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The latest local news, breaking updates, live events & weather in the Dallas-Fort Worth area.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-5-dallas-fort-worth-news"
+    },
+    {
+        "Title": "NBC 4 New York News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The latest local news, breaking updates, live events & weather in the tri-state area.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-4-new-york-news"
+    },
+    {
+        "Title": "NBC 4 Washington News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The latest local news, breaking updates, live events & weather in the D.C. area.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-4-washington-news"
+    },
+    {
+        "Title": "NBC Connecticut News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The latest local news, breaking updates, live events & weather in Connecticut.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-connecticut-news"
+    },
+    {
+        "Title": "NBC 6 South Florida News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The latest local news, breaking updates, live events & weather in the South Florida area.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-6-south-florida-news"
+    },
+    {
+        "Title": "NBC 10 Philadelphia News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The latest local news, breaking updates, live events & weather in the Philadelphia area.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-10-philadelphia-news"
+    },
+    {
+        "Title": "NBC 5 Chicago News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "The latest local news, breaking updates, live events & weather in the Chicago area.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nbc-5-chicago-news"
+    },
+    {
+        "Title": "Free Movies Plus",
+        "Genre": "Movies",
+        "Language": "EN",
+        "Summary": "The biggest blockbuster hits streaming 24/7! Catch your favorite movies and actors all in one place on Free Movies Plus!",
+        "Link": "https://watch.plex.tv/live-tv/channel/free-movies-plus"
     },
     {
         "Title": "The Doctors",
@@ -6097,60 +6153,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/slopes"
     },
     {
-        "Title": "NBC 10 Boston News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The latest local news, breaking updates, live events & weather in the Boston area.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-10-boston-news"
-    },
-    {
-        "Title": "NBC 7 San Diego News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The latest local news, breaking updates, live events & weather in the San Diego area.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-7-san-diego-news"
-    },
-    {
-        "Title": "NBC Bay Area News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The latest local news, breaking updates, live events & weather in the Bay Area.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-bay-area-news"
-    },
-    {
         "Title": "Travel Escapes",
         "Genre": "Nature & Travel",
         "Language": "EN",
         "Summary": "Join us on a breathtaking journey, from spectacular travel locations to some of the world\u2019s most unique culinary destinations.",
         "Link": "https://watch.plex.tv/live-tv/channel/travel-escapes"
-    },
-    {
-        "Title": "NBC 4 Los Angeles News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The latest local news, breaking updates, live events & weather in the LA area.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-4-los-angeles-news"
-    },
-    {
-        "Title": "NBC 5 Dallas Fort Worth News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The latest local news, breaking updates, live events & weather in the Dallas-Fort Worth area.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-5-dallas-fort-worth-news"
-    },
-    {
-        "Title": "NBC 4 New York News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The latest local news, breaking updates, live events & weather in the tri-state area.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-4-new-york-news"
-    },
-    {
-        "Title": "NBC 4 Washington News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The latest local news, breaking updates, live events & weather in the D.C. area.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-4-washington-news"
     },
     {
         "Title": "Love Pets",
@@ -6167,13 +6174,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/continuum"
     },
     {
-        "Title": "NBC Connecticut News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The latest local news, breaking updates, live events & weather in Connecticut.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-connecticut-news"
-    },
-    {
         "Title": "Anger Management en espa\u00f1ol",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -6188,32 +6188,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/crime-scenes"
     },
     {
-        "Title": "NBC 6 South Florida News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The latest local news, breaking updates, live events & weather in the South Florida area.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-6-south-florida-news"
-    },
-    {
         "Title": "GUSTOTV",
         "Genre": "Food & Home",
         "Language": "EN",
         "Summary": "The World's Best Food Channel",
         "Link": "https://watch.plex.tv/live-tv/channel/gusto-tv"
-    },
-    {
-        "Title": "NBC 10 Philadelphia News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The latest local news, breaking updates, live events & weather in the Philadelphia area.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-10-philadelphia-news"
-    },
-    {
-        "Title": "NBC 5 Chicago News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "The latest local news, breaking updates, live events & weather in the Chicago area.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nbc-5-chicago-news"
     },
     {
         "Title": "KERO",
@@ -6237,6 +6216,244 @@
         "Link": "https://watch.plex.tv/live-tv/channel/kgtv"
     },
     {
+        "Title": "KSTU",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch KSTU FOX13 on your schedule. The latest news in Salt Lake City, Utah - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/kstu"
+    },
+    {
+        "Title": "KNXV",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch ABC15 Arizona on your schedule. The latest news in Phoenix, Arizona - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/knxv"
+    },
+    {
+        "Title": "WPTV",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch WPTV on your schedule. The latest news in South Florida - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wptv"
+    },
+    {
+        "Title": "WEWS",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch News 5 Cleveland WEWS on your schedule. The latest news in Cleveland, Ohio \u2014 weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wews"
+    },
+    {
+        "Title": "WXYZ",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch WXYZ in Detroit, Michigan on your schedule. The latest local news, weather, traffic and sports videos are available instantly on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wxyz"
+    },
+    {
+        "Title": "KTNV",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch Channel 13 Las Vegas News KTNV on your schedule. The latest news in Las Vegas, Nevada - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ktnv"
+    },
+    {
+        "Title": "KSBY",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch LIVE newscasts and on-demand video from KSBY News in California's Central Coast and San Luis Obispo.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ksby"
+    },
+    {
+        "Title": "KRIS",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch KRIS 6 News on your schedule. The latest news in Corpus Christi, Texas - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/kris"
+    },
+    {
+        "Title": "KPAX",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch KPAX on your schedule. The latest news in Missoula, Montana - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/kpax"
+    },
+    {
+        "Title": "Tampa Bay 28+",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Tampa Bay 28+ on your schedule. The latest news in Tampa, Florida - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/tampa-bay-28"
+    },
+    {
+        "Title": "KOAA",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch KOAA News 5 on your schedule. The latest news in Colorado Springs, Colorado - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/koaa"
+    },
+    {
+        "Title": "KMTV",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch KMTV 3 News Now on your schedule. The latest news in Omaha, Nebraska - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/kmtv"
+    },
+    {
+        "Title": "KJRH",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch 2 News Oklahoma on your schedule. The latest news from KJRH in Tulsa, Oklahoma - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/kjrh"
+    },
+    {
+        "Title": "KIVI",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch Idaho News 6 on your schedule. The latest news in Boise, Idaho - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/kivi"
+    },
+    {
+        "Title": "KGUN",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch KGUN 9 News on your schedule. The latest news in Tucson, Arizona - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/kgun"
+    },
+    {
+        "Title": "WKBW",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch WKBW 7 News Buffalo on your schedule. The latest news in Buffalo, New York - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wkbw"
+    },
+    {
+        "Title": "WLEX",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch LEX18 news on your schedule. The latest news in Lexington, Kentucky - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wlex"
+    },
+    {
+        "Title": "WMAR",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch WMAR 2 News on your schedule. The latest news in Baltimore, Maryland - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wmar"
+    },
+    {
+        "Title": "WRTV",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch WRTV on your schedule. The latest news in Indianapolis, Indiana - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wrtv"
+    },
+    {
+        "Title": "WTKR",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch WTKR News 3 on your schedule. The latest news in Norfolk, Virginia - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wtkr"
+    },
+    {
+        "Title": "WTVF",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch NewsChannel 5 on your schedule. The latest news in Nashville, Tennessee - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wtvf"
+    },
+    {
+        "Title": "KTVH",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch KTVH on your schedule. The latest news in Helena, Montana - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ktvh"
+    },
+    {
+        "Title": "KTVQ",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch Q2 News on your schedule. The latest news in Billings, Montana - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ktvq"
+    },
+    {
+        "Title": "WCPO",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch WCPO news in Cincinnati, Ohio on your schedule. The latest local news, weather, traffic and sports videos are available instantly on our channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wcpo"
+    },
+    {
+        "Title": "WGBA",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch NBC 26 on your schedule. The latest news serving Green Bay and Northeast Wisconsin - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wgba"
+    },
+    {
+        "Title": "KBZK",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch KBZK News on your schedule. The latest news in Bozeman, Montana - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/kbzk"
+    },
+    {
+        "Title": "KSHB",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch KSHB 41 Kansas City News on your schedule. The latest news in Kansas City, Missouri - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/kshb"
+    },
+    {
+        "Title": "WSYM",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch FOX 47 News from WSYM in Lansing, Jackson, and mid-Michigan on your schedule.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wsym"
+    },
+    {
+        "Title": "KMGH",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Denver 7+ channel from Denver, Colorado delivers LIVE 24/7 News + Weather, including up-to-the minute weather information and breaking news throughout the day.",
+        "Link": "https://watch.plex.tv/live-tv/channel/kmgh"
+    },
+    {
+        "Title": "KRTV",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch KRTV News Great Falls on your schedule. The latest news in Great Falls, Montana - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/krtv"
+    },
+    {
+        "Title": "WXMI",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch Fox 17 News on your schedule. The latest news in Mid-Michigan - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wxmi"
+    },
+    {
+        "Title": "WTXL",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch WTXL ABC 27 on your schedule. The latest news in Tallahassee, Florida - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wtxl"
+    },
+    {
+        "Title": "WTVR",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch WTVR CBS 6 on your schedule. The latest news in Richmond, Virginia - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wtvr"
+    },
+    {
+        "Title": "WTMJ",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Watch TMJ4 News on your schedule. The latest news in Milwaukee, Wisconsin - weather, traffic and sports available 24/7 on our official channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wtmj"
+    },
+    {
         "Title": "LX Home Streaming",
         "Genre": "Food & Home",
         "Language": "EN",
@@ -6249,13 +6466,6 @@
         "Language": "EN",
         "Summary": "Trending clips, entertaining memes, and the funniest animal videos today. Simply put, we think animals are the best ever.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-pet-collective-2"
-    },
-    {
-        "Title": "KSTU",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch KSTU FOX13 on your schedule. The latest news in Salt Lake City, Utah - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/kstu"
     },
     {
         "Title": "Drool",
@@ -6279,13 +6489,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-world-poker-tour-3"
     },
     {
-        "Title": "KNXV",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch ABC15 Arizona on your schedule. The latest news in Phoenix, Arizona - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/knxv"
-    },
-    {
         "Title": "Great! Mystery",
         "Genre": "Movies",
         "Language": "EN",
@@ -6307,25 +6510,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/365blk"
     },
     {
-        "Title": "AccuWeather NOW",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "AccuWeather NOW delivers all things dedicated to weather including forecasts, dramatic video and exclusive analysis.",
-        "Link": "https://watch.plex.tv/live-tv/channel/accuweather-now-2"
-    },
-    {
         "Title": "Paws & Claws",
         "Genre": "Nature & Travel",
         "Language": "EN",
         "Summary": "Paws, claws and maybe some jaws. Get your furry fix with our wild collection of shows featuring your favorite pets.",
         "Link": "https://watch.plex.tv/live-tv/channel/paws-and-claws"
-    },
-    {
-        "Title": "FOX Weather",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "America's Weather Team, bringing you live updates on major weather events across the country. Always free & always on.",
-        "Link": "https://watch.plex.tv/live-tv/channel/fox-weather"
     },
     {
         "Title": "wedo movies",
@@ -6438,13 +6627,6 @@
         "Language": "ES",
         "Summary": "Un veterano detective inspector en jefe y su joven sargento investigan asesinatos en la comunidad regional del condado de Midsomer.",
         "Link": "https://watch.plex.tv/live-tv/channel/los-asesinatos-de-midsomer-2"
-    },
-    {
-        "Title": "WPTV",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch WPTV on your schedule. The latest news in South Florida - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wptv"
     },
     {
         "Title": "Cooking Panda",
@@ -6629,32 +6811,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/gousa-tv"
     },
     {
-        "Title": "WEWS",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch News 5 Cleveland WEWS on your schedule. The latest news in Cleveland, Ohio \u2014 weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wews"
-    },
-    {
-        "Title": "WXYZ",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch WXYZ in Detroit, Michigan on your schedule. The latest local news, weather, traffic and sports videos are available instantly on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wxyz"
-    },
-    {
         "Title": "FrightFlix",
         "Genre": "Chills & Thrills",
         "Language": "EN",
         "Summary": "Cult Horror, Sci-Fi and Grindhouse features that deliver shivers!",
         "Link": "https://watch.plex.tv/live-tv/channel/frightflix-2"
-    },
-    {
-        "Title": "KTNV",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch Channel 13 Las Vegas News KTNV on your schedule. The latest news in Las Vegas, Nevada - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/ktnv"
     },
     {
         "Title": "EarthXtra",
@@ -6664,25 +6825,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/earthxtra"
     },
     {
-        "Title": "KSBY",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch LIVE newscasts and on-demand video from KSBY News in California's Central Coast and San Luis Obispo.",
-        "Link": "https://watch.plex.tv/live-tv/channel/ksby"
-    },
-    {
         "Title": "Watch it SCREAM",
         "Genre": "Chills & Thrills",
         "Language": "EN",
         "Summary": "The most terrifying visions in horror, curated from festivals around the world, sit back relax and Watch it Scream!",
         "Link": "https://watch.plex.tv/live-tv/channel/watch-it-scream-2"
-    },
-    {
-        "Title": "KRIS",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch KRIS 6 News on your schedule. The latest news in Corpus Christi, Texas - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/kris"
     },
     {
         "Title": "My Little Pony",
@@ -6704,13 +6851,6 @@
         "Language": "ES",
         "Summary": "Cientos de t\u00edtulos las 24 horas del d\u00eda, con lo mejor de la acci\u00f3n y todas sus grandes estrellas.",
         "Link": "https://watch.plex.tv/live-tv/channel/runtime-accion-2"
-    },
-    {
-        "Title": "KPAX",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch KPAX on your schedule. The latest news in Missoula, Montana - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/kpax"
     },
     {
         "Title": "Runtime Familia",
@@ -6748,25 +6888,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/estrella-games"
     },
     {
-        "Title": "Tampa Bay 28+",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Tampa Bay 28+ on your schedule. The latest news in Tampa, Florida - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/tampa-bay-28"
-    },
-    {
         "Title": "Iron Chef en espa\u00f1ol",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
         "Summary": "No te pierdas las batallas culinarias de la versi\u00f3n original de Iron Chef. IRON CHEF combina el entusiasmo de la competici\u00f3n deportiva con la intensidad de la cocina. \u00bfPreparados? Allez cuisine!",
         "Link": "https://watch.plex.tv/live-tv/channel/iron-chef-en-espanol"
-    },
-    {
-        "Title": "KOAA",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch KOAA News 5 on your schedule. The latest news in Colorado Springs, Colorado - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/koaa"
     },
     {
         "Title": "Fight Network",
@@ -6781,13 +6907,6 @@
         "Language": "ES",
         "Summary": "Vive Kanal D Drama brings a selection of the most successful Turkish dramas 100% in Spanish.",
         "Link": "https://watch.plex.tv/live-tv/channel/vive-kanal-d-drama"
-    },
-    {
-        "Title": "KMTV",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch KMTV 3 News Now on your schedule. The latest news in Omaha, Nebraska - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/kmtv"
     },
     {
         "Title": "RCN Noticias",
@@ -6818,32 +6937,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/western-bound-espanol-2"
     },
     {
-        "Title": "KJRH",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch 2 News Oklahoma on your schedule. The latest news from KJRH in Tulsa, Oklahoma - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/kjrh"
-    },
-    {
-        "Title": "KIVI",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch Idaho News 6 on your schedule. The latest news in Boise, Idaho - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/kivi"
-    },
-    {
         "Title": "FilmRise Creators",
         "Genre": "Reality",
         "Language": "EN",
         "Summary": "Hang out with your favorite Creators like UNSPEAKABLE and PRESTON & BRIANNA on this 24/7 channel.",
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-creators"
-    },
-    {
-        "Title": "KGUN",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch KGUN 9 News on your schedule. The latest news in Tucson, Arizona - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/kgun"
     },
     {
         "Title": "Adventure Earth",
@@ -6986,20 +7084,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/wapa"
     },
     {
-        "Title": "WKBW",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch WKBW 7 News Buffalo on your schedule. The latest news in Buffalo, New York - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wkbw"
-    },
-    {
-        "Title": "WLEX",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch LEX18 news on your schedule. The latest news in Lexington, Kentucky - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wlex"
-    },
-    {
         "Title": "MOVIESPHERE",
         "Genre": "Movies",
         "Language": "ES",
@@ -7007,39 +7091,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/moviesphere-5"
     },
     {
-        "Title": "WMAR",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch WMAR 2 News on your schedule. The latest news in Baltimore, Maryland - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wmar"
-    },
-    {
-        "Title": "WRTV",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch WRTV on your schedule. The latest news in Indianapolis, Indiana - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wrtv"
-    },
-    {
-        "Title": "WTKR",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch WTKR News 3 on your schedule. The latest news in Norfolk, Virginia - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wtkr"
-    },
-    {
         "Title": "Total Crime",
         "Genre": "True Crime",
         "Language": "EN",
         "Summary": "Where questionable people do very bad things. True crime, all the time.",
         "Link": "https://watch.plex.tv/live-tv/channel/total-crime"
-    },
-    {
-        "Title": "WTVF",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch NewsChannel 5 on your schedule. The latest news in Nashville, Tennessee - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wtvf"
     },
     {
         "Title": "Cops en Espa\u00f1ol",
@@ -7077,20 +7133,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/tsn-the-ocho"
     },
     {
-        "Title": "KTVH",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch KTVH on your schedule. The latest news in Helena, Montana - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/ktvh"
-    },
-    {
-        "Title": "KTVQ",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch Q2 News on your schedule. The latest news in Billings, Montana - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/ktvq"
-    },
-    {
         "Title": "Clic",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -7117,13 +7159,6 @@
         "Language": "ES",
         "Summary": "\u00a1Te obsesionar\u00e1s con esta serie! Quienes sospechan de la fidelidad de sus parejas contratan a un equipo de c\u00e1mara escondida para averiguarlo.",
         "Link": "https://watch.plex.tv/live-tv/channel/cheaters-en-espanol"
-    },
-    {
-        "Title": "KXXV",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch 25 News KXXV on your schedule. The latest news in Waco and Bryan, Texas - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/kxxv"
     },
     {
         "Title": "Crimes Cults Killers",
@@ -7203,20 +7238,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/bein-sports-xtra-en-espanol"
     },
     {
-        "Title": "WCPO",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch WCPO news in Cincinnati, Ohio on your schedule. The latest local news, weather, traffic and sports videos are available instantly on our channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wcpo"
-    },
-    {
-        "Title": "WGBA",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch NBC 26 on your schedule. The latest news serving Green Bay and Northeast Wisconsin - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wgba"
-    },
-    {
         "Title": "Mattel Jr.",
         "Genre": "Kids & Family",
         "Language": "EN",
@@ -7238,20 +7259,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/barbie-and-friends-by-mattel"
     },
     {
-        "Title": "KBZK",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch KBZK News on your schedule. The latest news in Bozeman, Montana - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/kbzk"
-    },
-    {
-        "Title": "KSHB",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch KSHB 41 Kansas City News on your schedule. The latest news in Kansas City, Missouri - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/kshb"
-    },
-    {
         "Title": "Strawberry Shortcake",
         "Genre": "Kids & Family",
         "Language": "EN",
@@ -7266,39 +7273,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/rig-tv"
     },
     {
-        "Title": "WSYM",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch FOX 47 News from WSYM in Lansing, Jackson, and mid-Michigan on your schedule.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wsym"
-    },
-    {
         "Title": "Canela.TV Hollywood y M\u00e1s",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
         "Summary": "Para los amantes del cine de Hollywood, prep\u00e1rate para disfrutar de los mayores \u00e9xitos de taquilla.",
         "Link": "https://watch.plex.tv/live-tv/channel/canela-tv-hollywood-y-mas"
-    },
-    {
-        "Title": "KMGH",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Denver 7+ channel from Denver, Colorado delivers LIVE 24/7 News + Weather, including up-to-the minute weather information and breaking news throughout the day.",
-        "Link": "https://watch.plex.tv/live-tv/channel/kmgh"
-    },
-    {
-        "Title": "KRTV",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch KRTV News Great Falls on your schedule. The latest news in Great Falls, Montana - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/krtv"
-    },
-    {
-        "Title": "WXMI",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch Fox 17 News on your schedule. The latest news in Mid-Michigan - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wxmi"
     },
     {
         "Title": "Ninja Kidz TV",
@@ -7308,32 +7287,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/ninja-kidz-tv"
     },
     {
-        "Title": "WTXL",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch WTXL ABC 27 on your schedule. The latest news in Tallahassee, Florida - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wtxl"
-    },
-    {
         "Title": "ZenLIFE by Stingray",
         "Genre": "Nature & Travel",
         "Language": "EN",
         "Summary": "Experience daily wellness with guided meditation, tranquil sounds, and easy-listening music meant to restore your zen.",
         "Link": "https://watch.plex.tv/live-tv/channel/zenlife-by-stingray-2"
-    },
-    {
-        "Title": "WTVR",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch WTVR CBS 6 on your schedule. The latest news in Richmond, Virginia - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wtvr"
-    },
-    {
-        "Title": "WTMJ",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch TMJ4 News on your schedule. The latest news in Milwaukee, Wisconsin - weather, traffic and sports available 24/7 on our official channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wtmj"
     },
     {
         "Title": "PLL Network",
@@ -7586,6 +7544,55 @@
         "Language": "EN",
         "Summary": "Sit back, grab some popcorn and enjoy 24 hours of non-stop FREE movies including comedy, action, sci-fi, thriller, horror, documentary and family films!",
         "Link": "https://watch.plex.tv/live-tv/channel/popflix"
+    },
+    {
+        "Title": "KSL TV 5 News",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "KSL TV Channel 5: The best source for Utah news, investigative reports, weather forecasts, sports, & community events.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ksl-tv-5-news"
+    },
+    {
+        "Title": "Newsmax2",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Newsmax2 is a leading news network with reporting from DC and New York focusing on politics, health, money, and documentaries.",
+        "Link": "https://watch.plex.tv/live-tv/channel/newsmax2"
+    },
+    {
+        "Title": "The Reuters 60",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "No matter where the story is, Reuters is there. Everything you need to know from around the world in 60 minutes with Reuters News.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-reuters-60"
+    },
+    {
+        "Title": "FOX Weather",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "America's Weather Team, bringing you live updates on major weather events across the country. Always free & always on.",
+        "Link": "https://watch.plex.tv/live-tv/channel/fox-weather"
+    },
+    {
+        "Title": "AccuWeather NOW",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "AccuWeather NOW delivers all things dedicated to weather including forecasts, dramatic video and exclusive analysis.",
+        "Link": "https://watch.plex.tv/live-tv/channel/accuweather-now-2"
+    },
+    {
+        "Title": "USA TODAY",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "From the nation\u2019s news to heartwarming moments, sports, and pop culture, stay connected to the world around you with USA TODAY.",
+        "Link": "https://watch.plex.tv/live-tv/channel/usa-today-news"
+    },
+    {
+        "Title": "Yahoo Finance",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Yahoo Finance is the world\u2019s #1 finance destination, empowering investors with news, information, and tools to make financial decisions with confidence.",
+        "Link": "https://watch.plex.tv/live-tv/channel/yahoo-finance"
     },
     {
         "Title": "Scripps News",
@@ -8538,13 +8545,6 @@
         "Language": "EN",
         "Summary": "Local Now Jacksonville",
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-jacksonville"
-    },
-    {
-        "Title": "KSL TV 5 News",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "KSL TV Channel 5: The best source for Utah news, investigative reports, weather forecasts, sports, & community events.",
-        "Link": "https://watch.plex.tv/live-tv/channel/ksl-tv-5-news"
     },
     {
         "Title": "Local Now KC",
