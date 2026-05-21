@@ -1029,13 +1029,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/andromeda-6"
     },
     {
-        "Title": "Tastemade",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Welcome to Tastemade: the ultimate house party and everyone\u2019s invited! Featuring award-winning food and lifestyle programming designed to get you off the couch.",
-        "Link": "https://watch.plex.tv/live-tv/channel/tastemade-6"
-    },
-    {
         "Title": "Crime ThrillHer",
         "Genre": "Drama TV",
         "Language": "EN",
@@ -2940,13 +2933,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/wedo-movies-5"
     },
     {
-        "Title": "Homeful",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Homeful is a free streaming channel with the best real estate, renovation, and design shows, featuring all your favourite pros.",
-        "Link": "https://watch.plex.tv/live-tv/channel/homeful-3"
-    },
-    {
         "Title": "Survivorman on Plex",
         "Genre": "Reality",
         "Language": "EN",
@@ -2968,11 +2954,74 @@
         "Link": "https://watch.plex.tv/live-tv/channel/dog-the-bounty-hunter"
     },
     {
+        "Title": "The Martha Stewart Channel",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Martha Stewart, Emmy Award-winning TV host and America\u2019s most trusted lifestyle expert, brings you The Martha Stewart Channel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-martha-stewart-channel"
+    },
+    {
+        "Title": "Come Dine With Me",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Five total strangers take turns hosting the perfect dinner party for their fellow contestants, each hoping to win a cash prize and be crowned the ultimate dinner host.",
+        "Link": "https://watch.plex.tv/live-tv/channel/come-dine-with-me-2"
+    },
+    {
+        "Title": "Great British Menu",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Cookery competition.  Top chefs from across the UK put their hearts on a plate and showcase their amazing talent.",
+        "Link": "https://watch.plex.tv/live-tv/channel/great-british-menu"
+    },
+    {
         "Title": "Million Dollar Dream Home",
         "Genre": "Food & Home",
         "Language": "EN",
         "Summary": "\"Million Dollar Dream Home\" follows the extravagant journeys of affluent individuals seeking their dream homes.",
         "Link": "https://watch.plex.tv/live-tv/channel/million-dollar-dream-home"
+    },
+    {
+        "Title": "GUSTOTV",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "The World's Best Food Channel",
+        "Link": "https://watch.plex.tv/live-tv/channel/gusto-tv"
+    },
+    {
+        "Title": "The Design Network",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "The fastest growing TV network all about HOME. TDN TV gives a fresh perspective on the fashion and function of home: interior landscape and design, organization, entertaining, and living a better life at home.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-design-network"
+    },
+    {
+        "Title": "Homes Under the Hammer",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Property developers Martin Roberts and Lucy Alexander accompany prospective buyers, along with inquisitive viewers, to auctions where properties are sold off.",
+        "Link": "https://watch.plex.tv/live-tv/channel/homes-under-the-hammer"
+    },
+    {
+        "Title": "Homeful",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Homeful is a free streaming channel with the best real estate, renovation, and design shows, featuring all your favourite pros.",
+        "Link": "https://watch.plex.tv/live-tv/channel/homeful-3"
+    },
+    {
+        "Title": "CraftsyTV",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "CraftsyTV is your always-on portal for tapping into your talents by learning new skills and enhancing those you have.",
+        "Link": "https://watch.plex.tv/live-tv/channel/craftsytv"
+    },
+    {
+        "Title": "The Emeril Lagasse Channel",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Emeril Lagasse, chef, restaurateur, author and James Beard Award winner, shows his self-developed \u201cNew Orleans\u201d style cuisine.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-emeril-lagasse-channel"
     },
     {
         "Title": "Little Women: LA",
@@ -2996,13 +3045,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/wasabi"
     },
     {
-        "Title": "Come Dine With Me",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Five total strangers take turns hosting the perfect dinner party for their fellow contestants, each hoping to win a cash prize and be crowned the ultimate dinner host.",
-        "Link": "https://watch.plex.tv/live-tv/channel/come-dine-with-me-2"
-    },
-    {
         "Title": "Tastemade",
         "Genre": "Food & Home",
         "Language": "EN",
@@ -3022,13 +3064,6 @@
         "Language": "EN",
         "Summary": "The Great British Baking Channel offers some of the most beloved baking and competition shows that have captivated audiences in the US and UK.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-great-british-baking-channel"
-    },
-    {
-        "Title": "The Martha Stewart Channel",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Martha Stewart, Emmy Award-winning TV host and America\u2019s most trusted lifestyle expert, brings you The Martha Stewart Channel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-martha-stewart-channel"
     },
     {
         "Title": "Tiny House Nation",
@@ -3269,13 +3304,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/hunter-2"
     },
     {
-        "Title": "CraftsyTV",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "CraftsyTV is your always-on portal for tapping into your talents by learning new skills and enhancing those you have.",
-        "Link": "https://watch.plex.tv/live-tv/channel/craftsytv"
-    },
-    {
         "Title": "Made It Myself TV",
         "Genre": "Food & Home",
         "Language": "EN",
@@ -3360,25 +3388,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/pbs-food"
     },
     {
-        "Title": "The Design Network",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "The fastest growing TV network all about HOME. TDN TV gives a fresh perspective on the fashion and function of home: interior landscape and design, organization, entertaining, and living a better life at home.",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-design-network"
-    },
-    {
         "Title": "Tastemade",
         "Genre": "Food & Home",
         "Language": "EN",
         "Summary": "Some of the most unifying and special moments of our life center around a meal, the place where people come together.",
         "Link": "https://watch.plex.tv/live-tv/channel/tastemade"
-    },
-    {
-        "Title": "Great British Menu",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Cookery competition.  Top chefs from across the UK put their hearts on a plate and showcase their amazing talent.",
-        "Link": "https://watch.plex.tv/live-tv/channel/great-british-menu"
     },
     {
         "Title": "No Reservations",
@@ -3470,6 +3484,13 @@
         "Language": "DE",
         "Summary": "Auf diesem Kanal sehen Sie jederzeit Marathon-Serien von erfolgreichen Dramen wie die Mystery-Anthologie-Serie X-FACTOR, das Piratendrama CROSSBONES, das amerikanische Fantasy-Drama BEING HUMAN (US), das Coming-of-Age-Drama SENSITIVE SKIN sowie weitere Serien, die bald erscheinen.",
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-binge-watch-2"
+    },
+    {
+        "Title": "Tastemade",
+        "Genre": "Food & Home",
+        "Language": "EN",
+        "Summary": "Welcome to Tastemade: the ultimate house party and everyone\u2019s invited! Featuring award-winning food and lifestyle programming designed to get you off the couch.",
+        "Link": "https://watch.plex.tv/live-tv/channel/tastemade-6"
     },
     {
         "Title": "Robot Wars by Mech+",
@@ -6181,13 +6202,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/crime-scenes"
     },
     {
-        "Title": "GUSTOTV",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "The World's Best Food Channel",
-        "Link": "https://watch.plex.tv/live-tv/channel/gusto-tv"
-    },
-    {
         "Title": "KERO",
         "Genre": "News",
         "Language": "EN",
@@ -6522,13 +6536,6 @@
         "Language": "ES",
         "Summary": "Ofrecemos una gran variedad de contenido premium en todos los g\u00e9neros. En RUNTIME encuentras pel\u00edculas premiadas, series, y documentales en un destino \u00fanico.",
         "Link": "https://watch.plex.tv/live-tv/channel/runtime-espanol"
-    },
-    {
-        "Title": "The Emeril Lagasse Channel",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Emeril Lagasse, chef, restaurateur, author and James Beard Award winner, shows his self-developed \u201cNew Orleans\u201d style cuisine.",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-emeril-lagasse-channel"
     },
     {
         "Title": "NEW KFOOD",
@@ -12052,13 +12059,6 @@
         "Language": "DE",
         "Summary": "Wecken Sie Ihre Neugier mit INWONDER, Ihrem Tor zum Au\u00dfergew\u00f6hnlichen.",
         "Link": "https://watch.plex.tv/live-tv/channel/inwonder-2"
-    },
-    {
-        "Title": "Homes Under the Hammer",
-        "Genre": "Food & Home",
-        "Language": "EN",
-        "Summary": "Property developers Martin Roberts and Lucy Alexander accompany prospective buyers, along with inquisitive viewers, to auctions where properties are sold off.",
-        "Link": "https://watch.plex.tv/live-tv/channel/homes-under-the-hammer"
     },
     {
         "Title": "Ideas En 5 Minutos",
