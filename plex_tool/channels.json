@@ -3514,6 +3514,20 @@
         "Link": "https://watch.plex.tv/live-tv/channel/hardcore-pawn-2"
     },
     {
+        "Title": "Sobrevivi",
+        "Genre": "Explore",
+        "Language": "PT",
+        "Summary": "Hist\u00f3rias reais de sobreviv\u00eancia\u2014pessoas comuns levadas ao limite nos lugares mais extremos da natureza.",
+        "Link": "https://watch.plex.tv/live-tv/channel/sobrevivi-2"
+    },
+    {
+        "Title": "Sobr\u00e9vivi",
+        "Genre": "Explore",
+        "Language": "ES",
+        "Summary": "Historias reales de supervivencia: personas comunes llevadas al l\u00edmite en los lugares m\u00e1s duros de la naturaleza.",
+        "Link": "https://watch.plex.tv/live-tv/channel/sobrevivi"
+    },
+    {
         "Title": "Galxy TV",
         "Genre": "Adrenaline & Sci-Fi",
         "Language": "EN",
@@ -5906,6 +5920,13 @@
         "Language": "ES",
         "Summary": "Al encuentro de la diversi\u00f3n.",
         "Link": "https://watch.plex.tv/live-tv/channel/runtime-comedia-2"
+    },
+    {
+        "Title": "BOOT",
+        "Genre": "Food, Home & Culture",
+        "Language": "EN",
+        "Summary": "Documentaries and movies about the life. Choppers, bobbers, cars and friendship. Staying independent since 2004.",
+        "Link": "https://watch.plex.tv/live-tv/channel/boot"
     },
     {
         "Title": "FilmRise Action",
@@ -12017,13 +12038,6 @@
         "Language": "DE",
         "Summary": "INFAST: wo sich wahre Geschichten entfalten und globale Abenteuer stattfinden.",
         "Link": "https://watch.plex.tv/live-tv/channel/infast-3"
-    },
-    {
-        "Title": "INWONDER",
-        "Genre": "Explore",
-        "Language": "DE",
-        "Summary": "Wecken Sie Ihre Neugier mit INWONDER, Ihrem Tor zum Au\u00dfergew\u00f6hnlichen.",
-        "Link": "https://watch.plex.tv/live-tv/channel/inwonder-2"
     },
     {
         "Title": "Ideas En 5 Minutos",
