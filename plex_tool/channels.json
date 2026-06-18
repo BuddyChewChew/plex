@@ -1289,7 +1289,7 @@
     },
     {
         "Title": "TVOne Stars & Stories",
-        "Genre": "Bingeworthy",
+        "Genre": "Daytime TV & Games",
         "Language": "EN",
         "Summary": "An unfiltered glimpse into the reality of Celebrity as we unveil their own stories.",
         "Link": "https://watch.plex.tv/live-tv/channel/tvone-stars-and-stories"
@@ -1876,11 +1876,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/soap-latino"
     },
     {
-        "Title": "Doc Story",
-        "Genre": "Explore",
+        "Title": "Top Action",
+        "Genre": "Movies",
         "Language": "FR",
-        "Summary": "Doc Story - Le Meilleur Du Documentaire",
-        "Link": "https://watch.plex.tv/live-tv/channel/doc-story"
+        "Summary": "Une chaine cin\u00e9 et s\u00e9ries 100% action + thriller. Guerre, crime, baston, suspense, aventure, polar : sensations garanties",
+        "Link": "https://watch.plex.tv/live-tv/channel/top-action"
     },
     {
         "Title": "I Shouldn't Be Alive",
@@ -1979,6 +1979,13 @@
         "Language": "EN",
         "Summary": "B&B owners throw open their doors and take turns to stay with each other, as they compete to be crowned best hosts.",
         "Link": "https://watch.plex.tv/live-tv/channel/four-in-a-bed"
+    },
+    {
+        "Title": "Bring It!",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Bring It! follows Mississippi's Dancing Dolls as they battle rivals in high-energy hip-hop majorette dance competitions.",
+        "Link": "https://watch.plex.tv/live-tv/channel/bring-it"
     },
     {
         "Title": "Dog The Bounty Hunter",
@@ -5110,11 +5117,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/wedotv-true-stories"
     },
     {
-        "Title": "Real Disaster Channel",
+        "Title": "Mayday: Air Disaster",
         "Genre": "Daytime TV & Games",
         "Language": "EN",
-        "Summary": "Hard-hitting disaster and survival stories you crave, the Real Disaster Channel delivers edge-of-your-seat adventure.",
-        "Link": "https://watch.plex.tv/live-tv/channel/real-disaster-channel"
+        "Summary": "Aviation safety improves one crash at a time. Mayday: Air Disaster investigates incidents to find out what went wrong and why.",
+        "Link": "https://watch.plex.tv/live-tv/channel/mayday-air-disaster-2"
     },
     {
         "Title": "SPEEDVISION",
@@ -5822,6 +5829,13 @@
         "Language": "EN",
         "Summary": "Join us on Real Wild exploring the wonder of all things wild, exotic & cute animals, breath-taking landscapes & remote wilderness.",
         "Link": "https://watch.plex.tv/live-tv/channel/real-wild"
+    },
+    {
+        "Title": "Real Wild",
+        "Genre": "Explore",
+        "Language": "EN",
+        "Summary": "Join us on Real Wild exploring the wonder of all things wild, exotic & cute animals, breath-taking landscapes & remote wilderness.",
+        "Link": "https://watch.plex.tv/live-tv/channel/real-wild-2"
     },
     {
         "Title": "Let's Make a Deal",
@@ -8023,7 +8037,7 @@
     },
     {
         "Title": "Trailers From Hell",
-        "Genre": "Adrenaline & Sci-Fi",
+        "Genre": "Daytime TV & Games",
         "Language": "EN",
         "Summary": "TFH is the premier showcase and community of classic film trailers, curated and shared by some of worlds top filmmakers.",
         "Link": "https://watch.plex.tv/live-tv/channel/trailers-from-hell"
@@ -10274,6 +10288,34 @@
         "Language": "EN",
         "Summary": "Gymnastics, Athletics, Aquatics, Biathlon and more - Eurovision Sport brings world-class Olympic sports right to your living room.",
         "Link": "https://watch.plex.tv/live-tv/channel/eurovision-sport"
+    },
+    {
+        "Title": "Stories by AMC",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "Watch Breaking Bad, The Walking Dead, Turn, Halt and Catch Fire, Rectify, and Making of the Mob, plus movies and scripted originals.",
+        "Link": "https://watch.plex.tv/live-tv/channel/stories-by-amc-3"
+    },
+    {
+        "Title": "The Walking Dead Universe",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "Join Daryl, Michonne, the Clarks and others from the world of The Walking Dead. Enjoy cast interviews, BTS moments, and more!",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-walking-dead-universe-3"
+    },
+    {
+        "Title": "Portlandia",
+        "Genre": "Comedy",
+        "Language": "EN",
+        "Summary": "Put a Bird on It! All your favorite episodes from the hit series starring Fred Armisen and Carrie Brownstein, all the time!",
+        "Link": "https://watch.plex.tv/live-tv/channel/portlandia-2"
+    },
+    {
+        "Title": "All Reality We TV",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "If you love daring reality series with relatable characters and high-stakes drama, you need All Reality We TV! Real people. Real drama. Real life.",
+        "Link": "https://watch.plex.tv/live-tv/channel/all-reality-we-tv-2"
     },
     {
         "Title": "CBC News Saskatchewan",
