@@ -1827,6 +1827,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/mythical-24-7"
     },
     {
+        "Title": "Fluffy TV",
+        "Genre": "Comedy",
+        "Language": "EN",
+        "Summary": "Movies, stand-up, series, and family comedy for Gabriel Iglesias fans.",
+        "Link": "https://watch.plex.tv/live-tv/channel/fluffy-tv"
+    },
+    {
         "Title": "FIFA+",
         "Genre": "Sports",
         "Language": "FR",
@@ -5447,7 +5454,7 @@
     },
     {
         "Title": "Beyblade",
-        "Genre": "Global",
+        "Genre": "Kids & Family",
         "Language": "EN",
         "Summary": "Follow the adventures of Gingka and his fellow Bladers as they save the world from evil-doers with help from their powerful Beys.",
         "Link": "https://watch.plex.tv/live-tv/channel/beyblade-4"
@@ -7287,13 +7294,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/adventure-earth"
     },
     {
-        "Title": "Butaca TV",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Butaca TV presents top-quality Spanish-language cinema from all over Latin America with a special focus on Mexican films.",
-        "Link": "https://watch.plex.tv/live-tv/channel/butaca-tv-2"
-    },
-    {
         "Title": "Teleonce America",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -7432,13 +7432,6 @@
         "Language": "ES",
         "Summary": "Presentada por Robert Stack, esta serie utiliza recreaciones y entrevistas para volver a contar las circunstancias de misterios que siguen sin resolverse. Cubriendo cr\u00edmenes, historias de amor perdido, historia inexplicable y eventos paranormales.",
         "Link": "https://watch.plex.tv/live-tv/channel/misterios-sin-resolver"
-    },
-    {
-        "Title": "Oro TV",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Watch the best films from the golden age of Mexican Cinema featuring the most popular actors.",
-        "Link": "https://watch.plex.tv/live-tv/channel/oro-tv"
     },
     {
         "Title": "FreeTV Cl\u00e1sico",
@@ -10696,6 +10689,20 @@
         "Link": "https://watch.plex.tv/live-tv/channel/all-reality-we-tv-2"
     },
     {
+        "Title": "ADRENALINE SPICA LIFE",
+        "Genre": "True Crime",
+        "Language": "FR",
+        "Summary": "ADRENALINE SPICA LIFE : documentaires, reportages ancr\u00e9s dans le r\u00e9el.  Immersion autour des univers Police, Enqu\u00eates, Justice et Faits divers.",
+        "Link": "https://watch.plex.tv/live-tv/channel/adrenaline-spica-life"
+    },
+    {
+        "Title": "JDS.TV",
+        "Genre": "Explore",
+        "Language": "FR",
+        "Summary": "JDS.tv, la cha\u00eene du Jour du Seigneur, explore le patrimoine religieux \u00e0 travers documentaires et entretiens  pour nourrir sa foi dans un regard ouvert sur le monde",
+        "Link": "https://watch.plex.tv/live-tv/channel/jds-tv"
+    },
+    {
         "Title": "CBC News Saskatchewan",
         "Genre": "News",
         "Language": "EN",
@@ -11667,13 +11674,6 @@
         "Language": "EN",
         "Summary": "Join the encore with epic concert films and thrilling music documentaries featuring your favorite artists.",
         "Link": "https://watch.plex.tv/live-tv/channel/qello-concerts"
-    },
-    {
-        "Title": "Saborear TV",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Saborear TV is an exploration of the exciting food and lifestyle of Mexico. Recipes, food tours and lots of fun!",
-        "Link": "https://watch.plex.tv/live-tv/channel/saborear-tv"
     },
     {
         "Title": "\u00daN TV",
