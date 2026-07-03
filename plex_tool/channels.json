@@ -5265,7 +5265,7 @@
     },
     {
         "Title": "Legacy",
-        "Genre": "Daytime TV & Games",
+        "Genre": "Global",
         "Language": "EN",
         "Summary": "In the high-speed world of investment billionaires, the powerful Price family lives in wealth, rivalry, and danger.",
         "Link": "https://watch.plex.tv/live-tv/channel/legacy"
@@ -5591,13 +5591,6 @@
         "Language": "EN",
         "Summary": "Football entertainment for fans including documentaries, original series and historic full match replays and highlights.",
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-8"
-    },
-    {
-        "Title": "K-Baseball TV",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Korean baseball is in full swing\u2014here\u2019s what you need to know, from KBO cheerleaders to bat-flipping 24/7.",
-        "Link": "https://watch.plex.tv/live-tv/channel/k-baseball-tv"
     },
     {
         "Title": "ROMCOM K-Drama",
@@ -7292,6 +7285,13 @@
         "Language": "EN",
         "Summary": "Dedicated to wildlife, nature and the unique beauty of our planet.",
         "Link": "https://watch.plex.tv/live-tv/channel/adventure-earth"
+    },
+    {
+        "Title": "Billboard Espa\u00f1ol TV",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "La m\u00e1xima autoridad musical crea el destino favorito para los fan\u00e1ticos de la cultura pop en espa\u00f1ol alrededor del mundo.",
+        "Link": "https://watch.plex.tv/live-tv/channel/billboard-espanol-tv"
     },
     {
         "Title": "Teleonce America",
@@ -11968,6 +11968,13 @@
         "Language": "EN",
         "Summary": "TRACE Urban is the first music channel exclusively dedicated to urban music and culture.",
         "Link": "https://watch.plex.tv/live-tv/channel/trace-urban"
+    },
+    {
+        "Title": "Tarima TV",
+        "Genre": "Music",
+        "Language": "ES",
+        "Summary": "TARIMA TV is the first U.S. Latin concert broadcast channel, delivering premium live performances, exclusive events, and original programming to over 60 million Hispanics.",
+        "Link": "https://watch.plex.tv/live-tv/channel/tarima-tv"
     },
     {
         "Title": "XITE Rap Game",
