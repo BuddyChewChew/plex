@@ -2793,13 +2793,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/deutsche-filme"
     },
     {
-        "Title": "CBS Sports HQ",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "You'll never miss a sports story if you leave this channel on. CBS Sports HQ is live 24/7.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-sports-hq-2"
-    },
-    {
         "Title": "CW Presents WWE NXT",
         "Genre": "Sports",
         "Language": "EN",
@@ -3031,11 +3024,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/crime-e-investigacao"
     },
     {
-        "Title": "Bizzarro Movies",
+        "Title": "Shark Zone",
         "Genre": "Adrenaline & Sci-Fi",
         "Language": "IT",
-        "Summary": "Terremoti, vulcani, maremoti, invasioni e guerre: la Terra non \u00e8 mai stata cos\u00ec in pericolo! Attraversando cicloni, ere glaciali e un\u2019umanit\u00e0 alla deriva, arrivando al centro del disastro. L\u2019Apocalisse non \u00e8 mai stata cos\u00ec assurda!",
-        "Link": "https://watch.plex.tv/live-tv/channel/bizzarro-movies"
+        "Summary": "Immergiti nel brivido con i migliori film di squali. Azione e avventure dalle profondit\u00e0 dell\u2019oceano alle spiagge pi\u00f9 insidiose.",
+        "Link": "https://watch.plex.tv/live-tv/channel/shark-zone"
     },
     {
         "Title": "Law & Crime",
@@ -3493,11 +3486,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/sparkle-movies-light-and-love"
     },
     {
-        "Title": "Super Channel Hearties",
+        "Title": "Super Channel Hearties Christmas in July",
         "Genre": "Bingeworthy",
         "Language": "EN",
         "Summary": "Feel good entertainment celebrating love, romance, family ties and communities. Safe and family friendly, suitable for all ages.",
-        "Link": "https://watch.plex.tv/live-tv/channel/super-channel-hearties"
+        "Link": "https://watch.plex.tv/live-tv/channel/super-channel-hearties-christmas-in-july"
     },
     {
         "Title": "Wrestling Legends TV",
@@ -4541,13 +4534,6 @@
         "Language": "FR",
         "Summary": "Affaires criminelles, enqu\u00eates polici\u00e8res, FBI : Plongez au c\u0153ur des faits divers avec HOMICIDE.",
         "Link": "https://watch.plex.tv/live-tv/channel/homicide"
-    },
-    {
-        "Title": "CBS Sports Golazo Network",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "CBS Sports Golazo Network is the year-round, 24/7 home for soccer fans with free matches, highlights, news and analysis.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-sports-golazo-network-2"
     },
     {
         "Title": "Victory+",
@@ -10176,6 +10162,20 @@
         "Language": "EN",
         "Summary": "Focused on hoarding at its most extreme, this channel offers hope & provides resources for anyone in similar situations.",
         "Link": "https://watch.plex.tv/live-tv/channel/hoarders-2"
+    },
+    {
+        "Title": "Squadra Speciale Lipsia",
+        "Genre": "Bingeworthy",
+        "Language": "IT",
+        "Summary": "Un'unit\u00e0 di polizia specializzata di Lipsia indaga su crimini complessi facendo leva su lavoro di squadra, determinazione e un intuito infallibile.",
+        "Link": "https://watch.plex.tv/live-tv/channel/squadra-speciale-lipsia"
+    },
+    {
+        "Title": "Guardia costiera",
+        "Genre": "Bingeworthy",
+        "Language": "IT",
+        "Summary": "La Guardia Costiera italiana affronta operazioni di salvataggio, emergenze e attivit\u00e0 criminali, tutelando al contempo le vite umane lungo la costa.",
+        "Link": "https://watch.plex.tv/live-tv/channel/guardia-costiera"
     },
     {
         "Title": "I Survived\u2026",
