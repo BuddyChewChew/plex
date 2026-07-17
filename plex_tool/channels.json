@@ -6090,6 +6090,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/estrella-news"
     },
     {
+        "Title": "ADN NOTICIAS",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "Las \u00faltimas noticias de M\u00e9xico y el mundo en vivo, reportajes, mesas de debate y coberturas especiales.",
+        "Link": "https://watch.plex.tv/live-tv/channel/adn-noticias"
+    },
+    {
         "Title": "Complex TV",
         "Genre": "Food, Home & Culture",
         "Language": "EN",
@@ -8981,6 +8988,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/camp-spoopy"
     },
     {
+        "Title": "Mera Mera TV",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "La esencia de M\u00e9xico y EE. UU. en streaming. Cultura, deportes y tradici\u00f3n en un solo lugar. \u00a1Con\u00e9ctate con lo tuyo!",
+        "Link": "https://watch.plex.tv/live-tv/channel/mera-mera-tv"
+    },
+    {
         "Title": "Local Now Minneapolis",
         "Genre": "News",
         "Language": "EN",
@@ -10169,6 +10183,13 @@
         "Language": "IT",
         "Summary": "Un'unit\u00e0 di polizia specializzata di Lipsia indaga su crimini complessi facendo leva su lavoro di squadra, determinazione e un intuito infallibile.",
         "Link": "https://watch.plex.tv/live-tv/channel/squadra-speciale-lipsia"
+    },
+    {
+        "Title": "Deal Or No Deal",
+        "Genre": "Daytime TV & Games",
+        "Language": "ES",
+        "Summary": "\"Deal Or No Deal\" es el exitoso concurso televisivo en el que los participantes compiten por un gran premio en efectivo, en una prueba de nervios e intuici\u00f3n pura.",
+        "Link": "https://watch.plex.tv/live-tv/channel/deal-or-no-deal-4"
     },
     {
         "Title": "Guardia costiera",
