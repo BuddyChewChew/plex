@@ -4466,11 +4466,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/nbc-news-now"
     },
     {
-        "Title": "CBS News",
+        "Title": "CBS News 24/7",
         "Genre": "News",
         "Language": "EN",
         "Summary": "Watch the free CBS News 24/7 live stream for breaking news & in-depth reporting.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news"
+        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-24-7"
     },
     {
         "Title": "LiveNOW from FOX",
@@ -6993,11 +6993,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/weatherspy-2"
     },
     {
-        "Title": "Telemundo Acci\u00f3n",
+        "Title": "El Se\u00f1or de los Cielos",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
-        "Summary": "Las mejores series de acci\u00f3n con muchos momentos inesperados, intriga y suspenso.",
-        "Link": "https://watch.plex.tv/live-tv/channel/telemundo-accion"
+        "Summary": "La historia de Aurelio Casillas, un hombre humilde que se convirti\u00f3 en el m\u00e1s rico y poderoso narcotraficante de M\u00e9xico.",
+        "Link": "https://watch.plex.tv/live-tv/channel/el-senor-de-los-cielos"
     },
     {
         "Title": "Andromeda",
@@ -7040,13 +7040,6 @@
         "Language": "ES",
         "Summary": "Caracol Mix, the first FAST channel from Caracol Television, delivers Colombia\u2019s most acclaimed productions to Hispanic viewers across the world.",
         "Link": "https://watch.plex.tv/live-tv/channel/caracol-mix"
-    },
-    {
-        "Title": "Canela.TV Narco-Drama",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Las l\u00edneas entre el amor y el peligro. Desde el sombr\u00edo submundo de los narcotraficantes hasta los tumultuosos romances.",
-        "Link": "https://watch.plex.tv/live-tv/channel/canela-tv-narco-drama"
     },
     {
         "Title": "ElectricNOW en Espa\u00f1ol",
