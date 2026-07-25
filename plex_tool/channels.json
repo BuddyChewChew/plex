@@ -1,5 +1,12 @@
 [
     {
+        "Title": "Deal Or No Deal",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "\"Deal Or No Deal\" es el exitoso concurso televisivo en el que los participantes compiten por un gran premio en efectivo, en una prueba de nervios e intuici\u00f3n pura.",
+        "Link": "https://watch.plex.tv/live-tv/channel/deal-or-no-deal-5"
+    },
+    {
         "Title": "CW Forever",
         "Genre": "Bingeworthy",
         "Language": "EN",
@@ -2072,6 +2079,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/ghost-3"
     },
     {
+        "Title": "Ghost",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Ordinary people and celebrities reveal their frightening personal experiences of ghosts and haunted houses.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ghost-2"
+    },
+    {
         "Title": "Bondi Rescue",
         "Genre": "Reality",
         "Language": "EN",
@@ -2182,6 +2196,13 @@
         "Language": "EN",
         "Summary": "Showing your favourite celebrities in a real and intimate light.",
         "Link": "https://watch.plex.tv/live-tv/channel/celeb-reality-5"
+    },
+    {
+        "Title": "Celeb Reality",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Showing your favourite celebrities in a real and intimate light.",
+        "Link": "https://watch.plex.tv/live-tv/channel/celeb-reality-6"
     },
     {
         "Title": "Mayday: Air Disaster",
@@ -6081,6 +6102,13 @@
         "Language": "EN",
         "Summary": "JOURNY is the only channel at the intersection of travel, art, and culture! Watch curated content focused on immersive experiences and unique storytelling.",
         "Link": "https://watch.plex.tv/live-tv/channel/journy"
+    },
+    {
+        "Title": "Azteca Deportes Network",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "Un canal de televisi\u00f3n de pago dedicado al deporte y una marca digital de TV Azteca, que ofrecen f\u00fatbol en vivo, programas de estudio y comentarios de expertos.",
+        "Link": "https://watch.plex.tv/live-tv/channel/azteca-deportes-network-2"
     },
     {
         "Title": "Estrella News",
@@ -10162,6 +10190,27 @@
         "Language": "EN",
         "Summary": "24/7 of TV\u2019s most innovative series.",
         "Link": "https://watch.plex.tv/live-tv/channel/modern-marvels-4"
+    },
+    {
+        "Title": "Inazuma Eleven",
+        "Genre": "Global",
+        "Language": "FR",
+        "Summary": "Un groupe d'enfants s'entra\u00eene pour d\u00e9velopper son talent et r\u00e9ussir au football.",
+        "Link": "https://watch.plex.tv/live-tv/channel/inazuma-eleven-2"
+    },
+    {
+        "Title": "Azteca Deportes Network",
+        "Genre": "Sports",
+        "Language": "ES",
+        "Summary": "Un canal de televisi\u00f3n de pago dedicado al deporte y una marca digital de TV Azteca, que ofrecen f\u00fatbol en vivo, programas de estudio y comentarios de expertos.",
+        "Link": "https://watch.plex.tv/live-tv/channel/azteca-deportes-network"
+    },
+    {
+        "Title": "Inazuma Eleven",
+        "Genre": "Global",
+        "Language": "EN",
+        "Summary": "A group of children practice to grow their talent and achieve success in football.",
+        "Link": "https://watch.plex.tv/live-tv/channel/inazuma-eleven"
     },
     {
         "Title": "Hoarders",
