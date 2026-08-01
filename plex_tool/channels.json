@@ -7084,11 +7084,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/delito"
     },
     {
-        "Title": "GoUSA TV",
+        "Title": "Journy",
         "Genre": "Explore",
         "Language": "EN",
-        "Summary": "The premier streaming channel for content from the entire United States. Go-to spot for all travel related content from the USA.",
-        "Link": "https://watch.plex.tv/live-tv/channel/gousa-tv"
+        "Summary": "JOURNY is the only channel at the intersection of travel, art, and culture! Watch curated content focused on immersive experiences and unique storytelling.",
+        "Link": "https://watch.plex.tv/live-tv/channel/journy-2"
     },
     {
         "Title": "FrightFlix",
@@ -7497,13 +7497,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-wiggles"
     },
     {
-        "Title": "Hot Wheels Action",
-        "Genre": "Kids & Family",
-        "Language": "EN",
-        "Summary": "Buckle up for fast Hot Wheels races, epic battles with He-man, railway fun with Thomas & Friends and more with Hot Wheels Action!",
-        "Link": "https://watch.plex.tv/live-tv/channel/hot-wheels-action"
-    },
-    {
         "Title": "beIN Sports Xtra en Espa\u00f1ol",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -7511,25 +7504,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/bein-sports-xtra-en-espanol"
     },
     {
-        "Title": "Mattel Jr.",
-        "Genre": "Kids & Family",
-        "Language": "EN",
-        "Summary": "Mattel Jr. is your child\u2019s ticket to the charming and fun worlds of Thomas & Friends, Kipper, Pingu and more beloved characters!",
-        "Link": "https://watch.plex.tv/live-tv/channel/mattel-jr"
-    },
-    {
         "Title": "Historias de Coraz\u00f3n",
         "Genre": "En Espa\u00f1ol",
         "Language": "EN",
         "Summary": "Bienvenidos a Historias de Coraz\u00f3n: series y pel\u00edculas de amor y relaciones, desde romances dulces hasta dramas intensos.",
         "Link": "https://watch.plex.tv/live-tv/channel/historias-de-corazon-2"
-    },
-    {
-        "Title": "Barbie and Friends by Mattel",
-        "Genre": "Kids & Family",
-        "Language": "EN",
-        "Summary": "Join Barbie and her best doll friends in a world where imagination, fashion, friendship and exciting adventures take center stage!",
-        "Link": "https://watch.plex.tv/live-tv/channel/barbie-and-friends-by-mattel"
     },
     {
         "Title": "Strawberry Shortcake",
@@ -8057,13 +8036,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/horror-stories"
     },
     {
-        "Title": "Journy",
-        "Genre": "Explore",
-        "Language": "EN",
-        "Summary": "JOURNY is the only channel at the intersection of travel, art, and culture! Watch curated content focused on immersive experiences and unique storytelling.",
-        "Link": "https://watch.plex.tv/live-tv/channel/journy-ca"
-    },
-    {
         "Title": "Toon Goggles",
         "Genre": "Kids & Family",
         "Language": "EN",
@@ -8447,13 +8419,6 @@
         "Language": "ES",
         "Summary": "Emoci\u00f3n Atres ofrece una variada selecci\u00f3n de series y dramas internacionales. Entretenimiento garantizado que combina drama, romance y comedia.",
         "Link": "https://watch.plex.tv/live-tv/channel/emocion-atres-2"
-    },
-    {
-        "Title": "The Boat Show",
-        "Genre": "Food, Home & Culture",
-        "Language": "EN",
-        "Summary": "Join The Boat Show for exciting yachting adventures, the latest boat tech, expert sailing tips, and exclusive yacht tours. Set sail today!",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-boat-show"
     },
     {
         "Title": "FreeTV Sure\u00f1o",
@@ -10206,6 +10171,27 @@
         "Link": "https://watch.plex.tv/live-tv/channel/azteca-deportes-network"
     },
     {
+        "Title": "Love after Lockup",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Love After Lockup follows couples as they reunite after prison and discover if their love can survive the real world.",
+        "Link": "https://watch.plex.tv/live-tv/channel/love-after-lockup-2"
+    },
+    {
+        "Title": "AMC Cupid",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "AMC Cupid your destination for all things weddings, dating, and romance, featuring relationship-themed unscripted shows.",
+        "Link": "https://watch.plex.tv/live-tv/channel/amc-cupid-2"
+    },
+    {
+        "Title": "AMC Reality",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "AMC Reality is the ultimate streaming destination for bold, unscripted entertainment \u2014 from the biggest reality hits to gripping true crime stories.",
+        "Link": "https://watch.plex.tv/live-tv/channel/amc-reality-2"
+    },
+    {
         "Title": "Inazuma Eleven",
         "Genre": "Global",
         "Language": "EN",
@@ -11786,13 +11772,6 @@
         "Language": "EN",
         "Summary": "Experience legendary full-length concert films and riveting documentaries featuring all of the artists you love.",
         "Link": "https://watch.plex.tv/live-tv/channel/qello-concerts-2"
-    },
-    {
-        "Title": "Music Legends",
-        "Genre": "Music",
-        "Language": "EN",
-        "Summary": "Music Legends is the #1 streaming channel for music documentaries and concerts. Featuring all of your favorite artists from yesterday to today, Music Legends has them all!",
-        "Link": "https://watch.plex.tv/live-tv/channel/music-legends"
     },
     {
         "Title": "So Yummy",
