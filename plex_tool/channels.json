@@ -1477,13 +1477,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cinevault"
     },
     {
-        "Title": "Humor Mill",
-        "Genre": "Comedy",
-        "Language": "EN",
-        "Summary": "The only urban comedy channel featuring stand up performances, sketches, documentaries, behind-the-scenes, one on one interviews.",
-        "Link": "https://watch.plex.tv/live-tv/channel/humor-mill"
-    },
-    {
         "Title": "Christmas Plus",
         "Genre": "Movies",
         "Language": "EN",
@@ -3507,11 +3500,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/sparkle-movies-light-and-love"
     },
     {
-        "Title": "Super Channel Hearties Christmas in July",
+        "Title": "Super Channel Hearties",
         "Genre": "Bingeworthy",
         "Language": "EN",
         "Summary": "Feel good entertainment celebrating love, romance, family ties and communities. Safe and family friendly, suitable for all ages.",
-        "Link": "https://watch.plex.tv/live-tv/channel/super-channel-hearties-christmas-in-july"
+        "Link": "https://watch.plex.tv/live-tv/channel/super-channel-hearties"
     },
     {
         "Title": "Wrestling Legends TV",
@@ -6760,13 +6753,6 @@
         "Language": "EN",
         "Summary": "Trending clips, entertaining memes, and the funniest animal videos today. Simply put, we think animals are the best ever.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-pet-collective-2"
-    },
-    {
-        "Title": "Drool",
-        "Genre": "Food, Home & Culture",
-        "Language": "EN",
-        "Summary": "Tune in to Drool and enjoy a delicious offering of shows from celebrity chefs, bestselling cookbook authors, and global culinary adventurers served up in a first of its kind Web meets TV fusion.",
-        "Link": "https://watch.plex.tv/live-tv/channel/drool"
     },
     {
         "Title": "Hong Kong Fight Club",
