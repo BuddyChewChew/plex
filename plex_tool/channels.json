@@ -945,6 +945,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/relic-hunter"
     },
     {
+        "Title": "Homicide Hunter",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Lt. Joe Kenda revisits chilling murder cases from his 23-year career, confronting haunting memories while revealing how he solved them.",
+        "Link": "https://watch.plex.tv/live-tv/channel/homicide-hunter"
+    },
+    {
         "Title": "FIFA+",
         "Genre": "Sports",
         "Language": "EN",
@@ -4137,18 +4144,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/new-k-movies"
     },
     {
-        "Title": "MHz Now",
+        "Title": "MHz Mysteries",
         "Genre": "Global",
         "Language": "EN",
-        "Summary": "MHz Now features scripted entertainment from more than 15 countries.",
-        "Link": "https://watch.plex.tv/live-tv/channel/mhz-now"
-    },
-    {
-        "Title": "FanDuel TV Extra",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "America's #1 Sportsbook brings you live sports from around the world with news and analysis from its roster of loved personalities.",
-        "Link": "https://watch.plex.tv/live-tv/channel/fanduel-tv-extra-2"
+        "Summary": "MHz Mysteries features scripted entertainment from more than 15 countries with easy-to-follow English subtitles.",
+        "Link": "https://watch.plex.tv/live-tv/channel/mhz-mysteries"
     },
     {
         "Title": "DP World Tour",
@@ -5355,13 +5355,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/anime-x-hidive-2"
     },
     {
-        "Title": "Wellbeing TV",
-        "Genre": "Food, Home & Culture",
-        "Language": "EN",
-        "Summary": "Wellbeing TV offers coaching, inspiring magazines and entertainment to live a better and healthier life.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wellbeing-tv"
-    },
-    {
         "Title": "Wendy Williams",
         "Genre": "Daytime TV & Games",
         "Language": "EN",
@@ -6139,13 +6132,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/canela-tv-clasicos"
     },
     {
-        "Title": "GoUSA TV",
-        "Genre": "Explore",
-        "Language": "EN",
-        "Summary": "The premier streaming channel for content from the entire United States. Go-to spot for all travel related content from the USA.",
-        "Link": "https://watch.plex.tv/live-tv/channel/gousa-tv-3"
-    },
-    {
         "Title": "BlackPix",
         "Genre": "Movies",
         "Language": "EN",
@@ -6319,13 +6305,6 @@
         "Language": "EN",
         "Summary": "Southeastern Michigan\u2019s #1 Local News Streaming with 24/7 coverage \u2013 the latest news and top stories in your neighborhood.",
         "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-detroit-2"
-    },
-    {
-        "Title": "CBS News Baltimore",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "CBS News Baltimore is hyper local news streaming 24/7...for free!",
-        "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-baltimore"
     },
     {
         "Title": "NBC 10 Boston News",
@@ -10094,6 +10073,20 @@
         "Link": "https://watch.plex.tv/live-tv/channel/60-days-in-jail-5"
     },
     {
+        "Title": "Racer Brasil",
+        "Genre": "Sports",
+        "Language": "PT",
+        "Summary": "Dedicados \u00e0 cultura global do automobilismo e movidos pela paix\u00e3o pela velocidade, somos a Racer Brasil Network, a maior e mais completa plataforma de automobilismo das Am\u00e9ricas.",
+        "Link": "https://watch.plex.tv/live-tv/channel/racer-brasil"
+    },
+    {
+        "Title": "Fix Foxi + Freunde",
+        "Genre": "Kids & Family",
+        "Language": "DE",
+        "Summary": "Tauche ein in eine bunte Welt voller Fantasie und Wissen \u2013 gemeinsam mit Fix und Foxi.",
+        "Link": "https://watch.plex.tv/live-tv/channel/fix-foxi-freunde"
+    },
+    {
         "Title": "60 Days In Jail",
         "Genre": "True Crime",
         "Language": "EN",
@@ -10106,6 +10099,41 @@
         "Language": "EN",
         "Summary": "Deep in the woods, these loggers are risking it all! 24/7 non-stop episodes of the hard-hitting series.",
         "Link": "https://watch.plex.tv/live-tv/channel/ax-men-7"
+    },
+    {
+        "Title": "H2O & Friends",
+        "Genre": "Kids & Family",
+        "Language": "DE",
+        "Summary": "H2O & Friends is home to magical adventures, mermaids, friendship, and unforgettable coming-of-age stories.",
+        "Link": "https://watch.plex.tv/live-tv/channel/h2o-and-friends-4"
+    },
+    {
+        "Title": "H2O & Friends",
+        "Genre": "Kids & Family",
+        "Language": "ES",
+        "Summary": "H2O & Friends is home to magical adventures, mermaids, friendship, and unforgettable coming-of-age stories.",
+        "Link": "https://watch.plex.tv/live-tv/channel/h2o-and-friends-3"
+    },
+    {
+        "Title": "H2O & Friends",
+        "Genre": "Kids & Family",
+        "Language": "FR",
+        "Summary": "H2O & Friends is home to magical adventures, mermaids, friendship, and unforgettable coming-of-age stories.",
+        "Link": "https://watch.plex.tv/live-tv/channel/h2o-and-friends-5"
+    },
+    {
+        "Title": "H2O & Friends",
+        "Genre": "Kids & Family",
+        "Language": "EN",
+        "Summary": "H2O & Friends is home to magical adventures, mermaids, friendship, and unforgettable coming-of-age stories.",
+        "Link": "https://watch.plex.tv/live-tv/channel/h2o-and-friends"
+    },
+    {
+        "Title": "ZDF zu Hause",
+        "Genre": "Food, Home & Culture",
+        "Language": "DE",
+        "Summary": "ZDF zu Hause bringt Inspiration f\u00fcr Wohnen, Garten, Kochen, Heimwerken, Reisen und einen sch\u00f6nen Alltag",
+        "Link": "https://watch.plex.tv/live-tv/channel/zdf-zu-hause"
     },
     {
         "Title": "Ax Men",
@@ -12496,7 +12524,7 @@
     },
     {
         "Title": "INFAST",
-        "Genre": "Food, Home & Culture",
+        "Genre": "Reality",
         "Language": "DE",
         "Summary": "INFAST: wo sich wahre Geschichten entfalten und globale Abenteuer stattfinden.",
         "Link": "https://watch.plex.tv/live-tv/channel/infast-3"
