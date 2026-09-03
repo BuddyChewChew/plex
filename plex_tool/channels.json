@@ -1435,6 +1435,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/tony-robbins-network"
     },
     {
+        "Title": "GrowthDay Network",
+        "Genre": "Daytime TV & Games",
+        "Language": "EN",
+        "Summary": "The greatest names in self-improvement inspire you to level up every area of your life and become your best, every day!",
+        "Link": "https://watch.plex.tv/live-tv/channel/growthday-network"
+    },
+    {
         "Title": "REELZ Famous & Infamous",
         "Genre": "Daytime TV & Games",
         "Language": "EN",
@@ -2399,13 +2406,6 @@
         "Language": "EN",
         "Summary": "Step into the thrilling world of M.I.5 \u2013 known to insiders simply as \u2018Five\u2019 - the clandestine security service.",
         "Link": "https://watch.plex.tv/live-tv/channel/mi-5"
-    },
-    {
-        "Title": "Grjngo - Films de Western",
-        "Genre": "Classics",
-        "Language": "FR",
-        "Summary": "Grjngo est l'une des plus grandes cha\u00eenes de films et s\u00e9ries westerns. Une vaste s\u00e9lection de films exclusivement couleur en HD!",
-        "Link": "https://watch.plex.tv/live-tv/channel/grjngo-films-de-western"
     },
     {
         "Title": "History Hit",
@@ -3437,6 +3437,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/preston-and-brianna"
     },
     {
+        "Title": "Ryan Trahan",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "One thing about Ryan Trahan is that he ALWAYS full sends it. Catch Ryan as he attempts to pull off wild challenges no one asked him to take on!",
+        "Link": "https://watch.plex.tv/live-tv/channel/ryan-trahan"
+    },
+    {
         "Title": "The World Poker Tour",
         "Genre": "Sports",
         "Language": "PT",
@@ -4186,13 +4193,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/todo-novelas"
     },
     {
-        "Title": "Motorvision TV en Espa\u00f1ol",
-        "Genre": "Sports",
-        "Language": "ES",
-        "Summary": "Autom\u00f3viles deportivos \u00fanicos, todoterrenos y coches antiguos: MOTORVISION TV presenta el apasionante mundo de la automoci\u00f3n.",
-        "Link": "https://watch.plex.tv/live-tv/channel/motorvision-tv-en-espanol"
-    },
-    {
         "Title": "Surf Cinema",
         "Genre": "Sports",
         "Language": "EN",
@@ -4438,13 +4438,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/asian-drama"
     },
     {
-        "Title": "Motorvision",
-        "Genre": "Sports",
-        "Language": "FR",
-        "Summary": "Des voitures de sport fascinantes, des concepts de mobilit\u00e9 avant-gardistes, des voitures anciennes et bien plus encore.",
-        "Link": "https://watch.plex.tv/live-tv/channel/motorvision-2"
-    },
-    {
         "Title": "Heartland",
         "Genre": "Bingeworthy",
         "Language": "EN",
@@ -4464,13 +4457,6 @@
         "Language": "EN",
         "Summary": "From a Louisiana beauty queen to a Wall Street attorney to a tough New York City prosecutor, Faith brings her tough no-nonsense style of justice into her own courtroom.",
         "Link": "https://watch.plex.tv/live-tv/channel/judge-faith"
-    },
-    {
-        "Title": "Motorvision TV",
-        "Genre": "Sports",
-        "Language": "PT",
-        "Summary": "Carros esportivos \u00fanicos, carros de luxo, SUVs e carros antigos. MOTORVISION TV apresenta o universo envolvente do autom\u00f3vel.",
-        "Link": "https://watch.plex.tv/live-tv/channel/motorvision-tv-2"
     },
     {
         "Title": "NBC News NOW",
@@ -4779,13 +4765,6 @@
         "Language": "EN",
         "Summary": "RACER Select is your free destination for motorsports, gearheads, collectors, iconic racing stories, and adrenaline-fueled action.",
         "Link": "https://watch.plex.tv/live-tv/channel/racer-select"
-    },
-    {
-        "Title": "Motorvision TV",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "Luxury limousines, SUVs and vintage cars: MOTORVISION TV presents the gripping world of auto mobility.",
-        "Link": "https://watch.plex.tv/live-tv/channel/motorvision-tv"
     },
     {
         "Title": "Racing America",
@@ -5117,13 +5096,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/revry"
     },
     {
-        "Title": "Cirque du Soleil",
-        "Genre": "Food, Home & Culture",
-        "Language": "EN",
-        "Summary": "Cirque du Soleil's best content: performances, documentaries, Blue Man Group, and music videos.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cirque-du-soleil"
-    },
-    {
         "Title": "Death Valley Days",
         "Genre": "Classics",
         "Language": "EN",
@@ -5412,7 +5384,7 @@
     },
     {
         "Title": "Spark TV Luz y Amor",
-        "Genre": "Bingeworthy",
+        "Genre": "Movies",
         "Language": "ES",
         "Summary": "SparkTV - Luz y Amor presenta pel\u00edculas y series que elevan, inspiran y tocan el coraz\u00f3n.",
         "Link": "https://watch.plex.tv/live-tv/channel/spark-tv-luz-y-amor-3"
@@ -6104,6 +6076,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/estrella-news"
     },
     {
+        "Title": "Entravision Ahora",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "Entravision Ahora:  Noticias en vivo, Noticias de \u00faltima hora, clima y cobertura de tu comunidad.",
+        "Link": "https://watch.plex.tv/live-tv/channel/entravision-ahora"
+    },
+    {
         "Title": "ADN NOTICIAS",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -6116,13 +6095,6 @@
         "Language": "EN",
         "Summary": "The unique crossroads of streetwear, hip hop, art, and culture.",
         "Link": "https://watch.plex.tv/live-tv/channel/complex-tv"
-    },
-    {
-        "Title": "Motorvision Classic",
-        "Genre": "Sports",
-        "Language": "DE",
-        "Summary": "Rarit\u00e4ten, Oldtimer und faszinierende Youngtimer und die Geschichte hinter den Erfolgsmodellen.",
-        "Link": "https://watch.plex.tv/live-tv/channel/motorvision-classic"
     },
     {
         "Title": "Canela.TV Cl\u00e1sicos",
@@ -7901,13 +7873,6 @@
         "Language": "EN",
         "Summary": "Dedicated to wildlife, nature and the unique beauty of our planet.",
         "Link": "https://watch.plex.tv/live-tv/channel/adventure-earth-2"
-    },
-    {
-        "Title": "The Talk Show Channel",
-        "Genre": "Daytime TV & Games",
-        "Language": "EN",
-        "Summary": "Unforgettable showbiz interviews.",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-talk-show-channel"
     },
     {
         "Title": "Tastemade",
@@ -10080,6 +10045,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/racer-brasil"
     },
     {
+        "Title": "4Fangs",
+        "Genre": "Adrenaline & Sci-Fi",
+        "Language": "ES",
+        "Summary": "El horror que anhelas, redefinido. Pel\u00edculas de terror, cl\u00e1sicos contempor\u00e1neos 100% en espa\u00f1ol. Descubre sustos \u00fanicos que no ver\u00e1s en ning\u00fan otro lugar.",
+        "Link": "https://watch.plex.tv/live-tv/channel/4fangs"
+    },
+    {
         "Title": "Fix Foxi + Freunde",
         "Genre": "Kids & Family",
         "Language": "DE",
@@ -10113,6 +10085,13 @@
         "Language": "ES",
         "Summary": "H2O & Friends is home to magical adventures, mermaids, friendship, and unforgettable coming-of-age stories.",
         "Link": "https://watch.plex.tv/live-tv/channel/h2o-and-friends-3"
+    },
+    {
+        "Title": "H2O & Friends",
+        "Genre": "Kids & Family",
+        "Language": "IT",
+        "Summary": "H2O & Friends is home to magical adventures, mermaids, friendship, and unforgettable coming-of-age stories.",
+        "Link": "https://watch.plex.tv/live-tv/channel/h2o-and-friends-2"
     },
     {
         "Title": "H2O & Friends",
