@@ -1498,6 +1498,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/christmas-plus"
     },
     {
+        "Title": "Ces't Pas Sorcier",
+        "Genre": "Explore",
+        "Language": "FR",
+        "Summary": "C'est pas sorcier, la cha\u00eene officielle. Retrouvez Fred, Jamy & Sabine dans le magazine culte de la science et de la d\u00e9couverte : une approche ludique et accessible pour toute la famille.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cest-pas-sorcier"
+    },
+    {
         "Title": "Echos du Monde",
         "Genre": "Explore",
         "Language": "FR",
@@ -1743,13 +1750,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/filmrise-serie-populaire"
     },
     {
-        "Title": "Zee Mundo",
-        "Genre": "Global",
-        "Language": "ES",
-        "Summary": "Zee Mundo offers original Indian shows and movies in Spanish, featuring heartfelt stories on relationships and family values.",
-        "Link": "https://watch.plex.tv/live-tv/channel/zee-mundo"
-    },
-    {
         "Title": "Prime Suspect",
         "Genre": "Bingeworthy",
         "Language": "EN",
@@ -1927,7 +1927,7 @@
     {
         "Title": "Alberto Sordi & Co",
         "Genre": "Classics",
-        "Language": "IT",
+        "Language": "EN",
         "Summary": "Alberto Sordi, volto e anima del cinema italiano, guida un viaggio tra ironia e risate irresistibili insieme ad altre icone del suo tempo come Manfredi, Tognazzi e Mastroianni.",
         "Link": "https://watch.plex.tv/live-tv/channel/alberto-sordi-and-co"
     },
@@ -1958,6 +1958,13 @@
         "Language": "EN",
         "Summary": "Get your fill of cutthroat contests, culinary cookalongs, and delicious drama from shows like Gordon Ramsay\u2019s HELL\u2019S KITCHEN and KITCHEN NIGHTMARES series.",
         "Link": "https://watch.plex.tv/live-tv/channel/hells-kitchen-and-kitchen-nightmares"
+    },
+    {
+        "Title": "Growing Up Hip Hop",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "Growing Up Hip Hop follows the next generation of hip hop royalty as they attempt to step outside the shadow of their famous families.",
+        "Link": "https://watch.plex.tv/live-tv/channel/growing-up-hip-hop"
     },
     {
         "Title": "The Osbournes",
@@ -2098,6 +2105,13 @@
         "Language": "EN",
         "Summary": "Bondi Beach lifeguards face new challenges and make daring rescues patrolling Australia's most famous beach.",
         "Link": "https://watch.plex.tv/live-tv/channel/bondi-rescue"
+    },
+    {
+        "Title": "House of Creators",
+        "Genre": "Reality",
+        "Language": "FR",
+        "Summary": "Sur House of Creators, d\u00e9couvrez les meilleures vid\u00e9os des meilleurs cr\u00e9ateurs de divertissement. Food, storytelling, crime, jeux, voyage, sciences, interviews, tests.",
+        "Link": "https://watch.plex.tv/live-tv/channel/house-of-creators"
     },
     {
         "Title": "Million Dollar Listing Vault",
@@ -3047,7 +3061,7 @@
     {
         "Title": "Shark Zone",
         "Genre": "Adrenaline & Sci-Fi",
-        "Language": "IT",
+        "Language": "EN",
         "Summary": "Immergiti nel brivido con i migliori film di squali. Azione e avventure dalle profondit\u00e0 dell\u2019oceano alle spiagge pi\u00f9 insidiose.",
         "Link": "https://watch.plex.tv/live-tv/channel/shark-zone"
     },
@@ -6818,6 +6832,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/overtime"
     },
     {
+        "Title": "SWAC TV",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "SWAC TV - Southwestern Athletic Conference Games and Coverage.",
+        "Link": "https://watch.plex.tv/live-tv/channel/swac-tv"
+    },
+    {
         "Title": "More than Sports TV",
         "Genre": "Sports",
         "Language": "DE",
@@ -6998,13 +7019,6 @@
         "Language": "ES",
         "Summary": "Novelas de Siempre: Pasi\u00f3n, traici\u00f3n y emoci\u00f3n\u2026tus historias favoritas, siempre vivas.",
         "Link": "https://watch.plex.tv/live-tv/channel/novelas-de-siempre"
-    },
-    {
-        "Title": "Caracol Mix",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Caracol Mix, the first FAST channel from Caracol Television, delivers Colombia\u2019s most acclaimed productions to Hispanic viewers across the world.",
-        "Link": "https://watch.plex.tv/live-tv/channel/caracol-mix"
     },
     {
         "Title": "ElectricNOW en Espa\u00f1ol",
@@ -9856,6 +9870,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/mayday-catastrophe-aerienne"
     },
     {
+        "Title": "Deal or No Deal",
+        "Genre": "Daytime TV & Games",
+        "Language": "PT",
+        "Summary": "\"Deal Or No Deal\" \u00e9 o programa de televis\u00e3o de grande sucesso no qual os participantes competem por um grande pr\u00eamio em dinheiro, em um teste de nervos e pura intui\u00e7\u00e3o.",
+        "Link": "https://watch.plex.tv/live-tv/channel/deal-or-no-deal-6"
+    },
+    {
         "Title": "Mayday: Disastro Aereo",
         "Genre": "Reality",
         "Language": "IT",
@@ -10771,13 +10792,6 @@
         "Language": "EN",
         "Summary": "Go beyond the ring 24/7.",
         "Link": "https://watch.plex.tv/live-tv/channel/wrestling-legends-tv"
-    },
-    {
-        "Title": "Caracol Mix",
-        "Genre": "Bingeworthy",
-        "Language": "ES",
-        "Summary": "Caracol Mix, el primer canal FAST de Caracol Televisi\u00f3n, lleva las producciones m\u00e1s aclamadas de Colombia a los espectadores hispanos de todo el mundo.",
-        "Link": "https://watch.plex.tv/live-tv/channel/caracol-mix-2"
     },
     {
         "Title": "UFC",
