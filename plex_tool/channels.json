@@ -844,6 +844,13 @@
         "Genre": "Sports",
         "Language": "EN",
         "Summary": "NFL Channel for all your football highlights.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nfl-channel-2"
+    },
+    {
+        "Title": "NFL Channel",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "NFL Channel for all your football highlights.",
         "Link": "https://watch.plex.tv/live-tv/channel/nfl-channel-3"
     },
     {
@@ -1286,6 +1293,13 @@
         "Language": "EN",
         "Summary": "A&E Crime 360, your true crime destination covering all sides of crime with a slate of award-winning true crime and investigation series, specials, documentaries and original short-form content; True Crime, all the time.",
         "Link": "https://watch.plex.tv/live-tv/channel/aande-crime-360"
+    },
+    {
+        "Title": "48 Hours",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "48 Hours, TV's top true-crime series, investigates stunning real-life cases with journalistic integrity and cutting-edge style.",
+        "Link": "https://watch.plex.tv/live-tv/channel/48-hours-2"
     },
     {
         "Title": "Intervention",
@@ -3773,6 +3787,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/z-nation-2"
     },
     {
+        "Title": "Tennis TV",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Tennis TV featuring archival classic games, daily highlights, and tournament recaps",
+        "Link": "https://watch.plex.tv/live-tv/channel/tennis-tv"
+    },
+    {
         "Title": "Tennis+",
         "Genre": "Sports",
         "Language": "EN",
@@ -4501,6 +4522,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cnn-headlines"
     },
     {
+        "Title": "60 Minutes",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "60 Minutes, America's top newsmagazine, brings hard-hitting investigations, compelling interviews, in-depth features and profiles.",
+        "Link": "https://watch.plex.tv/live-tv/channel/60-minutes"
+    },
+    {
         "Title": "BBC News (North America)",
         "Genre": "News",
         "Language": "EN",
@@ -4590,6 +4618,13 @@
         "Language": "IT",
         "Summary": "Intrattenimento calcistico per appassionati, con documentari, serie originali e repliche e highlights di partite storiche.",
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-47"
+    },
+    {
+        "Title": "Judge Judy",
+        "Genre": "Daytime TV & Games",
+        "Language": "EN",
+        "Summary": "Court is in session! Judge Judy Sheindlin tackles real small claims cases with her no-nonsense attitude.",
+        "Link": "https://watch.plex.tv/live-tv/channel/judge-judy"
     },
     {
         "Title": "Paternity Court",
@@ -5313,13 +5348,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-17"
     },
     {
-        "Title": "Geraldo Rivera",
-        "Genre": "Daytime TV & Games",
-        "Language": "EN",
-        "Summary": "Geraldo Rivera\u2019s iconic talk show, featuring sensational topics, explosive confrontations, and unforgettable moments.",
-        "Link": "https://watch.plex.tv/live-tv/channel/geraldo-rivera"
-    },
-    {
         "Title": "Amasian TV",
         "Genre": "Global",
         "Language": "EN",
@@ -5381,6 +5409,13 @@
         "Language": "EN",
         "Summary": "Divorced! Wronged! On Judge Nosey, find intense courtroom drama with Judge Mathis, Divorce Court and more.",
         "Link": "https://watch.plex.tv/live-tv/channel/judge-nosey"
+    },
+    {
+        "Title": "HOT BENCH",
+        "Genre": "Daytime TV & Games",
+        "Language": "EN",
+        "Summary": "From the team behind Judge Judy, HOT BENCH has a three-judge panel deliberating over cases where, ultimately, majority rules!",
+        "Link": "https://watch.plex.tv/live-tv/channel/hot-bench"
     },
     {
         "Title": "The Ed Sullivan Show",
@@ -10666,13 +10701,6 @@
         "Language": "ES",
         "Summary": "Masha y el Oso es una serie de animaci\u00f3n que narra las aventuras de una ni\u00f1a, Masha, y su amigo, el Oso.",
         "Link": "https://watch.plex.tv/live-tv/channel/masha-y-el-oso"
-    },
-    {
-        "Title": "Taste",
-        "Genre": "Food, Home & Culture",
-        "Language": "EN",
-        "Summary": "Fiery cooking competitions, foodie travel adventures and classic recipes to recreate at home. Food shows have never been fresher.",
-        "Link": "https://watch.plex.tv/live-tv/channel/taste"
     },
     {
         "Title": "Inside Outside",
