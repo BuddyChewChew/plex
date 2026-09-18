@@ -490,6 +490,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/modern-marvels-8"
     },
     {
+        "Title": "NFL Channel",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "NFL Channel for all your football highlights.",
+        "Link": "https://watch.plex.tv/live-tv/channel/nfl-channel-2"
+    },
+    {
         "Title": "FIFA+",
         "Genre": "Sports",
         "Language": "EN",
@@ -547,7 +554,7 @@
     },
     {
         "Title": "The Repair Shop",
-        "Genre": "Explore",
+        "Genre": "Food, Home & Culture",
         "Language": "EN",
         "Summary": "Nestled deep in the British countryside lies a workshop where broken, battered and beloved artifacts and antiques are brought back to life.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-repair-shop"
@@ -838,13 +845,6 @@
         "Language": "EN",
         "Summary": "Much loved talk show host Graham Norton invites the biggest stars in the world onto his sofa to share their stories and have the best fun.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-graham-norton-show"
-    },
-    {
-        "Title": "NFL Channel",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "NFL Channel for all your football highlights.",
-        "Link": "https://watch.plex.tv/live-tv/channel/nfl-channel-2"
     },
     {
         "Title": "NFL Channel",
@@ -2451,7 +2451,7 @@
     },
     {
         "Title": "The Prof G Channel",
-        "Genre": "Explore",
+        "Genre": "News",
         "Language": "EN",
         "Summary": "Sharp takes on business, tech, and politics with Scott Galloway\u2014insightful analysis, bold opinions, and real-world advice.",
         "Link": "https://watch.plex.tv/live-tv/channel/the-prof-g-channel"
@@ -3790,7 +3790,7 @@
         "Title": "Tennis TV",
         "Genre": "Sports",
         "Language": "EN",
-        "Summary": "Tennis TV featuring archival classic games, daily highlights, and tournament recaps",
+        "Summary": "Tennis TV featuring archival classic games, daily highlights, and tournament recaps.",
         "Link": "https://watch.plex.tv/live-tv/channel/tennis-tv"
     },
     {
@@ -4362,7 +4362,7 @@
     },
     {
         "Title": "How To",
-        "Genre": "Food, Home & Culture",
+        "Genre": "Explore",
         "Language": "EN",
         "Summary": "Find the answers to some of the world\u2019s most interesting questions with these curiosity-inspiring series.",
         "Link": "https://watch.plex.tv/live-tv/channel/how-to"
@@ -5377,7 +5377,7 @@
     },
     {
         "Title": "wedotv true stories",
-        "Genre": "Movies",
+        "Genre": "Reality",
         "Language": "DE",
         "Summary": "Nichts ist spannender als die Wirklichkeit und das Leben selbst. Wahre Geschichten - reale F\u00e4lle \u2013 authentische Menschen.",
         "Link": "https://watch.plex.tv/live-tv/channel/wedotv-true-stories"
