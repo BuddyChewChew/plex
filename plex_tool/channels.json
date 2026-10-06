@@ -777,13 +777,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/nip-tuck"
     },
     {
-        "Title": "COPS",
-        "Genre": "Bingeworthy",
-        "Language": "EN",
-        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets",
-        "Link": "https://watch.plex.tv/live-tv/channel/cops"
-    },
-    {
         "Title": "HerSphere by Lionsgate",
         "Genre": "Bingeworthy",
         "Language": "EN",
@@ -845,6 +838,83 @@
         "Language": "EN",
         "Summary": "Captain Dylan Hunt (Kevin Sorbo) and the crew of the Andromeda Ascendant set out on a mission to rebuild the Systems Commonwealth 300 years after its fall.",
         "Link": "https://watch.plex.tv/live-tv/channel/andromeda-3"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-10"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-14"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-13"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-9"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-8"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-7"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-6"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-5"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-4"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-3"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-2"
     },
     {
         "Title": "Real Housewives Vault",
@@ -1254,14 +1324,14 @@
     },
     {
         "Title": "Western Bound",
-        "Genre": "Bingeworthy",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Western Bound is the ultimate destination for modern and classic Western series, movies and specials.",
         "Link": "https://watch.plex.tv/live-tv/channel/western-bound"
     },
     {
         "Title": "Circle Country",
-        "Genre": "Bingeworthy",
+        "Genre": "Classics",
         "Language": "EN",
         "Summary": "Circle Country is dedicated to country music and lifestyle by putting fans inside the circle of everything country.",
         "Link": "https://watch.plex.tv/live-tv/channel/circle-country"
@@ -1533,11 +1603,18 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cinevault"
     },
     {
-        "Title": "Christmas Plus",
+        "Title": "Halloween Plus",
         "Genre": "Movies",
         "Language": "EN",
-        "Summary": "Christmas Plus: Your ultimate destination for all the holiday hits!",
-        "Link": "https://watch.plex.tv/live-tv/channel/christmas-plus"
+        "Summary": "Halloween Plus: Your ultimate destination for everything that goes bump in the night.",
+        "Link": "https://watch.plex.tv/live-tv/channel/halloween-plus"
+    },
+    {
+        "Title": "MGM Presents: Horror",
+        "Genre": "Movies",
+        "Language": "EN",
+        "Summary": "From spirits to slashers, it's wall-to-wall scares. One channel. Endless screams.",
+        "Link": "https://watch.plex.tv/live-tv/channel/mgm-presents-horror"
     },
     {
         "Title": "Ces't Pas Sorcier",
@@ -1663,7 +1740,84 @@
         "Genre": "True Crime",
         "Language": "EN",
         "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
-        "Link": "https://watch.plex.tv/live-tv/channel/jail"
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-25"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-24"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-21"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-19"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-17"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-16"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-15"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-8"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-6"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-5"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-4"
+    },
+    {
+        "Title": "COPS Reloaded",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Edited episodes of the popular reality show feature the most-memorable criminals and car chases.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded"
     },
     {
         "Title": "60 Days In Jail",
@@ -2877,13 +3031,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/xtreme-caution"
     },
     {
-        "Title": "Deutsche Filme",
-        "Genre": "Movies",
-        "Language": "DE",
-        "Summary": "Bei \"Deutsche Filme\" finden Sie Spielfilme und Dokumentation von lustig bis ernst und von romantisch bis spannend. Geschichten und Gesichter aus dem Leben - direkt in Ihr Heimkino!",
-        "Link": "https://watch.plex.tv/live-tv/channel/deutsche-filme"
-    },
-    {
         "Title": "CW Presents WWE NXT",
         "Genre": "Sports",
         "Language": "EN",
@@ -3305,7 +3452,7 @@
     },
     {
         "Title": "Dog the Bounty Hunter",
-        "Genre": "Classics",
+        "Genre": "Reality",
         "Language": "EN",
         "Summary": "The world\u2019s most famous bounty hunter, Duane \u201cDog\u201d Chapman tracks down fugitives along with his fearless family-based posse.",
         "Link": "https://watch.plex.tv/live-tv/channel/dog-the-bounty-hunter"
@@ -3666,13 +3813,6 @@
         "Language": "EN",
         "Summary": "Enjoy '80s classic cop show Hunter whenever you want. Renegade LA cop Rick Hunter takes justice into his own hands with his stunning and rebellious partner Sgt. Dee Dee McCall.",
         "Link": "https://watch.plex.tv/live-tv/channel/hunter-2"
-    },
-    {
-        "Title": "Made It Myself TV",
-        "Genre": "Food, Home & Culture",
-        "Language": "EN",
-        "Summary": "A free, lifestyle channel celebrating DIY, crafting, sewing, knitting, crochet, jewelry-making, woodworking, and MORE. Explore fresh craft-making perspectives, learn new skills, or just relax and enjoy.",
-        "Link": "https://watch.plex.tv/live-tv/channel/made-it-myself-tv"
     },
     {
         "Title": "5-Minute Crafts",
@@ -4536,13 +4676,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/cbs-news-24-7"
     },
     {
-        "Title": "LiveNOW from FOX",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "LIVE 24/7. Watch breaking news, live events and stories from across the USA. Limited commentary. No opinion.",
-        "Link": "https://watch.plex.tv/live-tv/channel/livenow-from-fox"
-    },
-    {
         "Title": "CNN Headlines",
         "Genre": "News",
         "Language": "EN",
@@ -4702,13 +4835,6 @@
         "Language": "FR",
         "Summary": "Un divertissement footballistique avec documentaires, s\u00e9ries originales ou encore rediffusions et r\u00e9sum\u00e9s de matches historiques.",
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-45"
-    },
-    {
-        "Title": "Crime Beat TV",
-        "Genre": "Classics",
-        "Language": "EN",
-        "Summary": "Your premier destination for detective drama and intense action streaming 24/7.",
-        "Link": "https://watch.plex.tv/live-tv/channel/crime-beat-tv"
     },
     {
         "Title": "Canal 6 CDMX",
@@ -6252,7 +6378,7 @@
     },
     {
         "Title": "OUTFLIX MOVIES",
-        "Genre": "Food, Home & Culture",
+        "Genre": "Movies",
         "Language": "EN",
         "Summary": "OUTflix Movies features broad, high quality movies for anyone who loves queer culture. We\u2019re a gathering place for a community of open-minded fans of unapologetically loud, fun, and fantastical stories.",
         "Link": "https://watch.plex.tv/live-tv/channel/outflix-movies"
@@ -9597,6 +9723,237 @@
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-fargo"
     },
     {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-22"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-21"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-20"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-19"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-18"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-17"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-15"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-12"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-11"
+    },
+    {
+        "Title": "COPS en Espa\u00f1ol",
+        "Genre": "Bingeworthy",
+        "Language": "ES",
+        "Summary": "En primera l\u00ednea junto a los hombres y mujeres de las fuerzas del orden estadounidenses; la acci\u00f3n es visceral, impredecible y de un realismo absoluto.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-en-espanol-2"
+    },
+    {
+        "Title": "COPS en Espa\u00f1ol",
+        "Genre": "Bingeworthy",
+        "Language": "ES",
+        "Summary": "En primera l\u00ednea junto a los hombres y mujeres de las fuerzas del orden estadounidenses; la acci\u00f3n es visceral, impredecible y de un realismo absoluto.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-en-espanol-3"
+    },
+    {
+        "Title": "COPS en Espa\u00f1ol",
+        "Genre": "Bingeworthy",
+        "Language": "ES",
+        "Summary": "En primera l\u00ednea junto a los hombres y mujeres de las fuerzas del orden estadounidenses; la acci\u00f3n es visceral, impredecible y de un realismo absoluto.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-en-espanol-4"
+    },
+    {
+        "Title": "COPS en Espa\u00f1ol",
+        "Genre": "Bingeworthy",
+        "Language": "ES",
+        "Summary": "En primera l\u00ednea junto a los hombres y mujeres de las fuerzas del orden estadounidenses; la acci\u00f3n es visceral, impredecible y de un realismo absoluto.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-en-espanol-5"
+    },
+    {
+        "Title": "JAIL en Espa\u00f1ol",
+        "Genre": "True Crime",
+        "Language": "ES",
+        "Summary": "JAIL ofrece a los espectadores un asiento en primera fila para ver c\u00f3mo los sospechosos reci\u00e9n detenidos se enfrentan a su ingreso en el sistema de justicia penal.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-en-espanol"
+    },
+    {
+        "Title": "JAIL en Espa\u00f1ol",
+        "Genre": "True Crime",
+        "Language": "ES",
+        "Summary": "JAIL ofrece a los espectadores un asiento en primera fila para ver c\u00f3mo los sospechosos reci\u00e9n detenidos se enfrentan a su ingreso en el sistema de justicia penal.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-en-espanol-2"
+    },
+    {
+        "Title": "JAIL en Espa\u00f1ol",
+        "Genre": "True Crime",
+        "Language": "ES",
+        "Summary": "JAIL ofrece a los espectadores un asiento en primera fila para ver c\u00f3mo los sospechosos reci\u00e9n detenidos se enfrentan a su ingreso en el sistema de justicia penal.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-en-espanol-3"
+    },
+    {
+        "Title": "JAIL en Espa\u00f1ol",
+        "Genre": "True Crime",
+        "Language": "ES",
+        "Summary": "JAIL ofrece a los espectadores un asiento en primera fila para ver c\u00f3mo los sospechosos reci\u00e9n detenidos se enfrentan a su ingreso en el sistema de justicia penal.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-en-espanol-4"
+    },
+    {
+        "Title": "Private Eyes",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "Former pro hockey player Matt Shade partners with private eye Angie Everett to solve crimes around Toronto.",
+        "Link": "https://watch.plex.tv/live-tv/channel/private-eyes"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-23"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-16"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-23"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-22"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-20"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-18"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-13"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-14"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-12"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-11"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-10"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-9"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-7"
+    },
+    {
+        "Title": "FUEL TV",
+        "Genre": "Sports",
+        "Language": "PT",
+        "Summary": "The global home of action sports and youth culture. Skate | Surf | BMX | Snow | MTB | Wakeboard",
+        "Link": "https://watch.plex.tv/live-tv/channel/fuel-tv-5"
+    },
+    {
+        "Title": "FUEL TV",
+        "Genre": "Sports",
+        "Language": "ES",
+        "Summary": "The global home of action sports and youth culture. Skate | Surf | BMX | Snow | MTB | Wakeboard",
+        "Link": "https://watch.plex.tv/live-tv/channel/fuel-tv-6"
+    },
+    {
         "Title": "Local Now Duluth",
         "Genre": "News",
         "Language": "EN",
@@ -11018,20 +11375,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/crunchyroll-3"
     },
     {
-        "Title": "G\u00e9n\u00e9ration Sitcoms TV",
-        "Genre": "Bingeworthy",
-        "Language": "FR",
-        "Summary": "G\u00e9n\u00e9ration Sitcoms est la cha\u00eene d\u00e9di\u00e9e aux sitcoms cultes d\u2019AB productions. Vous y retrouverez H\u00e9l\u00e8ne et ses gar\u00e7ons, Salut les Muscl\u00e9s, les filles d\u2019\u00e0 c\u00f4t\u00e9, Premiers Baisers, le miel et les abeilles et tant d\u2019autres encore\u2026",
-        "Link": "https://watch.plex.tv/live-tv/channel/generation-sitcoms-tv"
-    },
-    {
-        "Title": "Alerte \u00e0 Malibu TV",
-        "Genre": "Bingeworthy",
-        "Language": "FR",
-        "Summary": "Alerte \u00e0 Malibu est une s\u00e9rie culte et l'un des ph\u00e9nom\u00e8nes les plus inoubliables de l'histoire de la t\u00e9l\u00e9vision.",
-        "Link": "https://watch.plex.tv/live-tv/channel/alerte-a-malibu-tv"
-    },
-    {
         "Title": "Rookie Blue",
         "Genre": "Bingeworthy",
         "Language": "EN",
@@ -11569,13 +11912,6 @@
         "Language": "EN",
         "Summary": "High-stakes drama is dialed up as ordinary people face tough ques ons \u2013 for life-changing sums of money \u2013 in this gripping test of knowledge, strategy, and nerve.",
         "Link": "https://watch.plex.tv/live-tv/channel/who-wants-to-be-a-millionaire"
-    },
-    {
-        "Title": "Les filles d\u2019\u00e0 c\u00f4t\u00e9s TV",
-        "Genre": "Bingeworthy",
-        "Language": "FR",
-        "Summary": "Les p\u00e9rip\u00e9ties au quotidien de trois jeunes femmes qui, lass\u00e9es des hommes et des al\u00e9as de la vie conjugale.",
-        "Link": "https://watch.plex.tv/live-tv/channel/les-filles-da-cotes-tv"
     },
     {
         "Title": "Local Now San Jose",
