@@ -4046,6 +4046,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/relic-hunter-5"
     },
     {
+        "Title": "INTER 24/7",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "This is the home of Inter. Enter our black and blue world, anytime you want.",
+        "Link": "https://watch.plex.tv/live-tv/channel/inter-24-7"
+    },
+    {
         "Title": "Monster Jam",
         "Genre": "Sports",
         "Language": "EN",
@@ -5152,13 +5159,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-rifleman"
     },
     {
-        "Title": "INTER 24/7",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "This is the home of Inter. Enter our black and blue world, anytime you want.",
-        "Link": "https://watch.plex.tv/live-tv/channel/inter-24-7"
-    },
-    {
         "Title": "beIN SPORTS XTRA",
         "Genre": "Sports",
         "Language": "EN",
@@ -6132,11 +6132,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/rcn-mas"
     },
     {
-        "Title": "Unique Lives",
+        "Title": "Strangely Addicting",
         "Genre": "Food, Home & Culture",
         "Language": "EN",
-        "Summary": "Discover the unique lives of people from all corners of the world.",
-        "Link": "https://watch.plex.tv/live-tv/channel/unique-lives"
+        "Summary": "Take a compelling look into the extraordinary, unconventional, and often surprising ways people live. Dive deep into the real stories of individuals whose lifestyles and challenges break the mold. Fascinating, emotional, and unforgettable\u2014it\u2019s reality like you\u2019ve never seen it before.",
+        "Link": "https://watch.plex.tv/live-tv/channel/strangely-addicting"
     },
     {
         "Title": "FilmRise Free Series",
@@ -7509,13 +7509,6 @@
         "Language": "ES",
         "Summary": "MovieSphere es el lugar para encontrar \u00e9xitos taquilleros, favoritos independientes y todo lo dem\u00e1s.",
         "Link": "https://watch.plex.tv/live-tv/channel/moviesphere-5"
-    },
-    {
-        "Title": "Cops en Espa\u00f1ol",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Cops en Espanol lleva a los espectadores de costa a costa, en primera l\u00ednea con los hombres y mujeres de las fuerzas del orden estadounidenses, donde la acci\u00f3n es visceral, impredecible y real.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cops-en-espanol"
     },
     {
         "Title": "Three's Company",
@@ -9938,6 +9931,13 @@
         "Language": "EN",
         "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
         "Link": "https://watch.plex.tv/live-tv/channel/jail-7"
+    },
+    {
+        "Title": "Forged in Fire",
+        "Genre": "Reality",
+        "Language": "EN",
+        "Summary": "A competition of skill and steel.",
+        "Link": "https://watch.plex.tv/live-tv/channel/forged-in-fire"
     },
     {
         "Title": "FUEL TV",
