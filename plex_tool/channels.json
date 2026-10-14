@@ -4053,6 +4053,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/inter-24-7"
     },
     {
+        "Title": "Man City 24/7",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Manchester City\u2019s official channel with live matchday shows, classic matches, documentaries and weekly behind-the-scenes content.",
+        "Link": "https://watch.plex.tv/live-tv/channel/man-city-24-7"
+    },
+    {
         "Title": "Monster Jam",
         "Genre": "Sports",
         "Language": "EN",
@@ -7026,6 +7033,13 @@
         "Language": "EN",
         "Summary": "SWAC TV - Southwestern Athletic Conference Games and Coverage.",
         "Link": "https://watch.plex.tv/live-tv/channel/swac-tv"
+    },
+    {
+        "Title": "Team USA TV",
+        "Genre": "Sports",
+        "Language": "EN",
+        "Summary": "Follow the Team USA athlete journey featuring Team USA news, athlete stories, behind-the-scenes access, archival footage and more.",
+        "Link": "https://watch.plex.tv/live-tv/channel/team-usa-tv"
     },
     {
         "Title": "More than Sports TV",
@@ -12460,11 +12474,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/xite-just-chill"
     },
     {
-        "Title": "XITE Celebrates",
+        "Title": "XITE The Beatles",
         "Genre": "Music",
         "Language": "EN",
-        "Summary": "Music that moves with the seasons! Dynamic programming unfolds year-round for special events, holidays, and artist highlights.",
-        "Link": "https://watch.plex.tv/live-tv/channel/xite-celebrates"
+        "Summary": "Featuring the full Beatles catalog for the first time ever, with Beatles programming available 24/7 throughout the month.",
+        "Link": "https://watch.plex.tv/live-tv/channel/xite-the-beatles"
     },
     {
         "Title": "FreeTV Live",
