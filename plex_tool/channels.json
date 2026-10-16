@@ -3234,11 +3234,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/crime-e-investigacao"
     },
     {
-        "Title": "Shark Zone",
+        "Title": "Cine Aliens",
         "Genre": "Adrenaline & Sci-Fi",
         "Language": "EN",
-        "Summary": "Immergiti nel brivido con i migliori film di squali. Azione e avventure dalle profondit\u00e0 dell\u2019oceano alle spiagge pi\u00f9 insidiose.",
-        "Link": "https://watch.plex.tv/live-tv/channel/shark-zone"
+        "Summary": "Film da un altro pianeta, incontri alieni, invasioni intergalattiche e situazioni fuori dal comune.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cine-aliens"
     },
     {
         "Title": "Law & Crime",
@@ -4256,11 +4256,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/american-gladiators-by-mgm"
     },
     {
-        "Title": "Family Feud Classic",
+        "Title": "Classic Family Feud",
         "Genre": "Daytime TV & Games",
         "Language": "EN",
         "Summary": "Two families face-off in a feud to the finish as they compete to see who can guess the most popular answers to provocative surveys.",
-        "Link": "https://watch.plex.tv/live-tv/channel/family-feud-classic"
+        "Link": "https://watch.plex.tv/live-tv/channel/classic-family-feud"
     },
     {
         "Title": "Celebrity Name Game",
@@ -12150,6 +12150,13 @@
         "Language": "EN",
         "Summary": "Quincy Jones invites you to explore a world of music through curated playlists showcasing top live performances and archive gems.",
         "Link": "https://watch.plex.tv/live-tv/channel/qwest-tv"
+    },
+    {
+        "Title": "VEEPS Concert Pass",
+        "Genre": "Music",
+        "Language": "EN",
+        "Summary": "Live shows. Legendary sets. Exclusive events. VEEPS Concert Pass delivers nonstop front-row access, bringing the thrill of the stage straight to your screen. The home of live music, broadcasting free 24/7.",
+        "Link": "https://watch.plex.tv/live-tv/channel/veeps-concert-pass"
     },
     {
         "Title": "Movie Music by Stingray",
