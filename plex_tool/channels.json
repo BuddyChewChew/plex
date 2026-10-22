@@ -2331,11 +2331,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/survive-or-die"
     },
     {
-        "Title": "CineLife",
+        "Title": "Magnolia Selects",
         "Genre": "Movies",
         "Language": "EN",
-        "Summary": "CineLife, the destination for top-rated independent films and award-winning documentaries.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cinelife"
+        "Summary": "Magnolia Selects, the destination for top-rated independent films and award-winning documentaries.",
+        "Link": "https://watch.plex.tv/live-tv/channel/magnolia-selects"
     },
     {
         "Title": "Lifetime Movies Love & Drama",
@@ -4364,7 +4364,7 @@
         "Title": "MHz Mysteries",
         "Genre": "Global",
         "Language": "EN",
-        "Summary": "MHz Mysteries features scripted entertainment from more than 15 countries with easy-to-follow English subtitles.",
+        "Summary": "MHz Mysteries is the world\u2019s best TV. Travel through scenic Italian mysteries, intriguing French procedurals, chilling Nordic Noir, and more.",
         "Link": "https://watch.plex.tv/live-tv/channel/mhz-mysteries"
     },
     {
@@ -6846,13 +6846,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/kshb"
     },
     {
-        "Title": "WSYM",
-        "Genre": "News",
-        "Language": "EN",
-        "Summary": "Watch FOX 47 News from WSYM in Lansing, Jackson, and mid-Michigan on your schedule.",
-        "Link": "https://watch.plex.tv/live-tv/channel/wsym"
-    },
-    {
         "Title": "KMGH",
         "Genre": "News",
         "Language": "EN",
@@ -7943,6 +7936,13 @@
         "Language": "EN",
         "Summary": "Newsmax2 is a leading news network with reporting from DC and New York focusing on politics, health, money, and documentaries.",
         "Link": "https://watch.plex.tv/live-tv/channel/newsmax2"
+    },
+    {
+        "Title": "NEWSMAX",
+        "Genre": "News",
+        "Language": "EN",
+        "Summary": "Newsmax is a leading news network with reporting from DC and New York focusing on politics, health, money, and documentaries.",
+        "Link": "https://watch.plex.tv/live-tv/channel/newsmax"
     },
     {
         "Title": "The Reuters 60",
