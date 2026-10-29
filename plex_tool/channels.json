@@ -1740,6 +1740,13 @@
         "Genre": "True Crime",
         "Language": "EN",
         "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
         "Link": "https://watch.plex.tv/live-tv/channel/jail-25"
     },
     {
@@ -1817,7 +1824,42 @@
         "Genre": "True Crime",
         "Language": "EN",
         "Summary": "Edited episodes of the popular reality show feature the most-memorable criminals and car chases.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded"
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded-5"
+    },
+    {
+        "Title": "COPS Reloaded",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Edited episodes of the popular reality show feature the most-memorable criminals and car chases.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded-6"
+    },
+    {
+        "Title": "COPS Reloaded",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Edited episodes of the popular reality show feature the most-memorable criminals and car chases.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded-7"
+    },
+    {
+        "Title": "COPS Reloaded",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Edited episodes of the popular reality show feature the most-memorable criminals and car chases.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded-8"
+    },
+    {
+        "Title": "COPS Reloaded",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Edited episodes of the popular reality show feature the most-memorable criminals and car chases.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded-9"
+    },
+    {
+        "Title": "COPS Reloaded",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Edited episodes of the popular reality show feature the most-memorable criminals and car chases.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded-11"
     },
     {
         "Title": "60 Days In Jail",
@@ -5551,6 +5593,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/powernation"
     },
     {
+        "Title": "Wedotv Cars",
+        "Genre": "Food, Home & Culture",
+        "Language": "EN",
+        "Summary": "Get ready for the ultimate ride! wedotv Cars is your all-access pass to the fast lane.",
+        "Link": "https://watch.plex.tv/live-tv/channel/wedotv-cars"
+    },
+    {
         "Title": "Judge Nosey",
         "Genre": "Daytime TV & Games",
         "Language": "EN",
@@ -8478,10 +8527,17 @@
     },
     {
         "Title": "FreeTV Drama",
-        "Genre": "En Espa\u00f1ol",
+        "Genre": "Movies",
         "Language": "ES",
         "Summary": "Sum\u00e9rgete en el mundo del entretenimiento con FreeTV Drama. Tu destino \u00fanico para historias de amor, crimen y romance.",
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-drama-2"
+    },
+    {
+        "Title": "FreeTV Drama",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "Sum\u00e9rgete en el mundo del entretenimiento con FreeTV Drama. Tu destino \u00fanico para historias de amor, crimen y romance.",
+        "Link": "https://watch.plex.tv/live-tv/channel/freetv-drama-3"
     },
     {
         "Title": "FreeTV Estelar",
@@ -9812,6 +9868,97 @@
         "Language": "ES",
         "Summary": "En primera l\u00ednea junto a los hombres y mujeres de las fuerzas del orden estadounidenses; la acci\u00f3n es visceral, impredecible y de un realismo absoluto.",
         "Link": "https://watch.plex.tv/live-tv/channel/cops-en-espanol-4"
+    },
+    {
+        "Title": "Counting Cars+",
+        "Genre": "Food, Home & Culture",
+        "Language": "EN",
+        "Summary": "From custom rides to thrill rides, your full-service destination for those who love a high-octane world is here.",
+        "Link": "https://watch.plex.tv/live-tv/channel/counting-cars"
+    },
+    {
+        "Title": "After the First 48",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "After the First 48, 24/7.",
+        "Link": "https://watch.plex.tv/live-tv/channel/after-the-first-48-2"
+    },
+    {
+        "Title": "COPS",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "On the front lines with the men and women of American law enforcement; the action is visceral, unpredictable, as real as it gets.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-24"
+    },
+    {
+        "Title": "JAIL",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "JAIL gives viewers a front row seat as recently arrested suspects face entry into the criminal justice system.",
+        "Link": "https://watch.plex.tv/live-tv/channel/jail-26"
+    },
+    {
+        "Title": "Carwow",
+        "Genre": "Food, Home & Culture",
+        "Language": "EN",
+        "Summary": "Carwow a popular British automotive channel hosted by Mat Watson.",
+        "Link": "https://watch.plex.tv/live-tv/channel/carwow-3"
+    },
+    {
+        "Title": "Carwow",
+        "Genre": "Food, Home & Culture",
+        "Language": "EN",
+        "Summary": "Carwow a popular British automotive channel hosted by Mat Watson.",
+        "Link": "https://watch.plex.tv/live-tv/channel/carwow-2"
+    },
+    {
+        "Title": "Carwow",
+        "Genre": "Food, Home & Culture",
+        "Language": "EN",
+        "Summary": "Carwow a popular British automotive channel hosted by Mat Watson.",
+        "Link": "https://watch.plex.tv/live-tv/channel/carwow"
+    },
+    {
+        "Title": "The First 48 & Beyond",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "The First 48 & Beyond, 24/7.",
+        "Link": "https://watch.plex.tv/live-tv/channel/the-first-48-and-beyond"
+    },
+    {
+        "Title": "Counting Cars+",
+        "Genre": "Food, Home & Culture",
+        "Language": "EN",
+        "Summary": "From custom rides to thrill rides, your full-service destination for those who love a high-octane world is here.",
+        "Link": "https://watch.plex.tv/live-tv/channel/counting-cars-2"
+    },
+    {
+        "Title": "COPS Reloaded",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Edited episodes of the popular reality show feature the most-memorable criminals and car chases.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded-2"
+    },
+    {
+        "Title": "COPS Reloaded",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Edited episodes of the popular reality show feature the most-memorable criminals and car chases.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded-3"
+    },
+    {
+        "Title": "COPS Reloaded",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Edited episodes of the popular reality show feature the most-memorable criminals and car chases.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded-4"
+    },
+    {
+        "Title": "COPS Reloaded",
+        "Genre": "True Crime",
+        "Language": "EN",
+        "Summary": "Edited episodes of the popular reality show feature the most-memorable criminals and car chases.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cops-reloaded-10"
     },
     {
         "Title": "COPS en Espa\u00f1ol",
