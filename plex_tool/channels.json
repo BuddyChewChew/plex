@@ -953,9 +953,9 @@
     },
     {
         "Title": "Western Bound",
-        "Genre": "Bingeworthy",
+        "Genre": "Classics",
         "Language": "EN",
-        "Summary": "Western Bound, a free streaming network with the best modern and classic Western series, movies and specials.",
+        "Summary": "Western Bound is the ultimate destination for modern and classic Western series, movies and specials.",
         "Link": "https://watch.plex.tv/live-tv/channel/western-bound-2"
     },
     {
@@ -1071,11 +1071,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/adventure-earth-11"
     },
     {
-        "Title": "Lifetime Movie Favorites",
+        "Title": "Lifetime Holiday Movie Favorites",
         "Genre": "Movies",
         "Language": "EN",
-        "Summary": "Lifetime movies all day, from psychological thrillers to seductive love stories.",
-        "Link": "https://watch.plex.tv/live-tv/channel/lifetime-movie-favorites"
+        "Summary": "Unwrap it all this season with Lifetime Holiday Movie Favorites, your 24/7 destination for festive movies and holiday cheer.",
+        "Link": "https://watch.plex.tv/live-tv/channel/lifetime-holiday-movie-favorites"
     },
     {
         "Title": "CINEVAULT",
@@ -2674,6 +2674,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/spark-tv"
     },
     {
+        "Title": "Always Christmas",
+        "Genre": "Movies",
+        "Language": "EN",
+        "Summary": "Always Christmas: Home to Christmas movies all year long, featuring nonstop romances, comedies, and feel\u2011good holiday films.",
+        "Link": "https://watch.plex.tv/live-tv/channel/always-christmas"
+    },
+    {
         "Title": "Scandal",
         "Genre": "Movies",
         "Language": "EN",
@@ -3864,11 +3871,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/5-minute-crafts"
     },
     {
-        "Title": "Places & Spaces",
+        "Title": "The Great Christmas Light Fight on Places & Spaces",
         "Genre": "Food, Home & Culture",
         "Language": "EN",
         "Summary": "There\u2019s no place like home. We\u2019re the heart of home.",
-        "Link": "https://watch.plex.tv/live-tv/channel/places-and-spaces"
+        "Link": "https://watch.plex.tv/live-tv/channel/the-great-christmas-light-fight-on-places-and-spaces"
     },
     {
         "Title": "Home Cooking",
@@ -4016,13 +4023,6 @@
         "Language": "EN",
         "Summary": "With rare views into the underworld of crime, we follow the detectives investigating ominous mysteries & cruel murders.",
         "Link": "https://watch.plex.tv/live-tv/channel/real-crime-2"
-    },
-    {
-        "Title": "Trailer Park Boys: The SwearNet Show",
-        "Genre": "Comedy",
-        "Language": "EN",
-        "Summary": "Take three Trailer Park Boys, add cameras, illicit activities and profanity. Welcome to Trailer Park Boys: The SwearNet Show.",
-        "Link": "https://watch.plex.tv/live-tv/channel/trailer-park-boys-the-swearnet-show"
     },
     {
         "Title": "FilmRise Binge Watch",
@@ -6020,13 +6020,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/curiosity-now-4"
     },
     {
-        "Title": "The Black Effect",
-        "Genre": "Movies",
-        "Language": "EN",
-        "Summary": "The BLK Effect is the destination for movies, TV series, and exclusive content that celebrates Black culture and creativity.",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-black-effect"
-    },
-    {
         "Title": "FilmRise Black TV",
         "Genre": "Movies",
         "Language": "EN",
@@ -7602,13 +7595,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/clic"
     },
     {
-        "Title": "Spark TV Luz y Amor",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "SparkTV - Luz y Amor presenta pel\u00edculas y series que elevan, inspiran y tocan el coraz\u00f3n.",
-        "Link": "https://watch.plex.tv/live-tv/channel/spark-tv-luz-y-amor"
-    },
-    {
         "Title": "Grjngo - Pel\u00edculas Del Oeste",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -7950,6 +7936,13 @@
         "Language": "EN",
         "Summary": "Explore the tragedies and triumphs of history\u2019s great battles, along with the technologies and personalities of the military.",
         "Link": "https://watch.plex.tv/live-tv/channel/history-and-warfare"
+    },
+    {
+        "Title": "Mega Machines",
+        "Genre": "Explore",
+        "Language": "EN",
+        "Summary": "Mega Machines is a 24/7 FAST channel dedicated to industrial, mining, and heavy machinery content.",
+        "Link": "https://watch.plex.tv/live-tv/channel/mega-machines"
     },
     {
         "Title": "FilmRise Kids",
@@ -11046,11 +11039,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/ax-men-die-holzfaller-2"
     },
     {
-        "Title": "Lifetime Movies",
+        "Title": "Christmas Movies by Lifetime",
         "Genre": "Movies",
         "Language": "EN",
-        "Summary": "Lifetime movies all day, from psychological thrillers to seductive love stories.",
-        "Link": "https://watch.plex.tv/live-tv/channel/lifetime-movies-2"
+        "Summary": "Lifetime movies all day with heartwarming romances, joyful family moments, and cozy stories full of festive magic.",
+        "Link": "https://watch.plex.tv/live-tv/channel/christmas-movies-by-lifetime"
     },
     {
         "Title": "Crime 360",
@@ -12040,11 +12033,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/automoto"
     },
     {
-        "Title": "Cine Amore",
+        "Title": "Cine Natale",
         "Genre": "Movies",
         "Language": "IT",
-        "Summary": "Il canale dedicato alle storie d\u2019amore: film divertenti ed emozionanti, tra incontri imprevisti, passioni travolgenti e finali da sogno.",
-        "Link": "https://watch.plex.tv/live-tv/channel/cine-amore"
+        "Summary": "Un\u2019indimenticabile programmazione che celebra l\u2019atmosfera pi\u00f9 amata dell\u2019anno: commedie romantiche e film per tutta la famiglia.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cine-natale"
     },
     {
         "Title": "Dragons\u2019 Den",
@@ -12313,11 +12306,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/movie-music-by-stingray"
     },
     {
-        "Title": "Stingray Greatest Hits",
+        "Title": "Greatest Holiday Hits",
         "Genre": "Music",
         "Language": "EN",
-        "Summary": "Enjoy this collection of the greatest chart-toppers from the \u201850s to today. These songs have left their mark on history.",
-        "Link": "https://watch.plex.tv/live-tv/channel/stingray-greatest-hits"
+        "Summary": "Hype up your holidays and brighten your spirit with the season\u2019s most beloved classics and crowd-pleasing hits.",
+        "Link": "https://watch.plex.tv/live-tv/channel/greatest-holiday-hits"
     },
     {
         "Title": "Qello Concerts",
@@ -12353,13 +12346,6 @@
         "Language": "ES",
         "Summary": "Viaja a las maravillas panor\u00e1micas del mundo con im\u00e1genes deslumbrantes, desde chimeneas crepitantes hasta vuelos sobre para\u00edsos tropicales.",
         "Link": "https://watch.plex.tv/live-tv/channel/stingray-naturescape-3"
-    },
-    {
-        "Title": "FreeTV Familia",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Sue\u00f1a y explora con FreeTV Familia. Una divertida colecci\u00f3n de pel\u00edculas y series que fortalecen los lazos familiares.",
-        "Link": "https://watch.plex.tv/live-tv/channel/freetv-familia"
     },
     {
         "Title": "XITE 80s Flashback",
@@ -12934,13 +12920,6 @@
         "Language": "DE",
         "Summary": "Kriege, Streiks und Revolutionen: die Konflikte, die unsere Welt gepr\u00e4gt haben.",
         "Link": "https://watch.plex.tv/live-tv/channel/spiegel-tv-konflikte-3"
-    },
-    {
-        "Title": "El Conflicto TV",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Court TV 24/7. Former Marine Corps Officer and East LA Cop, Judge Mario Acosta runs a tough, no nonsense courtroom.",
-        "Link": "https://watch.plex.tv/live-tv/channel/el-conflicto-tv-2"
     },
     {
         "Title": "FreeTV Hits",
