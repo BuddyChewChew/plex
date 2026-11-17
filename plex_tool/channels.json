@@ -679,6 +679,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/weeds-and-nurse-jackie"
     },
     {
+        "Title": "Vikings",
+        "Genre": "Bingeworthy",
+        "Language": "EN",
+        "Summary": "Ragnar Lothbrok raids, conquers and rises through the Viking world, navigating war, politics and family loyalties.",
+        "Link": "https://watch.plex.tv/live-tv/channel/vikings"
+    },
+    {
         "Title": "Sony One | Favorieten",
         "Genre": "Bingeworthy",
         "Language": "EN",
@@ -4872,6 +4879,20 @@
         "Link": "https://watch.plex.tv/live-tv/channel/afrolandtv"
     },
     {
+        "Title": "Tribunal Justice",
+        "Genre": "Daytime TV & Games",
+        "Language": "EN",
+        "Summary": "A new courtroom series starring a dynamic trio of esteemed judges that preside over real cases and rendering binding judgments.",
+        "Link": "https://watch.plex.tv/live-tv/channel/tribunal-justice"
+    },
+    {
+        "Title": "Judy Justice",
+        "Genre": "Daytime TV & Games",
+        "Language": "EN",
+        "Summary": "Featuring Judge Judy Sheindlin, who returns to the courtroom in this series produced by Amazon MGM Studios.",
+        "Link": "https://watch.plex.tv/live-tv/channel/judy-justice"
+    },
+    {
         "Title": "Novelas de Siempre",
         "Genre": "Bingeworthy",
         "Language": "ES",
@@ -7658,6 +7679,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/freetv-clasico-3"
     },
     {
+        "Title": "Tock Tock Movies",
+        "Genre": "En Espa\u00f1ol",
+        "Language": "ES",
+        "Summary": "Tock Tock Movies - Pel\u00edculas Mexicanas",
+        "Link": "https://watch.plex.tv/live-tv/channel/tock-tock-movies"
+    },
+    {
         "Title": "Lucha Plus",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -8323,11 +8351,11 @@
         "Link": "https://watch.plex.tv/live-tv/channel/jade-fever-2"
     },
     {
-        "Title": "Icon Film Channel Classics",
+        "Title": "Icon Film Channel Christmas Classics",
         "Genre": "Movies",
         "Language": "EN",
-        "Summary": "Dive into blockbuster hits, cult classics, award-winning cinema, and so much more, only on Icon Film Channel Classics!",
-        "Link": "https://watch.plex.tv/live-tv/channel/icon-film-channel-classics"
+        "Summary": "Dive into blockbuster hits, cult classics, award-winning cinema, and so much more, only on Icon Film Channel Christmas Classics!",
+        "Link": "https://watch.plex.tv/live-tv/channel/icon-film-channel-christmas-classics"
     },
     {
         "Title": "Mysteria",
