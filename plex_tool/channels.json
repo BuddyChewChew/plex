@@ -273,6 +273,13 @@
         "Link": "https://watch.plex.tv/live-tv/channel/the-walking-dead-universe-2"
     },
     {
+        "Title": "Ghosts",
+        "Genre": "Comedy",
+        "Language": "EN",
+        "Summary": "A couple inherit a rundown estate, turn it into a B&B, and find out it's inhabited by deceased residents.",
+        "Link": "https://watch.plex.tv/live-tv/channel/ghosts"
+    },
+    {
         "Title": "National Lampoon",
         "Genre": "Comedy",
         "Language": "EN",
@@ -7014,13 +7021,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/novelisima"
     },
     {
-        "Title": "Entravision Ahora",
-        "Genre": "En Espa\u00f1ol",
-        "Language": "ES",
-        "Summary": "Entravision Ahora:  Noticias en vivo, Noticias de \u00faltima hora, clima y cobertura de tu comunidad.",
-        "Link": "https://watch.plex.tv/live-tv/channel/entravision-ahora"
-    },
-    {
         "Title": "ADN NOTICIAS",
         "Genre": "En Espa\u00f1ol",
         "Language": "ES",
@@ -12106,7 +12106,7 @@
         "Title": "Cine Natale",
         "Genre": "Movies",
         "Language": "IT",
-        "Summary": "Un\u2019indimenticabile programmazione che celebra l\u2019atmosfera pi\u00f9 amata dell\u2019anno: commedie romantiche e film per tutta la famiglia.",
+        "Summary": "Un\u2019indimenticabile programmazione che celebra l\u2019atmosfera pi\u00f9 amata dell\u2019anno: commedie romantiche e film per tutta la famiglia, per vivere la magia delle feste e le emozioni dell\u2019amore in ogni stagione.",
         "Link": "https://watch.plex.tv/live-tv/channel/cine-natale"
     },
     {
