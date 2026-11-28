@@ -3276,13 +3276,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/chili-velvet"
     },
     {
-        "Title": "Samantha",
-        "Genre": "Bingeworthy",
-        "Language": "PT",
-        "Summary": "O amor invade a vida de Samantha quando um acidente de avi\u00e3o a deixa cara a cara com um milion\u00e1rio ferido e amn\u00e9sico.",
-        "Link": "https://watch.plex.tv/live-tv/channel/samantha"
-    },
-    {
         "Title": "Jade Fever",
         "Genre": "Reality",
         "Language": "EN",
@@ -5432,13 +5425,6 @@
         "Link": "https://watch.plex.tv/live-tv/channel/fifa-25"
     },
     {
-        "Title": "DFB Play TV",
-        "Genre": "Sports",
-        "Language": "EN",
-        "Summary": "DFB Play TV - Your home for German Football content, including live coverage from DFB-Pokal, 3. Liga and National Teams.",
-        "Link": "https://watch.plex.tv/live-tv/channel/dfb-play-tv"
-    },
-    {
         "Title": "Bounce XL",
         "Genre": "Daytime TV & Games",
         "Language": "EN",
@@ -6095,13 +6081,6 @@
         "Language": "ES",
         "Summary": "Investigaci\u00f3n en la escena del crimen con casos reales.",
         "Link": "https://watch.plex.tv/live-tv/channel/todo-crimen-2"
-    },
-    {
-        "Title": "The Outpost",
-        "Genre": "Adrenaline & Sci-Fi",
-        "Language": "EN",
-        "Summary": "Series heroine, Talon, gives Xena the Warrior Princess a run for her money on her quest to avenge her family in this bingeworthy fantasy adventure. Plus, you\u2019ll be shipping characters to your heart\u2019s content.",
-        "Link": "https://watch.plex.tv/live-tv/channel/the-outpost"
     },
     {
         "Title": "Dungeon TV",
@@ -7684,6 +7663,13 @@
         "Language": "ES",
         "Summary": "Tock Tock Movies - Pel\u00edculas Mexicanas",
         "Link": "https://watch.plex.tv/live-tv/channel/tock-tock-movies"
+    },
+    {
+        "Title": "Tock Tock Movies",
+        "Genre": "Movies",
+        "Language": "ES",
+        "Summary": "Tock Tock Movies - Pel\u00edculas Mexicanas",
+        "Link": "https://watch.plex.tv/live-tv/channel/tock-tock-movies-2"
     },
     {
         "Title": "Lucha Plus",
@@ -9651,6 +9637,41 @@
         "Language": "EN",
         "Summary": "Local Now Terre Haute",
         "Link": "https://watch.plex.tv/live-tv/channel/local-now-terre-haute"
+    },
+    {
+        "Title": "Herzfrequenz",
+        "Genre": "Bingeworthy",
+        "Language": "DE",
+        "Summary": "Der Kanal mit den besten deutschen Krankenhaus-Serien! Ber\u00fchrende Schicksale, Liebschaften und der ganz normale Klinik-Wahnsinn.",
+        "Link": "https://watch.plex.tv/live-tv/channel/herzfrequenz"
+    },
+    {
+        "Title": "Cop Stories / Schnell ermittelt",
+        "Genre": "Bingeworthy",
+        "Language": "DE",
+        "Summary": "Spannung aus Wien: Tags\u00fcber Schnell ermittelt, abends CopStories \u2013 ein Revier, zwei Serien mit Charme und Charakter.",
+        "Link": "https://watch.plex.tv/live-tv/channel/cop-stories-schnell-ermittelt"
+    },
+    {
+        "Title": "Abschnitt 40 / GSG 9",
+        "Genre": "Adrenaline & Sci-Fi",
+        "Language": "DE",
+        "Summary": "ABSCHNITT 40 & GSG-9: Zwei Serien. Ein Kanal. Spezialeins\u00e4tze, Crime, Action und maximale Spannung ohne Pause.",
+        "Link": "https://watch.plex.tv/live-tv/channel/abschnitt-40-gsg-9"
+    },
+    {
+        "Title": "Vier Frauen und ein Todesfall",
+        "Genre": "Bingeworthy",
+        "Language": "DE",
+        "Summary": "Wenn Bestatterin Irene Gebhardt und ihre Freundinnen ermitteln, wird's spannend! \u00d6sterreichischer Kult-Krimi mit schwarzem Humor.",
+        "Link": "https://watch.plex.tv/live-tv/channel/vier-frauen-und-ein-todesfall"
+    },
+    {
+        "Title": "Schlosshotel Orth",
+        "Genre": "Bingeworthy",
+        "Language": "DE",
+        "Summary": "Willkommen im Schlosshotel Orth, die \u00d6sterreichisches Kultserie: Intrigen, Liebe und Leidenschaft rund um Familie Brandner.",
+        "Link": "https://watch.plex.tv/live-tv/channel/schlosshotel-orth"
     },
     {
         "Title": "Local Now Honolulu",
